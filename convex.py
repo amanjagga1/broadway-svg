@@ -3,10 +3,12 @@ from bs4 import BeautifulSoup
 from scipy.spatial import ConvexHull
 import svgwrite
 from sklearn.cluster import DBSCAN
+import utils
+import input
 import re
 
 # Load the SVG file
-file_path = 'Downloads/507_refined_input.svg'
+file_path = '508_refined.svg'
 
 with open(file_path, 'r') as file:
     svg_content = file.read()
@@ -29,6 +31,15 @@ soup = BeautifulSoup(svg_content, 'lxml-xml')
 #     'orchestra',
 #     'balcony'
 # ]
+
+subsections = []
+for subsection in input.subsection_strings:
+    tokens = utils.parse_subsection(subsection)
+    collected_tokens = []
+    for token in tokens:
+        if token is not None:
+            collected_tokens.append(token.lower())
+    subsections.append('section-' + '-'.join(collected_tokens))
 
 def apply_transform(element, x, y):
     if 'transform' in element.attrs:
@@ -100,12 +111,16 @@ def get_points_of_path(element):
 points_by_class = {}
 text_elements = []
 
+print(subsections)
 for element in soup.find_all():
     if 'class' in element.attrs:
         class_names_in_element = element['class'].split(' ')
         for class_name in class_names_in_element:
+            # print(class_name)
             if 'section-' in class_name:
-                print(class_name)
+                # print(class_name)
+                if class_name not in subsections:
+                    class_name = 'section-constant'
                 if class_name not in points_by_class.keys():
                     points_by_class[class_name] = []
                 if element.name == 'circle':
@@ -129,7 +144,7 @@ for element in soup.find_all():
                     points = get_points_of_path(element)
                     points_by_class[class_name].extend(points)
     elif element.name == 'tspan' or element.name == 'text':
-        print(element)
+        # print(element)
         if 'x' in element.attrs and 'y' in element.attrs :
             x = float(element['x'])
             y = float(element['y'])
@@ -187,7 +202,7 @@ for x, y, text in text_elements:
     dwg.add(dwg.text(text, insert=(x, y), fill="black"))
 
 # Save the new SVG
-new_svg_path = "Downloads/507_output.svg"
+new_svg_path = "508_output.svg"
 dwg.saveas(new_svg_path)
 
 print(f"New SVG file saved to {new_svg_path}")

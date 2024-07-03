@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 import matplotlib.pyplot as plt
 import input
+import utils
 
 # Load the SVG file
 file_path = 'updated_508_v5.svg'
@@ -76,6 +77,7 @@ def classify_seat(cx, cy, min_x, max_x, min_y, max_y, section_class, vertical, h
     
     return f'section-{section_class}-{horizontal_class}-{vertical_class}'
 
+<<<<<<< Updated upstream
 def parse_subsection(subsection):
     parts = subsection.lower().split()
     section = None
@@ -92,8 +94,10 @@ def parse_subsection(subsection):
 
     return section, vertical, horizontal
 
+=======
+>>>>>>> Stashed changes
 # Parse subsection strings
-subsections = [parse_subsection(subsection) for subsection in input.subsection_strings]
+subsections = [utils.parse_subsection(subsection) for subsection in input.subsection_strings]
 
 # Update SVG with refined classifications
 for main_section, vertical, horizontal in subsections:
