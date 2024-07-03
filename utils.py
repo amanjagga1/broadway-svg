@@ -7,8 +7,8 @@ def parse_subsection(subsection):
     for part in parts:
         if part in ['orchestra', 'mezzanine', 'balcony']:
             section = part
-        elif part in ['front', 'mid', 'rear']:
-            horizontal = part
+        elif part in ['front', 'mid', 'rear', 'far', 'last']:
+            horizontal = 'rear' if part in ['rear', 'far', 'last'] else part
         elif part in ['sides', 'center']:
             vertical = part
 

@@ -77,22 +77,6 @@ def classify_seat(cx, cy, min_x, max_x, min_y, max_y, section_class, vertical, h
     
     return f'section-{section_class}-{horizontal_class}-{vertical_class}'
 
-def parse_subsection(subsection):
-    parts = subsection.lower().split()
-    section = None
-    vertical = None
-    horizontal = None
-
-    for part in parts:
-        if part in ['orchestra', 'mezzanine', 'balcony']:
-            section = part
-        elif part in ['front', 'mid', 'rear', 'far', 'last']:
-            horizontal = 'rear' if part in ['rear', 'far', 'last'] else part
-        elif part in ['sides', 'center']:
-            vertical = part
-
-    return section, vertical, horizontal
-
 # Parse subsection strings
 subsections = [utils.parse_subsection(subsection) for subsection in input.subsection_strings]
 
