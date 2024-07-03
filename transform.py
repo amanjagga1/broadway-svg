@@ -1,8 +1,9 @@
 from xml.etree import ElementTree as ET
 import re
 import numpy as np
+import input
 # Load the SVG file
-tree = ET.parse('508.svg')
+tree = ET.parse(input.input_svg)
 root = tree.getroot()
 # Namespace
 ns = {'svg': 'http://www.w3.org/2000/svg'}
@@ -99,6 +100,6 @@ def process_element(element, transform_matrix=np.matrix([[1, 0, 0], [0, 1, 0], [
 # Start processing from the root element
 process_element(root)
 # Save the updated SVG
-updated_svg_path = 'updated_508_v5.svg'
+updated_svg_path = 'transformed_' + input.input_svg
 tree.write(updated_svg_path)
 print(updated_svg_path)

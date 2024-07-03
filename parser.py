@@ -4,7 +4,7 @@ import input
 import utils
 
 # Load the SVG file
-file_path = 'updated_508_v5.svg'
+file_path = 'transformed_' + input.input_svg
 tree = ET.parse(file_path)
 root = tree.getroot()
 
@@ -77,7 +77,6 @@ def classify_seat(cx, cy, min_x, max_x, min_y, max_y, section_class, vertical, h
     
     return f'section-{section_class}-{horizontal_class}-{vertical_class}'
 
-<<<<<<< Updated upstream
 def parse_subsection(subsection):
     parts = subsection.lower().split()
     section = None
@@ -94,8 +93,6 @@ def parse_subsection(subsection):
 
     return section, vertical, horizontal
 
-=======
->>>>>>> Stashed changes
 # Parse subsection strings
 subsections = [utils.parse_subsection(subsection) for subsection in input.subsection_strings]
 
@@ -119,7 +116,7 @@ for section in sections:
             elem.set('class', elem.get('class', '') + ' section-grey')
 
 # Save the updated SVG with refined classifications
-refined_output_file_path = '508_refined.svg'
+refined_output_file_path = 'parsed_' + input.input_svg
 tree.write(refined_output_file_path)
 
 # Plotting the seat positions for visualization

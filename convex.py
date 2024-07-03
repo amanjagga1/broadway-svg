@@ -6,9 +6,10 @@ from sklearn.cluster import DBSCAN
 import utils
 import input
 import re
+import xml.etree.ElementTree as ET
 
 # Load the SVG file
-file_path = '508_refined.svg'
+file_path = 'parsed_' + input.input_svg
 
 with open(file_path, 'r') as file:
     svg_content = file.read()
@@ -112,6 +113,7 @@ points_by_class = {}
 text_elements = []
 
 print(subsections)
+total = 0
 for element in soup.find_all():
     if 'class' in element.attrs:
         class_names_in_element = element['class'].split(' ')
@@ -130,40 +132,45 @@ for element in soup.find_all():
                         cx, cy = apply_transform(element, cx, cy)
                     else:
                         cx, cy = get_default_position(element)
+                    print('adding point', cx, cy, class_name)
                     points_by_class[class_name].append((cx, cy))
-                elif element.name == 'rect' and 'x' in element.attrs and 'y' in element.attrs:
-                    cx, cy = get_center_of_rect(element)
-                    points_by_class[class_name].append((cx, cy))
-                elif element.name == 'line' and 'x1' in element.attrs and 'y1' in element.attrs and 'x2' in element.attrs and 'y2' in element.attrs:
-                    cx, cy = get_midpoint_of_line(element)
-                    points_by_class[class_name].append((cx, cy))
-                elif element.name == 'polygon' and 'points' in element.attrs:
-                    points = get_points_of_polygon(element)
-                    points_by_class[class_name].extend(points)
-                elif element.name == 'path' and 'd' in element.attrs:
-                    points = get_points_of_path(element)
-                    points_by_class[class_name].extend(points)
-    elif element.name == 'tspan' or element.name == 'text':
-        # print(element)
-        if 'x' in element.attrs and 'y' in element.attrs :
-            x = float(element['x'])
-            y = float(element['y'])
-        else:
-            x, y = get_default_position(element)
-        x, y = apply_transform(element, x, y)
-        text_elements.append((x, y, element.text))
+                    total = total + 1
+
+                # elif element.name == 'rect' and 'x' in element.attrs and 'y' in element.attrs:
+                #     cx, cy = get_center_of_rect(element)
+                #     points_by_class[class_name].append((cx, cy))
+                # elif element.name == 'line' and 'x1' in element.attrs and 'y1' in element.attrs and 'x2' in element.attrs and 'y2' in element.attrs:
+                #     cx, cy = get_midpoint_of_line(element)
+                #     points_by_class[class_name].append((cx, cy))
+                # elif element.name == 'polygon' and 'points' in element.attrs:
+                #     points = get_points_of_polygon(element)
+                #     points_by_class[class_name].extend(points)
+                # elif element.name == 'path' and 'd' in element.attrs:
+                #     points = get_points_of_path(element)
+                #     points_by_class[class_name].extend(points)
+    # elif element.name == 'tspan' or element.name == 'text':
+    #     print(element)
+    #     if 'x' in element.attrs and 'y' in element.attrs :
+    #         x = float(element['x'])
+    #         y = float(element['y'])
+    #     else:
+    #         x, y = get_default_position(element)
+    #     x, y = apply_transform(element, x, y)
+        # text_elements.append((x, y, element.text))
             # else:
                 # print(f"Unhandled element or missing attributes: {element.name} with class: {class_name}")
 
 # Function to create polygons using the convex hull algorithm
 def create_polygon(points):
-    if len(points) < 3:
+    if len(points) < 6:
         return points  # A polygon cannot be formed with less than 3 points
+    # print(points)
     hull = ConvexHull(points)
     return [points[vertex] for vertex in hull.vertices]
 
 # Function to cluster points and create polygons for each cluster
 def cluster_and_create_polygons(points, eps=30, min_samples=1):
+    # print('points', points)
     if len(points) < 3:
         return [points]  # Return the points as a single polygon if less than 3 points
     
@@ -186,15 +193,32 @@ def cluster_and_create_polygons(points, eps=30, min_samples=1):
     
     return polygons
 
+# print(points_by_class.items())
 # Create polygons for each class
 polygons_by_class = {class_name: cluster_and_create_polygons(points) for class_name, points in points_by_class.items()}
 
 # Create a new SVG with polygons and text elements
 dwg = svgwrite.Drawing(size=("850px", "1000px"))
+stage_element = soup.find(class_='stage').find('path')
+dwg.add(dwg.path(d= stage_element.attrs['d'], fill="#C4C4C4",  transform="matrix(1, 0, 0, 1, 0, -46)"))
+
+labels = soup.find(class_='labelsareas').find_all('text')
+for label in labels:
+    # print(label.attrs)
+    if 'x' in label.attrs and 'y' in label.attrs :
+        x = float(label.attrs['x'])
+        y = float(label.attrs['y'])
+        # print(x, y)
+    else:
+        x, y = get_default_position(element)
+    x, y = apply_transform(element, x, y)
+    
+    dwg.add(dwg.text(label.text, insert=(x, y), fill="black"))
+
 for class_name, polygons in polygons_by_class.items():
     for polygon in polygons:
         if polygon:
-            dwg.add(dwg.polygon(points=polygon, fill="#C4C4C4", stroke="black", stroke_width=2, id=class_name))
+            dwg.add(dwg.polygon(points=polygon, fill="#C4C4C4", id=class_name))
 
 # Add text elements to the new SVG
 for x, y, text in text_elements:
@@ -202,7 +226,7 @@ for x, y, text in text_elements:
     dwg.add(dwg.text(text, insert=(x, y), fill="black"))
 
 # Save the new SVG
-new_svg_path = "508_output.svg"
+new_svg_path = "output_" + input.input_svg
 dwg.saveas(new_svg_path)
 
 print(f"New SVG file saved to {new_svg_path}")
