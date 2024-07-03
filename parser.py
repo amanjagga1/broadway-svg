@@ -53,8 +53,8 @@ def classify_seat(cx, cy, min_x, max_x, min_y, max_y, section_class, vertical, h
             horizontal_class = 'front'
         elif horizontal == 'mid' and min_y + height / 3 <= cy < min_y + 2 * height / 3:
             horizontal_class = 'mid'
-        elif horizontal == 'rear' and cy >= min_y + 2 * height / 3:
-            horizontal_class = 'rear'
+        elif horizontal in ['rear', 'far', 'last'] and cy >= min_y + 2 * height / 3:
+            horizontal_class = horizontal
 
     if vertical:
         if vertical == 'sides':
@@ -85,8 +85,8 @@ def parse_subsection(subsection):
     for part in parts:
         if part in ['orchestra', 'mezzanine', 'balcony']:
             section = part
-        elif part in ['front', 'mid', 'rear']:
-            horizontal = part
+        elif part in ['front', 'mid', 'rear', 'far', 'last']:
+            horizontal = 'rear' if part in ['rear', 'far', 'last'] else part
         elif part in ['sides', 'center']:
             vertical = part
 
@@ -134,4 +134,4 @@ ax.legend()
 plt.title('Seat Positions by Section')
 plt.show()
 
-refined_output_file_path # type: ignore
+refined_output_file_path
