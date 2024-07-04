@@ -12,4 +12,4 @@ def parse_subsection(subsection):
         elif part in ['sides', 'center']:
             vertical = part
 
-    return section, vertical, horizontal
+    return section, horizontal, vertical

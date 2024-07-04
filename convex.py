@@ -132,7 +132,7 @@ for element in soup.find_all():
                         cx, cy = apply_transform(element, cx, cy)
                     else:
                         cx, cy = get_default_position(element)
-                    print('adding point', cx, cy, class_name)
+                    # print('adding point', cx, cy, class_name)
                     points_by_class[class_name].append((cx, cy))
                     total = total + 1
 
