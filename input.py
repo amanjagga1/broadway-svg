@@ -14,28 +14,28 @@ def process_subsection_strings(strings):
     return processed_strings
 
 # Initial subsection_strings
-# subsection_strings = [
-#     'Last Row Mezzanine',
-#     'Mid Mezzanine/Rear Mezzanine',
-#     'Mezzanine Sides',
-#     'Rear Side Orchestra',
-#     'Rear Orchestra',
-#     'Front Mezzanine Sides',
-#     'Front Mezzanine Center',
-#     'Orchestra Front Sides/Rear Orchestra Center',
-#     'Orchestra',
-#     'Premiums'
-# ]
-
 subsection_strings = [
-    'Front Balcony',
-    'Orchestra Far Sides',
-    'Mid Mezzanine',
-    'Front Orchestra Sides',
-    'Orchestra Center and Near Sides/Front Mezzanine'
+    'Last Row Mezzanine',
+    'Mid Mezzanine/Rear Mezzanine',
+    'Mezzanine Sides',
+    'Rear Side Orchestra',
+    'Rear Orchestra',
+    'Front Mezzanine Sides',
+    'Front Mezzanine Center',
+    'Orchestra Front Sides/Rear Orchestra Center',
+    'Orchestra',
+    'Premiums'
 ]
 
-input_svg = '508.svg'
+# subsection_strings = [
+#     'Front Balcony',
+#     'Orchestra Far Sides',
+#     'Mid Mezzanine',
+#     'Front Orchestra Sides',
+#     'Orchestra Center and Near Sides/Front Mezzanine'
+# ]
+
+input_svg = '507.svg'
 
 # Processing the subsection_strings
 processed_subsection_strings = process_subsection_strings(subsection_strings)

@@ -202,18 +202,18 @@ dwg = svgwrite.Drawing(size=("850px", "1000px"))
 stage_element = soup.find(class_='stage').find('path')
 dwg.add(dwg.path(d= stage_element.attrs['d'], fill="#C4C4C4",  transform="matrix(1, 0, 0, 1, 0, -46)"))
 
-labels = soup.find(class_='labelsareas').find_all('text')
-for label in labels:
-    # print(label.attrs)
-    if 'x' in label.attrs and 'y' in label.attrs :
-        x = float(label.attrs['x'])
-        y = float(label.attrs['y'])
-        # print(x, y)
-    else:
-        x, y = get_default_position(element)
-    x, y = apply_transform(element, x, y)
+# labels = soup.find(class_='labelsareas').find_all('text')
+# for label in labels:
+#     # print(label.attrs)
+#     if 'x' in label.attrs and 'y' in label.attrs :
+#         x = float(label.attrs['x'])
+#         y = float(label.attrs['y'])
+#         # print(x, y)
+#     else:
+#         x, y = get_default_position(element)
+#     x, y = apply_transform(element, x, y)
     
-    dwg.add(dwg.text(label.text, insert=(x, y), fill="black"))
+#     dwg.add(dwg.text(label.text, insert=(x, y), fill="black"))
 
 for class_name, polygons in polygons_by_class.items():
     for polygon in polygons:
@@ -221,9 +221,9 @@ for class_name, polygons in polygons_by_class.items():
             dwg.add(dwg.polygon(points=polygon, fill="#C4C4C4", id=class_name))
 
 # Add text elements to the new SVG
-for x, y, text in text_elements:
-    # print(text)
-    dwg.add(dwg.text(text, insert=(x, y), fill="black"))
+# for x, y, text in text_elements:
+#     # print(text)
+#     dwg.add(dwg.text(text, insert=(x, y), fill="black"))
 
 # Save the new SVG
 new_svg_path = "output_" + input.input_svg
