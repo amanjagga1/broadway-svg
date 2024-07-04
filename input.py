@@ -11,11 +11,15 @@ def process_subsection_strings(strings):
             temp_list.extend([subpart.strip() for subpart in subparts])
         # Add trimmed parts to the processed strings list
         processed_strings.extend(temp_list)
+
+    # Sort the list based on the number of tokens (words) in each string
+    processed_strings.sort(key=lambda s: len(s.split()))
+
     return processed_strings
+
 
 # Initial subsection_strings
 subsection_strings = [
-    'Last Row Mezzanine',
     'Mid Mezzanine/Rear Mezzanine',
     'Mezzanine Sides',
     'Rear Side Orchestra',
@@ -24,7 +28,7 @@ subsection_strings = [
     'Front Mezzanine Center',
     'Orchestra Front Sides/Rear Orchestra Center',
     'Orchestra',
-    'Premiums'
+    # 'Premiums'
 ]
 
 # subsection_strings = [
