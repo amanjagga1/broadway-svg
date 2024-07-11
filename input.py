@@ -14,7 +14,7 @@ def process_subsection_strings(strings):
 
     # Sort the list based on the number of tokens (words) in each string
     processed_strings.sort(key=lambda s: len(s.split()))
-    
+
     return processed_strings
 
 # Initial subsection_strings

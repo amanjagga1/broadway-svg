@@ -1,10 +1,9 @@
 import xml.etree.ElementTree as ET
 import matplotlib.pyplot as plt
 import input
-import utils
 
 # Load the SVG file
-file_path = 'transformed_' + input.input_svg
+file_path = 'transformed_507.svg'
 tree = ET.parse(file_path)
 root = tree.getroot()
 
@@ -77,8 +76,24 @@ def classify_seat(cx, cy, min_x, max_x, min_y, max_y, section_class, vertical, h
     
     return f'section-{section_class}-{horizontal_class}-{vertical_class}'
 
+def parse_subsection(subsection):
+    parts = subsection.lower().split()
+    section = None
+    vertical = None
+    horizontal = None
+
+    for part in parts:
+        if part in ['orchestra', 'mezzanine', 'balcony']:
+            section = part
+        elif part in ['front', 'mid', 'rear', 'far', 'last']:
+            horizontal = 'rear' if part in ['rear', 'far', 'last'] else part
+        elif part in ['sides', 'center']:
+            vertical = part
+
+    return section, vertical, horizontal
+
 # Parse subsection strings
-subsections = [utils.parse_subsection(subsection) for subsection in input.subsection_strings]
+subsections = [parse_subsection(subsection) for subsection in input.subsection_strings]
 
 # Update SVG with refined classifications
 for main_section, vertical, horizontal in subsections:
@@ -100,7 +115,7 @@ for section in sections:
             elem.set('class', elem.get('class', '') + ' section-grey')
 
 # Save the updated SVG with refined classifications
-refined_output_file_path = 'parsed_' + input.input_svg
+refined_output_file_path = '507_refined.svg'
 tree.write(refined_output_file_path)
 
 # Plotting the seat positions for visualization
