@@ -1,9 +1,11 @@
 import xml.etree.ElementTree as ET
 import matplotlib.pyplot as plt
 import input
+import utils
+import re
 
 # Load the SVG file
-file_path = 'transformed_507.svg'
+file_path = 'transformed_' + input.input_svg
 tree = ET.parse(file_path)
 root = tree.getroot()
 
@@ -43,15 +45,15 @@ def calculate_boundaries(seats):
     return min_x, max_x, min_y, max_y
 
 # Define the boundaries for the subsections
-def classify_seat(cx, cy, min_x, max_x, min_y, max_y, section_class, vertical, horizontal):
+def classify_seat(cx, cy, min_x, max_x, min_y, max_y, section_class, vertical, horizontal, rows):
     width = max_x - min_x
     height = max_y - min_y
     horizontal_class = vertical_class = 'entire'
     
     if horizontal:
-        if horizontal == 'front' and cy < min_y + height / 3:
+        if horizontal == 'front' and cy < min_y + height / 2.5:
             horizontal_class = 'front'
-        elif horizontal == 'mid' and min_y + height / 3 <= cy < min_y + 2 * height / 3:
+        elif horizontal == 'mid' and min_y + height / 2.5 <= cy < min_y + 2 * height / 3:
             horizontal_class = 'mid'
         elif horizontal in ['rear', 'far', 'last'] and cy >= min_y + 2 * height / 3:
             horizontal_class = horizontal
@@ -65,38 +67,45 @@ def classify_seat(cx, cy, min_x, max_x, min_y, max_y, section_class, vertical, h
         elif vertical == 'center' and min_x + width / 3 <= cx < min_x + 2 * width / 3:
             vertical_class = 'center'
     
-    if horizontal_class == 'entire' and vertical_class == 'entire':
-        return f'section-{section_class}'
+    class_parts = [f'section-{section_class}']
     
-    if horizontal_class == 'entire':
-        return f'section-{section_class}-{vertical_class}'
+    if horizontal_class != 'entire':
+        class_parts.append(horizontal_class)
+    if vertical_class != 'entire':
+        class_parts.append(vertical_class)
     
-    if vertical_class == 'entire':
-        return f'section-{section_class}-{horizontal_class}'
+    if rows:
+        class_parts.append(f'rows-{rows}')
     
-    return f'section-{section_class}-{horizontal_class}-{vertical_class}'
-
-def parse_subsection(subsection):
-    parts = subsection.lower().split()
-    section = None
-    vertical = None
-    horizontal = None
-
-    for part in parts:
-        if part in ['orchestra', 'mezzanine', 'balcony']:
-            section = part
-        elif part in ['front', 'mid', 'rear', 'far', 'last']:
-            horizontal = 'rear' if part in ['rear', 'far', 'last'] else part
-        elif part in ['sides', 'center']:
-            vertical = part
-
-    return section, vertical, horizontal
+    return '-'.join(class_parts)
 
 # Parse subsection strings
-subsections = [parse_subsection(subsection) for subsection in input.subsection_strings]
+subsections = [utils.parse_subsection(subsection) for subsection in input.subsection_strings]
+
+def is_row_in_range(row_label, row_range):
+    match = re.match(r'^([a-z]+)-([a-z]+)$', row_range)
+    if match:
+        start, end = match.groups()
+        if start <= row_label <= end:
+            return True
+    return False
+
+def isSeatInRowRange(elem, row_range):
+    class_attr = elem.attrib.get('class', '')
+    first_class = class_attr.split()[0]
+
+    # Parse the first class
+    match = re.match(r'^seat-([a-z]+)-([a-z]+)-(\d+)$', first_class)
+    if match:
+        section_name, row_label, seat_number = match.groups()
+        
+        # Check if the row falls under the specified range
+        if is_row_in_range(row_label, row_range):
+            return True
+    return False
 
 # Update SVG with refined classifications
-for main_section, vertical, horizontal in subsections:
+for main_section, horizontal, vertical, rows in subsections:
     for section in sections:
         section_class = section.attrib['class'].replace('area-', '')
         if section_class == main_section:
@@ -104,7 +113,10 @@ for main_section, vertical, horizontal in subsections:
             if seats:
                 min_x, max_x, min_y, max_y = calculate_boundaries(seats)
                 for elem, cx, cy in seats:
-                    new_class = classify_seat(cx, cy, min_x, max_x, min_y, max_y, main_section, vertical, horizontal)
+                    if rows:
+                        if not isSeatInRowRange(elem, rows):
+                            continue
+                    new_class = classify_seat(cx, cy, min_x, max_x, min_y, max_y, main_section, vertical, horizontal, rows)
                     elem.set('class', elem.get('class', '') + ' ' + new_class)
 
 # Assign 'section-grey' class to any remaining seats
@@ -115,7 +127,7 @@ for section in sections:
             elem.set('class', elem.get('class', '') + ' section-grey')
 
 # Save the updated SVG with refined classifications
-refined_output_file_path = '507_refined.svg'
+refined_output_file_path = 'parsed_' + input.input_svg
 tree.write(refined_output_file_path)
 
 # Plotting the seat positions for visualization

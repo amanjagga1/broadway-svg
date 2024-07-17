@@ -134,8 +134,8 @@
             <circle fill="#ECECEF" r="6" cy="279.0" cx="243.9999999999999" class="seat-orchestra-m-1 section-orchestra section-orchestra-sides section-orchestra-sides" />
           </g>
           <g class="row-orchestra-l">
-            <circle fill="#ECECEF" r="6" cy="213.0" cx="74.99999999999989" class="seat-orchestra-l-27 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="219.0" cx="87.99999999999989" class="seat-orchestra-l-25 section-orchestra section-orchestra-sides section-orchestra-sides" />
+            <circle fill="#ECECEF" r="6" cy="213.0" cx="74.99999999999989" class="seat-orchestra-l-27 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="219.0" cx="87.99999999999989" class="seat-orchestra-l-25 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
             <circle fill="#ECECEF" r="6" cy="225.0" cx="100.99999999999989" class="seat-orchestra-l-23 section-orchestra section-orchestra-sides section-orchestra-sides" />
             <circle fill="#ECECEF" r="6" cy="231.0" cx="113.99999999999989" class="seat-orchestra-l-21 section-orchestra section-orchestra-sides section-orchestra-sides" />
             <circle fill="#ECECEF" r="6" cy="236.0" cx="126.99999999999989" class="seat-orchestra-l-19 section-orchestra section-orchestra-sides section-orchestra-sides" />
@@ -150,10 +150,10 @@
             <circle fill="#ECECEF" r="6" cy="262.0" cx="243.9999999999999" class="seat-orchestra-l-1 section-orchestra section-orchestra-sides section-orchestra-sides" />
           </g>
           <g class="row-orchestra-k">
-            <circle fill="#ECECEF" r="6" cy="202.0" cx="87.99999999999989" class="seat-orchestra-k-25 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="208.0" cx="100.99999999999989" class="seat-orchestra-k-23 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="214.0" cx="113.99999999999989" class="seat-orchestra-k-21 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="219.0" cx="126.99999999999989" class="seat-orchestra-k-19 section-orchestra section-orchestra-sides section-orchestra-sides" />
+            <circle fill="#ECECEF" r="6" cy="202.0" cx="87.99999999999989" class="seat-orchestra-k-25 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="208.0" cx="100.99999999999989" class="seat-orchestra-k-23 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="214.0" cx="113.99999999999989" class="seat-orchestra-k-21 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="219.0" cx="126.99999999999989" class="seat-orchestra-k-19 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
             <circle fill="#ECECEF" r="6" cy="224.0" cx="139.9999999999999" class="seat-orchestra-k-17 section-orchestra section-orchestra-sides section-orchestra-sides" />
             <circle fill="#ECECEF" r="6" cy="228.0" cx="152.9999999999999" class="seat-orchestra-k-15 section-orchestra section-orchestra-sides section-orchestra-sides" />
             <circle fill="#ECECEF" r="6" cy="232.0" cx="165.9999999999999" class="seat-orchestra-k-13 section-orchestra section-orchestra-sides section-orchestra-sides" />
@@ -167,13 +167,13 @@
           <g class="row-orchestra-j">
             <circle fill="#ECECEF" r="6" cy="191.0" cx="100.99999999999989" class="seat-orchestra-j-23 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
             <circle fill="#ECECEF" r="6" cy="197.0" cx="113.99999999999989" class="seat-orchestra-j-21 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
-            <circle fill="#ECECEF" r="6" cy="202.0" cx="126.99999999999989" class="seat-orchestra-j-19 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="207.0" cx="139.9999999999999" class="seat-orchestra-j-17 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="211.0" cx="152.9999999999999" class="seat-orchestra-j-15 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="215.0" cx="165.9999999999999" class="seat-orchestra-j-13 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="218.0" cx="178.9999999999999" class="seat-orchestra-j-11 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="221.0" cx="191.9999999999999" class="seat-orchestra-j-9 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="223.0" cx="204.9999999999999" class="seat-orchestra-j-7 section-orchestra section-orchestra-sides section-orchestra-sides" />
+            <circle fill="#ECECEF" r="6" cy="202.0" cx="126.99999999999989" class="seat-orchestra-j-19 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="207.0" cx="139.9999999999999" class="seat-orchestra-j-17 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="211.0" cx="152.9999999999999" class="seat-orchestra-j-15 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="215.0" cx="165.9999999999999" class="seat-orchestra-j-13 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="218.0" cx="178.9999999999999" class="seat-orchestra-j-11 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="221.0" cx="191.9999999999999" class="seat-orchestra-j-9 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="223.0" cx="204.9999999999999" class="seat-orchestra-j-7 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
             <circle fill="#ECECEF" r="6" cy="225.0" cx="217.9999999999999" class="seat-orchestra-j-5 section-orchestra section-orchestra-sides section-orchestra-sides" />
             <circle fill="#ECECEF" r="6" cy="227.0" cx="230.9999999999999" class="seat-orchestra-j-3 section-orchestra section-orchestra-sides section-orchestra-sides" />
             <circle fill="#ECECEF" r="6" cy="228.0" cx="243.9999999999999" class="seat-orchestra-j-1 section-orchestra section-orchestra-sides section-orchestra-sides" />
@@ -184,12 +184,12 @@
             <circle fill="#ECECEF" r="6" cy="190.0" cx="139.9999999999999" class="seat-orchestra-h-17 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
             <circle fill="#ECECEF" r="6" cy="194.0" cx="152.9999999999999" class="seat-orchestra-h-15 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
             <circle fill="#ECECEF" r="6" cy="198.0" cx="165.9999999999999" class="seat-orchestra-h-13 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
-            <circle fill="#ECECEF" r="6" cy="201.0" cx="178.9999999999999" class="seat-orchestra-h-11 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="204.0" cx="191.9999999999999" class="seat-orchestra-h-9 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="206.0" cx="204.9999999999999" class="seat-orchestra-h-7 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="208.0" cx="217.9999999999999" class="seat-orchestra-h-5 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="210.0" cx="230.9999999999999" class="seat-orchestra-h-3 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="211.0" cx="243.9999999999999" class="seat-orchestra-h-1 section-orchestra section-orchestra-sides section-orchestra-sides" />
+            <circle fill="#ECECEF" r="6" cy="201.0" cx="178.9999999999999" class="seat-orchestra-h-11 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="204.0" cx="191.9999999999999" class="seat-orchestra-h-9 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="206.0" cx="204.9999999999999" class="seat-orchestra-h-7 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="208.0" cx="217.9999999999999" class="seat-orchestra-h-5 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="210.0" cx="230.9999999999999" class="seat-orchestra-h-3 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="211.0" cx="243.9999999999999" class="seat-orchestra-h-1 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
           </g>
           <g class="row-orchestra-g">
             <circle fill="#ECECEF" r="6" cy="163.0" cx="113.99999999999989" class="seat-orchestra-g-21 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
@@ -457,21 +457,21 @@
             <circle fill="#ECECEF" r="6" cy="232.0" cx="450.9999999999999" class="seat-orchestra-j-101 section-orchestra-center section-orchestra-center section-orchestra-center" />
           </g>
           <g class="row-orchestra-h_2">
-            <circle fill="#ECECEF" r="6" cy="215.0" cx="275.9999999999999" class="seat-orchestra-h-115 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="216.0" cx="288.9999999999999" class="seat-orchestra-h-114 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="216.0" cx="301.9999999999999" class="seat-orchestra-h-113 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="217.0" cx="314.9999999999999" class="seat-orchestra-h-112 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="217.0" cx="327.9999999999999" class="seat-orchestra-h-111 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="218.0" cx="340.9999999999999" class="seat-orchestra-h-110 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="218.0" cx="353.9999999999999" class="seat-orchestra-h-109 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="218.0" cx="366.9999999999999" class="seat-orchestra-h-108 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="218.0" cx="379.9999999999999" class="seat-orchestra-h-107 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="218.0" cx="392.9999999999999" class="seat-orchestra-h-106 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="217.0" cx="405.9999999999999" class="seat-orchestra-h-105 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="216.0" cx="418.9999999999999" class="seat-orchestra-h-104 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="215.0" cx="431.9999999999999" class="seat-orchestra-h-103 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="215.0" cx="444.9999999999999" class="seat-orchestra-h-102 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="214.0" cx="457.9999999999999" class="seat-orchestra-h-101 section-orchestra-center section-orchestra-center section-orchestra-center" />
+            <circle fill="#ECECEF" r="6" cy="215.0" cx="275.9999999999999" class="seat-orchestra-h-115 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="216.0" cx="288.9999999999999" class="seat-orchestra-h-114 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="216.0" cx="301.9999999999999" class="seat-orchestra-h-113 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="217.0" cx="314.9999999999999" class="seat-orchestra-h-112 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="217.0" cx="327.9999999999999" class="seat-orchestra-h-111 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="218.0" cx="340.9999999999999" class="seat-orchestra-h-110 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="218.0" cx="353.9999999999999" class="seat-orchestra-h-109 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="218.0" cx="366.9999999999999" class="seat-orchestra-h-108 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="218.0" cx="379.9999999999999" class="seat-orchestra-h-107 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="218.0" cx="392.9999999999999" class="seat-orchestra-h-106 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="217.0" cx="405.9999999999999" class="seat-orchestra-h-105 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="216.0" cx="418.9999999999999" class="seat-orchestra-h-104 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="215.0" cx="431.9999999999999" class="seat-orchestra-h-103 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="215.0" cx="444.9999999999999" class="seat-orchestra-h-102 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="214.0" cx="457.9999999999999" class="seat-orchestra-h-101 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
           </g>
           <g class="row-orchestra-g_2">
             <circle fill="#ECECEF" r="6" cy="198.0" cx="281.9999999999999" class="seat-orchestra-g-114 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
@@ -479,10 +479,10 @@
             <circle fill="#ECECEF" r="6" cy="199.0" cx="307.9999999999999" class="seat-orchestra-g-112 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
             <circle fill="#ECECEF" r="6" cy="200.0" cx="320.9999999999999" class="seat-orchestra-g-111 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
             <circle fill="#ECECEF" r="6" cy="200.0" cx="333.9999999999999" class="seat-orchestra-g-110 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
-            <circle fill="#ECECEF" r="6" cy="201.0" cx="346.9999999999999" class="seat-orchestra-g-109 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="201.0" cx="359.9999999999999" class="seat-orchestra-g-108 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="201.0" cx="372.9999999999999" class="seat-orchestra-g-107 section-orchestra-center section-orchestra-center section-orchestra-center" />
-            <circle fill="#ECECEF" r="6" cy="201.0" cx="385.9999999999999" class="seat-orchestra-g-106 section-orchestra-center section-orchestra-center section-orchestra-center" />
+            <circle fill="#ECECEF" r="6" cy="201.0" cx="346.9999999999999" class="seat-orchestra-g-109 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="201.0" cx="359.9999999999999" class="seat-orchestra-g-108 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="201.0" cx="372.9999999999999" class="seat-orchestra-g-107 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
+            <circle fill="#ECECEF" r="6" cy="201.0" cx="385.9999999999999" class="seat-orchestra-g-106 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
             <circle fill="#ECECEF" r="6" cy="200.0" cx="398.9999999999999" class="seat-orchestra-g-105 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
             <circle fill="#ECECEF" r="6" cy="200.0" cx="411.9999999999999" class="seat-orchestra-g-104 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
             <circle fill="#ECECEF" r="6" cy="199.0" cx="424.9999999999999" class="seat-orchestra-g-103 section-orchestra-center section-orchestra-center section-orchestra-front-center" />
@@ -723,8 +723,8 @@
             <circle fill="#ECECEF" r="6" cy="237.0" cx="609.9999999999999" class="seat-orchestra-l-20 section-orchestra section-orchestra-sides section-orchestra-sides" />
             <circle fill="#ECECEF" r="6" cy="232.0" cx="622.9999999999999" class="seat-orchestra-l-22 section-orchestra section-orchestra-sides section-orchestra-sides" />
             <circle fill="#ECECEF" r="6" cy="226.0" cx="635.9999999999999" class="seat-orchestra-l-24 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="220.0" cx="648.9999999999999" class="seat-orchestra-l-26 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="214.0" cx="661.9999999999999" class="seat-orchestra-l-28 section-orchestra section-orchestra-sides section-orchestra-sides" />
+            <circle fill="#ECECEF" r="6" cy="220.0" cx="648.9999999999999" class="seat-orchestra-l-26 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="214.0" cx="661.9999999999999" class="seat-orchestra-l-28 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
           </g>
           <g class="row-orchestra-k_3">
             <circle fill="#ECECEF" r="6" cy="245.0" cx="492.9999999999999" class="seat-orchestra-k-2 section-orchestra section-orchestra-sides section-orchestra-sides" />
@@ -736,32 +736,32 @@
             <circle fill="#ECECEF" r="6" cy="233.0" cx="570.9999999999999" class="seat-orchestra-k-14 section-orchestra section-orchestra-sides section-orchestra-sides" />
             <circle fill="#ECECEF" r="6" cy="229.0" cx="583.9999999999999" class="seat-orchestra-k-16 section-orchestra section-orchestra-sides section-orchestra-sides" />
             <circle fill="#ECECEF" r="6" cy="225.0" cx="596.9999999999999" class="seat-orchestra-k-18 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="220.0" cx="609.9999999999999" class="seat-orchestra-k-20 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="215.0" cx="622.9999999999999" class="seat-orchestra-k-22 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="209.0" cx="635.9999999999999" class="seat-orchestra-k-24 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="203.0" cx="648.9999999999999" class="seat-orchestra-k-26 section-orchestra section-orchestra-sides section-orchestra-sides" />
+            <circle fill="#ECECEF" r="6" cy="220.0" cx="609.9999999999999" class="seat-orchestra-k-20 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="215.0" cx="622.9999999999999" class="seat-orchestra-k-22 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="209.0" cx="635.9999999999999" class="seat-orchestra-k-24 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="203.0" cx="648.9999999999999" class="seat-orchestra-k-26 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
           </g>
           <g class="row-orchestra-j_3">
             <circle fill="#ECECEF" r="6" cy="228.0" cx="492.9999999999999" class="seat-orchestra-j-2 section-orchestra section-orchestra-sides section-orchestra-sides" />
             <circle fill="#ECECEF" r="6" cy="227.0" cx="505.9999999999999" class="seat-orchestra-j-4 section-orchestra section-orchestra-sides section-orchestra-sides" />
             <circle fill="#ECECEF" r="6" cy="226.0" cx="518.9999999999999" class="seat-orchestra-j-6 section-orchestra section-orchestra-sides section-orchestra-sides" />
             <circle fill="#ECECEF" r="6" cy="224.0" cx="531.9999999999999" class="seat-orchestra-j-8 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="222.0" cx="544.9999999999999" class="seat-orchestra-j-10 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="219.0" cx="557.9999999999999" class="seat-orchestra-j-12 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="216.0" cx="570.9999999999999" class="seat-orchestra-j-14 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="212.0" cx="583.9999999999999" class="seat-orchestra-j-16 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="208.0" cx="596.9999999999999" class="seat-orchestra-j-18 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="203.0" cx="609.9999999999999" class="seat-orchestra-j-20 section-orchestra section-orchestra-sides section-orchestra-sides" />
+            <circle fill="#ECECEF" r="6" cy="222.0" cx="544.9999999999999" class="seat-orchestra-j-10 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="219.0" cx="557.9999999999999" class="seat-orchestra-j-12 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="216.0" cx="570.9999999999999" class="seat-orchestra-j-14 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="212.0" cx="583.9999999999999" class="seat-orchestra-j-16 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="208.0" cx="596.9999999999999" class="seat-orchestra-j-18 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="203.0" cx="609.9999999999999" class="seat-orchestra-j-20 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
             <circle fill="#ECECEF" r="6" cy="198.0" cx="622.9999999999999" class="seat-orchestra-j-22 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
             <circle fill="#ECECEF" r="6" cy="192.0" cx="635.9999999999999" class="seat-orchestra-j-24 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
           </g>
           <g class="row-orchestra-h_3">
-            <circle fill="#ECECEF" r="6" cy="211.0" cx="492.9999999999999" class="seat-orchestra-h-2 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="210.0" cx="505.9999999999999" class="seat-orchestra-h-4 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="209.0" cx="518.9999999999999" class="seat-orchestra-h-6 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="207.0" cx="531.9999999999999" class="seat-orchestra-h-8 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="205.0" cx="544.9999999999999" class="seat-orchestra-h-10 section-orchestra section-orchestra-sides section-orchestra-sides" />
-            <circle fill="#ECECEF" r="6" cy="202.0" cx="557.9999999999999" class="seat-orchestra-h-12 section-orchestra section-orchestra-sides section-orchestra-sides" />
+            <circle fill="#ECECEF" r="6" cy="211.0" cx="492.9999999999999" class="seat-orchestra-h-2 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="210.0" cx="505.9999999999999" class="seat-orchestra-h-4 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="209.0" cx="518.9999999999999" class="seat-orchestra-h-6 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="207.0" cx="531.9999999999999" class="seat-orchestra-h-8 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="205.0" cx="544.9999999999999" class="seat-orchestra-h-10 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
+            <circle fill="#ECECEF" r="6" cy="202.0" cx="557.9999999999999" class="seat-orchestra-h-12 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
             <circle fill="#ECECEF" r="6" cy="199.0" cx="570.9999999999999" class="seat-orchestra-h-14 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
             <circle fill="#ECECEF" r="6" cy="195.0" cx="583.9999999999999" class="seat-orchestra-h-16 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
             <circle fill="#ECECEF" r="6" cy="191.0" cx="596.9999999999999" class="seat-orchestra-h-18 section-orchestra section-orchestra-sides section-orchestra-front-sides" />
@@ -934,9 +934,9 @@
             <circle fill="#ECECEF" r="6" cy="638.0" cx="238.9999999999999" class="seat-mezzanine-hh-1 section-mezzanine-mid section-mezzanine" />
           </g>
           <g class="row-mezzanine-gg">
-            <circle fill="#ECECEF" r="6" cy="572.0" cx="69.99999999999989" class="seat-mezzanine-gg-27 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="578.0" cx="82.99999999999989" class="seat-mezzanine-gg-25 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="584.0" cx="95.99999999999989" class="seat-mezzanine-gg-23 section-mezzanine-mid section-mezzanine" />
+            <circle fill="#ECECEF" r="6" cy="572.0" cx="69.99999999999989" class="seat-mezzanine-gg-27 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="578.0" cx="82.99999999999989" class="seat-mezzanine-gg-25 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="584.0" cx="95.99999999999989" class="seat-mezzanine-gg-23 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="590.0" cx="108.99999999999989" class="seat-mezzanine-gg-21 section-mezzanine-mid section-mezzanine" />
             <circle fill="#ECECEF" r="6" cy="595.0" cx="121.99999999999989" class="seat-mezzanine-gg-19 section-mezzanine-mid section-mezzanine" />
             <circle fill="#ECECEF" r="6" cy="600.0" cx="134.9999999999999" class="seat-mezzanine-gg-17 section-mezzanine-mid section-mezzanine" />
@@ -953,10 +953,10 @@
             <circle fill="#ECECEF" r="6" cy="555.0" cx="69.99999999999989" class="seat-mezzanine-ff-27 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="561.0" cx="82.99999999999989" class="seat-mezzanine-ff-25 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="567.0" cx="95.99999999999989" class="seat-mezzanine-ff-23 section-mezzanine section-mezzanine-front" />
-            <circle fill="#ECECEF" r="6" cy="573.0" cx="108.99999999999989" class="seat-mezzanine-ff-21 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="578.0" cx="121.99999999999989" class="seat-mezzanine-ff-19 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="583.0" cx="134.9999999999999" class="seat-mezzanine-ff-17 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="587.0" cx="147.9999999999999" class="seat-mezzanine-ff-15 section-mezzanine-mid section-mezzanine" />
+            <circle fill="#ECECEF" r="6" cy="573.0" cx="108.99999999999989" class="seat-mezzanine-ff-21 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="578.0" cx="121.99999999999989" class="seat-mezzanine-ff-19 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="583.0" cx="134.9999999999999" class="seat-mezzanine-ff-17 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="587.0" cx="147.9999999999999" class="seat-mezzanine-ff-15 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="591.0" cx="160.9999999999999" class="seat-mezzanine-ff-13 section-mezzanine-mid section-mezzanine" />
             <circle fill="#ECECEF" r="6" cy="594.0" cx="173.9999999999999" class="seat-mezzanine-ff-11 section-mezzanine-mid section-mezzanine" />
             <circle fill="#ECECEF" r="6" cy="597.0" cx="186.9999999999999" class="seat-mezzanine-ff-9 section-mezzanine-mid section-mezzanine" />
@@ -973,14 +973,14 @@
             <circle fill="#ECECEF" r="6" cy="556.0" cx="108.99999999999989" class="seat-mezzanine-ee-21 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="561.0" cx="121.99999999999989" class="seat-mezzanine-ee-19 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="566.0" cx="134.9999999999999" class="seat-mezzanine-ee-17 section-mezzanine section-mezzanine-front" />
-            <circle fill="#ECECEF" r="6" cy="570.0" cx="147.9999999999999" class="seat-mezzanine-ee-15 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="574.0" cx="160.9999999999999" class="seat-mezzanine-ee-13 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="577.0" cx="173.9999999999999" class="seat-mezzanine-ee-11 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="580.0" cx="186.9999999999999" class="seat-mezzanine-ee-9 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="582.0" cx="199.9999999999999" class="seat-mezzanine-ee-7 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="584.0" cx="212.9999999999999" class="seat-mezzanine-ee-5 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="586.0" cx="225.9999999999999" class="seat-mezzanine-ee-3 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="587.0" cx="238.9999999999999" class="seat-mezzanine-ee-1 section-mezzanine-mid section-mezzanine" />
+            <circle fill="#ECECEF" r="6" cy="570.0" cx="147.9999999999999" class="seat-mezzanine-ee-15 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="574.0" cx="160.9999999999999" class="seat-mezzanine-ee-13 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="577.0" cx="173.9999999999999" class="seat-mezzanine-ee-11 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="580.0" cx="186.9999999999999" class="seat-mezzanine-ee-9 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="582.0" cx="199.9999999999999" class="seat-mezzanine-ee-7 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="584.0" cx="212.9999999999999" class="seat-mezzanine-ee-5 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="586.0" cx="225.9999999999999" class="seat-mezzanine-ee-3 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="587.0" cx="238.9999999999999" class="seat-mezzanine-ee-1 section-mezzanine section-mezzanine-front" />
           </g>
           <g class="row-mezzanine-dd">
             <circle fill="#ECECEF" r="6" cy="515.0" cx="56.99999999999989" class="seat-mezzanine-dd-29 section-mezzanine section-mezzanine-front" />
@@ -996,8 +996,8 @@
             <circle fill="#ECECEF" r="6" cy="563.0" cx="186.9999999999999" class="seat-mezzanine-dd-9 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="565.0" cx="199.9999999999999" class="seat-mezzanine-dd-7 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="567.0" cx="212.9999999999999" class="seat-mezzanine-dd-5 section-mezzanine section-mezzanine-front" />
-            <circle fill="#ECECEF" r="6" cy="569.0" cx="225.9999999999999" class="seat-mezzanine-dd-3 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="570.0" cx="238.9999999999999" class="seat-mezzanine-dd-1 section-mezzanine-mid section-mezzanine" />
+            <circle fill="#ECECEF" r="6" cy="569.0" cx="225.9999999999999" class="seat-mezzanine-dd-3 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="570.0" cx="238.9999999999999" class="seat-mezzanine-dd-1 section-mezzanine section-mezzanine-front" />
           </g>
           <g class="row-mezzanine-cc">
             <circle fill="#ECECEF" r="6" cy="498.0" cx="56.99999999999989" class="seat-mezzanine-cc-29 section-mezzanine section-mezzanine-front" />
@@ -1250,22 +1250,22 @@
             <circle fill="#ECECEF" r="6" cy="590.0" cx="465.9999999999999" class="seat-mezzanine-ee-101 section-mezzanine-mid section-mezzanine" />
           </g>
           <g class="row-mezzanine-dd_2">
-            <circle fill="#ECECEF" r="6" cy="573.0" cx="270.9999999999999" class="seat-mezzanine-dd-116 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="574.0" cx="283.9999999999999" class="seat-mezzanine-dd-115 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="575.0" cx="296.9999999999999" class="seat-mezzanine-dd-114 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="575.0" cx="309.9999999999999" class="seat-mezzanine-dd-113 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="576.0" cx="322.9999999999999" class="seat-mezzanine-dd-112 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="576.0" cx="335.9999999999999" class="seat-mezzanine-dd-111 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="577.0" cx="348.9999999999999" class="seat-mezzanine-dd-110 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="577.0" cx="361.9999999999999" class="seat-mezzanine-dd-109 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="577.0" cx="374.9999999999999" class="seat-mezzanine-dd-108 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="577.0" cx="387.9999999999999" class="seat-mezzanine-dd-107 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="576.0" cx="400.9999999999999" class="seat-mezzanine-dd-106 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="576.0" cx="413.9999999999999" class="seat-mezzanine-dd-105 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="575.0" cx="426.9999999999999" class="seat-mezzanine-dd-104 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="575.0" cx="439.9999999999999" class="seat-mezzanine-dd-103 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="574.0" cx="452.9999999999999" class="seat-mezzanine-dd-102 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="573.0" cx="465.9999999999999" class="seat-mezzanine-dd-101 section-mezzanine-mid section-mezzanine" />
+            <circle fill="#ECECEF" r="6" cy="573.0" cx="270.9999999999999" class="seat-mezzanine-dd-116 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="574.0" cx="283.9999999999999" class="seat-mezzanine-dd-115 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="575.0" cx="296.9999999999999" class="seat-mezzanine-dd-114 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="575.0" cx="309.9999999999999" class="seat-mezzanine-dd-113 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="576.0" cx="322.9999999999999" class="seat-mezzanine-dd-112 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="576.0" cx="335.9999999999999" class="seat-mezzanine-dd-111 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="577.0" cx="348.9999999999999" class="seat-mezzanine-dd-110 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="577.0" cx="361.9999999999999" class="seat-mezzanine-dd-109 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="577.0" cx="374.9999999999999" class="seat-mezzanine-dd-108 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="577.0" cx="387.9999999999999" class="seat-mezzanine-dd-107 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="576.0" cx="400.9999999999999" class="seat-mezzanine-dd-106 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="576.0" cx="413.9999999999999" class="seat-mezzanine-dd-105 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="575.0" cx="426.9999999999999" class="seat-mezzanine-dd-104 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="575.0" cx="439.9999999999999" class="seat-mezzanine-dd-103 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="574.0" cx="452.9999999999999" class="seat-mezzanine-dd-102 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="573.0" cx="465.9999999999999" class="seat-mezzanine-dd-101 section-mezzanine section-mezzanine-front" />
           </g>
           <g class="row-mezzanine-cc_2">
             <circle fill="#ECECEF" r="6" cy="556.0" cx="270.9999999999999" class="seat-mezzanine-cc-116 section-mezzanine section-mezzanine-front" />
@@ -1422,9 +1422,9 @@
             <circle fill="#ECECEF" r="6" cy="601.0" cx="601.9999999999999" class="seat-mezzanine-gg-18 section-mezzanine-mid section-mezzanine" />
             <circle fill="#ECECEF" r="6" cy="596.0" cx="614.9999999999999" class="seat-mezzanine-gg-20 section-mezzanine-mid section-mezzanine" />
             <circle fill="#ECECEF" r="6" cy="591.0" cx="627.9999999999999" class="seat-mezzanine-gg-22 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="585.0" cx="640.9999999999999" class="seat-mezzanine-gg-24 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="579.0" cx="653.9999999999999" class="seat-mezzanine-gg-26 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="573.0" cx="666.9999999999999" class="seat-mezzanine-gg-28 section-mezzanine-mid section-mezzanine" />
+            <circle fill="#ECECEF" r="6" cy="585.0" cx="640.9999999999999" class="seat-mezzanine-gg-24 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="579.0" cx="653.9999999999999" class="seat-mezzanine-gg-26 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="573.0" cx="666.9999999999999" class="seat-mezzanine-gg-28 section-mezzanine section-mezzanine-front" />
           </g>
           <g class="row-mezzanine-ff_3">
             <circle fill="#ECECEF" r="6" cy="604.0" cx="497.9999999999999" class="seat-mezzanine-ff-2 section-mezzanine-mid section-mezzanine" />
@@ -1435,22 +1435,22 @@
             <circle fill="#ECECEF" r="6" cy="595.0" cx="562.9999999999999" class="seat-mezzanine-ff-12 section-mezzanine-mid section-mezzanine" />
             <circle fill="#ECECEF" r="6" cy="592.0" cx="575.9999999999999" class="seat-mezzanine-ff-14 section-mezzanine-mid section-mezzanine" />
             <circle fill="#ECECEF" r="6" cy="588.0" cx="588.9999999999999" class="seat-mezzanine-ff-16 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="584.0" cx="601.9999999999999" class="seat-mezzanine-ff-18 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="579.0" cx="614.9999999999999" class="seat-mezzanine-ff-20 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="574.0" cx="627.9999999999999" class="seat-mezzanine-ff-22 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="568.0" cx="640.9999999999999" class="seat-mezzanine-ff-24 section-mezzanine-mid section-mezzanine" />
+            <circle fill="#ECECEF" r="6" cy="584.0" cx="601.9999999999999" class="seat-mezzanine-ff-18 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="579.0" cx="614.9999999999999" class="seat-mezzanine-ff-20 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="574.0" cx="627.9999999999999" class="seat-mezzanine-ff-22 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="568.0" cx="640.9999999999999" class="seat-mezzanine-ff-24 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="562.0" cx="653.9999999999999" class="seat-mezzanine-ff-26 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="556.0" cx="666.9999999999999" class="seat-mezzanine-ff-28 section-mezzanine section-mezzanine-front" />
           </g>
           <g class="row-mezzanine-ee_3">
-            <circle fill="#ECECEF" r="6" cy="587.0" cx="497.9999999999999" class="seat-mezzanine-ee-2 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="586.0" cx="510.9999999999999" class="seat-mezzanine-ee-4 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="585.0" cx="523.9999999999999" class="seat-mezzanine-ee-6 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="583.0" cx="536.9999999999999" class="seat-mezzanine-ee-8 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="581.0" cx="549.9999999999999" class="seat-mezzanine-ee-10 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="578.0" cx="562.9999999999999" class="seat-mezzanine-ee-12 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="575.0" cx="575.9999999999999" class="seat-mezzanine-ee-14 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="571.0" cx="588.9999999999999" class="seat-mezzanine-ee-16 section-mezzanine-mid section-mezzanine" />
+            <circle fill="#ECECEF" r="6" cy="587.0" cx="497.9999999999999" class="seat-mezzanine-ee-2 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="586.0" cx="510.9999999999999" class="seat-mezzanine-ee-4 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="585.0" cx="523.9999999999999" class="seat-mezzanine-ee-6 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="583.0" cx="536.9999999999999" class="seat-mezzanine-ee-8 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="581.0" cx="549.9999999999999" class="seat-mezzanine-ee-10 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="578.0" cx="562.9999999999999" class="seat-mezzanine-ee-12 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="575.0" cx="575.9999999999999" class="seat-mezzanine-ee-14 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="571.0" cx="588.9999999999999" class="seat-mezzanine-ee-16 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="567.0" cx="601.9999999999999" class="seat-mezzanine-ee-18 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="562.0" cx="614.9999999999999" class="seat-mezzanine-ee-20 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="557.0" cx="627.9999999999999" class="seat-mezzanine-ee-22 section-mezzanine section-mezzanine-front" />
@@ -1460,9 +1460,9 @@
             <circle fill="#ECECEF" r="6" cy="533.0" cx="679.9999999999999" class="seat-mezzanine-ee-30 section-mezzanine section-mezzanine-front" />
           </g>
           <g class="row-mezzanine-dd_3">
-            <circle fill="#ECECEF" r="6" cy="570.0" cx="497.9999999999999" class="seat-mezzanine-dd-2 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="569.0" cx="510.9999999999999" class="seat-mezzanine-dd-4 section-mezzanine-mid section-mezzanine" />
-            <circle fill="#ECECEF" r="6" cy="568.0" cx="523.9999999999999" class="seat-mezzanine-dd-6 section-mezzanine-mid section-mezzanine" />
+            <circle fill="#ECECEF" r="6" cy="570.0" cx="497.9999999999999" class="seat-mezzanine-dd-2 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="569.0" cx="510.9999999999999" class="seat-mezzanine-dd-4 section-mezzanine section-mezzanine-front" />
+            <circle fill="#ECECEF" r="6" cy="568.0" cx="523.9999999999999" class="seat-mezzanine-dd-6 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="566.0" cx="536.9999999999999" class="seat-mezzanine-dd-8 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="564.0" cx="549.9999999999999" class="seat-mezzanine-dd-10 section-mezzanine section-mezzanine-front" />
             <circle fill="#ECECEF" r="6" cy="561.0" cx="562.9999999999999" class="seat-mezzanine-dd-12 section-mezzanine section-mezzanine-front" />
@@ -1532,489 +1532,489 @@
         <path stroke="#D7D8DD" fill="white" d="M 31 988.411 L 31 738.411 C 121.389 782.409 238.961 809 367.5 809 C 496.989 809 615.349 782.015 706 737.433 L 706 987.433 C 615.349 1032.01 496.989 1059 367.5 1059 C 238.961 1059 121.389 1032.41 31 988.411 Z" class="background-balcony" />
         <g class="section-balcony">
           <g class="row-balcony-l">
-            <circle fill="#ECECEF" r="6" cy="984.0" cx="95.99999999999989" class="seat-balcony-l-23 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="990.0" cx="108.99999999999989" class="seat-balcony-l-21 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="995.0" cx="121.99999999999989" class="seat-balcony-l-19 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1000.0" cx="134.9999999999999" class="seat-balcony-l-17 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1004.0" cx="147.9999999999999" class="seat-balcony-l-15 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1008.0" cx="160.9999999999999" class="seat-balcony-l-13 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1011.0" cx="173.9999999999999" class="seat-balcony-l-11 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1014.0" cx="186.9999999999999" class="seat-balcony-l-9 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1016.0" cx="199.9999999999999" class="seat-balcony-l-7 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1018.0" cx="212.9999999999999" class="seat-balcony-l-5 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1020.0" cx="225.9999999999999" class="seat-balcony-l-3 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1021.0" cx="238.9999999999999" class="seat-balcony-l-1 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="984.0" cx="95.99999999999989" class="seat-balcony-l-23 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="990.0" cx="108.99999999999989" class="seat-balcony-l-21 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="995.0" cx="121.99999999999989" class="seat-balcony-l-19 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1000.0" cx="134.9999999999999" class="seat-balcony-l-17 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1004.0" cx="147.9999999999999" class="seat-balcony-l-15 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1008.0" cx="160.9999999999999" class="seat-balcony-l-13 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1011.0" cx="173.9999999999999" class="seat-balcony-l-11 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1014.0" cx="186.9999999999999" class="seat-balcony-l-9 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1016.0" cx="199.9999999999999" class="seat-balcony-l-7 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1018.0" cx="212.9999999999999" class="seat-balcony-l-5 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1020.0" cx="225.9999999999999" class="seat-balcony-l-3 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1021.0" cx="238.9999999999999" class="seat-balcony-l-1 section-balcony-rear-rows-h-l" />
           </g>
           <g class="row-balcony-k">
-            <circle fill="#ECECEF" r="6" cy="967.0" cx="95.99999999999989" class="seat-balcony-k-23 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="973.0" cx="108.99999999999989" class="seat-balcony-k-21 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="978.0" cx="121.99999999999989" class="seat-balcony-k-19 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="983.0" cx="134.9999999999999" class="seat-balcony-k-17 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="987.0" cx="147.9999999999999" class="seat-balcony-k-15 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="991.0" cx="160.9999999999999" class="seat-balcony-k-13 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="994.0" cx="173.9999999999999" class="seat-balcony-k-11 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="997.0" cx="186.9999999999999" class="seat-balcony-k-9 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="999.0" cx="199.9999999999999" class="seat-balcony-k-7 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1001.0" cx="212.9999999999999" class="seat-balcony-k-5 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1003.0" cx="225.9999999999999" class="seat-balcony-k-3 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1004.0" cx="238.9999999999999" class="seat-balcony-k-1 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="967.0" cx="95.99999999999989" class="seat-balcony-k-23 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="973.0" cx="108.99999999999989" class="seat-balcony-k-21 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="978.0" cx="121.99999999999989" class="seat-balcony-k-19 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="983.0" cx="134.9999999999999" class="seat-balcony-k-17 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="987.0" cx="147.9999999999999" class="seat-balcony-k-15 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="991.0" cx="160.9999999999999" class="seat-balcony-k-13 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="994.0" cx="173.9999999999999" class="seat-balcony-k-11 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="997.0" cx="186.9999999999999" class="seat-balcony-k-9 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="999.0" cx="199.9999999999999" class="seat-balcony-k-7 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1001.0" cx="212.9999999999999" class="seat-balcony-k-5 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1003.0" cx="225.9999999999999" class="seat-balcony-k-3 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1004.0" cx="238.9999999999999" class="seat-balcony-k-1 section-balcony-rear-rows-h-l" />
           </g>
           <g class="row-balcony-j">
-            <circle fill="#ECECEF" r="6" cy="950.0" cx="95.99999999999989" class="seat-balcony-j-23 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="956.0" cx="108.99999999999989" class="seat-balcony-j-21 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="961.0" cx="121.99999999999989" class="seat-balcony-j-19 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="966.0" cx="134.9999999999999" class="seat-balcony-j-17 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="970.0" cx="147.9999999999999" class="seat-balcony-j-15 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="974.0" cx="160.9999999999999" class="seat-balcony-j-13 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="977.0" cx="173.9999999999999" class="seat-balcony-j-11 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="980.0" cx="186.9999999999999" class="seat-balcony-j-9 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="982.0" cx="199.9999999999999" class="seat-balcony-j-7 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="984.0" cx="212.9999999999999" class="seat-balcony-j-5 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="986.0" cx="225.9999999999999" class="seat-balcony-j-3 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="987.0" cx="238.9999999999999" class="seat-balcony-j-1 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="950.0" cx="95.99999999999989" class="seat-balcony-j-23 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="956.0" cx="108.99999999999989" class="seat-balcony-j-21 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="961.0" cx="121.99999999999989" class="seat-balcony-j-19 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="966.0" cx="134.9999999999999" class="seat-balcony-j-17 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="970.0" cx="147.9999999999999" class="seat-balcony-j-15 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="974.0" cx="160.9999999999999" class="seat-balcony-j-13 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="977.0" cx="173.9999999999999" class="seat-balcony-j-11 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="980.0" cx="186.9999999999999" class="seat-balcony-j-9 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="982.0" cx="199.9999999999999" class="seat-balcony-j-7 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="984.0" cx="212.9999999999999" class="seat-balcony-j-5 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="986.0" cx="225.9999999999999" class="seat-balcony-j-3 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="987.0" cx="238.9999999999999" class="seat-balcony-j-1 section-balcony-rear-rows-h-l" />
           </g>
           <g class="row-balcony-h">
-            <circle fill="#ECECEF" r="6" cy="921.0" cx="69.99999999999989" class="seat-balcony-h-27 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="927.0" cx="82.99999999999989" class="seat-balcony-h-25 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="933.0" cx="95.99999999999989" class="seat-balcony-h-23 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="939.0" cx="108.99999999999989" class="seat-balcony-h-21 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="944.0" cx="121.99999999999989" class="seat-balcony-h-19 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="949.0" cx="134.9999999999999" class="seat-balcony-h-17 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="953.0" cx="147.9999999999999" class="seat-balcony-h-15 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="957.0" cx="160.9999999999999" class="seat-balcony-h-13 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="960.0" cx="173.9999999999999" class="seat-balcony-h-11 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="963.0" cx="186.9999999999999" class="seat-balcony-h-9 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="965.0" cx="199.9999999999999" class="seat-balcony-h-7 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="967.0" cx="212.9999999999999" class="seat-balcony-h-5 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="969.0" cx="225.9999999999999" class="seat-balcony-h-3 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="970.0" cx="238.9999999999999" class="seat-balcony-h-1 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="921.0" cx="69.99999999999989" class="seat-balcony-h-27 section-balcony-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="927.0" cx="82.99999999999989" class="seat-balcony-h-25 section-balcony-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="933.0" cx="95.99999999999989" class="seat-balcony-h-23 section-balcony-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="939.0" cx="108.99999999999989" class="seat-balcony-h-21 section-balcony-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="944.0" cx="121.99999999999989" class="seat-balcony-h-19 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="949.0" cx="134.9999999999999" class="seat-balcony-h-17 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="953.0" cx="147.9999999999999" class="seat-balcony-h-15 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="957.0" cx="160.9999999999999" class="seat-balcony-h-13 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="960.0" cx="173.9999999999999" class="seat-balcony-h-11 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="963.0" cx="186.9999999999999" class="seat-balcony-h-9 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="965.0" cx="199.9999999999999" class="seat-balcony-h-7 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="967.0" cx="212.9999999999999" class="seat-balcony-h-5 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="969.0" cx="225.9999999999999" class="seat-balcony-h-3 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="970.0" cx="238.9999999999999" class="seat-balcony-h-1 section-balcony-rear-rows-h-l" />
           </g>
           <g class="row-balcony-g">
-            <circle fill="#ECECEF" r="6" cy="904.0" cx="69.99999999999989" class="seat-balcony-g-27 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="910.0" cx="82.99999999999989" class="seat-balcony-g-25 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="916.0" cx="95.99999999999989" class="seat-balcony-g-23 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="922.0" cx="108.99999999999989" class="seat-balcony-g-21 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="927.0" cx="121.99999999999989" class="seat-balcony-g-19 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="932.0" cx="134.9999999999999" class="seat-balcony-g-17 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="936.0" cx="147.9999999999999" class="seat-balcony-g-15 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="940.0" cx="160.9999999999999" class="seat-balcony-g-13 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="943.0" cx="173.9999999999999" class="seat-balcony-g-11 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="946.0" cx="186.9999999999999" class="seat-balcony-g-9 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="948.0" cx="199.9999999999999" class="seat-balcony-g-7 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="950.0" cx="212.9999999999999" class="seat-balcony-g-5 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="952.0" cx="225.9999999999999" class="seat-balcony-g-3 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="953.0" cx="238.9999999999999" class="seat-balcony-g-1 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="904.0" cx="69.99999999999989" class="seat-balcony-g-27 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="910.0" cx="82.99999999999989" class="seat-balcony-g-25 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="916.0" cx="95.99999999999989" class="seat-balcony-g-23 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="922.0" cx="108.99999999999989" class="seat-balcony-g-21 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="927.0" cx="121.99999999999989" class="seat-balcony-g-19 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="932.0" cx="134.9999999999999" class="seat-balcony-g-17 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="936.0" cx="147.9999999999999" class="seat-balcony-g-15 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="940.0" cx="160.9999999999999" class="seat-balcony-g-13 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="943.0" cx="173.9999999999999" class="seat-balcony-g-11 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="946.0" cx="186.9999999999999" class="seat-balcony-g-9 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="948.0" cx="199.9999999999999" class="seat-balcony-g-7 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="950.0" cx="212.9999999999999" class="seat-balcony-g-5 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="952.0" cx="225.9999999999999" class="seat-balcony-g-3 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="953.0" cx="238.9999999999999" class="seat-balcony-g-1 section-grey" />
           </g>
           <g class="row-balcony-f">
-            <circle fill="#ECECEF" r="6" cy="887.0" cx="69.99999999999989" class="seat-balcony-f-27 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="893.0" cx="82.99999999999989" class="seat-balcony-f-25 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="899.0" cx="95.99999999999989" class="seat-balcony-f-23 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="905.0" cx="108.99999999999989" class="seat-balcony-f-21 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="910.0" cx="121.99999999999989" class="seat-balcony-f-19 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="915.0" cx="134.9999999999999" class="seat-balcony-f-17 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="919.0" cx="147.9999999999999" class="seat-balcony-f-15 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="923.0" cx="160.9999999999999" class="seat-balcony-f-13 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="926.0" cx="173.9999999999999" class="seat-balcony-f-11 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="929.0" cx="186.9999999999999" class="seat-balcony-f-9 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="931.0" cx="199.9999999999999" class="seat-balcony-f-7 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="933.0" cx="212.9999999999999" class="seat-balcony-f-5 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="935.0" cx="225.9999999999999" class="seat-balcony-f-3 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="936.0" cx="238.9999999999999" class="seat-balcony-f-1 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="887.0" cx="69.99999999999989" class="seat-balcony-f-27 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="893.0" cx="82.99999999999989" class="seat-balcony-f-25 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="899.0" cx="95.99999999999989" class="seat-balcony-f-23 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="905.0" cx="108.99999999999989" class="seat-balcony-f-21 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="910.0" cx="121.99999999999989" class="seat-balcony-f-19 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="915.0" cx="134.9999999999999" class="seat-balcony-f-17 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="919.0" cx="147.9999999999999" class="seat-balcony-f-15 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="923.0" cx="160.9999999999999" class="seat-balcony-f-13 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="926.0" cx="173.9999999999999" class="seat-balcony-f-11 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="929.0" cx="186.9999999999999" class="seat-balcony-f-9 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="931.0" cx="199.9999999999999" class="seat-balcony-f-7 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="933.0" cx="212.9999999999999" class="seat-balcony-f-5 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="935.0" cx="225.9999999999999" class="seat-balcony-f-3 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="936.0" cx="238.9999999999999" class="seat-balcony-f-1 section-grey" />
           </g>
           <g class="row-balcony-e">
-            <circle fill="#ECECEF" r="6" cy="864.0" cx="56.99999999999989" class="seat-balcony-e-29 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="870.0" cx="69.99999999999989" class="seat-balcony-e-27 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="876.0" cx="82.99999999999989" class="seat-balcony-e-25 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="882.0" cx="95.99999999999989" class="seat-balcony-e-23 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="888.0" cx="108.99999999999989" class="seat-balcony-e-21 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="893.0" cx="121.99999999999989" class="seat-balcony-e-19 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="898.0" cx="134.9999999999999" class="seat-balcony-e-17 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="902.0" cx="147.9999999999999" class="seat-balcony-e-15 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="906.0" cx="160.9999999999999" class="seat-balcony-e-13 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="909.0" cx="173.9999999999999" class="seat-balcony-e-11 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="912.0" cx="186.9999999999999" class="seat-balcony-e-9 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="914.0" cx="199.9999999999999" class="seat-balcony-e-7 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="916.0" cx="212.9999999999999" class="seat-balcony-e-5 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="918.0" cx="225.9999999999999" class="seat-balcony-e-3 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="919.0" cx="238.9999999999999" class="seat-balcony-e-1 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="864.0" cx="56.99999999999989" class="seat-balcony-e-29 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="870.0" cx="69.99999999999989" class="seat-balcony-e-27 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="876.0" cx="82.99999999999989" class="seat-balcony-e-25 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="882.0" cx="95.99999999999989" class="seat-balcony-e-23 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="888.0" cx="108.99999999999989" class="seat-balcony-e-21 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="893.0" cx="121.99999999999989" class="seat-balcony-e-19 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="898.0" cx="134.9999999999999" class="seat-balcony-e-17 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="902.0" cx="147.9999999999999" class="seat-balcony-e-15 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="906.0" cx="160.9999999999999" class="seat-balcony-e-13 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="909.0" cx="173.9999999999999" class="seat-balcony-e-11 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="912.0" cx="186.9999999999999" class="seat-balcony-e-9 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="914.0" cx="199.9999999999999" class="seat-balcony-e-7 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="916.0" cx="212.9999999999999" class="seat-balcony-e-5 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="918.0" cx="225.9999999999999" class="seat-balcony-e-3 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="919.0" cx="238.9999999999999" class="seat-balcony-e-1 section-grey" />
           </g>
           <g class="row-balcony-d">
-            <circle fill="#ECECEF" r="6" cy="847.0" cx="56.99999999999989" class="seat-balcony-d-29 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="853.0" cx="69.99999999999989" class="seat-balcony-d-27 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="859.0" cx="82.99999999999989" class="seat-balcony-d-25 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="865.0" cx="95.99999999999989" class="seat-balcony-d-23 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="871.0" cx="108.99999999999989" class="seat-balcony-d-21 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="876.0" cx="121.99999999999989" class="seat-balcony-d-19 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="881.0" cx="134.9999999999999" class="seat-balcony-d-17 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="885.0" cx="147.9999999999999" class="seat-balcony-d-15 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="889.0" cx="160.9999999999999" class="seat-balcony-d-13 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="892.0" cx="173.9999999999999" class="seat-balcony-d-11 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="895.0" cx="186.9999999999999" class="seat-balcony-d-9 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="897.0" cx="199.9999999999999" class="seat-balcony-d-7 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="899.0" cx="212.9999999999999" class="seat-balcony-d-5 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="901.0" cx="225.9999999999999" class="seat-balcony-d-3 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="902.0" cx="238.9999999999999" class="seat-balcony-d-1 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="847.0" cx="56.99999999999989" class="seat-balcony-d-29 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="853.0" cx="69.99999999999989" class="seat-balcony-d-27 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="859.0" cx="82.99999999999989" class="seat-balcony-d-25 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="865.0" cx="95.99999999999989" class="seat-balcony-d-23 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="871.0" cx="108.99999999999989" class="seat-balcony-d-21 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="876.0" cx="121.99999999999989" class="seat-balcony-d-19 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="881.0" cx="134.9999999999999" class="seat-balcony-d-17 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="885.0" cx="147.9999999999999" class="seat-balcony-d-15 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="889.0" cx="160.9999999999999" class="seat-balcony-d-13 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="892.0" cx="173.9999999999999" class="seat-balcony-d-11 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="895.0" cx="186.9999999999999" class="seat-balcony-d-9 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="897.0" cx="199.9999999999999" class="seat-balcony-d-7 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="899.0" cx="212.9999999999999" class="seat-balcony-d-5 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="901.0" cx="225.9999999999999" class="seat-balcony-d-3 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="902.0" cx="238.9999999999999" class="seat-balcony-d-1 section-grey" />
           </g>
           <g class="row-balcony-c">
-            <circle fill="#ECECEF" r="6" cy="823.0" cx="43.99999999999989" class="seat-balcony-c-31 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="830.0" cx="56.99999999999989" class="seat-balcony-c-29 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="836.0" cx="69.99999999999989" class="seat-balcony-c-27 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="842.0" cx="82.99999999999989" class="seat-balcony-c-25 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="848.0" cx="95.99999999999989" class="seat-balcony-c-23 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="854.0" cx="108.99999999999989" class="seat-balcony-c-21 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="859.0" cx="121.99999999999989" class="seat-balcony-c-19 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="864.0" cx="134.9999999999999" class="seat-balcony-c-17 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="868.0" cx="147.9999999999999" class="seat-balcony-c-15 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="872.0" cx="160.9999999999999" class="seat-balcony-c-13 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="875.0" cx="173.9999999999999" class="seat-balcony-c-11 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="878.0" cx="186.9999999999999" class="seat-balcony-c-9 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="880.0" cx="199.9999999999999" class="seat-balcony-c-7 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="882.0" cx="212.9999999999999" class="seat-balcony-c-5 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="884.0" cx="225.9999999999999" class="seat-balcony-c-3 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="885.0" cx="238.9999999999999" class="seat-balcony-c-1 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="823.0" cx="43.99999999999989" class="seat-balcony-c-31 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="830.0" cx="56.99999999999989" class="seat-balcony-c-29 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="836.0" cx="69.99999999999989" class="seat-balcony-c-27 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="842.0" cx="82.99999999999989" class="seat-balcony-c-25 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="848.0" cx="95.99999999999989" class="seat-balcony-c-23 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="854.0" cx="108.99999999999989" class="seat-balcony-c-21 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="859.0" cx="121.99999999999989" class="seat-balcony-c-19 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="864.0" cx="134.9999999999999" class="seat-balcony-c-17 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="868.0" cx="147.9999999999999" class="seat-balcony-c-15 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="872.0" cx="160.9999999999999" class="seat-balcony-c-13 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="875.0" cx="173.9999999999999" class="seat-balcony-c-11 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="878.0" cx="186.9999999999999" class="seat-balcony-c-9 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="880.0" cx="199.9999999999999" class="seat-balcony-c-7 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="882.0" cx="212.9999999999999" class="seat-balcony-c-5 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="884.0" cx="225.9999999999999" class="seat-balcony-c-3 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="885.0" cx="238.9999999999999" class="seat-balcony-c-1 section-grey" />
           </g>
           <g class="row-balcony-b">
-            <circle fill="#ECECEF" r="6" cy="806.0" cx="43.99999999999989" class="seat-balcony-b-31 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="813.0" cx="56.99999999999989" class="seat-balcony-b-29 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="819.0" cx="69.99999999999989" class="seat-balcony-b-27 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="825.0" cx="82.99999999999989" class="seat-balcony-b-25 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="831.0" cx="95.99999999999989" class="seat-balcony-b-23 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="837.0" cx="108.99999999999989" class="seat-balcony-b-21 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="842.0" cx="121.99999999999989" class="seat-balcony-b-19 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="847.0" cx="134.9999999999999" class="seat-balcony-b-17 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="851.0" cx="147.9999999999999" class="seat-balcony-b-15 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="855.0" cx="160.9999999999999" class="seat-balcony-b-13 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="858.0" cx="173.9999999999999" class="seat-balcony-b-11 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="861.0" cx="186.9999999999999" class="seat-balcony-b-9 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="863.0" cx="199.9999999999999" class="seat-balcony-b-7 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="865.0" cx="212.9999999999999" class="seat-balcony-b-5 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="867.0" cx="225.9999999999999" class="seat-balcony-b-3 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="868.0" cx="238.9999999999999" class="seat-balcony-b-1 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="806.0" cx="43.99999999999989" class="seat-balcony-b-31 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="813.0" cx="56.99999999999989" class="seat-balcony-b-29 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="819.0" cx="69.99999999999989" class="seat-balcony-b-27 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="825.0" cx="82.99999999999989" class="seat-balcony-b-25 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="831.0" cx="95.99999999999989" class="seat-balcony-b-23 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="837.0" cx="108.99999999999989" class="seat-balcony-b-21 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="842.0" cx="121.99999999999989" class="seat-balcony-b-19 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="847.0" cx="134.9999999999999" class="seat-balcony-b-17 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="851.0" cx="147.9999999999999" class="seat-balcony-b-15 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="855.0" cx="160.9999999999999" class="seat-balcony-b-13 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="858.0" cx="173.9999999999999" class="seat-balcony-b-11 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="861.0" cx="186.9999999999999" class="seat-balcony-b-9 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="863.0" cx="199.9999999999999" class="seat-balcony-b-7 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="865.0" cx="212.9999999999999" class="seat-balcony-b-5 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="867.0" cx="225.9999999999999" class="seat-balcony-b-3 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="868.0" cx="238.9999999999999" class="seat-balcony-b-1 section-grey" />
           </g>
           <g class="row-balcony-a">
-            <circle fill="#ECECEF" r="6" cy="789.0" cx="43.99999999999989" class="seat-balcony-a-31 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="796.0" cx="56.99999999999989" class="seat-balcony-a-29 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="802.0" cx="69.99999999999989" class="seat-balcony-a-27 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="808.0" cx="82.99999999999989" class="seat-balcony-a-25 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="814.0" cx="95.99999999999989" class="seat-balcony-a-23 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="820.0" cx="108.99999999999989" class="seat-balcony-a-21 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="825.0" cx="121.99999999999989" class="seat-balcony-a-19 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="830.0" cx="134.9999999999999" class="seat-balcony-a-17 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="834.0" cx="147.9999999999999" class="seat-balcony-a-15 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="838.0" cx="160.9999999999999" class="seat-balcony-a-13 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="841.0" cx="173.9999999999999" class="seat-balcony-a-11 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="844.0" cx="186.9999999999999" class="seat-balcony-a-9 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="846.0" cx="199.9999999999999" class="seat-balcony-a-7 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="848.0" cx="212.9999999999999" class="seat-balcony-a-5 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="850.0" cx="225.9999999999999" class="seat-balcony-a-3 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="851.0" cx="238.9999999999999" class="seat-balcony-a-1 section-balcony-front" />
+            <circle fill="#ECECEF" r="6" cy="789.0" cx="43.99999999999989" class="seat-balcony-a-31 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="796.0" cx="56.99999999999989" class="seat-balcony-a-29 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="802.0" cx="69.99999999999989" class="seat-balcony-a-27 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="808.0" cx="82.99999999999989" class="seat-balcony-a-25 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="814.0" cx="95.99999999999989" class="seat-balcony-a-23 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="820.0" cx="108.99999999999989" class="seat-balcony-a-21 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="825.0" cx="121.99999999999989" class="seat-balcony-a-19 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="830.0" cx="134.9999999999999" class="seat-balcony-a-17 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="834.0" cx="147.9999999999999" class="seat-balcony-a-15 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="838.0" cx="160.9999999999999" class="seat-balcony-a-13 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="841.0" cx="173.9999999999999" class="seat-balcony-a-11 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="844.0" cx="186.9999999999999" class="seat-balcony-a-9 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="846.0" cx="199.9999999999999" class="seat-balcony-a-7 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="848.0" cx="212.9999999999999" class="seat-balcony-a-5 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="850.0" cx="225.9999999999999" class="seat-balcony-a-3 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="851.0" cx="238.9999999999999" class="seat-balcony-a-1 section-grey" />
           </g>
         </g>
         <g class="section-balcony_2">
           <g class="row-balcony-g_2">
-            <circle fill="#ECECEF" r="6" cy="956.0" cx="270.9999999999999" class="seat-balcony-g-116 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="957.0" cx="283.9999999999999" class="seat-balcony-g-115 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="958.0" cx="296.9999999999999" class="seat-balcony-g-114 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="958.0" cx="309.9999999999999" class="seat-balcony-g-113 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="959.0" cx="322.9999999999999" class="seat-balcony-g-112 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="959.0" cx="335.9999999999999" class="seat-balcony-g-111 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="960.0" cx="348.9999999999999" class="seat-balcony-g-110 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="960.0" cx="361.9999999999999" class="seat-balcony-g-109 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="960.0" cx="374.9999999999999" class="seat-balcony-g-108 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="960.0" cx="387.9999999999999" class="seat-balcony-g-107 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="959.0" cx="400.9999999999999" class="seat-balcony-g-106 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="959.0" cx="413.9999999999999" class="seat-balcony-g-105 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="958.0" cx="426.9999999999999" class="seat-balcony-g-104 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="958.0" cx="439.9999999999999" class="seat-balcony-g-103 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="957.0" cx="452.9999999999999" class="seat-balcony-g-102 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="956.0" cx="465.9999999999999" class="seat-balcony-g-101 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="956.0" cx="270.9999999999999" class="seat-balcony-g-116 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="957.0" cx="283.9999999999999" class="seat-balcony-g-115 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="958.0" cx="296.9999999999999" class="seat-balcony-g-114 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="958.0" cx="309.9999999999999" class="seat-balcony-g-113 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="959.0" cx="322.9999999999999" class="seat-balcony-g-112 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="959.0" cx="335.9999999999999" class="seat-balcony-g-111 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="960.0" cx="348.9999999999999" class="seat-balcony-g-110 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="960.0" cx="361.9999999999999" class="seat-balcony-g-109 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="960.0" cx="374.9999999999999" class="seat-balcony-g-108 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="960.0" cx="387.9999999999999" class="seat-balcony-g-107 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="959.0" cx="400.9999999999999" class="seat-balcony-g-106 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="959.0" cx="413.9999999999999" class="seat-balcony-g-105 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="958.0" cx="426.9999999999999" class="seat-balcony-g-104 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="958.0" cx="439.9999999999999" class="seat-balcony-g-103 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="957.0" cx="452.9999999999999" class="seat-balcony-g-102 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="956.0" cx="465.9999999999999" class="seat-balcony-g-101 section-grey" />
           </g>
           <g class="row-balcony-f_2">
-            <circle fill="#ECECEF" r="6" cy="939.0" cx="270.9999999999999" class="seat-balcony-f-116 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="940.0" cx="283.9999999999999" class="seat-balcony-f-115 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="941.0" cx="296.9999999999999" class="seat-balcony-f-114 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="941.0" cx="309.9999999999999" class="seat-balcony-f-113 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="942.0" cx="322.9999999999999" class="seat-balcony-f-112 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="942.0" cx="335.9999999999999" class="seat-balcony-f-111 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="943.0" cx="348.9999999999999" class="seat-balcony-f-110 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="943.0" cx="361.9999999999999" class="seat-balcony-f-109 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="943.0" cx="374.9999999999999" class="seat-balcony-f-108 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="943.0" cx="387.9999999999999" class="seat-balcony-f-107 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="942.0" cx="400.9999999999999" class="seat-balcony-f-106 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="941.0" cx="426.9999999999999" class="seat-balcony-f-104 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="941.0" cx="439.9999999999999" class="seat-balcony-f-103 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="940.0" cx="452.9999999999999" class="seat-balcony-f-102 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="939.0" cx="465.9999999999999" class="seat-balcony-f-101 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="939.0" cx="270.9999999999999" class="seat-balcony-f-116 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="940.0" cx="283.9999999999999" class="seat-balcony-f-115 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="941.0" cx="296.9999999999999" class="seat-balcony-f-114 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="941.0" cx="309.9999999999999" class="seat-balcony-f-113 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="942.0" cx="322.9999999999999" class="seat-balcony-f-112 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="942.0" cx="335.9999999999999" class="seat-balcony-f-111 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="943.0" cx="348.9999999999999" class="seat-balcony-f-110 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="943.0" cx="361.9999999999999" class="seat-balcony-f-109 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="943.0" cx="374.9999999999999" class="seat-balcony-f-108 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="943.0" cx="387.9999999999999" class="seat-balcony-f-107 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="942.0" cx="400.9999999999999" class="seat-balcony-f-106 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="941.0" cx="426.9999999999999" class="seat-balcony-f-104 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="941.0" cx="439.9999999999999" class="seat-balcony-f-103 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="940.0" cx="452.9999999999999" class="seat-balcony-f-102 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="939.0" cx="465.9999999999999" class="seat-balcony-f-101 section-grey" />
           </g>
           <g class="row-balcony-e_2">
-            <circle fill="#ECECEF" r="6" cy="922.0" cx="270.9999999999999" class="seat-balcony-e-116 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="923.0" cx="283.9999999999999" class="seat-balcony-e-115 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="924.0" cx="296.9999999999999" class="seat-balcony-e-114 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="924.0" cx="309.9999999999999" class="seat-balcony-e-113 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="925.0" cx="322.9999999999999" class="seat-balcony-e-112 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="925.0" cx="335.9999999999999" class="seat-balcony-e-111 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="926.0" cx="348.9999999999999" class="seat-balcony-e-110 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="926.0" cx="361.9999999999999" class="seat-balcony-e-109 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="926.0" cx="374.9999999999999" class="seat-balcony-e-108 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="926.0" cx="387.9999999999999" class="seat-balcony-e-107 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="925.0" cx="400.9999999999999" class="seat-balcony-e-106 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="925.0" cx="413.9999999999999" class="seat-balcony-e-105 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="924.0" cx="426.9999999999999" class="seat-balcony-e-104 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="924.0" cx="439.9999999999999" class="seat-balcony-e-103 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="923.0" cx="452.9999999999999" class="seat-balcony-e-102 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="922.0" cx="465.9999999999999" class="seat-balcony-e-101 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="922.0" cx="270.9999999999999" class="seat-balcony-e-116 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="923.0" cx="283.9999999999999" class="seat-balcony-e-115 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="924.0" cx="296.9999999999999" class="seat-balcony-e-114 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="924.0" cx="309.9999999999999" class="seat-balcony-e-113 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="925.0" cx="322.9999999999999" class="seat-balcony-e-112 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="925.0" cx="335.9999999999999" class="seat-balcony-e-111 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="926.0" cx="348.9999999999999" class="seat-balcony-e-110 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="926.0" cx="361.9999999999999" class="seat-balcony-e-109 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="926.0" cx="374.9999999999999" class="seat-balcony-e-108 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="926.0" cx="387.9999999999999" class="seat-balcony-e-107 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="925.0" cx="400.9999999999999" class="seat-balcony-e-106 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="925.0" cx="413.9999999999999" class="seat-balcony-e-105 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="924.0" cx="426.9999999999999" class="seat-balcony-e-104 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="924.0" cx="439.9999999999999" class="seat-balcony-e-103 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="923.0" cx="452.9999999999999" class="seat-balcony-e-102 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="922.0" cx="465.9999999999999" class="seat-balcony-e-101 section-grey" />
           </g>
           <g class="row-balcony-d_2">
-            <circle fill="#ECECEF" r="6" cy="905.0" cx="270.9999999999999" class="seat-balcony-d-116 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="906.0" cx="283.9999999999999" class="seat-balcony-d-115 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="907.0" cx="296.9999999999999" class="seat-balcony-d-114 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="907.0" cx="309.9999999999999" class="seat-balcony-d-113 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="908.0" cx="322.9999999999999" class="seat-balcony-d-112 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="908.0" cx="335.9999999999999" class="seat-balcony-d-111 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="909.0" cx="348.9999999999999" class="seat-balcony-d-110 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="909.0" cx="361.9999999999999" class="seat-balcony-d-109 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="909.0" cx="374.9999999999999" class="seat-balcony-d-108 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="909.0" cx="387.9999999999999" class="seat-balcony-d-107 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="908.0" cx="400.9999999999999" class="seat-balcony-d-106 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="908.0" cx="413.9999999999999" class="seat-balcony-d-105 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="907.0" cx="426.9999999999999" class="seat-balcony-d-104 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="907.0" cx="439.9999999999999" class="seat-balcony-d-103 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="906.0" cx="452.9999999999999" class="seat-balcony-d-102 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="905.0" cx="465.9999999999999" class="seat-balcony-d-101 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="905.0" cx="270.9999999999999" class="seat-balcony-d-116 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="906.0" cx="283.9999999999999" class="seat-balcony-d-115 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="907.0" cx="296.9999999999999" class="seat-balcony-d-114 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="907.0" cx="309.9999999999999" class="seat-balcony-d-113 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="908.0" cx="322.9999999999999" class="seat-balcony-d-112 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="908.0" cx="335.9999999999999" class="seat-balcony-d-111 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="909.0" cx="348.9999999999999" class="seat-balcony-d-110 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="909.0" cx="361.9999999999999" class="seat-balcony-d-109 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="909.0" cx="374.9999999999999" class="seat-balcony-d-108 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="909.0" cx="387.9999999999999" class="seat-balcony-d-107 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="908.0" cx="400.9999999999999" class="seat-balcony-d-106 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="908.0" cx="413.9999999999999" class="seat-balcony-d-105 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="907.0" cx="426.9999999999999" class="seat-balcony-d-104 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="907.0" cx="439.9999999999999" class="seat-balcony-d-103 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="906.0" cx="452.9999999999999" class="seat-balcony-d-102 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="905.0" cx="465.9999999999999" class="seat-balcony-d-101 section-grey" />
           </g>
           <g class="row-balcony-c_2">
-            <circle fill="#ECECEF" r="6" cy="888.0" cx="270.9999999999999" class="seat-balcony-c-116 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="889.0" cx="283.9999999999999" class="seat-balcony-c-115 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="890.0" cx="296.9999999999999" class="seat-balcony-c-114 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="890.0" cx="309.9999999999999" class="seat-balcony-c-113 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="891.0" cx="322.9999999999999" class="seat-balcony-c-112 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="891.0" cx="335.9999999999999" class="seat-balcony-c-111 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="892.0" cx="348.9999999999999" class="seat-balcony-c-110 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="892.0" cx="361.9999999999999" class="seat-balcony-c-109 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="892.0" cx="374.9999999999999" class="seat-balcony-c-108 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="892.0" cx="387.9999999999999" class="seat-balcony-c-107 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="891.0" cx="400.9999999999999" class="seat-balcony-c-106 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="891.0" cx="413.9999999999999" class="seat-balcony-c-105 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="890.0" cx="426.9999999999999" class="seat-balcony-c-104 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="890.0" cx="439.9999999999999" class="seat-balcony-c-103 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="889.0" cx="452.9999999999999" class="seat-balcony-c-102 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="888.0" cx="465.9999999999999" class="seat-balcony-c-101 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="888.0" cx="270.9999999999999" class="seat-balcony-c-116 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="889.0" cx="283.9999999999999" class="seat-balcony-c-115 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="890.0" cx="296.9999999999999" class="seat-balcony-c-114 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="890.0" cx="309.9999999999999" class="seat-balcony-c-113 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="891.0" cx="322.9999999999999" class="seat-balcony-c-112 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="891.0" cx="335.9999999999999" class="seat-balcony-c-111 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="892.0" cx="348.9999999999999" class="seat-balcony-c-110 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="892.0" cx="361.9999999999999" class="seat-balcony-c-109 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="892.0" cx="374.9999999999999" class="seat-balcony-c-108 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="892.0" cx="387.9999999999999" class="seat-balcony-c-107 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="891.0" cx="400.9999999999999" class="seat-balcony-c-106 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="891.0" cx="413.9999999999999" class="seat-balcony-c-105 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="890.0" cx="426.9999999999999" class="seat-balcony-c-104 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="890.0" cx="439.9999999999999" class="seat-balcony-c-103 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="889.0" cx="452.9999999999999" class="seat-balcony-c-102 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="888.0" cx="465.9999999999999" class="seat-balcony-c-101 section-grey" />
           </g>
           <g class="row-balcony-b_2">
-            <circle fill="#ECECEF" r="6" cy="871.0" cx="270.9999999999999" class="seat-balcony-b-116 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="872.0" cx="283.9999999999999" class="seat-balcony-b-115 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="873.0" cx="296.9999999999999" class="seat-balcony-b-114 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="873.0" cx="309.9999999999999" class="seat-balcony-b-113 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="874.0" cx="322.9999999999999" class="seat-balcony-b-112 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="874.0" cx="335.9999999999999" class="seat-balcony-b-111 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="875.0" cx="348.9999999999999" class="seat-balcony-b-110 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="875.0" cx="361.9999999999999" class="seat-balcony-b-109 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="875.0" cx="374.9999999999999" class="seat-balcony-b-108 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="875.0" cx="387.9999999999999" class="seat-balcony-b-107 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="874.0" cx="400.9999999999999" class="seat-balcony-b-106 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="874.0" cx="413.9999999999999" class="seat-balcony-b-105 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="873.0" cx="426.9999999999999" class="seat-balcony-b-104 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="873.0" cx="439.9999999999999" class="seat-balcony-b-103 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="872.0" cx="452.9999999999999" class="seat-balcony-b-102 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="871.0" cx="465.9999999999999" class="seat-balcony-b-101 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="871.0" cx="270.9999999999999" class="seat-balcony-b-116 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="872.0" cx="283.9999999999999" class="seat-balcony-b-115 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="873.0" cx="296.9999999999999" class="seat-balcony-b-114 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="873.0" cx="309.9999999999999" class="seat-balcony-b-113 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="874.0" cx="322.9999999999999" class="seat-balcony-b-112 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="874.0" cx="335.9999999999999" class="seat-balcony-b-111 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="875.0" cx="348.9999999999999" class="seat-balcony-b-110 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="875.0" cx="361.9999999999999" class="seat-balcony-b-109 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="875.0" cx="374.9999999999999" class="seat-balcony-b-108 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="875.0" cx="387.9999999999999" class="seat-balcony-b-107 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="874.0" cx="400.9999999999999" class="seat-balcony-b-106 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="874.0" cx="413.9999999999999" class="seat-balcony-b-105 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="873.0" cx="426.9999999999999" class="seat-balcony-b-104 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="873.0" cx="439.9999999999999" class="seat-balcony-b-103 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="872.0" cx="452.9999999999999" class="seat-balcony-b-102 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="871.0" cx="465.9999999999999" class="seat-balcony-b-101 section-grey" />
           </g>
           <g class="row-balcony-a_2">
-            <circle fill="#ECECEF" r="6" cy="854.0" cx="270.9999999999999" class="seat-balcony-a-116 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="855.0" cx="283.9999999999999" class="seat-balcony-a-115 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="856.0" cx="296.9999999999999" class="seat-balcony-a-114 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="856.0" cx="309.9999999999999" class="seat-balcony-a-113 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="857.0" cx="322.9999999999999" class="seat-balcony-a-112 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="857.0" cx="335.9999999999999" class="seat-balcony-a-111 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="858.0" cx="348.9999999999999" class="seat-balcony-a-110 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="858.0" cx="361.9999999999999" class="seat-balcony-a-109 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="858.0" cx="374.9999999999999" class="seat-balcony-a-108 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="858.0" cx="387.9999999999999" class="seat-balcony-a-107 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="857.0" cx="400.9999999999999" class="seat-balcony-a-106 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="857.0" cx="413.9999999999999" class="seat-balcony-a-105 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="856.0" cx="426.9999999999999" class="seat-balcony-a-104 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="856.0" cx="439.9999999999999" class="seat-balcony-a-103 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="855.0" cx="452.9999999999999" class="seat-balcony-a-102 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="854.0" cx="465.9999999999999" class="seat-balcony-a-101 section-balcony-front" />
+            <circle fill="#ECECEF" r="6" cy="854.0" cx="270.9999999999999" class="seat-balcony-a-116 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="855.0" cx="283.9999999999999" class="seat-balcony-a-115 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="856.0" cx="296.9999999999999" class="seat-balcony-a-114 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="856.0" cx="309.9999999999999" class="seat-balcony-a-113 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="857.0" cx="322.9999999999999" class="seat-balcony-a-112 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="857.0" cx="335.9999999999999" class="seat-balcony-a-111 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="858.0" cx="348.9999999999999" class="seat-balcony-a-110 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="858.0" cx="361.9999999999999" class="seat-balcony-a-109 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="858.0" cx="374.9999999999999" class="seat-balcony-a-108 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="858.0" cx="387.9999999999999" class="seat-balcony-a-107 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="857.0" cx="400.9999999999999" class="seat-balcony-a-106 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="857.0" cx="413.9999999999999" class="seat-balcony-a-105 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="856.0" cx="426.9999999999999" class="seat-balcony-a-104 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="856.0" cx="439.9999999999999" class="seat-balcony-a-103 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="855.0" cx="452.9999999999999" class="seat-balcony-a-102 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="854.0" cx="465.9999999999999" class="seat-balcony-a-101 section-grey" />
           </g>
         </g>
         <g class="section-balcony_3">
           <g class="row-balcony-l_2">
-            <circle fill="#ECECEF" r="6" cy="1021.0" cx="497.9999999999999" class="seat-balcony-l-2 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1020.0" cx="510.9999999999999" class="seat-balcony-l-4 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1019.0" cx="523.9999999999999" class="seat-balcony-l-6 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1017.0" cx="536.9999999999999" class="seat-balcony-l-8 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1015.0" cx="549.9999999999999" class="seat-balcony-l-10 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1012.0" cx="562.9999999999999" class="seat-balcony-l-12 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1009.0" cx="575.9999999999999" class="seat-balcony-l-14 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1005.0" cx="588.9999999999999" class="seat-balcony-l-16 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1001.0" cx="601.9999999999999" class="seat-balcony-l-18 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="996.0" cx="614.9999999999999" class="seat-balcony-l-20 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="991.0" cx="627.9999999999999" class="seat-balcony-l-22 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="985.0" cx="640.9999999999999" class="seat-balcony-l-24 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="1021.0" cx="497.9999999999999" class="seat-balcony-l-2 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1020.0" cx="510.9999999999999" class="seat-balcony-l-4 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1019.0" cx="523.9999999999999" class="seat-balcony-l-6 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1017.0" cx="536.9999999999999" class="seat-balcony-l-8 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1015.0" cx="549.9999999999999" class="seat-balcony-l-10 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1012.0" cx="562.9999999999999" class="seat-balcony-l-12 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1009.0" cx="575.9999999999999" class="seat-balcony-l-14 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1005.0" cx="588.9999999999999" class="seat-balcony-l-16 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1001.0" cx="601.9999999999999" class="seat-balcony-l-18 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="996.0" cx="614.9999999999999" class="seat-balcony-l-20 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="991.0" cx="627.9999999999999" class="seat-balcony-l-22 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="985.0" cx="640.9999999999999" class="seat-balcony-l-24 section-balcony-rear-rows-h-l" />
           </g>
           <g class="row-balcony-k_2">
-            <circle fill="#ECECEF" r="6" cy="1004.0" cx="497.9999999999999" class="seat-balcony-k-2 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1003.0" cx="510.9999999999999" class="seat-balcony-k-4 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1002.0" cx="523.9999999999999" class="seat-balcony-k-6 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="1000.0" cx="536.9999999999999" class="seat-balcony-k-8 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="998.0" cx="549.9999999999999" class="seat-balcony-k-10 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="995.0" cx="562.9999999999999" class="seat-balcony-k-12 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="992.0" cx="575.9999999999999" class="seat-balcony-k-14 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="988.0" cx="588.9999999999999" class="seat-balcony-k-16 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="984.0" cx="601.9999999999999" class="seat-balcony-k-18 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="979.0" cx="614.9999999999999" class="seat-balcony-k-20 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="974.0" cx="627.9999999999999" class="seat-balcony-k-22 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="968.0" cx="640.9999999999999" class="seat-balcony-k-24 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="1004.0" cx="497.9999999999999" class="seat-balcony-k-2 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1003.0" cx="510.9999999999999" class="seat-balcony-k-4 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1002.0" cx="523.9999999999999" class="seat-balcony-k-6 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="1000.0" cx="536.9999999999999" class="seat-balcony-k-8 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="998.0" cx="549.9999999999999" class="seat-balcony-k-10 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="995.0" cx="562.9999999999999" class="seat-balcony-k-12 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="992.0" cx="575.9999999999999" class="seat-balcony-k-14 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="988.0" cx="588.9999999999999" class="seat-balcony-k-16 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="984.0" cx="601.9999999999999" class="seat-balcony-k-18 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="979.0" cx="614.9999999999999" class="seat-balcony-k-20 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="974.0" cx="627.9999999999999" class="seat-balcony-k-22 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="968.0" cx="640.9999999999999" class="seat-balcony-k-24 section-balcony-rear-rows-h-l" />
           </g>
           <g class="row-balcony-j_2">
-            <circle fill="#ECECEF" r="6" cy="987.0" cx="497.9999999999999" class="seat-balcony-j-2 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="986.0" cx="510.9999999999999" class="seat-balcony-j-4 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="985.0" cx="523.9999999999999" class="seat-balcony-j-6 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="983.0" cx="536.9999999999999" class="seat-balcony-j-8 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="981.0" cx="549.9999999999999" class="seat-balcony-j-10 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="978.0" cx="562.9999999999999" class="seat-balcony-j-12 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="975.0" cx="575.9999999999999" class="seat-balcony-j-14 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="971.0" cx="588.9999999999999" class="seat-balcony-j-16 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="967.0" cx="601.9999999999999" class="seat-balcony-j-18 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="962.0" cx="614.9999999999999" class="seat-balcony-j-20 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="957.0" cx="627.9999999999999" class="seat-balcony-j-22 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="951.0" cx="640.9999999999999" class="seat-balcony-j-24 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="987.0" cx="497.9999999999999" class="seat-balcony-j-2 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="986.0" cx="510.9999999999999" class="seat-balcony-j-4 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="985.0" cx="523.9999999999999" class="seat-balcony-j-6 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="983.0" cx="536.9999999999999" class="seat-balcony-j-8 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="981.0" cx="549.9999999999999" class="seat-balcony-j-10 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="978.0" cx="562.9999999999999" class="seat-balcony-j-12 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="975.0" cx="575.9999999999999" class="seat-balcony-j-14 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="971.0" cx="588.9999999999999" class="seat-balcony-j-16 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="967.0" cx="601.9999999999999" class="seat-balcony-j-18 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="962.0" cx="614.9999999999999" class="seat-balcony-j-20 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="957.0" cx="627.9999999999999" class="seat-balcony-j-22 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="951.0" cx="640.9999999999999" class="seat-balcony-j-24 section-balcony-rear-rows-h-l" />
           </g>
           <g class="row-balcony-h_2">
-            <circle fill="#ECECEF" r="6" cy="970.0" cx="497.9999999999999" class="seat-balcony-h-2 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="969.0" cx="510.9999999999999" class="seat-balcony-h-4 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="968.0" cx="523.9999999999999" class="seat-balcony-h-6 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="966.0" cx="536.9999999999999" class="seat-balcony-h-8 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="964.0" cx="549.9999999999999" class="seat-balcony-h-10 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="961.0" cx="562.9999999999999" class="seat-balcony-h-12 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="958.0" cx="575.9999999999999" class="seat-balcony-h-14 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="954.0" cx="588.9999999999999" class="seat-balcony-h-16 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="950.0" cx="601.9999999999999" class="seat-balcony-h-18 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="945.0" cx="614.9999999999999" class="seat-balcony-h-20 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="940.0" cx="627.9999999999999" class="seat-balcony-h-22 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="934.0" cx="640.9999999999999" class="seat-balcony-h-24 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="928.0" cx="653.9999999999999" class="seat-balcony-h-26 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="970.0" cx="497.9999999999999" class="seat-balcony-h-2 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="969.0" cx="510.9999999999999" class="seat-balcony-h-4 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="968.0" cx="523.9999999999999" class="seat-balcony-h-6 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="966.0" cx="536.9999999999999" class="seat-balcony-h-8 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="964.0" cx="549.9999999999999" class="seat-balcony-h-10 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="961.0" cx="562.9999999999999" class="seat-balcony-h-12 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="958.0" cx="575.9999999999999" class="seat-balcony-h-14 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="954.0" cx="588.9999999999999" class="seat-balcony-h-16 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="950.0" cx="601.9999999999999" class="seat-balcony-h-18 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="945.0" cx="614.9999999999999" class="seat-balcony-h-20 section-balcony-rear-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="940.0" cx="627.9999999999999" class="seat-balcony-h-22 section-balcony-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="934.0" cx="640.9999999999999" class="seat-balcony-h-24 section-balcony-rows-h-l" />
+            <circle fill="#ECECEF" r="6" cy="928.0" cx="653.9999999999999" class="seat-balcony-h-26 section-balcony-rows-h-l" />
           </g>
           <g class="row-balcony-g_3">
-            <circle fill="#ECECEF" r="6" cy="953.0" cx="497.9999999999999" class="seat-balcony-g-2 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="952.0" cx="510.9999999999999" class="seat-balcony-g-4 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="951.0" cx="523.9999999999999" class="seat-balcony-g-6 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="949.0" cx="536.9999999999999" class="seat-balcony-g-8 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="947.0" cx="549.9999999999999" class="seat-balcony-g-10 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="944.0" cx="562.9999999999999" class="seat-balcony-g-12 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="941.0" cx="575.9999999999999" class="seat-balcony-g-14 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="937.0" cx="588.9999999999999" class="seat-balcony-g-16 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="933.0" cx="601.9999999999999" class="seat-balcony-g-18 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="928.0" cx="614.9999999999999" class="seat-balcony-g-20 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="923.0" cx="627.9999999999999" class="seat-balcony-g-22 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="917.0" cx="640.9999999999999" class="seat-balcony-g-24 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="911.0" cx="653.9999999999999" class="seat-balcony-g-26 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="905.0" cx="666.9999999999999" class="seat-balcony-g-28 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="953.0" cx="497.9999999999999" class="seat-balcony-g-2 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="952.0" cx="510.9999999999999" class="seat-balcony-g-4 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="951.0" cx="523.9999999999999" class="seat-balcony-g-6 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="949.0" cx="536.9999999999999" class="seat-balcony-g-8 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="947.0" cx="549.9999999999999" class="seat-balcony-g-10 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="944.0" cx="562.9999999999999" class="seat-balcony-g-12 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="941.0" cx="575.9999999999999" class="seat-balcony-g-14 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="937.0" cx="588.9999999999999" class="seat-balcony-g-16 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="933.0" cx="601.9999999999999" class="seat-balcony-g-18 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="928.0" cx="614.9999999999999" class="seat-balcony-g-20 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="923.0" cx="627.9999999999999" class="seat-balcony-g-22 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="917.0" cx="640.9999999999999" class="seat-balcony-g-24 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="911.0" cx="653.9999999999999" class="seat-balcony-g-26 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="905.0" cx="666.9999999999999" class="seat-balcony-g-28 section-grey" />
           </g>
           <g class="row-balcony-f_3">
-            <circle fill="#ECECEF" r="6" cy="936.0" cx="497.9999999999999" class="seat-balcony-f-2 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="935.0" cx="510.9999999999999" class="seat-balcony-f-4 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="934.0" cx="523.9999999999999" class="seat-balcony-f-6 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="932.0" cx="536.9999999999999" class="seat-balcony-f-8 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="930.0" cx="549.9999999999999" class="seat-balcony-f-10 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="927.0" cx="562.9999999999999" class="seat-balcony-f-12 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="924.0" cx="575.9999999999999" class="seat-balcony-f-14 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="920.0" cx="588.9999999999999" class="seat-balcony-f-16 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="916.0" cx="601.9999999999999" class="seat-balcony-f-18 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="911.0" cx="614.9999999999999" class="seat-balcony-f-20 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="906.0" cx="627.9999999999999" class="seat-balcony-f-22 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="900.0" cx="640.9999999999999" class="seat-balcony-f-24 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="894.0" cx="653.9999999999999" class="seat-balcony-f-26 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="888.0" cx="666.9999999999999" class="seat-balcony-f-28 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="882.0" cx="679.9999999999999" class="seat-balcony-f-30 section-balcony" />
+            <circle fill="#ECECEF" r="6" cy="936.0" cx="497.9999999999999" class="seat-balcony-f-2 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="935.0" cx="510.9999999999999" class="seat-balcony-f-4 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="934.0" cx="523.9999999999999" class="seat-balcony-f-6 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="932.0" cx="536.9999999999999" class="seat-balcony-f-8 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="930.0" cx="549.9999999999999" class="seat-balcony-f-10 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="927.0" cx="562.9999999999999" class="seat-balcony-f-12 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="924.0" cx="575.9999999999999" class="seat-balcony-f-14 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="920.0" cx="588.9999999999999" class="seat-balcony-f-16 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="916.0" cx="601.9999999999999" class="seat-balcony-f-18 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="911.0" cx="614.9999999999999" class="seat-balcony-f-20 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="906.0" cx="627.9999999999999" class="seat-balcony-f-22 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="900.0" cx="640.9999999999999" class="seat-balcony-f-24 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="894.0" cx="653.9999999999999" class="seat-balcony-f-26 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="888.0" cx="666.9999999999999" class="seat-balcony-f-28 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="882.0" cx="679.9999999999999" class="seat-balcony-f-30 section-grey" />
           </g>
           <g class="row-balcony-e_3">
-            <circle fill="#ECECEF" r="6" cy="919.0" cx="497.9999999999999" class="seat-balcony-e-2 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="918.0" cx="510.9999999999999" class="seat-balcony-e-4 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="917.0" cx="523.9999999999999" class="seat-balcony-e-6 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="915.0" cx="536.9999999999999" class="seat-balcony-e-8 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="913.0" cx="549.9999999999999" class="seat-balcony-e-10 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="910.0" cx="562.9999999999999" class="seat-balcony-e-12 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="907.0" cx="575.9999999999999" class="seat-balcony-e-14 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="903.0" cx="588.9999999999999" class="seat-balcony-e-16 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="899.0" cx="601.9999999999999" class="seat-balcony-e-18 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="894.0" cx="614.9999999999999" class="seat-balcony-e-20 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="889.0" cx="627.9999999999999" class="seat-balcony-e-22 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="883.0" cx="640.9999999999999" class="seat-balcony-e-24 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="877.0" cx="653.9999999999999" class="seat-balcony-e-26 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="871.0" cx="666.9999999999999" class="seat-balcony-e-28 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="865.0" cx="679.9999999999999" class="seat-balcony-e-30 section-balcony-front" />
+            <circle fill="#ECECEF" r="6" cy="919.0" cx="497.9999999999999" class="seat-balcony-e-2 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="918.0" cx="510.9999999999999" class="seat-balcony-e-4 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="917.0" cx="523.9999999999999" class="seat-balcony-e-6 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="915.0" cx="536.9999999999999" class="seat-balcony-e-8 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="913.0" cx="549.9999999999999" class="seat-balcony-e-10 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="910.0" cx="562.9999999999999" class="seat-balcony-e-12 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="907.0" cx="575.9999999999999" class="seat-balcony-e-14 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="903.0" cx="588.9999999999999" class="seat-balcony-e-16 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="899.0" cx="601.9999999999999" class="seat-balcony-e-18 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="894.0" cx="614.9999999999999" class="seat-balcony-e-20 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="889.0" cx="627.9999999999999" class="seat-balcony-e-22 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="883.0" cx="640.9999999999999" class="seat-balcony-e-24 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="877.0" cx="653.9999999999999" class="seat-balcony-e-26 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="871.0" cx="666.9999999999999" class="seat-balcony-e-28 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="865.0" cx="679.9999999999999" class="seat-balcony-e-30 section-grey" />
           </g>
           <g class="row-balcony-d_3">
-            <circle fill="#ECECEF" r="6" cy="902.0" cx="497.9999999999999" class="seat-balcony-d-2 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="901.0" cx="510.9999999999999" class="seat-balcony-d-4 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="900.0" cx="523.9999999999999" class="seat-balcony-d-6 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="898.0" cx="536.9999999999999" class="seat-balcony-d-8 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="896.0" cx="549.9999999999999" class="seat-balcony-d-10 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="893.0" cx="562.9999999999999" class="seat-balcony-d-12 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="890.0" cx="575.9999999999999" class="seat-balcony-d-14 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="886.0" cx="588.9999999999999" class="seat-balcony-d-16 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="882.0" cx="601.9999999999999" class="seat-balcony-d-18 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="877.0" cx="614.9999999999999" class="seat-balcony-d-20 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="872.0" cx="627.9999999999999" class="seat-balcony-d-22 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="866.0" cx="640.9999999999999" class="seat-balcony-d-24 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="860.0" cx="653.9999999999999" class="seat-balcony-d-26 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="854.0" cx="666.9999999999999" class="seat-balcony-d-28 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="848.0" cx="679.9999999999999" class="seat-balcony-d-30 section-balcony-front" />
+            <circle fill="#ECECEF" r="6" cy="902.0" cx="497.9999999999999" class="seat-balcony-d-2 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="901.0" cx="510.9999999999999" class="seat-balcony-d-4 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="900.0" cx="523.9999999999999" class="seat-balcony-d-6 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="898.0" cx="536.9999999999999" class="seat-balcony-d-8 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="896.0" cx="549.9999999999999" class="seat-balcony-d-10 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="893.0" cx="562.9999999999999" class="seat-balcony-d-12 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="890.0" cx="575.9999999999999" class="seat-balcony-d-14 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="886.0" cx="588.9999999999999" class="seat-balcony-d-16 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="882.0" cx="601.9999999999999" class="seat-balcony-d-18 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="877.0" cx="614.9999999999999" class="seat-balcony-d-20 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="872.0" cx="627.9999999999999" class="seat-balcony-d-22 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="866.0" cx="640.9999999999999" class="seat-balcony-d-24 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="860.0" cx="653.9999999999999" class="seat-balcony-d-26 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="854.0" cx="666.9999999999999" class="seat-balcony-d-28 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="848.0" cx="679.9999999999999" class="seat-balcony-d-30 section-grey" />
           </g>
           <g class="row-balcony-c_3">
-            <circle fill="#ECECEF" r="6" cy="885.0" cx="497.9999999999999" class="seat-balcony-c-2 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="884.0" cx="510.9999999999999" class="seat-balcony-c-4 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="883.0" cx="523.9999999999999" class="seat-balcony-c-6 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="881.0" cx="536.9999999999999" class="seat-balcony-c-8 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="879.0" cx="549.9999999999999" class="seat-balcony-c-10 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="876.0" cx="562.9999999999999" class="seat-balcony-c-12 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="873.0" cx="575.9999999999999" class="seat-balcony-c-14 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="869.0" cx="588.9999999999999" class="seat-balcony-c-16 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="865.0" cx="601.9999999999999" class="seat-balcony-c-18 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="860.0" cx="614.9999999999999" class="seat-balcony-c-20 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="855.0" cx="627.9999999999999" class="seat-balcony-c-22 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="849.0" cx="640.9999999999999" class="seat-balcony-c-24 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="843.0" cx="653.9999999999999" class="seat-balcony-c-26 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="837.0" cx="666.9999999999999" class="seat-balcony-c-28 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="831.0" cx="679.9999999999999" class="seat-balcony-c-30 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="824.0" cx="692.9999999999999" class="seat-balcony-c-32 section-balcony-front" />
+            <circle fill="#ECECEF" r="6" cy="885.0" cx="497.9999999999999" class="seat-balcony-c-2 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="884.0" cx="510.9999999999999" class="seat-balcony-c-4 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="883.0" cx="523.9999999999999" class="seat-balcony-c-6 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="881.0" cx="536.9999999999999" class="seat-balcony-c-8 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="879.0" cx="549.9999999999999" class="seat-balcony-c-10 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="876.0" cx="562.9999999999999" class="seat-balcony-c-12 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="873.0" cx="575.9999999999999" class="seat-balcony-c-14 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="869.0" cx="588.9999999999999" class="seat-balcony-c-16 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="865.0" cx="601.9999999999999" class="seat-balcony-c-18 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="860.0" cx="614.9999999999999" class="seat-balcony-c-20 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="855.0" cx="627.9999999999999" class="seat-balcony-c-22 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="849.0" cx="640.9999999999999" class="seat-balcony-c-24 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="843.0" cx="653.9999999999999" class="seat-balcony-c-26 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="837.0" cx="666.9999999999999" class="seat-balcony-c-28 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="831.0" cx="679.9999999999999" class="seat-balcony-c-30 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="824.0" cx="692.9999999999999" class="seat-balcony-c-32 section-grey" />
           </g>
           <g class="row-balcony-b_3">
-            <circle fill="#ECECEF" r="6" cy="868.0" cx="497.9999999999999" class="seat-balcony-b-2 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="867.0" cx="510.9999999999999" class="seat-balcony-b-4 section-balcony" />
-            <circle fill="#ECECEF" r="6" cy="866.0" cx="523.9999999999999" class="seat-balcony-b-6 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="864.0" cx="536.9999999999999" class="seat-balcony-b-8 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="862.0" cx="549.9999999999999" class="seat-balcony-b-10 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="859.0" cx="562.9999999999999" class="seat-balcony-b-12 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="856.0" cx="575.9999999999999" class="seat-balcony-b-14 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="852.0" cx="588.9999999999999" class="seat-balcony-b-16 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="848.0" cx="601.9999999999999" class="seat-balcony-b-18 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="843.0" cx="614.9999999999999" class="seat-balcony-b-20 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="838.0" cx="627.9999999999999" class="seat-balcony-b-22 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="832.0" cx="640.9999999999999" class="seat-balcony-b-24 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="826.0" cx="653.9999999999999" class="seat-balcony-b-26 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="820.0" cx="666.9999999999999" class="seat-balcony-b-28 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="814.0" cx="679.9999999999999" class="seat-balcony-b-30 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="807.0" cx="692.9999999999999" class="seat-balcony-b-32 section-balcony-front" />
+            <circle fill="#ECECEF" r="6" cy="868.0" cx="497.9999999999999" class="seat-balcony-b-2 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="867.0" cx="510.9999999999999" class="seat-balcony-b-4 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="866.0" cx="523.9999999999999" class="seat-balcony-b-6 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="864.0" cx="536.9999999999999" class="seat-balcony-b-8 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="862.0" cx="549.9999999999999" class="seat-balcony-b-10 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="859.0" cx="562.9999999999999" class="seat-balcony-b-12 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="856.0" cx="575.9999999999999" class="seat-balcony-b-14 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="852.0" cx="588.9999999999999" class="seat-balcony-b-16 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="848.0" cx="601.9999999999999" class="seat-balcony-b-18 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="843.0" cx="614.9999999999999" class="seat-balcony-b-20 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="838.0" cx="627.9999999999999" class="seat-balcony-b-22 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="832.0" cx="640.9999999999999" class="seat-balcony-b-24 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="826.0" cx="653.9999999999999" class="seat-balcony-b-26 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="820.0" cx="666.9999999999999" class="seat-balcony-b-28 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="814.0" cx="679.9999999999999" class="seat-balcony-b-30 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="807.0" cx="692.9999999999999" class="seat-balcony-b-32 section-grey" />
           </g>
           <g class="row-balcony-a_3">
-            <circle fill="#ECECEF" r="6" cy="851.0" cx="497.9999999999999" class="seat-balcony-a-2 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="850.0" cx="510.9999999999999" class="seat-balcony-a-4 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="849.0" cx="523.9999999999999" class="seat-balcony-a-6 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="847.0" cx="536.9999999999999" class="seat-balcony-a-8 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="845.0" cx="549.9999999999999" class="seat-balcony-a-10 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="842.0" cx="562.9999999999999" class="seat-balcony-a-12 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="839.0" cx="575.9999999999999" class="seat-balcony-a-14 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="835.0" cx="588.9999999999999" class="seat-balcony-a-16 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="831.0" cx="601.9999999999999" class="seat-balcony-a-18 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="826.0" cx="614.9999999999999" class="seat-balcony-a-20 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="821.0" cx="627.9999999999999" class="seat-balcony-a-22 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="815.0" cx="640.9999999999999" class="seat-balcony-a-24 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="809.0" cx="653.9999999999999" class="seat-balcony-a-26 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="803.0" cx="666.9999999999999" class="seat-balcony-a-28 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="797.0" cx="679.9999999999999" class="seat-balcony-a-30 section-balcony-front" />
-            <circle fill="#ECECEF" r="6" cy="790.0" cx="692.9999999999999" class="seat-balcony-a-32 section-balcony-front" />
+            <circle fill="#ECECEF" r="6" cy="851.0" cx="497.9999999999999" class="seat-balcony-a-2 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="850.0" cx="510.9999999999999" class="seat-balcony-a-4 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="849.0" cx="523.9999999999999" class="seat-balcony-a-6 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="847.0" cx="536.9999999999999" class="seat-balcony-a-8 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="845.0" cx="549.9999999999999" class="seat-balcony-a-10 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="842.0" cx="562.9999999999999" class="seat-balcony-a-12 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="839.0" cx="575.9999999999999" class="seat-balcony-a-14 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="835.0" cx="588.9999999999999" class="seat-balcony-a-16 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="831.0" cx="601.9999999999999" class="seat-balcony-a-18 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="826.0" cx="614.9999999999999" class="seat-balcony-a-20 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="821.0" cx="627.9999999999999" class="seat-balcony-a-22 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="815.0" cx="640.9999999999999" class="seat-balcony-a-24 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="809.0" cx="653.9999999999999" class="seat-balcony-a-26 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="803.0" cx="666.9999999999999" class="seat-balcony-a-28 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="797.0" cx="679.9999999999999" class="seat-balcony-a-30 section-grey" />
+            <circle fill="#ECECEF" r="6" cy="790.0" cx="692.9999999999999" class="seat-balcony-a-32 section-grey" />
           </g>
         </g>
       </g>

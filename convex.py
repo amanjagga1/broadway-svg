@@ -17,21 +17,6 @@ with open(file_path, 'r') as file:
 # Parse the SVG file
 soup = BeautifulSoup(svg_content, 'lxml-xml')
 
-# Specify the class names
-# class_names = [
-#     'section-mezzanine-sides',
-#     'section-rear-side-orchestra',
-#     'section-front-mezzanine-sides',
-#     'section-orchestra-front-sides',
-#     'section-rear-orchestra-center',
-#     'section-orchestra'
-# ]
-
-# section_names = [
-#     'mezzanine',
-#     'orchestra',
-#     'balcony'
-# ]
 
 subsections = []
 for subsection in input.subsection_strings:
@@ -40,6 +25,8 @@ for subsection in input.subsection_strings:
     for token in tokens:
         if token is not None:
             collected_tokens.append(token.lower())
+    if tokens[-1]:
+        collected_tokens.insert(-1, "rows")
     subsections.append('section-' + '-'.join(collected_tokens))
 
 def apply_transform(element, x, y):
