@@ -1,0 +1,217 @@
+import xml.etree.ElementTree as ET
+from collections import defaultdict
+import numpy as np
+from sklearn.cluster import DBSCAN
+import matplotlib.pyplot as plt
+import json
+
+def create_seat_map(file_path):
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+    
+    namespaces = {'svg': 'http://www.w3.org/2000/svg'}
+    
+    seats = root.findall(".//*[@class]", namespaces)
+
+    seat_map = defaultdict(lambda: defaultdict(list))
+
+    for seat in seats:
+        class_name = seat.get('class')
+        
+        if class_name and class_name.startswith('seat'):
+            parts = class_name.split('-')
+            if len(parts) >= 4:
+                section = parts[1]
+                row = parts[2]
+                cx = seat.get('cx')
+                cy = seat.get('cy')
+                
+                if cx is not None and cy is not None:
+                    seat_map[section][row].append((seat, float(cx), float(cy)))
+    
+    return seat_map
+
+def find_section_center(all_coords):
+    center_x = np.mean(all_coords[:, 0])
+    return center_x
+
+def classify_seat(x, section_center_x, left_border, right_border):
+    if x < left_border:
+        return "L"
+    elif x > right_border:
+        return "R"
+    else:
+        return "M"
+
+import matplotlib.colors as mcolors
+
+def cluster_and_classify(seat_map):
+    classified_seats = defaultdict(lambda: {
+        "L": {"top": defaultdict(list), "mid": defaultdict(list), "rear": defaultdict(list)},
+        "C": {"top": defaultdict(list), "mid": defaultdict(list), "rear": defaultdict(list)},
+        "R": {"top": defaultdict(list), "mid": defaultdict(list), "rear": defaultdict(list)}
+    })
+
+    for section, rows in seat_map.items():
+        all_coords = []
+        all_seats = []
+        for row, seats in rows.items():
+            for seat in seats:
+                all_coords.append((seat[1], seat[2]))
+                all_seats.append(seat)
+        
+        if not all_coords:
+            continue
+
+        all_coords = np.array(all_coords)
+        
+        # Calculate the center of the section
+        section_center_x = find_section_center(all_coords)
+        
+        eps = 24
+        db = DBSCAN(eps=eps, min_samples=2).fit(all_coords)
+        labels = db.labels_
+
+        unique_labels = set(labels)
+        n_clusters = len(unique_labels) - (1 if -1 in labels else 0)
+
+        # Prepare for plotting
+        plt.figure(figsize=(12, 8))
+        base_colors = {'L': 'red', 'C': 'green', 'R': 'blue'}
+        colors = {
+            'L': {'top': '#FF5733', 'mid': '#33FF57', 'rear': '#3357FF'},
+            'C': {'top': '#FF33A6', 'mid': '#FFDB33', 'rear': '#33FFF3'},
+            'R': {'top': '#8D33FF', 'mid': '#FF5733', 'rear': '#57FF33'}
+        }
+
+        # Function to classify row position
+        def classify_row_position(row, total_rows):
+            if row < total_rows / 3:
+                return "top"
+            elif row < 2 * total_rows / 3:
+                return "mid"
+            else:
+                return "rear"
+
+        if n_clusters >= 3:
+            # Use clustering to classify seats
+            for k in unique_labels:
+                if k == -1:
+                    continue  # Skip noise points
+
+                class_member_mask = (labels == k)
+                xy = all_coords[class_member_mask]
+                
+                # Calculate the cluster center
+                cluster_center = np.mean(xy, axis=0)
+                cluster_tag = "C"
+                if cluster_center[0] < section_center_x - 5:
+                    cluster_tag = "L"
+                elif cluster_center[0] > section_center_x + 5:
+                    cluster_tag = "R"
+                
+                # Collect all rows in this cluster
+                cluster_rows = set()
+                for coord in xy:
+                    seat_index = np.where((all_coords == coord).all(axis=1))[0][0]
+                    seat = all_seats[seat_index]
+                    row = seat[0].get('class').split('-')[2]
+                    cluster_rows.add(row)
+                
+                # Sort rows and assign positions
+                sorted_rows = sorted(cluster_rows)
+                total_rows = len(sorted_rows)
+                row_positions = {row: classify_row_position(i, total_rows) for i, row in enumerate(sorted_rows)}
+                
+                # Classify seats in this cluster
+                for coord in xy:
+                    seat_index = np.where((all_coords == coord).all(axis=1))[0][0]
+                    seat = all_seats[seat_index]
+                    row = seat[0].get('class').split('-')[2]
+                    row_position = row_positions[row]
+                    classified_seats[section][cluster_tag][row_position][row].append(seat)
+
+                    # Plot the point
+                    plt.scatter(coord[0], coord[1], c=colors[cluster_tag][row_position], alpha=0.6)
+
+        else:
+            # Find the row with max seats and use it to divide the section
+            max_row = max(rows.items(), key=lambda x: len(x[1]))
+            max_row_coords = [seat[1] for seat in max_row[1]]
+            left_border = min(max_row_coords) + (max(max_row_coords) - min(max_row_coords)) / 3
+            right_border = max(max_row_coords) - (max(max_row_coords) - min(max_row_coords)) / 3
+
+            # Collect all rows
+            all_rows = set(row for seat in all_seats for row in seat[0].get('class').split('-')[2:3])
+            sorted_rows = sorted(all_rows)
+            total_rows = len(sorted_rows)
+            row_positions = {row: classify_row_position(i, total_rows) for i, row in enumerate(sorted_rows)}
+
+            for seat in all_seats:
+                elem, cx, cy = seat
+                classification = classify_seat(cx, section_center_x, left_border, right_border)
+                row = elem.get('class').split('-')[2]
+                row_position = row_positions[row]
+                classified_seats[section][classification][row_position][row].append(seat)
+
+                # Plot the point
+                plt.scatter(cx, cy, c=colors[classification][row_position], alpha=0.6)
+
+            # Add vertical lines for borders
+            plt.axvline(x=left_border, color='gray', linestyle=':', label='Left Border')
+            plt.axvline(x=right_border, color='gray', linestyle=':', label='Right Border')
+
+        # Add vertical line for center
+        plt.axvline(x=section_center_x, color='black', linestyle='--', label='Center')
+
+        plt.title(f'Section: {section} (Clusters: {n_clusters})')
+        plt.xlabel('X coordinate')
+        plt.ylabel('Y coordinate')
+
+        # Create a custom legend
+        legend_elements = [
+            plt.Line2D([0], [0], marker='o', color='w', label=f'{pos.capitalize()} {loc}',
+                       markerfacecolor=colors[loc][pos], markersize=10)
+            for loc in ['L', 'C', 'R'] for pos in ['top', 'mid', 'rear']
+        ]
+        plt.legend(handles=legend_elements, loc='center left', bbox_to_anchor=(1, 0.5))
+
+        plt.grid(True, alpha=0.3)
+        plt.tight_layout()
+        plt.savefig(f'{section}_classification.png', dpi=300, bbox_inches='tight')
+        plt.close()
+
+    return classified_seats
+
+def classify_seat(x, section_center_x, left_border, right_border):
+    if x < left_border:
+        return "L"
+    elif x > right_border:
+        return "R"
+    else:
+        return "C"
+
+class CustomEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, ET.Element):
+            return {
+                "tag": obj.tag,
+                "attrib": obj.attrib
+            }
+        return super().default(obj)
+
+def save_json(data, filename):
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=2, cls=CustomEncoder)
+
+# Main execution
+if __name__ == "__main__":
+    file_path = '508.svg'
+    seat_map = create_seat_map(file_path)
+    classified_seats = cluster_and_classify(seat_map)
+
+    # Save classified_seats to a JSON file
+    output_filename = 'classified_seats.json'
+    save_json(classified_seats, output_filename)
+    print(f"Classified seats information saved to {output_filename}")
+    print("Classification plots saved as PNG files.")
