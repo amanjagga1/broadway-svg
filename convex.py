@@ -55,11 +55,18 @@ def apply_transform(element, x, y):
         if 'matrix' in transform:
             matrix_values = re.findall(r'matrix\(([^)]+)\)', transform)
             if matrix_values:
-                a, b, c, d, e, f = map(float, matrix_values[0].split(' '))
-                x_new = a * x + c * y + e
-                y_new = b * x + d * y + f
-                x, y = x_new, y_new
+                # Handle both space and comma separated values
+                cleaned_matrix_values = re.split(r'[\s,]+', matrix_values[0].strip())
+                try:
+                    a, b, c, d, e, f = map(float, cleaned_matrix_values)
+                    x_new = a * x + c * y + e
+                    y_new = b * x + d * y + f
+                    x, y = x_new, y_new
+                except ValueError as ve:
+                    print(f"ValueError: {ve}. Unable to convert matrix values to floats: {cleaned_matrix_values}")
+                    return x, y  # Return original values if conversion fails
     return x, y
+
 
 def get_default_position(element):
     # Default position (0, 0) which will be transformed accordingly
@@ -189,8 +196,8 @@ polygons_by_class = {class_name: cluster_and_create_polygons(points) for class_n
 
 # Create a new SVG with polygons and text elements
 dwg = svgwrite.Drawing(size=("850px", "1000px"))
-stage_element = soup.find(class_='stage').find('path')
-dwg.add(dwg.path(d= stage_element.attrs['d'], fill="#C4C4C4",  transform="matrix(1, 0, 0, 1, 0, -46)"))
+# stage_element = soup.find(class_='stage').find('path')
+# dwg.add(dwg.path(d= stage_element.attrs['d'], fill="#C4C4C4",  transform="matrix(1, 0, 0, 1, 0, -46)"))
 
 # labels = soup.find(class_='labelsareas').find_all('text')
 # for label in labels:

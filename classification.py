@@ -226,7 +226,7 @@ def save_json(data, filename):
 
 # Main execution
 if __name__ == "__main__":
-    file_path = 'transformed_507.svg'
+    file_path = '508.svg'
     seat_map = create_seat_map(file_path)
     classified_seats, clustered_seats = cluster_and_classify(seat_map)
 
