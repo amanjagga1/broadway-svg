@@ -3,81 +3,10 @@ import matplotlib.pyplot as plt
 import input
 import utils
 import re
+import json
 
-# Load the SVG file
-file_path = 'transformed_' + input.input_svg
-tree = ET.parse(file_path)
-root = tree.getroot()
-
-# Extracting namespaces correctly
-for elem in root.iter():
-    if '}' in elem.tag:
-        elem.tag = elem.tag.split('}', 1)[1]  # Strip namespace
-    elem.attrib = {k.split('}', 1)[1] if '}' in k else k: v for k, v in elem.attrib.items()}
-
-# Function to recursively find all elements with a specific class pattern
-def find_elements_with_class_pattern(element, pattern):
-    matching_elements = []
-    if 'class' in element.attrib and pattern in element.attrib['class']:
-        matching_elements.append(element)
-    for child in element:
-        matching_elements.extend(find_elements_with_class_pattern(child, pattern))
-    return matching_elements
-
-# Finding all sections with class names that start with 'area-'
-sections = find_elements_with_class_pattern(root, 'area-')
-
-# Extract seats within each section
-def extract_seats(section):
-    seats = []
-    for elem in section.iter('circle'):
-        cx = float(elem.attrib.get('cx', 0))
-        cy = float(elem.attrib.get('cy', 0))
-        seats.append((elem, cx, cy))
-    return seats
-
-# Calculate boundaries for a section
-def calculate_boundaries(seats):
-    min_x = min(seat[1] for seat in seats)
-    max_x = max(seat[1] for seat in seats)
-    min_y = min(seat[2] for seat in seats)
-    max_y = max(seat[2] for seat in seats)
-    return min_x, max_x, min_y, max_y
-
-# Define the boundaries for the subsections
-def classify_seat(cx, cy, min_x, max_x, min_y, max_y, section_class, vertical, horizontal, rows):
-    width = max_x - min_x
-    height = max_y - min_y
-    horizontal_class = vertical_class = 'entire'
-    
-    if horizontal:
-        if horizontal == 'front' and cy < min_y + height / 2.5:
-            horizontal_class = 'front'
-        elif horizontal == 'mid' and min_y + height / 2.5 <= cy < min_y + 2 * height / 3:
-            horizontal_class = 'mid'
-        elif horizontal in ['rear', 'far', 'last'] and cy >= min_y + 2 * height / 3:
-            horizontal_class = horizontal
-
-    if vertical:
-        if vertical == 'sides':
-            if cx < min_x + width / 3 or cx > min_x + 2 * width / 3:
-                vertical_class = 'sides'
-            else:
-                vertical_class = 'center'
-        elif vertical == 'center' and min_x + width / 3 <= cx < min_x + 2 * width / 3:
-            vertical_class = 'center'
-    
-    class_parts = [f'section-{section_class}']
-    
-    if horizontal_class != 'entire':
-        class_parts.append(horizontal_class)
-    if vertical_class != 'entire':
-        class_parts.append(vertical_class)
-    
-    if rows:
-        class_parts.append(f'rows-{rows}')
-    
-    return '-'.join(class_parts)
+with open('classified_seats.json', 'r') as file:
+    classified_seats = json.load(file)
 
 # Parse subsection strings
 subsections = [utils.parse_subsection(subsection) for subsection in input.subsection_strings]
@@ -90,54 +19,82 @@ def is_row_in_range(row_label, row_range):
             return True
     return False
 
-def isSeatInRowRange(elem, row_range):
-    class_attr = elem.attrib.get('class', '')
-    first_class = class_attr.split()[0]
-
-    # Parse the first class
-    match = re.match(r'^seat-([a-z]+)-([a-z]+)-(\d+)$', first_class)
-    if match:
-        section_name, row_label, seat_number = match.groups()
-        
-        # Check if the row falls under the specified range
-        if is_row_in_range(row_label, row_range):
-            return True
-    return False
-
-# Update SVG with refined classifications
-for main_section, horizontal, vertical, rows in subsections:
-    for section in sections:
-        section_class = section.attrib['class'].replace('area-', '')
-        if section_class == main_section:
-            seats = extract_seats(section)
-            if seats:
-                min_x, max_x, min_y, max_y = calculate_boundaries(seats)
-                for elem, cx, cy in seats:
+# Function to update seat classifications in the JSON structure
+def update_seat_classifications(classified_seats, subsections):
+    for main_section, horizontal, vertical, rows in subsections:
+        if main_section in classified_seats:
+            for vert_div, horiz_sections in classified_seats[main_section].items():                
+                if vertical == 'sides' and vert_div not in ['L', 'R']:
+                    continue
+                if vertical == 'center' and vert_div != 'C':
+                    continue
+                if vertical and vertical != 'sides' and vert_div != vertical[0].upper():
+                    continue
+                for horiz_div, rows_data in horiz_sections.items():
+                    if horizontal and horiz_div.lower() != horizontal:
+                        continue
+                    new_class = f"section-{main_section}"
+                    if horizontal:
+                        new_class = new_class + "-"+horizontal
+                    if vertical:
+                        new_class = new_class +"-"+vertical
                     if rows:
-                        if not isSeatInRowRange(elem, rows):
+                        new_class = new_class +"-rows-"+rows
+
+                    for row_name, seats in rows_data.items():
+                        if rows and not is_row_in_range(row_name, rows):
                             continue
-                    new_class = classify_seat(cx, cy, min_x, max_x, min_y, max_y, main_section, vertical, horizontal, rows)
-                    elem.set('class', elem.get('class', '') + ' ' + new_class)
+                        for seat in seats:
+                            elem, cx, cy = seat
+                            elem['attrib']['class'] += f" {new_class}"
+    
+    # Assign 'section-grey' class to any remaining seats
+    for main_section, sections in classified_seats.items():
+        for vert_div, horiz_sections in sections.items():
+            for horiz_div, rows_data in horiz_sections.items():
+                for row_name, seats in rows_data.items():
+                    for seat in seats:
+                        elem, cx, cy = seat
+                        if 'section-' not in elem['attrib'].get('class', ''):
+                            elem['attrib']['class'] += ' section-grey'
 
-# Assign 'section-grey' class to any remaining seats
-for section in sections:
-    seats = extract_seats(section)
-    for elem, cx, cy in seats:
-        if 'section-' not in elem.get('class', ''):
-            elem.set('class', elem.get('class', '') + ' section-grey')
+# Update the seat classifications
+update_seat_classifications(classified_seats, subsections)
 
-# Save the updated SVG with refined classifications
-refined_output_file_path = 'parsed_' + input.input_svg
-tree.write(refined_output_file_path)
+# Create a new SVG root element
+new_root = ET.Element('svg', xmlns="http://www.w3.org/2000/svg", version="1.1")
+
+# Function to create XML elements from the JSON data
+def create_seat_elements(seat_data):
+    for seat in seat_data:
+        elem_data, cx, cy = seat
+        elem = ET.Element(elem_data['tag'], attrib=elem_data['attrib'])
+        elem.attrib['cx'] = str(cx)
+        elem.attrib['cy'] = str(cy)
+        new_root.append(elem)
+
+# Recreate the SVG elements from the JSON data
+for main_section, vert_sections in classified_seats.items():
+    for vert_div, horiz_sections in vert_sections.items():
+        for horiz_div, rows_data in horiz_sections.items():
+            for row_name, seats in rows_data.items():
+                create_seat_elements(seats)
+
+# Write the new SVG to a file
+new_tree = ET.ElementTree(new_root)
+new_svg_path = 'modified_' + input.input_svg
+new_tree.write(new_svg_path)
 
 # Plotting the seat positions for visualization
 fig, ax = plt.subplots(figsize=(10, 10))
 colors = ['blue', 'green', 'red', 'orange', 'purple', 'brown']
-for i, section in enumerate(sections):
-    seats = extract_seats(section)
-    if seats:
-        x, y = zip(*[(seat[1], seat[2]) for seat in seats])
-        ax.scatter(x, y, color=colors[i % len(colors)], label=section.attrib['class'])
+
+for i, (main_section, vert_sections) in enumerate(classified_seats.items()):
+    for vert_div, horiz_sections in vert_sections.items():
+        for horiz_div, rows_data in horiz_sections.items():
+            for row_name, seats in rows_data.items():
+                x, y = zip(*[(seat[1], seat[2]) for seat in seats])
+                ax.scatter(x, y, color=colors[i % len(colors)], label=f"{main_section} {vert_div} {horiz_div} {row_name}")
 
 ax.set_aspect('equal')
 ax.set_xlabel('X Coordinate')
@@ -146,4 +103,4 @@ ax.legend()
 plt.title('Seat Positions by Section')
 plt.show()
 
-refined_output_file_path
+print(f"New SVG saved to: {new_svg_path}")

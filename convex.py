@@ -9,7 +9,7 @@ import re
 import xml.etree.ElementTree as ET
 
 # Load the SVG file
-file_path = 'parsed_' + input.input_svg
+file_path = 'modified_' + input.input_svg
 
 with open(file_path, 'r') as file:
     svg_content = file.read()

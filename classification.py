@@ -46,10 +46,11 @@ def classify_seat(x, section_center_x, left_border, right_border):
 import matplotlib.colors as mcolors
 
 def cluster_and_classify(seat_map):
+    clustered_seats = defaultdict(dict)
     classified_seats = defaultdict(lambda: {
-        "L": {"top": defaultdict(list), "mid": defaultdict(list), "rear": defaultdict(list)},
-        "C": {"top": defaultdict(list), "mid": defaultdict(list), "rear": defaultdict(list)},
-        "R": {"top": defaultdict(list), "mid": defaultdict(list), "rear": defaultdict(list)}
+        "L": {"front": defaultdict(list), "mid": defaultdict(list), "rear": defaultdict(list)},
+        "C": {"front": defaultdict(list), "mid": defaultdict(list), "rear": defaultdict(list)},
+        "R": {"front": defaultdict(list), "mid": defaultdict(list), "rear": defaultdict(list)}
     })
 
     for section, rows in seat_map.items():
@@ -75,19 +76,38 @@ def cluster_and_classify(seat_map):
         unique_labels = set(labels)
         n_clusters = len(unique_labels) - (1 if -1 in labels else 0)
 
+        # Store the initial clustering data
+        for k in unique_labels:
+            if k == -1:
+                continue  # Skip noise points
+
+            class_member_mask = (labels == k)
+            xy = all_coords[class_member_mask]
+            clustered_seats[section][f'cluster{k+1}'] = [
+                {
+                    "seat": {
+                        "tag": seat[0].tag,
+                        "attrib": seat[0].attrib
+                    },
+                    "cx": coord[0],
+                    "cy": coord[1]
+                }
+                for coord, seat in zip(xy, all_seats)
+            ]
+
         # Prepare for plotting
         plt.figure(figsize=(12, 8))
         base_colors = {'L': 'red', 'C': 'green', 'R': 'blue'}
         colors = {
-            'L': {'top': '#FF5733', 'mid': '#33FF57', 'rear': '#3357FF'},
-            'C': {'top': '#FF33A6', 'mid': '#FFDB33', 'rear': '#33FFF3'},
-            'R': {'top': '#8D33FF', 'mid': '#FF5733', 'rear': '#57FF33'}
+            'L': {'front': '#FF5733', 'mid': '#33FF57', 'rear': '#3357FF'},
+            'C': {'front': '#FF33A6', 'mid': '#FFDB33', 'rear': '#33FFF3'},
+            'R': {'front': '#8D33FF', 'mid': '#FF5733', 'rear': '#57FF33'}
         }
 
         # Function to classify row position
         def classify_row_position(row, total_rows):
             if row < total_rows / 3:
-                return "top"
+                return "front"
             elif row < 2 * total_rows / 3:
                 return "mid"
             else:
@@ -172,7 +192,7 @@ def cluster_and_classify(seat_map):
         legend_elements = [
             plt.Line2D([0], [0], marker='o', color='w', label=f'{pos.capitalize()} {loc}',
                        markerfacecolor=colors[loc][pos], markersize=10)
-            for loc in ['L', 'C', 'R'] for pos in ['top', 'mid', 'rear']
+            for loc in ['L', 'C', 'R'] for pos in ['front', 'mid', 'rear']
         ]
         plt.legend(handles=legend_elements, loc='center left', bbox_to_anchor=(1, 0.5))
 
@@ -181,7 +201,7 @@ def cluster_and_classify(seat_map):
         plt.savefig(f'{section}_classification.png', dpi=300, bbox_inches='tight')
         plt.close()
 
-    return classified_seats
+    return classified_seats, clustered_seats
 
 def classify_seat(x, section_center_x, left_border, right_border):
     if x < left_border:
@@ -206,12 +226,18 @@ def save_json(data, filename):
 
 # Main execution
 if __name__ == "__main__":
-    file_path = '508.svg'
+    file_path = 'transformed_507.svg'
     seat_map = create_seat_map(file_path)
-    classified_seats = cluster_and_classify(seat_map)
+    classified_seats, clustered_seats = cluster_and_classify(seat_map)
 
     # Save classified_seats to a JSON file
-    output_filename = 'classified_seats.json'
-    save_json(classified_seats, output_filename)
-    print(f"Classified seats information saved to {output_filename}")
+    output_filename_classified = 'classified_seats.json'
+    save_json(classified_seats, output_filename_classified)
+    print(f"Classified seats information saved to {output_filename_classified}")
+
+    # Save clustered_seats to a JSON file
+    output_filename_clustered = 'clustered_seats.json'
+    save_json(clustered_seats, output_filename_clustered)
+    print(f"Clustered seats information saved to {output_filename_clustered}")
+
     print("Classification plots saved as PNG files.")
