@@ -8,27 +8,6 @@ import input
 import re
 import xml.etree.ElementTree as ET
 
-# Load the SVG file
-file_path = 'modified_' + input.input_svg
-
-with open(file_path, 'r') as file:
-    svg_content = file.read()
-
-# Parse the SVG file
-soup = BeautifulSoup(svg_content, 'lxml-xml')
-
-
-subsections = []
-for subsection in input.subsection_strings:
-    tokens = utils.parse_subsection(subsection)
-    collected_tokens = []
-    for token in tokens:
-        if token is not None:
-            collected_tokens.append(token.lower())
-    if tokens[-1]:
-        collected_tokens.insert(-1, "rows")
-    subsections.append('section-' + '-'.join(collected_tokens))
-
 def apply_transform(element, x, y):
     if 'transform' in element.attrs:
         transform = element['transform']
@@ -102,58 +81,6 @@ def get_points_of_path(element):
     # For simplicity, this function can be expanded as needed
     return []
 
-# Extract points and text elements grouped by class
-points_by_class = {}
-text_elements = []
-
-print(subsections)
-total = 0
-for element in soup.find_all():
-    if 'class' in element.attrs:
-        class_names_in_element = element['class'].split(' ')
-        for class_name in class_names_in_element:
-            # print(class_name)
-            if 'section-' in class_name:
-                # print(class_name)
-                if class_name not in subsections:
-                    class_name = 'section-constant'
-                if class_name not in points_by_class.keys():
-                    points_by_class[class_name] = []
-                if element.name == 'circle':
-                    if 'cx' in element.attrs and 'cy' in element.attrs:
-                        cx = float(element['cx'])
-                        cy = float(element['cy'])
-                        cx, cy = apply_transform(element, cx, cy)
-                    else:
-                        cx, cy = get_default_position(element)
-                    # print('adding point', cx, cy, class_name)
-                    points_by_class[class_name].append((cx, cy))
-                    total = total + 1
-
-                # elif element.name == 'rect' and 'x' in element.attrs and 'y' in element.attrs:
-                #     cx, cy = get_center_of_rect(element)
-                #     points_by_class[class_name].append((cx, cy))
-                # elif element.name == 'line' and 'x1' in element.attrs and 'y1' in element.attrs and 'x2' in element.attrs and 'y2' in element.attrs:
-                #     cx, cy = get_midpoint_of_line(element)
-                #     points_by_class[class_name].append((cx, cy))
-                # elif element.name == 'polygon' and 'points' in element.attrs:
-                #     points = get_points_of_polygon(element)
-                #     points_by_class[class_name].extend(points)
-                # elif element.name == 'path' and 'd' in element.attrs:
-                #     points = get_points_of_path(element)
-                #     points_by_class[class_name].extend(points)
-    # elif element.name == 'tspan' or element.name == 'text':
-    #     print(element)
-    #     if 'x' in element.attrs and 'y' in element.attrs :
-    #         x = float(element['x'])
-    #         y = float(element['y'])
-    #     else:
-    #         x, y = get_default_position(element)
-    #     x, y = apply_transform(element, x, y)
-        # text_elements.append((x, y, element.text))
-            # else:
-                # print(f"Unhandled element or missing attributes: {element.name} with class: {class_name}")
-
 # Function to create polygons using the convex hull algorithm
 def create_polygon(points):
     if len(points) < 6:
@@ -190,40 +117,71 @@ def cluster_and_create_polygons(points, eps=30, min_samples=1):
     
     return polygons
 
-# print(points_by_class.items())
-# Create polygons for each class
-polygons_by_class = {class_name: cluster_and_create_polygons(points) for class_name, points in points_by_class.items()}
+def run_convex(svg_name, subsection_strings, input_svg):
+    # Load the SVG file
+    file_path = 'parsed_svgs/' + 'parsed_' + svg_name
 
-# Create a new SVG with polygons and text elements
-dwg = svgwrite.Drawing(size=("850px", "1000px"))
-# stage_element = soup.find(class_='stage').find('path')
-# dwg.add(dwg.path(d= stage_element.attrs['d'], fill="#C4C4C4",  transform="matrix(1, 0, 0, 1, 0, -46)"))
+    with open(file_path, 'r') as file:
+        svg_content = file.read()
 
-# labels = soup.find(class_='labelsareas').find_all('text')
-# for label in labels:
-#     # print(label.attrs)
-#     if 'x' in label.attrs and 'y' in label.attrs :
-#         x = float(label.attrs['x'])
-#         y = float(label.attrs['y'])
-#         # print(x, y)
-#     else:
-#         x, y = get_default_position(element)
-#     x, y = apply_transform(element, x, y)
-    
-#     dwg.add(dwg.text(label.text, insert=(x, y), fill="black"))
+    # Parse the SVG file
+    soup = BeautifulSoup(svg_content, 'lxml-xml')
 
-for class_name, polygons in polygons_by_class.items():
-    for polygon in polygons:
-        if polygon:
-            dwg.add(dwg.polygon(points=polygon, fill="#C4C4C4", id=class_name))
+    subsections = []
+    for subsection in subsection_strings:
+        tokens = utils.parse_subsection(subsection)
+        collected_tokens = []
+        for token in tokens:
+            if token is not None:
+                collected_tokens.append(token.lower())
+        if tokens[-1]:
+            collected_tokens.insert(-1, "rows")
+        subsections.append('section-' + '-'.join(collected_tokens))
 
-# Add text elements to the new SVG
-# for x, y, text in text_elements:
-#     # print(text)
-#     dwg.add(dwg.text(text, insert=(x, y), fill="black"))
+    # Extract points and text elements grouped by class
+    points_by_class = {}
+    text_elements = []
 
-# Save the new SVG
-new_svg_path = "output_" + input.input_svg
-dwg.saveas(new_svg_path)
+    print(subsections)
+    total = 0
+    for element in soup.find_all():
+        if 'class' in element.attrs:
+            class_names_in_element = element['class'].split(' ')
+            for class_name in class_names_in_element:
+                if 'section-' in class_name:
+                    if class_name not in subsections:
+                        class_name = 'section-constant'
+                    if class_name not in points_by_class.keys():
+                        points_by_class[class_name] = []
+                    if element.name == 'circle':
+                        if 'cx' in element.attrs and 'cy' in element.attrs:
+                            cx = float(element['cx'])
+                            cy = float(element['cy'])
+                            cx, cy = apply_transform(element, cx, cy)
+                        else:
+                            cx, cy = get_default_position(element)
+                        points_by_class[class_name].append((cx, cy))
+                        total = total + 1
 
-print(f"New SVG file saved to {new_svg_path}")
+    # Create polygons for each class
+    polygons_by_class = {class_name: cluster_and_create_polygons(points) for class_name, points in points_by_class.items()}
+
+    # Create a new SVG with polygons and text elements
+    dwg = svgwrite.Drawing(size=("850px", "1000px"))
+
+    for class_name, polygons in polygons_by_class.items():
+        for polygon in polygons:
+            if polygon:
+                dwg.add(dwg.polygon(points=polygon, fill="#C4C4C4", id=class_name))
+
+    # Save the new SVG
+    new_svg_path = "output_svgs/" + "output_" + svg_name
+    dwg.saveas(new_svg_path)
+
+    print(f"New SVG file saved to {new_svg_path}")
+    return new_svg_path
+
+if __name__ == "__main__":
+    import input
+    subsections, svg_name, input_svg = input.process_input()
+    run_convex(svg_name, subsections, input_svg)

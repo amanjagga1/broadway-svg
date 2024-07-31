@@ -2,11 +2,7 @@ from xml.etree import ElementTree as ET
 import re
 import numpy as np
 import input
-# Load the SVG file
-tree = ET.parse(input.input_svg)
-root = tree.getroot()
-# Namespace
-ns = {'svg': 'http://www.w3.org/2000/svg'}
+
 # Function to parse transform attribute and return the resulting matrix
 def parse_transform(transform):
     # Identity matrix
@@ -98,8 +94,26 @@ def process_element(element, transform_matrix=np.matrix([[1, 0, 0], [0, 1, 0], [
     for child in element:
         process_element(child, transform_matrix)
 # Start processing from the root element
-process_element(root)
-# Save the updated SVG
-updated_svg_path = 'transformed_' + input.input_svg
-tree.write(updated_svg_path)
-print(updated_svg_path)
+
+def transform_svg(input_svg, output_svg):
+    # Load the SVG file
+    tree = ET.parse(input_svg)
+    root = tree.getroot()
+
+    # Start processing from the root element
+    process_element(root)
+
+    # Save the updated SVG
+    tree.write(output_svg)
+    print(f"Transformed SVG saved to: {output_svg}")
+
+
+def run_transform(input_svg, svg_name):
+    output_svg = 'transformed_svgs/' + 'transformed_' + svg_name
+    transform_svg(input_svg, output_svg)
+    return output_svg
+
+if __name__ == "__main__":
+    import input
+    subsections, svg_name, input_svg = input.process_input()
+    run_transform(input_svg, svg_name)

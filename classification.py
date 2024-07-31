@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.cluster import DBSCAN
 import matplotlib.pyplot as plt
 import json
+import matplotlib.colors as mcolors
 
 def create_seat_map(file_path):
     tree = ET.parse(file_path)
@@ -42,8 +43,6 @@ def classify_seat(x, section_center_x, left_border, right_border):
         return "R"
     else:
         return "M"
-
-import matplotlib.colors as mcolors
 
 def cluster_and_classify(seat_map):
     clustered_seats = defaultdict(dict)
@@ -213,20 +212,26 @@ def save_json(data, filename):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=2, cls=CustomEncoder)
 
-# Main execution
-if __name__ == "__main__":
-    file_path = 'transformed_507.svg'
+def run_classification(svg_name):
+    file_path = 'transformed_svgs/' + 'transformed_' + svg_name
     seat_map = create_seat_map(file_path)
     classified_seats, clustered_seats = cluster_and_classify(seat_map)
 
     # Save classified_seats to a JSON file
-    output_filename_classified = 'classified_seats.json'
+    output_filename_classified = 'classified_json/' + 'classified_seats_' + svg_name.split('.')[0] + '.json'
     save_json(classified_seats, output_filename_classified)
     print(f"Classified seats information saved to {output_filename_classified}")
 
     # Save clustered_seats to a JSON file
-    output_filename_clustered = 'clustered_seats.json'
+    output_filename_clustered = 'classified_json/' + 'clustered_seats_' + svg_name.split('.')[0] + '.json'
     save_json(clustered_seats, output_filename_clustered)
     print(f"Clustered seats information saved to {output_filename_clustered}")
 
     print("Classification plots saved as PNG files.")
+
+    return output_filename_classified, output_filename_clustered
+
+if __name__ == "__main__":
+    import input
+    subsections, svg_name, input_svg = input.process_input()
+    run_classification(svg_name)
