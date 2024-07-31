@@ -56,10 +56,14 @@ def cluster_and_classify(seat_map):
     for section, rows in seat_map.items():
         all_coords = []
         all_seats = []
+        row_avg_y = {}
         for row, seats in rows.items():
+            y_coords = []
             for seat in seats:
                 all_coords.append((seat[1], seat[2]))
                 all_seats.append(seat)
+                y_coords.append(seat[2])
+            row_avg_y[row] = sum(y_coords) / len(y_coords)
         
         if not all_coords:
             continue
@@ -97,7 +101,6 @@ def cluster_and_classify(seat_map):
 
         # Prepare for plotting
         plt.figure(figsize=(12, 8))
-        base_colors = {'L': 'red', 'C': 'green', 'R': 'blue'}
         colors = {
             'L': {'front': '#FF5733', 'mid': '#33FF57', 'rear': '#3357FF'},
             'C': {'front': '#FF33A6', 'mid': '#FFDB33', 'rear': '#33FFF3'},
@@ -105,13 +108,18 @@ def cluster_and_classify(seat_map):
         }
 
         # Function to classify row position
-        def classify_row_position(row, total_rows):
-            if row < total_rows / 3:
+        def classify_row_position(index, total_rows):
+            if index < total_rows / 3:
                 return "front"
-            elif row < 2 * total_rows / 3:
+            elif index < 2 * total_rows / 3:
                 return "mid"
             else:
                 return "rear"
+
+        # Sort rows based on average y-coordinate (from top to bottom)
+        sorted_rows = sorted(row_avg_y, key=row_avg_y.get)
+        total_rows = len(sorted_rows)
+        row_positions = {row: classify_row_position(i, total_rows) for i, row in enumerate(sorted_rows)}
 
         if n_clusters >= 3:
             # Use clustering to classify seats
@@ -130,19 +138,6 @@ def cluster_and_classify(seat_map):
                 elif cluster_center[0] > section_center_x + 5:
                     cluster_tag = "R"
                 
-                # Collect all rows in this cluster
-                cluster_rows = set()
-                for coord in xy:
-                    seat_index = np.where((all_coords == coord).all(axis=1))[0][0]
-                    seat = all_seats[seat_index]
-                    row = seat[0].get('class').split('-')[2]
-                    cluster_rows.add(row)
-                
-                # Sort rows and assign positions
-                sorted_rows = sorted(cluster_rows)
-                total_rows = len(sorted_rows)
-                row_positions = {row: classify_row_position(i, total_rows) for i, row in enumerate(sorted_rows)}
-                
                 # Classify seats in this cluster
                 for coord in xy:
                     seat_index = np.where((all_coords == coord).all(axis=1))[0][0]
@@ -160,12 +155,6 @@ def cluster_and_classify(seat_map):
             max_row_coords = [seat[1] for seat in max_row[1]]
             left_border = min(max_row_coords) + (max(max_row_coords) - min(max_row_coords)) / 3
             right_border = max(max_row_coords) - (max(max_row_coords) - min(max_row_coords)) / 3
-
-            # Collect all rows
-            all_rows = set(row for seat in all_seats for row in seat[0].get('class').split('-')[2:3])
-            sorted_rows = sorted(all_rows)
-            total_rows = len(sorted_rows)
-            row_positions = {row: classify_row_position(i, total_rows) for i, row in enumerate(sorted_rows)}
 
             for seat in all_seats:
                 elem, cx, cy = seat
@@ -226,7 +215,7 @@ def save_json(data, filename):
 
 # Main execution
 if __name__ == "__main__":
-    file_path = '508.svg'
+    file_path = 'transformed_507.svg'
     seat_map = create_seat_map(file_path)
     classified_seats, clustered_seats = cluster_and_classify(seat_map)
 
