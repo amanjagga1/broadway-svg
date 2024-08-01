@@ -15,13 +15,13 @@ def main():
     print("Classifying seats...")
     classified_json, clustered_json = classification.run_classification(svg_name)
 
-    print("Running Parser...")
-    parsed_svg = parser.run_parser(subsections, svg_name, transformed_svg, classified_json, clustered_json)
+    # print("Running Parser...")
+    # parsed_svg = parser.run_parser(subsections, svg_name, transformed_svg, classified_json, clustered_json)
 
-    print("Creating convex hull polygons...")
-    output_svg = convex.run_convex(svg_name, subsections, input_svg)
+    # print("Creating convex hull polygons...")
+    # output_svg = convex.run_convex(svg_name, subsections, input_svg)
 
-    print(f"Output SVG: {output_svg}")
+    # print(f"Output SVG: {output_svg}")
     print("All scripts executed successfully.")
 
 if __name__ == "__main__":
