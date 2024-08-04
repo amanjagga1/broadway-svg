@@ -46,7 +46,7 @@ def write_svg_file(svg_content, file_path):
         file.write(svg_content)
 
 def process_sections(data):
-    svg_content = '<svg xmlns="http://www.w3.org/2000/svg">\n'
+    svg_content = ''
 
     for section in data:
         section_name = section['section']
@@ -63,13 +63,40 @@ def process_sections(data):
         
         svg_content += '</g>\n'
 
-    svg_content += '</svg>'
     return svg_content
 
+def process_additional_clusters(data):
+    svg_content = '<g class="primary-clusters">\n'
+
+    for section_name, clusters in data.items():
+        for cluster_name, seats in clusters.items():
+            coordinates = [{'cx': seat['cx'], 'cy': seat['cy']} for seat in seats]
+            
+            svg_content += f'<g class="{saxutils.escape(section_name)} {saxutils.escape(cluster_name)}">\n'
+            
+            polygon = generate_svg_polygon(coordinates)
+            if polygon:
+                svg_content += polygon + '\n'
+            
+            svg_content += '</g>\n'
+
+    svg_content += '</g>\n'
+    return svg_content
+
+def read_additional_json_file(file_path):
+    with open(file_path, 'r') as file:
+        data = json.load(file)
+    return data
+
 input_file_path = './outputs/filtered_output.json'
+additional_input_file_path = './outputs/parsed_507.json'
 output_file_path = 'output.svg'
 
 data = read_json_file(input_file_path)
-svg_content = process_sections(data)
-write_svg_file(svg_content, output_file_path)
+additional_data = read_additional_json_file(additional_input_file_path)
 
+additional_svg_content = process_additional_clusters(additional_data)
+section_svg_content = process_sections(data)
+
+final_svg_content = '<svg xmlns="http://www.w3.org/2000/svg">\n' + additional_svg_content + section_svg_content + '</svg>'
+write_svg_file(final_svg_content, output_file_path)

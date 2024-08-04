@@ -10,7 +10,7 @@ def filter_section_name(title: str) -> str:
         return 'balcony'
     
 def sort_by_priority(arr):
-    return sorted(arr, key=lambda x: x['priorityValue'])
+    return sorted(arr, key=lambda x: x['priorityValue'], reverse=True)
 
 def read_clusters(classification_data, section_labels):
     vertical_labels = ["L", "C", "R"]
