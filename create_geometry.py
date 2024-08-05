@@ -117,15 +117,14 @@ def read_additional_json_file(file_path):
         data = json.load(file)
     return data
 
-input_file_path = './outputs/filtered_output.json'
-additional_input_file_path = './outputs/parsed_507.json'
-output_file_path = 'output.svg'
+def generate_svg(filtered_input_path, parsed_input_path, output_svg_path):
+    data = read_json_file(filtered_input_path)
+    additional_data = read_json_file(parsed_input_path)
 
-data = read_json_file(input_file_path)
-additional_data = read_additional_json_file(additional_input_file_path)
+    additional_svg_content = process_additional_clusters(additional_data)
+    section_svg_content = process_sections(data)
 
-additional_svg_content = process_additional_clusters(additional_data)
-section_svg_content = process_sections(data)
+    final_svg_content = '<svg xmlns="http://www.w3.org/2000/svg">\n' + additional_svg_content + section_svg_content + '</svg>'
+    write_svg_file(final_svg_content, output_svg_path)
 
-final_svg_content = '<svg xmlns="http://www.w3.org/2000/svg">\n' + additional_svg_content + section_svg_content + '</svg>'
-write_svg_file(final_svg_content, output_file_path)
+    print(f"SVG generation complete. Results saved to {output_svg_path}")

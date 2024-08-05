@@ -84,7 +84,3 @@ def svg_to_json(svg_file_path, json_output_path):
 
     with open(json_output_path, 'w') as json_file:
         json.dump(clustered_seats_by_section, json_file, indent=4)
-
-svg_file_path = './inputs/519.svg'
-json_output_path = './outputs/parsed_519.json'
-svg_to_json(svg_file_path, json_output_path)

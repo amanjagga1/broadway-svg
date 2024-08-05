@@ -6,8 +6,12 @@ def get_section_labels(section_name):
         sub_parts = name.split(" ")
         vertical_labels = []
         horizontal_labels = []
+        rows = None
 
         for sub_part in sub_parts:
+            if 'rows' in sub_part:
+                if re.match(r'^[a-z]{1,2}-[a-z]{1,2}$', sub_part):
+                    rows = sub_part
             for key, values in section_list.items():
                 if sub_part.lower() in values:
                     if key == "L" and "LL" in vertical_labels:
@@ -20,7 +24,7 @@ def get_section_labels(section_name):
                     elif key in horizontal_list:
                         horizontal_labels.append(key)
 
-        result.append({name: {"vertical": vertical_labels, "horizontal": horizontal_labels}})
+        result.append({name: {"vertical": vertical_labels, "horizontal": horizontal_labels, "rows": rows}})
 
     return result
 
@@ -37,6 +41,3 @@ section_list = {
 
 vertical_list = ["L", "R", "C", "LL", "RR"]
 horizontal_list = ["T", "B", "M"]
-
-res = get_section_labels("orchestra far sides")
-print(res)

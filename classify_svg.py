@@ -178,18 +178,13 @@ def filter_seats_by_row(seats_array):
             grouped_seats[row_name].append(item)
     return grouped_seats
 
-def main():
-    input_file = './outputs/parsed_507.json'
-    with open(input_file, 'r') as f:
+def process_classification(input_file_path, output_file_path):
+    with open(input_file_path, 'r') as f:
         clustered_data = json.load(f)
     
     result = classify(clustered_data)
     
-    output_file = './outputs/classifed_507.json'
-    with open(output_file, 'w') as f:
+    with open(output_file_path, 'w') as f:
         json.dump(result, f, indent=2)
     
-    print(f"Classification complete. Results saved to {output_file}")
-
-if __name__ == "__main__":
-    main()
+    print(f"Classification complete. Results saved to {output_file_path}")
