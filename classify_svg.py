@@ -50,16 +50,22 @@ def label_clusters(cluster_object, orientation, log=False):
                 divided_seats = divide_array_into_three_parts(seats)
                 
                 property = 'cx' if orientation == "x" else 'cy'
-                are_far_distant_seats = abs(divided_seats[0][-1][property] - divided_seats[2][0][property]) > 600 and len(seats) < 15
                 
-                if are_far_distant_seats:
-                    split_seats = split_array_by_mid_x(seats)
-                    initial_state[keys[0]].extend(split_seats[0])
-                    initial_state[keys[2]].extend(split_seats[1])
+                # Add this check to ensure all parts have elements
+                if all(divided_seats) and len(divided_seats[0]) > 0 and len(divided_seats[2]) > 0:
+                    are_far_distant_seats = abs(divided_seats[0][-1][property] - divided_seats[2][0][property]) > 600 and len(seats) < 15
+                    
+                    if are_far_distant_seats:
+                        split_seats = split_array_by_mid_x(seats)
+                        initial_state[keys[0]].extend(split_seats[0])
+                        initial_state[keys[2]].extend(split_seats[1])
+                    else:
+                        initial_state[keys[0]].extend(divided_seats[0])
+                        initial_state[keys[1]].extend(divided_seats[1])
+                        initial_state[keys[2]].extend(divided_seats[2])
                 else:
-                    initial_state[keys[0]].extend(divided_seats[0])
-                    initial_state[keys[1]].extend(divided_seats[1])
-                    initial_state[keys[2]].extend(divided_seats[2])
+                    # If we can't divide the seats, just add them all to the center
+                    initial_state[keys[1]].extend(seats)
     else:
         mid_indices = [(total_clusters + 1) // 2 - 1] if total_clusters % 2 != 0 else [total_clusters // 2 - 1, total_clusters // 2]
         sorted_clusters = sort_cluster_names(cluster_object, orientation)

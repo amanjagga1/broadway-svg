@@ -79,7 +79,7 @@ def main():
     with open(input_file, 'r') as f:
         classification_data = json.load(f)
     
-    result = read_clusters(classification_data,  [{'orchestra far sides': {'vertical': [], 'horizontal': []}}])
+    result = read_clusters(classification_data,  [{'orchestra': {'vertical': [], 'horizontal': []}}, {'mezzanine': {'vertical': ['C'], 'horizontal': []}}, {'balcony': {'vertical': [], 'horizontal': []}}])
     
     output_file = './outputs/filtered_output.json'
     with open(output_file, 'w') as f:
