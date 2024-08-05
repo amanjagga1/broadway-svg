@@ -1,7 +1,9 @@
 import json
 from sklearn.cluster import DBSCAN
 import numpy as np
-from scipy.spatial import ConvexHull
+from scipy.spatial import Delaunay
+from shapely.geometry import LineString, Polygon, MultiPolygon
+from shapely.ops import cascaded_union, polygonize
 import xml.sax.saxutils as saxutils
 
 def run_dbscan_clustering(data, eps=24, min_samples=4):
@@ -21,15 +23,42 @@ def run_dbscan_clustering(data, eps=24, min_samples=4):
     
     return clusters
 
-def generate_svg_polygon(data):
+def generate_svg_polygon(data, alpha=1.5):
     coordinates = np.array([[item['cx'], item['cy']] for item in data])
 
     if len(coordinates) < 3:
         print(f"Not enough points to form a polygon: {coordinates}")
         return None
 
-    hull = ConvexHull(coordinates)
-    hull_points = coordinates[hull.vertices]
+    tri = Delaunay(coordinates)
+    
+    edges = set()
+    for simplex in tri.simplices:
+        for i in range(3):
+            edge = tuple(sorted((simplex[i], simplex[(i+1)%3])))
+            edges.add(edge)
+    
+    def edge_length(edge):
+        p1, p2 = coordinates[edge[0]], coordinates[edge[1]]
+        return np.linalg.norm(p1 - p2)
+    
+    mean_length = np.mean([edge_length(edge) for edge in edges])
+    filtered_edges = [edge for edge in edges if edge_length(edge) < alpha * mean_length]
+    
+    lines = [LineString([coordinates[edge[0]], coordinates[edge[1]]]) for edge in filtered_edges]
+    
+    polygon_edges = cascaded_union(lines)
+    concave_hull = cascaded_union(list(polygonize(polygon_edges)))
+    
+    if isinstance(concave_hull, Polygon):
+        hull_points = list(concave_hull.exterior.coords)
+    elif isinstance(concave_hull, MultiPolygon):
+        # If multiple polygons are created, use the largest one
+        largest_polygon = max(concave_hull, key=lambda p: p.area)
+        hull_points = list(largest_polygon.exterior.coords)
+    else:
+        print("Failed to generate a valid concave hull")
+        return None
 
     svg_points = " ".join(f"{x},{y}" for x, y in hull_points)
     svg_polygon = f'<polygon points="{saxutils.escape(svg_points)}" style="fill:none;stroke:black;stroke-width:1" />'
