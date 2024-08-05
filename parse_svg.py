@@ -40,6 +40,11 @@ def parse_svg(svg_content):
         match = re.match(r'seat-([^-\s]+)-([^-\s]+)-([^-\s]+)', class_name)
         if match:
             section_name = match.group(1)
+            # This is a hardcoded edge case for TGIDs 519 and 1293
+            if section_name.startswith('front') or section_name.startswith('rear'):
+                section_name = section_name.replace('front', '').replace('rear', '').strip()
+
+            print(section_name)
             cx = float(circle.attrib.get('cx', '0'))
             cy = float(circle.attrib.get('cy', '0'))
             transform = circle.attrib.get('transform')
@@ -80,6 +85,6 @@ def svg_to_json(svg_file_path, json_output_path):
     with open(json_output_path, 'w') as json_file:
         json.dump(clustered_seats_by_section, json_file, indent=4)
 
-svg_file_path = './inputs/508.svg'
-json_output_path = './outputs/parsed_507.json'
+svg_file_path = './inputs/519.svg'
+json_output_path = './outputs/parsed_519.json'
 svg_to_json(svg_file_path, json_output_path)
