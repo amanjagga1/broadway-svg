@@ -8,11 +8,9 @@ import xml.sax.saxutils as saxutils
 
 def run_dbscan_clustering(data, eps=24, min_samples=4):
     coordinates = np.array([[item['cx'], item['cy']] for item in data])
-    print(f"Coordinates for DBSCAN: {coordinates}")
 
     db = DBSCAN(eps=eps, min_samples=min_samples).fit(coordinates)
     labels = db.labels_
-    print(f"DBSCAN labels: {labels}")
 
     clusters = []
     for label in set(labels):
@@ -23,7 +21,7 @@ def run_dbscan_clustering(data, eps=24, min_samples=4):
     
     return clusters
 
-def generate_svg_polygon(data, alpha=1.5):
+def generate_svg_polygon(data, section_name, alpha=1.5):
     coordinates = np.array([[item['cx'], item['cy']] for item in data])
 
     if len(coordinates) < 3:
@@ -61,7 +59,7 @@ def generate_svg_polygon(data, alpha=1.5):
         return None
 
     svg_points = " ".join(f"{x},{y}" for x, y in hull_points)
-    svg_polygon = f'<polygon points="{saxutils.escape(svg_points)}" style="fill:none;stroke:black;stroke-width:1" />'
+    svg_polygon = f'<polygon class="{section_name}" points="{saxutils.escape(svg_points)}" style="fill:#C4C4C4;" />'
 
     return svg_polygon
 
@@ -83,10 +81,10 @@ def process_sections(data):
         
         clusters = run_dbscan_clustering(coordinates)
         
-        svg_content += f'<g class="{saxutils.escape(section_name)}">\n'
+        svg_content += f'<g class="grouped-{saxutils.escape(section_name)}">\n'
         
         for cluster in clusters:
-            polygon = generate_svg_polygon(cluster)
+            polygon = generate_svg_polygon(cluster, section_name)
             if polygon:
                 svg_content += polygon + '\n'
         
@@ -101,9 +99,9 @@ def process_additional_clusters(data):
         for cluster_name, seats in clusters.items():
             coordinates = [{'cx': seat['cx'], 'cy': seat['cy']} for seat in seats]
             
-            svg_content += f'<g class="{saxutils.escape(section_name)} {saxutils.escape(cluster_name)}">\n'
+            svg_content += f'<g class="grouped-{saxutils.escape(section_name)} {saxutils.escape(cluster_name)}">\n'
             
-            polygon = generate_svg_polygon(coordinates)
+            polygon = generate_svg_polygon(coordinates, section_name)
             if polygon:
                 svg_content += polygon + '\n'
             
@@ -124,7 +122,7 @@ def generate_svg(filtered_input_path, parsed_input_path, output_svg_path):
     additional_svg_content = process_additional_clusters(additional_data)
     section_svg_content = process_sections(data)
 
-    final_svg_content = '<svg xmlns="http://www.w3.org/2000/svg">\n' + additional_svg_content + section_svg_content + '</svg>'
+    final_svg_content = '<svg viewbox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">\n' + additional_svg_content + section_svg_content + '</svg>'
     write_svg_file(final_svg_content, output_svg_path)
 
     print(f"SVG generation complete. Results saved to {output_svg_path}")
