@@ -6,10 +6,10 @@ from create_geometry import generate_svg
 
 def main():
     input_subsections = [
-        'Front Mezzanine'
+        'Balcony Rows A-D',
     ]
 
-    svg_name = "507"
+    svg_name = "508"
     svg_file_path = f'./inputs/{svg_name}.svg'
     json_output_path = f'./outputs/parsed_{svg_name}.json'
     classified_output_path = f'./outputs/classified_{svg_name}.json'

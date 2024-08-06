@@ -1,6 +1,6 @@
 import re
 def get_section_labels(section_name):
-    parts = section_name.split("/")
+    parts = re.split(r'\s*and\s*|\s*/\s*', section_name)
     result = []
 
     for name in parts:

@@ -11,7 +11,7 @@ def classify(clustered_data):
 
         horizontal_split = label_clusters(section_data, "x")
 
-        vertical_split = label_clusters(section_data, "y")
+        vertical_split = label_clusters(merge_clusters(section_data), "y")
 
         # Further horizontal split within each horizontal split section
         for h_label, h_data in horizontal_split.items():
@@ -103,19 +103,11 @@ def split_array_by_mid_x(arr):
     mid_x = (min_x + max_x) / 2
     return [obj for obj in arr if obj['cx'] < mid_x], [obj for obj in arr if obj['cx'] >= mid_x]
 
-def merge_clusters(obj):
-    result = {}
-    for key in obj:
-        result[key] = []
-        if isinstance(obj[key], dict):
-            for sub_key in obj[key]:
-                if isinstance(obj[key][sub_key], list):
-                    result[key].extend(obj[key][sub_key])
-                else:
-                    result[key].append(obj[key][sub_key])
-        elif isinstance(obj[key], list):
-            result[key] = obj[key]
-    return result
+def merge_clusters(clustered_data):
+    merged_data = {"cluster0": []}
+    for cluster in clustered_data.values():
+        merged_data["cluster0"].extend(cluster)
+    return merged_data
 
 def divide_array_into_three_parts(arr):
     total_length = len(arr)
