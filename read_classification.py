@@ -12,7 +12,7 @@ def filter_section_name(title: str) -> str:
     return None
 
 def sort_by_priority(arr):
-    return sorted(arr, key=lambda x: x['priorityValue'], reverse=True)
+    return sorted(arr, key=lambda x: x['priorityValue'])
 
 def is_row_in_range(row_label, row_range, sorted_rows):
     match = re.match(r'^([a-z]+)-([a-z]+)$', row_range)

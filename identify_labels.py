@@ -1,6 +1,6 @@
 import re
 def get_section_labels(section_name):
-    parts = re.split(r'\s*and\s*|\s*/\s*', section_name)
+    parts = re.split(r'\s*/\s*', section_name)
     result = []
 
     for name in parts:
@@ -15,11 +15,11 @@ def get_section_labels(section_name):
                     rows = sub_part.lower()  # Convert to lowercase
             for key, values in section_list.items():
                 if sub_part.lower() in values:
-                    if key == "L" and "LL" in vertical_labels:
+                    if key == "L" and ("LL" in vertical_labels or "LR" in vertical_labels or "RL" in vertical_labels):
                         continue
-                    if key == "R" and "RR" in vertical_labels:
+                    if key == "R" and ("RR" in vertical_labels or "LR" in vertical_labels or "RL" in vertical_labels):
                         continue
-                    
+
                     if key in vertical_list:
                         vertical_labels.append(key)
                     elif key in horizontal_list:
@@ -38,7 +38,9 @@ section_list = {
     "M": ["mid", "middle"],
     "LL": ["far", "extreme"],
     "RR": ["far", "extreme"],
+    "LR": ["near"],
+    "RL": ["near"],
 }
 
-vertical_list = ["L", "R", "C", "LL", "RR"]
+vertical_list = ["L", "R", "C", "LL", "RR", "LR", "RL"]
 horizontal_list = ["T", "B", "M"]

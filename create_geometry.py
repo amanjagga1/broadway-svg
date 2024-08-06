@@ -21,7 +21,7 @@ def run_dbscan_clustering(data, eps=24, min_samples=4):
     
     return clusters
 
-def generate_svg_polygon(data, section_name, alpha=1.5):
+def generate_svg_polygon(data, section_name, priority, alpha=1.5):
     coordinates = np.array([[item['cx'], item['cy']] for item in data])
 
     if len(coordinates) < 3:
@@ -59,7 +59,7 @@ def generate_svg_polygon(data, section_name, alpha=1.5):
         return None
 
     svg_points = " ".join(f"{x},{y}" for x, y in hull_points)
-    svg_polygon = f'<polygon class="{section_name}" points="{saxutils.escape(svg_points)}" style="fill:#C4C4C4;" />'
+    svg_polygon = f'<polygon data-priority="{priority}" class="{section_name}" points="{saxutils.escape(svg_points)}" style="fill:#C4C4C4;" />'
 
     return svg_polygon
 
@@ -77,6 +77,7 @@ def process_sections(data):
 
     for section in data:
         section_name = section['section']
+        priority = section['priorityValue']
         coordinates = [{'cx': item['cx'], 'cy': item['cy']} for item in section['value']]
         
         clusters = run_dbscan_clustering(coordinates)
@@ -84,7 +85,7 @@ def process_sections(data):
         svg_content += f'<g class="grouped-{saxutils.escape(section_name)}">\n'
         
         for cluster in clusters:
-            polygon = generate_svg_polygon(cluster, section_name)
+            polygon = generate_svg_polygon(cluster, section_name, priority)
             if polygon:
                 svg_content += polygon + '\n'
         
@@ -101,7 +102,7 @@ def process_additional_clusters(data):
             
             svg_content += f'<g class="grouped-{saxutils.escape(section_name)} {saxutils.escape(cluster_name)}">\n'
             
-            polygon = generate_svg_polygon(coordinates, section_name)
+            polygon = generate_svg_polygon(coordinates, section_name, -1)
             if polygon:
                 svg_content += polygon + '\n'
             
@@ -122,7 +123,7 @@ def generate_svg(filtered_input_path, parsed_input_path, output_svg_path):
     additional_svg_content = process_additional_clusters(additional_data)
     section_svg_content = process_sections(data)
 
-    final_svg_content = '<svg height="1000px" width="1000px" viewbox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">\n' + additional_svg_content + section_svg_content + '</svg>'
+    final_svg_content = '<svg viewbox="0 0 800 1000" xmlns="http://www.w3.org/2000/svg">\n' + additional_svg_content + section_svg_content + '</svg>'
     write_svg_file(final_svg_content, output_svg_path)
 
     print(f"SVG generation complete. Results saved to {output_svg_path}")
