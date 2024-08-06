@@ -1,4 +1,5 @@
 import json
+import re
 
 def filter_section_name(title: str) -> str:
     title_lower = title.lower()
@@ -24,12 +25,21 @@ def read_clusters(classification_data, section_labels):
     vertical_labels = ["L", "C", "R"]
     horizontal_labels = ["T", "M", "B"]
 
-    def get_clusters(v_labels: list, h_labels: list, rows: str = None) -> list:
-        return [
-            classification_data[refined_section_name][v_label[0]][v_label[1] or v_label[0]][h_label]
-            for v_label in v_labels
-            for h_label in h_labels
-        ]
+    def get_clusters(v_labels: list, h_labels: list, rows: str) -> list:
+        clusters = []
+        for v_label in v_labels:
+            for h_label in h_labels:
+                cluster = classification_data[refined_section_name][v_label[0]][v_label[1] or v_label[0]][h_label]
+                if rows:
+                    print("---------------"+refined_section_name+"-----------------")
+                    filtered_cluster = {
+                        row: seats for row, seats in cluster.items() 
+                        if is_row_in_range(row, rows)
+                    }
+                    clusters.append(filtered_cluster)
+                else:
+                    clusters.append(cluster)
+        return clusters
 
     result = []
     for section_data in section_labels:
@@ -43,32 +53,34 @@ def read_clusters(classification_data, section_labels):
         if not vertical_split and not horizontal_split:
             clusters = get_clusters(
                 [label1 + label2 for label1 in vertical_labels for label2 in vertical_labels],
-                horizontal_labels
+                horizontal_labels,
+                rows
             )
         elif not vertical_split and horizontal_split:
             clusters = get_clusters(
                 [label1 + label2 for label1 in vertical_labels for label2 in vertical_labels],
-                horizontal_split
+                horizontal_split,
+                rows
             )
         elif vertical_split and not horizontal_split:
             clusters = []
             for label in vertical_split:
                 main_label, sub_label = label[0], label[1] if len(label) > 1 else None
                 if sub_label:
-                    clusters.extend(get_clusters([label], list(classification_data[refined_section_name][main_label][sub_label].keys())))
+                    clusters.extend(get_clusters([label], list(classification_data[refined_section_name][main_label][sub_label].keys()), rows))
                 else:
                     v_labels = [main_label + v_label for v_label in classification_data[refined_section_name][main_label].keys()]
                     h_labels = list(classification_data[refined_section_name][main_label][list(classification_data[refined_section_name][main_label].keys())[0]].keys())
-                    clusters.extend(get_clusters(v_labels, h_labels))
+                    clusters.extend(get_clusters(v_labels, h_labels, rows))
         else:
             clusters = []
             for label in vertical_split:
                 main_label, sub_label = label[0], label[1] if len(label) > 1 else None
                 if sub_label:
-                    clusters.extend(get_clusters([label], horizontal_split))
+                    clusters.extend(get_clusters([label], horizontal_split, rows))
                 else:
                     v_labels = [main_label + v_label for v_label in classification_data[refined_section_name][main_label].keys()]
-                    clusters.extend(get_clusters(v_labels, horizontal_split))
+                    clusters.extend(get_clusters(v_labels, horizontal_split, rows))
 
         result.append({'section': section_name, 'value': clusters, 'priorityValue': priority_value})
 

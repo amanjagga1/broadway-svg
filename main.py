@@ -7,7 +7,7 @@ from create_geometry import generate_svg
 def main():
     input_subsections = [
         'Rear Mezzanine',
-        'Orchestra Front Sides',
+        'Orchestra Rows A-J',
     ]
 
     svg_name = "519"

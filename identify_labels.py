@@ -1,3 +1,4 @@
+import re
 def get_section_labels(section_name):
     parts = section_name.split("/")
     result = []
@@ -9,9 +10,9 @@ def get_section_labels(section_name):
         rows = None
 
         for sub_part in sub_parts:
-            if 'rows' in sub_part:
-                if re.match(r'^[a-z]{1,2}-[a-z]{1,2}$', sub_part):
-                    rows = sub_part
+            if any(item.lower() == 'rows' for item in sub_parts):
+                if re.match(r'^[A-Za-z]{1,2}-[A-Za-z]{1,2}$', sub_part):
+                    rows = sub_part.lower()  # Convert to lowercase
             for key, values in section_list.items():
                 if sub_part.lower() in values:
                     if key == "L" and "LL" in vertical_labels:
