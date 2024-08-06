@@ -27,7 +27,7 @@ def get_section_labels(section_name):
 
         result.append({name: {"vertical": vertical_labels, "horizontal": horizontal_labels, "rows": rows}})
 
-    return result
+    return {section_name: result}
 
 section_list = {
     "L": ["sides", "side", "left"],

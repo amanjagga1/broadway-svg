@@ -7,10 +7,13 @@ from create_geometry import generate_svg
 def main():
     input_subsections = [
         'Rear Mezzanine',
-        'Orchestra Rows A-J',
+        'Orchestra Mid/Mid Mezzanine',
+        'Front Balcony',
+        'Front Orchestra',
+        'Rear Orchestra'
     ]
 
-    svg_name = "519"
+    svg_name = "508"
     svg_file_path = f'./inputs/{svg_name}.svg'
     json_output_path = f'./outputs/parsed_{svg_name}.json'
     classified_output_path = f'./outputs/classified_{svg_name}.json'
@@ -26,7 +29,7 @@ def main():
     print("Processing input subsections")
     processed_input_subsections = []
     for subsection in input_subsections:
-        processed_input_subsections.extend(get_section_labels(subsection))
+        processed_input_subsections.append(get_section_labels(subsection))
 
     print(processed_input_subsections)
 
