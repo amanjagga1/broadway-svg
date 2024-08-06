@@ -6,27 +6,28 @@ def classify(clustered_data):
     sections = list(clustered_data.keys())
     
     for section in sections:
-        classified_section_labels = {}
         section_data = clustered_data[section]
-        first_horizontal_split = label_clusters(section_data, "x")
-        merged_clusters = merge_clusters(first_horizontal_split)
-        
-        for label in merged_clusters:
-            horizontal_split = label_clusters({'cluster1': merged_clusters[label]}, "x")
-            classified_section_labels[label] = {}
-            
-            for h_label in horizontal_split:
-                vertical_split = label_clusters({'cluster1': horizontal_split[h_label]}, "y")
-                classified_section_labels[label][h_label] = vertical_split
-        
+        classified_section_labels = {}
+
+        horizontal_split = label_clusters(section_data, "x")
+
+        vertical_split = label_clusters(section_data, "y")
+
+        # Further horizontal split within each horizontal split section
+        for h_label, h_data in horizontal_split.items():
+            further_horizontal_split = label_clusters({'cluster': h_data}, "x")
+            classified_section_labels[h_label] = further_horizontal_split
+
+        classified_section_labels.update(vertical_split)
+
         clusters[section] = classified_section_labels
-    
+
     row_wise_split = get_row_wise_split(clusters)
     return row_wise_split
 
-def label_clusters(cluster_object, orientation, log=False):
+def label_clusters(cluster_object, orientation):
     keys = ["L", "C", "R"] if orientation == "x" else ["T", "M", "B"]
-    initial_state = {key: {} for key in keys}
+    initial_state = {key: [] for key in keys}
     total_clusters = len(cluster_object)
 
     if total_clusters == 1:
@@ -72,22 +73,26 @@ def label_clusters(cluster_object, orientation, log=False):
         
         for cluster_name in cluster_object:
             if sorted_clusters.index(cluster_name) < mid_indices[0]:
-                initial_state[keys[0]][cluster_name] = cluster_object[cluster_name]
+                initial_state[keys[0]].extend(cluster_object[cluster_name])
             elif sorted_clusters.index(cluster_name) > mid_indices[-1]:
-                initial_state[keys[2]][cluster_name] = cluster_object[cluster_name]
+                initial_state[keys[2]].extend(cluster_object[cluster_name])
             else:
-                initial_state[keys[1]][cluster_name] = cluster_object[cluster_name]
+                initial_state[keys[1]].extend(cluster_object[cluster_name])
 
     return initial_state
 
 def get_row_wise_split(classified_data):
     for section_name in classified_data:
         for label in classified_data[section_name]:
-            for v_label in classified_data[section_name][label]:
-                for h_label in classified_data[section_name][label][v_label]:
-                    coordinates = classified_data[section_name][label][v_label][h_label]
+            if isinstance(classified_data[section_name][label], dict):
+                for sub_label in classified_data[section_name][label]:
+                    coordinates = classified_data[section_name][label][sub_label]
                     row_list = filter_seats_by_row(coordinates)
-                    classified_data[section_name][label][v_label][h_label] = row_list
+                    classified_data[section_name][label][sub_label] = row_list
+            else:
+                coordinates = classified_data[section_name][label]
+                row_list = filter_seats_by_row(coordinates)
+                classified_data[section_name][label] = row_list
     return classified_data
 
 def split_array_by_mid_x(arr):
@@ -148,7 +153,7 @@ def get_seats_in_division(division, grouped_seats):
 def divide_array(arr):
     length = len(arr)
     part_size = length // 3
-    first_part_size = part_size
+    first_part_size = (part_size-1)
     second_part_size = part_size
     third_part_size = length - first_part_size - second_part_size
 

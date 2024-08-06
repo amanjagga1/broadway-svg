@@ -6,14 +6,10 @@ from create_geometry import generate_svg
 
 def main():
     input_subsections = [
-        'Rear Mezzanine',
-        'Orchestra Mid/Mid Mezzanine',
-        'Front Balcony',
-        'Front Orchestra',
-        'Rear Orchestra'
+        'Front Mezzanine'
     ]
 
-    svg_name = "508"
+    svg_name = "507"
     svg_file_path = f'./inputs/{svg_name}.svg'
     json_output_path = f'./outputs/parsed_{svg_name}.json'
     classified_output_path = f'./outputs/classified_{svg_name}.json'
@@ -21,7 +17,8 @@ def main():
     final_svg_output_path = f'./outputs/final_{svg_name}.svg'
 
     print("Processing input...")
-    svg_to_json(svg_file_path, json_output_path)
+    section_rows = svg_to_json(svg_file_path, json_output_path)
+    print(section_rows)
     
     print("Classifying data...")
     process_classification(json_output_path, classified_output_path)
@@ -34,7 +31,7 @@ def main():
     print(processed_input_subsections)
 
     print("Filtering seats...")
-    process_filtering(classified_output_path, filtered_output_path, processed_input_subsections)
+    process_filtering(classified_output_path, filtered_output_path, processed_input_subsections, section_rows)
 
     print("Generating final SVG...")
     generate_svg(filtered_output_path, json_output_path, final_svg_output_path)

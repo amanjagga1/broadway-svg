@@ -32,6 +32,7 @@ def parse_svg(svg_content):
     root = ET.fromstring(svg_content)
     ns = {'svg': 'http://www.w3.org/2000/svg'}
     seats_by_section = defaultdict(list)
+    rows_by_section = defaultdict(lambda: defaultdict(list))
 
     # Find all circles with class names matching 'seat-{anything}'
     circles = find_circles(root, ns)
@@ -40,11 +41,11 @@ def parse_svg(svg_content):
         match = re.match(r'seat-([^-\s]+)-([^-\s]+)-([^-\s]+)', class_name)
         if match:
             section_name = match.group(1)
+            row_name = match.group(2)
             # This is a hardcoded edge case for TGIDs 519 and 1293
             if section_name.startswith('front') or section_name.startswith('rear'):
                 section_name = section_name.replace('front', '').replace('rear', '').strip()
 
-            print(section_name)
             cx = float(circle.attrib.get('cx', '0'))
             cy = float(circle.attrib.get('cy', '0'))
             transform = circle.attrib.get('transform')
@@ -57,8 +58,16 @@ def parse_svg(svg_content):
                 'cy': cy
             }
             seats_by_section[section_name].append(seat_data)
-    
-    return seats_by_section
+            rows_by_section[section_name][row_name].append(cy)
+
+    # Calculate average y value for each row and sort rows
+    section_rows = {}
+    for section_name, rows in rows_by_section.items():
+        avg_y_values = {row_name: sum(ys) / len(ys) for row_name, ys in rows.items()}
+        sorted_rows = sorted(avg_y_values, key=avg_y_values.get)
+        section_rows[section_name] = sorted_rows
+
+    return seats_by_section, section_rows
 
 def cluster_seats(seats):
     coords = [[seat['cx'], seat['cy']] for seat in seats]
@@ -75,7 +84,7 @@ def svg_to_json(svg_file_path, json_output_path):
     with open(svg_file_path, 'r') as svg_file:
         svg_content = svg_file.read()
 
-    seats_by_section = parse_svg(svg_content)
+    seats_by_section, section_rows = parse_svg(svg_content)
 
     clustered_seats_by_section = {}
     for section_name, seats in seats_by_section.items():
@@ -84,3 +93,5 @@ def svg_to_json(svg_file_path, json_output_path):
 
     with open(json_output_path, 'w') as json_file:
         json.dump(clustered_seats_by_section, json_file, indent=4)
+    
+    return section_rows

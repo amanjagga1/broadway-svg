@@ -122,7 +122,7 @@ def generate_svg(filtered_input_path, parsed_input_path, output_svg_path):
     additional_svg_content = process_additional_clusters(additional_data)
     section_svg_content = process_sections(data)
 
-    final_svg_content = '<svg viewbox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">\n' + additional_svg_content + section_svg_content + '</svg>'
+    final_svg_content = '<svg height="1000px" width="1000px" viewbox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">\n' + additional_svg_content + section_svg_content + '</svg>'
     write_svg_file(final_svg_content, output_svg_path)
 
     print(f"SVG generation complete. Results saved to {output_svg_path}")
