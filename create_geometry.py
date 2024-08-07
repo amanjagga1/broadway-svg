@@ -96,6 +96,35 @@ def process_sections(data, variant_tour_mapping):
 def process_additional_clusters(data):
     svg_content = '<g class="primary-clusters">\n'
 
+    previous_max_y = 40  # Track the bottommost point of the last section
+
+    for section_name, clusters in data.items():
+        # Calculate the bounding box for all clusters in this section
+        min_x = float('inf')
+        max_x = float('-inf')
+        min_y = float('inf')
+        max_y = float('-inf')
+
+        for cluster_name, seats in clusters.items():
+            for seat in seats:
+                cx = seat['cx']
+                cy = seat['cy']
+                min_x = min(min_x, cx)
+                max_x = max(max_x, cx)
+                min_y = min(min_y, cy)
+                max_y = max(max_y, cy)
+
+        # Use previous section's max_y plus a margin to position the text
+        margin = 50  # Adjust this margin as needed
+        text_x = ((min_x + max_x) / 2) - 40
+        text_y = previous_max_y + margin
+
+        # Update previous_max_y to be the maximum of the current section
+        previous_max_y = max_y
+
+        # Add a text element for the section name
+        svg_content += f'<text x="{text_x}" y="{text_y}" class="section-heading" style="text-transform:capitalize; font-weight:bold;">{saxutils.escape(section_name)}</text>\n'
+
     for section_name, clusters in data.items():
         for cluster_name, seats in clusters.items():
             coordinates = [{'cx': seat['cx'], 'cy': seat['cy']} for seat in seats]
