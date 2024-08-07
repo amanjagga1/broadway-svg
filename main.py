@@ -4,6 +4,7 @@ from identify_labels import get_section_labels
 from read_classification import process_filtering
 from create_geometry import generate_svg  
 import xml.etree.ElementTree as ET
+import requests
 
 def get_svg_viewbox(file_path):
     try:
@@ -35,6 +36,27 @@ def get_svg_viewbox(file_path):
     except Exception as e:
         return f"An error occurred: {str(e)}"
 
+def fetch_variant_map(variant_names,tgid):
+    variant_map = {}
+
+    url = f'https://api.headout.com/api/v6/tour-groups/{tgid}'
+    
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        data = response.json()
+
+        for variant in data['variants']:
+            variant_name = variant['tours'][0]['variantName']
+            if variant_name in variant_names:
+                variant_map[variant_name] = variant['tours'][0]['id']
+
+        return variant_map
+
+    except requests.RequestException as e:
+        print(f"An error occurred: {e}")
+        return None
+
 
 
 def main():
@@ -48,12 +70,13 @@ def main():
 
     svg_name = "508"
     svg_file_path = f'./inputs/{svg_name}.svg'
-    svg_viewbox = get_svg_viewbox(svg_file_path)
     json_output_path = f'./outputs/parsed_{svg_name}.json'
     classified_output_path = f'./outputs/classified_{svg_name}.json'
     filtered_output_path = f'./outputs/filtered_{svg_name}.json'
     final_svg_output_path = f'./outputs/final_{svg_name}.svg'
-
+   
+    variant_tour_mapping = fetch_variant_map(input_subsections, svg_name)
+    svg_viewbox = get_svg_viewbox(svg_file_path)
     section_rows = svg_to_json(svg_file_path, json_output_path)
     
     print("Classifying data...")
@@ -70,7 +93,7 @@ def main():
     process_filtering(classified_output_path, filtered_output_path, processed_input_subsections, section_rows)
 
     print("Generating final SVG...")
-    generate_svg(filtered_output_path, json_output_path, final_svg_output_path, svg_viewbox)
+    generate_svg(filtered_output_path, json_output_path, final_svg_output_path, svg_viewbox, variant_tour_mapping)
 
 
 if __name__ == "__main__":

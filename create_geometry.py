@@ -21,7 +21,7 @@ def run_dbscan_clustering(data, eps=24, min_samples=4):
     
     return clusters
 
-def generate_svg_polygon(data, section_name, priority, alpha=2.5):
+def generate_svg_polygon(data, section_name, tourId, priority, alpha=2.5):
     coordinates = np.array([[item['cx'], item['cy']] for item in data])
 
     if len(coordinates) < 3:
@@ -59,7 +59,7 @@ def generate_svg_polygon(data, section_name, priority, alpha=2.5):
         return None
 
     svg_points = " ".join(f"{x},{y}" for x, y in hull_points)
-    svg_polygon = f'<polygon data-priority="{priority}" class="{section_name}" points="{saxutils.escape(svg_points)}" style="fill:#C4C4C4;" />'
+    svg_polygon = f'<polygon data-section="{section_name}" data-priority="{priority}" class="{tourId}" points="{saxutils.escape(svg_points)}" style="fill:#C4C4C4;" />'
 
     return svg_polygon
 
@@ -72,7 +72,7 @@ def write_svg_file(svg_content, file_path):
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(svg_content)
 
-def process_sections(data):
+def process_sections(data, variant_tour_mapping):
     svg_content = ''
 
     for section in data:
@@ -85,7 +85,7 @@ def process_sections(data):
         svg_content += f'<g class="grouped-{saxutils.escape(section_name)}">\n'
         
         for cluster in clusters:
-            polygon = generate_svg_polygon(cluster, section_name, priority)
+            polygon = generate_svg_polygon(cluster, section_name, variant_tour_mapping[section_name],priority)
             if polygon:
                 svg_content += polygon + '\n'
         
@@ -102,7 +102,7 @@ def process_additional_clusters(data):
             
             svg_content += f'<g class="grouped-{saxutils.escape(section_name)} {saxutils.escape(cluster_name)}">\n'
             
-            polygon = generate_svg_polygon(coordinates, section_name, -1)
+            polygon = generate_svg_polygon(coordinates, section_name, 'n/a' , -1)
             if polygon:
                 svg_content += polygon + '\n'
             
@@ -116,12 +116,12 @@ def read_additional_json_file(file_path):
         data = json.load(file)
     return data
 
-def generate_svg(filtered_input_path, parsed_input_path, output_svg_path, svg_viewbox):
+def generate_svg(filtered_input_path, parsed_input_path, output_svg_path, svg_viewbox, variant_tour_mapping):
     data = read_json_file(filtered_input_path)
     additional_data = read_json_file(parsed_input_path)
 
     additional_svg_content = process_additional_clusters(additional_data)
-    section_svg_content = process_sections(data)
+    section_svg_content = process_sections(data, variant_tour_mapping)
     final_svg_content = f'<svg viewbox="{svg_viewbox['x']} {svg_viewbox['y']} {svg_viewbox['width']} {svg_viewbox['height']}" xmlns="http://www.w3.org/2000/svg">\n' + additional_svg_content + section_svg_content + '</svg>'
     write_svg_file(final_svg_content, output_svg_path)
 
