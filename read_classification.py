@@ -77,7 +77,7 @@ def read_clusters(classification_data, variant_labels, section_rows):
         for h_label in h_labels:
             if h_label in classification_data[refined_section_name]:
                 for row, seats in classification_data[refined_section_name][h_label].items():
-                    if not rows or is_row_in_range(row, rows):
+                    if not rows or is_row_in_range(row, rows, section_rows[refined_section_name]):
                         horizontal_seats.update((seat['cx'], seat['cy']) for seat in seats)
 
         # If one of the sets is empty, use the other set directly
@@ -98,12 +98,17 @@ def read_clusters(classification_data, variant_labels, section_rows):
     for variant in variant_labels:
         variant_list = []
         priority_value = float('-inf')
+        skip_variant = False
         for variant_name, section_labels in variant.items():
+            if skip_variant:
+                break
             for section_data in section_labels:
                 section_name = list(section_data.keys())[0]
                 refined_section_name = filter_section_name(section_name)
                 if not refined_section_name:
-                    continue
+                    skip_variant = True
+                    break
+                
                 vertical_split = section_data[section_name]['vertical']
                 horizontal_split = section_data[section_name]['horizontal']
                 priority_value = max(sum(len(s) for s in vertical_split + horizontal_split), priority_value)
@@ -111,6 +116,9 @@ def read_clusters(classification_data, variant_labels, section_rows):
 
                 clusters = get_intersection_clusters(vertical_split, horizontal_split, rows)
                 variant_list.extend(clusters)
+        
+        if skip_variant:
+            continue
 
         result.append({'section': variant_name, 'value': variant_list, 'priorityValue': priority_value})
 

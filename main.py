@@ -36,46 +36,59 @@ def get_svg_viewbox(file_path):
     except Exception as e:
         return f"An error occurred: {str(e)}"
 
-def fetch_variant_map(variant_names,tgid):
+def fetch_variant_map(tgid):
     variant_map = {}
 
-    url = f'https://api.headout.com/api/v6/tour-groups/{tgid}'
+    variant_names = []
+
+    tour_groups_url = f'https://api.headout.com/api/v6/tour-groups/{tgid}'
+    #todo: add the parameters for start and end date (based on decided duration)
+    inventories_url = f'https://api.headout.com/api/v7/tour-groups/{tgid}/inventories'
     
+    activeVariants = set()
+
     try:
-        response = requests.get(url)
-        response.raise_for_status()
-        data = response.json()
+        inventories_response = requests.get(inventories_url)
+        inventories_response.raise_for_status()
+        inventories_data = inventories_response.json()
 
-        for variant in data['variants']:
+        for availability in inventories_data['availabilities']:
+            print(availability["tourId"])
+            activeVariants.add(availability["tourId"])
+        
+        tour_groups_response = requests.get(tour_groups_url)
+        tour_groups_response.raise_for_status()
+        tour_groups_data = tour_groups_response.json()
+
+        for variant in tour_groups_data['variants']:
             variant_name = variant['tours'][0]['variantName']
-            if variant_name in variant_names:
-                variant_map[variant_name] = variant['tours'][0]['id']
+            tour_id = variant['tours'][0]['id']
+            if variant_name not in variant_names and tour_id in activeVariants:
+                variant_names.append(variant_name)
+                variant_map[variant_name] = tour_id
 
-        return variant_map
+        return variant_names, variant_map
 
     except requests.RequestException as e:
         print(f"An error occurred: {e}")
-        return None
+        return None, None
 
 
 
 def main():
-    input_subsections = [
-        'Rear Balcony',
-        'Mezzanine Far Sides/Rear Mezzanine/Front Balcony',
-        'Orchestra Far Side/Mezzanine Side',
-        'Orchestra Sides/Mid Mezzanine',
-        'Orchestra Center and Near Sides/Front Mezzanine'
-    ]
 
-    svg_name = "508"
+    svg_name = "11845"
     svg_file_path = f'./inputs/{svg_name}.svg'
     json_output_path = f'./outputs/parsed_{svg_name}.json'
     classified_output_path = f'./outputs/classified_{svg_name}.json'
     filtered_output_path = f'./outputs/filtered_{svg_name}.json'
     final_svg_output_path = f'./outputs/final_{svg_name}.svg'
    
-    variant_tour_mapping = fetch_variant_map(input_subsections, svg_name)
+    input_subsections, variant_tour_mapping = fetch_variant_map(svg_name)
+
+    print(len(input_subsections))
+    print(input_subsections)
+
     svg_viewbox = get_svg_viewbox(svg_file_path)
     section_rows = svg_to_json(svg_file_path, json_output_path)
     
