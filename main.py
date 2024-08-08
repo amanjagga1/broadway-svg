@@ -2,9 +2,11 @@ from parse_svg import svg_to_json
 from classify_svg import process_classification
 from identify_labels import get_section_labels
 from read_classification import process_filtering
-from create_geometry import generate_svg  
+from create_geometry import generate_svg
+from standardize_input import standardize_section_list
 import xml.etree.ElementTree as ET
 import requests
+import time
 
 def get_svg_viewbox(file_path):
     try:
@@ -86,8 +88,7 @@ def main():
    
     input_subsections, variant_tour_mapping = fetch_variant_map(svg_name)
 
-    print(len(input_subsections))
-    print(input_subsections)
+    standardized_input = standardize_section_list(input_subsections)
 
     svg_viewbox = get_svg_viewbox(svg_file_path)
     section_rows = svg_to_json(svg_file_path, json_output_path)
@@ -97,8 +98,8 @@ def main():
 
     print("Processing input subsections")
     processed_input_subsections = []
-    for subsection in input_subsections:
-        processed_input_subsections.append(get_section_labels(subsection))
+    for subsection, standardized_subsection in zip(input_subsections, standardized_input):
+        processed_input_subsections.append(get_section_labels(subsection, standardized_subsection))
 
     print(processed_input_subsections)
 
