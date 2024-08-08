@@ -3,12 +3,11 @@ from openai import OpenAI
 import ast
 import os
 
-client = OpenAI(
-    api_key = os.getenv('OPENAI_KEY')
-)
-
-
 def standardize_section_list(section_list):
+    load_dotenv()
+    client = OpenAI(
+        api_key = os.getenv('OPENAI_KEY')
+    )
     input_list = str(section_list)
     prompt = f"""Task: Transform the given list of section names into a standardized format where each section is separated by a '/'.
 
