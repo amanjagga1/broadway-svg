@@ -1,0 +1,2372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 -46.8 737 1106.8" xmlns="http://www.w3.org/2000/svg">
+  <g class="theater-newamsterdam" clip-path="url(#clip0_0_2)"
+    transform="matrix(1, 0, 0, 1, -1.0658141036401503e-13, -1.0658141036401503e-14)" style="">
+    <g class="base">
+      <g class="stage" transform="matrix(1, 0, 0, 1, 0, -46)">
+        <path class="stage-background" fill-rule="evenodd" clip-rule="evenodd"
+          d="M550.159 0L580 74.095C530.917 109.159 478.66 135 364.405 135C250.15 135 201.937 109.461 153 74.8473L182.841 0H550.159Z"
+          fill="#ECECEF" stroke="#D7D8DD" />
+        <text class="stage_2" fill="#505368" style="white-space: pre"
+          font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif"
+          font-size="22" font-weight="bold" letter-spacing="0px">
+          <tspan x="334.694" y="55.8203">Stage</tspan>
+        </text>
+      </g>
+      <g class="area-orchestra" transform="matrix(1, 0, 0, 1, 0, -16)">
+        <path class="background-orchestra"
+          d="M 153.241 41.724 C 110.04 69.209 44.448 167.367 31 202 L 31 412 C 123.336 455.089 222.644 482 366.498 482 C 510.352 482 613.783 454.269 706 411 L 706 202 C 692.902 167.467 623.205 70.089 579.623 42.273 C 514.909 58.802 443.101 68 367.5 68 C 291.066 68 218.51 58.598 153.241 41.724 Z"
+          fill="white" stroke="#D7D8DD" />
+        <g class="section-orchestra">
+          <g class="row-orchestra-v">
+            <circle class="seat-orchestra-v-7" cx="153" cy="414" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-v-5" cx="166" cy="418" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-v-3" cx="179" cy="421" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-v-1" cx="192" cy="424" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-u">
+            <circle class="seat-orchestra-u-15" cx="153" cy="397" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-13" cx="166" cy="401" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-11" cx="179" cy="404" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-9" cx="192" cy="407" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-7" cx="205" cy="409" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-5" cx="218" cy="411" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-3" cx="231" cy="413" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-1" cx="244" cy="414" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-t">
+            <circle class="seat-orchestra-t-21" cx="114" cy="366" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-19" cx="127" cy="371" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-17" cx="140" cy="376" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-15" cx="153" cy="380" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-13" cx="166" cy="384" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-11" cx="179" cy="387" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-9" cx="192" cy="390" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-7" cx="205" cy="392" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-5" cx="218" cy="394" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-3" cx="231" cy="396" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-1" cx="244" cy="397" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-s">
+            <circle class="seat-orchestra-s-25" cx="88" cy="337" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-23" cx="101" cy="343" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-21" cx="114" cy="349" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-19" cx="127" cy="354" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-17" cx="140" cy="359" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-15" cx="153" cy="363" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-13" cx="166" cy="367" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-11" cx="179" cy="370" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-9" cx="192" cy="373" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-7" cx="205" cy="375" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-5" cx="218" cy="377" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-3" cx="231" cy="379" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-1" cx="244" cy="380" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-r">
+            <circle class="seat-orchestra-r-25" cx="88" cy="320" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-23" cx="101" cy="326" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-21" cx="114" cy="332" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-19" cx="127" cy="337" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-17" cx="140" cy="342" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-15" cx="153" cy="346" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-13" cx="166" cy="350" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-11" cx="179" cy="353" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-9" cx="192" cy="356" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-7" cx="205" cy="358" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-5" cx="218" cy="360" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-3" cx="231" cy="362" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-1" cx="244" cy="363" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-q">
+            <circle class="seat-orchestra-q-27" cx="75" cy="297" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-25" cx="88" cy="303" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-23" cx="101" cy="309" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-21" cx="114" cy="315" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-19" cx="127" cy="320" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-17" cx="140" cy="325" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-15" cx="153" cy="329" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-13" cx="166" cy="333" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-11" cx="179" cy="336" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-9" cx="192" cy="339" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-7" cx="205" cy="341" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-5" cx="218" cy="343" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-3" cx="231" cy="345" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-1" cx="244" cy="346" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-p">
+            <circle class="seat-orchestra-p-27" cx="75" cy="280" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-25" cx="88" cy="286" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-23" cx="101" cy="292" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-21" cx="114" cy="298" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-19" cx="127" cy="303" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-17" cx="140" cy="308" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-15" cx="153" cy="312" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-13" cx="166" cy="316" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-11" cx="179" cy="319" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-9" cx="192" cy="322" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-7" cx="205" cy="324" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-5" cx="218" cy="326" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-3" cx="231" cy="328" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-1" cx="244" cy="329" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-n">
+            <circle class="seat-orchestra-n-27" cx="75" cy="263" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-25" cx="88" cy="269" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-23" cx="101" cy="275" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-21" cx="114" cy="281" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-19" cx="127" cy="286" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-17" cx="140" cy="291" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-15" cx="153" cy="295" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-13" cx="166" cy="299" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-11" cx="179" cy="302" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-9" cx="192" cy="305" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-7" cx="205" cy="307" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-5" cx="218" cy="309" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-3" cx="231" cy="311" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-1" cx="244" cy="312" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-m">
+            <circle class="seat-orchestra-m-27" cx="75" cy="246" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-25" cx="88" cy="252" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-23" cx="101" cy="258" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-21" cx="114" cy="264" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-19" cx="127" cy="269" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-17" cx="140" cy="274" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-15" cx="153" cy="278" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-13" cx="166" cy="282" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-11" cx="179" cy="285" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-9" cx="192" cy="288" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-7" cx="205" cy="290" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-5" cx="218" cy="292" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-3" cx="231" cy="294" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-1" cx="244" cy="295" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-l">
+            <circle class="seat-orchestra-l-27" cx="75" cy="229" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-25" cx="88" cy="235" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-23" cx="101" cy="241" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-21" cx="114" cy="247" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-19" cx="127" cy="252" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-17" cx="140" cy="257" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-15" cx="153" cy="261" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-13" cx="166" cy="265" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-11" cx="179" cy="268" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-9" cx="192" cy="271" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-7" cx="205" cy="273" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-5" cx="218" cy="275" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-3" cx="231" cy="277" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-1" cx="244" cy="278" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-k">
+            <circle class="seat-orchestra-k-25" cx="88" cy="218" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-23" cx="101" cy="224" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-21" cx="114" cy="230" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-19" cx="127" cy="235" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-17" cx="140" cy="240" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-15" cx="153" cy="244" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-13" cx="166" cy="248" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-11" cx="179" cy="251" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-9" cx="192" cy="254" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-7" cx="205" cy="256" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-5" cx="218" cy="258" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-3" cx="231" cy="260" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-1" cx="244" cy="261" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-j">
+            <circle class="seat-orchestra-j-23" cx="101" cy="207" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-21" cx="114" cy="213" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-19" cx="127" cy="218" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-17" cx="140" cy="223" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-15" cx="153" cy="227" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-13" cx="166" cy="231" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-11" cx="179" cy="234" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-9" cx="192" cy="237" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-7" cx="205" cy="239" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-5" cx="218" cy="241" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-3" cx="231" cy="243" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-1" cx="244" cy="244" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-h">
+            <circle class="seat-orchestra-h-21" cx="114" cy="196" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-19" cx="127" cy="201" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-17" cx="140" cy="206" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-15" cx="153" cy="210" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-13" cx="166" cy="214" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-11" cx="179" cy="217" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-9" cx="192" cy="220" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-7" cx="205" cy="222" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-5" cx="218" cy="224" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-3" cx="231" cy="226" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-1" cx="244" cy="227" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-g">
+            <circle class="seat-orchestra-g-21" cx="114" cy="179" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-19" cx="127" cy="184" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-17" cx="140" cy="189" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-15" cx="153" cy="193" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-13" cx="166" cy="197" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-11" cx="179" cy="200" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-9" cx="192" cy="203" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-7" cx="205" cy="205" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-5" cx="218" cy="207" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-3" cx="231" cy="209" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-1" cx="244" cy="210" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-f">
+            <circle class="seat-orchestra-f-19" cx="127" cy="167" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-17" cx="140" cy="172" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-15" cx="153" cy="176" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-13" cx="166" cy="180" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-11" cx="179" cy="183" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-9" cx="192" cy="186" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-7" cx="205" cy="188" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-5" cx="218" cy="190" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-3" cx="231" cy="192" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-1" cx="244" cy="193" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-e">
+            <circle class="seat-orchestra-e-17" cx="140" cy="155" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-15" cx="153" cy="159" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-13" cx="166" cy="163" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-11" cx="179" cy="166" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-9" cx="192" cy="169" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-7" cx="205" cy="171" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-5" cx="218" cy="173" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-3" cx="231" cy="175" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-1" cx="244" cy="176" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-d">
+            <circle class="seat-orchestra-d-15" cx="153" cy="142" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-13" cx="166" cy="146" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-11" cx="179" cy="149" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-9" cx="192" cy="152" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-7" cx="205" cy="154" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-5" cx="218" cy="156" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-3" cx="231" cy="158" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-1" cx="244" cy="159" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-c">
+            <circle class="seat-orchestra-c-15" cx="153" cy="125" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-13" cx="166" cy="129" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-11" cx="179" cy="132" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-9" cx="192" cy="135" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-7" cx="205" cy="137" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-5" cx="218" cy="139" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-3" cx="231" cy="141" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-1" cx="244" cy="142" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-b">
+            <circle class="seat-orchestra-b-13" cx="166" cy="112" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-11" cx="179" cy="115" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-9" cx="192" cy="118" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-7" cx="205" cy="120" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-5" cx="218" cy="122" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-3" cx="231" cy="124" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-1" cx="244" cy="125" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-a">
+            <circle class="seat-orchestra-a-11" cx="179" cy="98" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-9" cx="192" cy="101" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-7" cx="205" cy="103" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-5" cx="218" cy="105" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-3" cx="231" cy="107" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-1" cx="244" cy="108" r="6" fill="#ECECEF" />
+          </g>
+        </g>
+        <g class="section-orchestra_2">
+          <g class="row-orchestra-w">
+            <circle class="seat-orchestra-w-102" cx="438" cy="453" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-w-101" cx="451" cy="452" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-v_2">
+            <circle class="seat-orchestra-v-102" cx="438" cy="436" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-v-101" cx="451" cy="435" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-u_2">
+            <circle class="seat-orchestra-u-112" cx="295" cy="419" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-111" cx="308" cy="419" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-110" cx="321" cy="420" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-109" cx="334" cy="420" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-108" cx="347" cy="421" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-107" cx="360" cy="421" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-106" cx="373" cy="421" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-105" cx="386" cy="421" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-104" cx="399" cy="420" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-103" cx="412" cy="420" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-102" cx="425" cy="419" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-101" cx="438" cy="419" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-t_2">
+            <circle class="seat-orchestra-t-114" cx="282" cy="401" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-113" cx="295" cy="402" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-112" cx="308" cy="402" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-111" cx="321" cy="403" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-110" cx="334" cy="403" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-109" cx="347" cy="404" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-108" cx="360" cy="404" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-107" cx="373" cy="404" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-106" cx="386" cy="404" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-105" cx="399" cy="403" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-104" cx="412" cy="403" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-103" cx="425" cy="402" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-102" cx="438" cy="402" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-101" cx="451" cy="401" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-s_2">
+            <circle class="seat-orchestra-s-115" cx="276" cy="384" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-114" cx="289" cy="385" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-113" cx="302" cy="385" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-112" cx="315" cy="386" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-111" cx="328" cy="386" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-110" cx="341" cy="387" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-109" cx="354" cy="387" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-108" cx="367" cy="387" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-107" cx="380" cy="387" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-106" cx="393" cy="387" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-105" cx="406" cy="386" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-104" cx="419" cy="385" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-103" cx="432" cy="384" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-102" cx="445" cy="384" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-101" cx="458" cy="383" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-r_2">
+            <circle class="seat-orchestra-r-115" cx="276" cy="367" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-114" cx="289" cy="368" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-113" cx="302" cy="368" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-112" cx="315" cy="369" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-111" cx="328" cy="369" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-110" cx="341" cy="370" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-109" cx="354" cy="370" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-108" cx="367" cy="370" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-107" cx="380" cy="370" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-106" cx="393" cy="370" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-105" cx="406" cy="369" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-104" cx="419" cy="368" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-103" cx="432" cy="367" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-102" cx="445" cy="367" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-101" cx="458" cy="366" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-q_2">
+            <circle class="seat-orchestra-q-115" cx="276" cy="350" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-114" cx="289" cy="351" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-113" cx="302" cy="351" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-112" cx="315" cy="352" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-111" cx="328" cy="352" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-110" cx="341" cy="353" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-109" cx="354" cy="353" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-108" cx="367" cy="353" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-107" cx="380" cy="353" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-106" cx="393" cy="353" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-105" cx="406" cy="352" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-104" cx="419" cy="351" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-103" cx="432" cy="350" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-102" cx="445" cy="350" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-101" cx="458" cy="349" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-p_2">
+            <circle class="seat-orchestra-p-115" cx="276" cy="333" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-114" cx="289" cy="334" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-113" cx="302" cy="334" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-112" cx="315" cy="335" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-111" cx="328" cy="335" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-110" cx="341" cy="336" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-109" cx="354" cy="336" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-108" cx="367" cy="336" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-107" cx="380" cy="336" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-106" cx="393" cy="336" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-105" cx="406" cy="335" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-104" cx="419" cy="334" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-103" cx="432" cy="333" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-102" cx="445" cy="333" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-101" cx="458" cy="332" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-n_2">
+            <circle class="seat-orchestra-n-115" cx="276" cy="316" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-114" cx="289" cy="317" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-113" cx="302" cy="317" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-112" cx="315" cy="318" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-111" cx="328" cy="318" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-110" cx="341" cy="319" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-109" cx="354" cy="319" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-108" cx="367" cy="319" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-107" cx="380" cy="319" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-106" cx="393" cy="319" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-105" cx="406" cy="318" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-104" cx="419" cy="317" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-103" cx="432" cy="316" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-102" cx="445" cy="316" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-101" cx="458" cy="315" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-m_2">
+            <circle class="seat-orchestra-m-115" cx="276" cy="299" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-114" cx="289" cy="300" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-113" cx="302" cy="300" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-112" cx="315" cy="301" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-111" cx="328" cy="301" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-110" cx="341" cy="302" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-109" cx="354" cy="302" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-108" cx="367" cy="302" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-107" cx="380" cy="302" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-106" cx="393" cy="302" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-105" cx="406" cy="301" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-104" cx="419" cy="300" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-103" cx="432" cy="299" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-102" cx="445" cy="299" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-101" cx="458" cy="298" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-l_2">
+            <circle class="seat-orchestra-l-115" cx="276" cy="282" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-114" cx="289" cy="283" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-113" cx="302" cy="283" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-112" cx="315" cy="284" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-111" cx="328" cy="284" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-110" cx="341" cy="285" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-109" cx="354" cy="285" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-108" cx="367" cy="285" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-107" cx="380" cy="285" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-106" cx="393" cy="285" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-105" cx="406" cy="284" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-104" cx="419" cy="283" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-103" cx="432" cy="282" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-102" cx="445" cy="282" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-101" cx="458" cy="281" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-k_2">
+            <circle class="seat-orchestra-k-115" cx="276" cy="265" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-114" cx="289" cy="266" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-113" cx="302" cy="266" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-112" cx="315" cy="267" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-111" cx="328" cy="267" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-110" cx="341" cy="268" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-109" cx="354" cy="268" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-108" cx="367" cy="268" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-107" cx="380" cy="268" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-106" cx="393" cy="268" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-105" cx="406" cy="267" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-104" cx="419" cy="266" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-103" cx="432" cy="265" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-102" cx="445" cy="265" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-101" cx="458" cy="264" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-j_2">
+            <circle class="seat-orchestra-j-114" cx="282" cy="248" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-113" cx="295" cy="249" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-112" cx="308" cy="249" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-111" cx="321" cy="250" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-110" cx="334" cy="250" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-109" cx="347" cy="251" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-108" cx="360" cy="251" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-107" cx="373" cy="251" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-106" cx="386" cy="251" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-105" cx="399" cy="250" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-104" cx="412" cy="250" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-103" cx="425" cy="249" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-102" cx="438" cy="249" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-101" cx="451" cy="248" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-h_2">
+            <circle class="seat-orchestra-h-115" cx="276" cy="231" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-114" cx="289" cy="232" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-113" cx="302" cy="232" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-112" cx="315" cy="233" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-111" cx="328" cy="233" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-110" cx="341" cy="234" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-109" cx="354" cy="234" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-108" cx="367" cy="234" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-107" cx="380" cy="234" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-106" cx="393" cy="234" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-105" cx="406" cy="233" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-104" cx="419" cy="232" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-103" cx="432" cy="231" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-102" cx="445" cy="231" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-101" cx="458" cy="230" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-g_2">
+            <circle class="seat-orchestra-g-114" cx="282" cy="214" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-113" cx="295" cy="215" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-112" cx="308" cy="215" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-111" cx="321" cy="216" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-110" cx="334" cy="216" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-109" cx="347" cy="217" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-108" cx="360" cy="217" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-107" cx="373" cy="217" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-106" cx="386" cy="217" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-105" cx="399" cy="216" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-104" cx="412" cy="216" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-103" cx="425" cy="215" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-102" cx="438" cy="215" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-101" cx="451" cy="214" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-f_2">
+            <circle class="seat-orchestra-f-115" cx="276" cy="197" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-114" cx="289" cy="198" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-113" cx="302" cy="198" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-112" cx="315" cy="199" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-111" cx="328" cy="199" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-110" cx="341" cy="200" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-109" cx="354" cy="200" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-108" cx="367" cy="200" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-107" cx="380" cy="200" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-106" cx="393" cy="200" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-105" cx="406" cy="199" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-104" cx="419" cy="198" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-103" cx="432" cy="197" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-102" cx="445" cy="197" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-101" cx="458" cy="196" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-e_2">
+            <circle class="seat-orchestra-e-114" cx="282" cy="180" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-113" cx="295" cy="181" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-112" cx="308" cy="181" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-111" cx="321" cy="182" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-110" cx="334" cy="182" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-109" cx="347" cy="183" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-108" cx="360" cy="183" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-107" cx="373" cy="183" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-106" cx="386" cy="183" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-105" cx="399" cy="182" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-104" cx="412" cy="182" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-103" cx="425" cy="181" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-102" cx="438" cy="181" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-101" cx="451" cy="180" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-d_2">
+            <circle class="seat-orchestra-d-114" cx="282" cy="163" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-113" cx="295" cy="164" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-112" cx="308" cy="164" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-111" cx="321" cy="165" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-110" cx="334" cy="165" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-109" cx="347" cy="166" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-108" cx="360" cy="166" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-107" cx="373" cy="166" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-106" cx="386" cy="166" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-105" cx="399" cy="165" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-104" cx="412" cy="165" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-103" cx="425" cy="164" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-102" cx="438" cy="164" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-101" cx="451" cy="163" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-c_2">
+            <circle class="seat-orchestra-c-114" cx="282" cy="146" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-113" cx="295" cy="147" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-112" cx="308" cy="147" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-111" cx="321" cy="148" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-110" cx="334" cy="148" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-109" cx="347" cy="149" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-108" cx="360" cy="149" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-107" cx="373" cy="149" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-106" cx="386" cy="149" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-105" cx="399" cy="148" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-104" cx="412" cy="148" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-103" cx="425" cy="147" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-102" cx="438" cy="147" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-101" cx="451" cy="146" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-b_2">
+            <circle class="seat-orchestra-b-113" cx="289" cy="129" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-112" cx="302" cy="130" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-111" cx="315" cy="130" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-110" cx="328" cy="131" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-109" cx="341" cy="131" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-108" cx="354" cy="132" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-107" cx="367" cy="132" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-106" cx="380" cy="132" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-105" cx="393" cy="131" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-104" cx="406" cy="131" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-103" cx="419" cy="130" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-102" cx="432" cy="130" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-101" cx="445" cy="129" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-a_2">
+            <circle class="seat-orchestra-a-112" cx="295" cy="113" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-111" cx="308" cy="113" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-110" cx="321" cy="114" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-109" cx="334" cy="114" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-108" cx="347" cy="115" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-107" cx="360" cy="115" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-106" cx="373" cy="115" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-105" cx="386" cy="115" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-104" cx="399" cy="114" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-103" cx="412" cy="114" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-102" cx="425" cy="113" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-101" cx="438" cy="113" r="6" fill="#ECECEF" />
+          </g>
+        </g>
+        <g class="section-orchestra_3">
+          <g class="row-orchestra-v_3">
+            <circle class="seat-orchestra-v-2" cx="545" cy="425" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-v-4" cx="558" cy="422" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-v-6" cx="571" cy="419" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-v-8" cx="584" cy="415" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-u_3">
+            <circle class="seat-orchestra-u-2" cx="493" cy="414" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-4" cx="506" cy="413" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-6" cx="519" cy="412" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-8" cx="532" cy="410" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-10" cx="545" cy="408" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-12" cx="558" cy="405" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-14" cx="571" cy="402" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-u-16" cx="584" cy="398" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-t_3">
+            <circle class="seat-orchestra-t-2" cx="493" cy="397" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-4" cx="506" cy="396" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-6" cx="519" cy="395" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-8" cx="532" cy="393" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-10" cx="545" cy="391" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-12" cx="558" cy="388" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-14" cx="571" cy="385" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-16" cx="584" cy="381" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-18" cx="597" cy="377" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-20" cx="610" cy="372" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-22" cx="623" cy="367" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-24" cx="636" cy="361" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-t-26" cx="649" cy="355" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-s_3">
+            <circle class="seat-orchestra-s-2" cx="493" cy="380" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-4" cx="506" cy="379" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-6" cx="519" cy="378" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-8" cx="532" cy="376" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-10" cx="545" cy="374" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-12" cx="558" cy="371" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-14" cx="571" cy="368" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-16" cx="584" cy="364" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-18" cx="597" cy="360" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-20" cx="610" cy="355" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-22" cx="623" cy="350" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-24" cx="636" cy="344" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-s-26" cx="649" cy="338" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-r_3">
+            <circle class="seat-orchestra-r-2" cx="493" cy="363" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-4" cx="506" cy="362" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-6" cx="519" cy="361" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-8" cx="532" cy="359" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-10" cx="545" cy="357" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-12" cx="558" cy="354" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-14" cx="571" cy="351" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-16" cx="584" cy="347" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-18" cx="597" cy="343" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-20" cx="610" cy="338" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-22" cx="623" cy="333" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-24" cx="636" cy="327" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-r-26" cx="649" cy="321" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-q_3">
+            <circle class="seat-orchestra-q-2" cx="493" cy="346" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-4" cx="506" cy="345" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-6" cx="519" cy="344" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-8" cx="532" cy="342" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-10" cx="545" cy="340" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-12" cx="558" cy="337" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-14" cx="571" cy="334" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-16" cx="584" cy="330" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-18" cx="597" cy="326" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-20" cx="610" cy="321" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-22" cx="623" cy="316" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-24" cx="636" cy="310" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-26" cx="649" cy="304" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-q-28" cx="662" cy="298" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-p_3">
+            <circle class="seat-orchestra-p-2" cx="493" cy="329" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-4" cx="506" cy="328" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-6" cx="519" cy="327" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-8" cx="532" cy="325" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-10" cx="545" cy="323" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-12" cx="558" cy="320" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-14" cx="571" cy="317" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-16" cx="584" cy="313" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-18" cx="597" cy="309" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-20" cx="610" cy="304" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-22" cx="623" cy="299" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-24" cx="636" cy="293" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-26" cx="649" cy="287" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-p-28" cx="662" cy="281" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-n_3">
+            <circle class="seat-orchestra-n-2" cx="493" cy="312" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-4" cx="506" cy="311" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-6" cx="519" cy="310" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-8" cx="532" cy="308" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-10" cx="545" cy="306" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-12" cx="558" cy="303" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-14" cx="571" cy="300" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-16" cx="584" cy="296" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-18" cx="597" cy="292" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-20" cx="610" cy="287" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-22" cx="623" cy="282" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-24" cx="636" cy="276" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-26" cx="649" cy="270" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-n-28" cx="662" cy="264" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-m_3">
+            <circle class="seat-orchestra-m-2" cx="493" cy="295" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-4" cx="506" cy="294" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-6" cx="519" cy="293" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-8" cx="532" cy="291" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-10" cx="545" cy="289" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-12" cx="558" cy="286" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-14" cx="571" cy="283" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-16" cx="584" cy="279" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-18" cx="597" cy="275" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-20" cx="610" cy="270" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-22" cx="623" cy="265" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-24" cx="636" cy="259" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-26" cx="649" cy="253" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-m-28" cx="662" cy="247" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-l_3">
+            <circle class="seat-orchestra-l-2" cx="493" cy="278" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-4" cx="506" cy="277" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-6" cx="519" cy="276" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-8" cx="532" cy="274" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-10" cx="545" cy="272" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-12" cx="558" cy="269" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-14" cx="571" cy="266" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-16" cx="584" cy="262" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-18" cx="597" cy="258" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-20" cx="610" cy="253" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-22" cx="623" cy="248" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-24" cx="636" cy="242" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-26" cx="649" cy="236" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-l-28" cx="662" cy="230" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-k_3">
+            <circle class="seat-orchestra-k-2" cx="493" cy="261" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-4" cx="506" cy="260" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-6" cx="519" cy="259" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-8" cx="532" cy="257" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-10" cx="545" cy="255" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-12" cx="558" cy="252" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-14" cx="571" cy="249" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-16" cx="584" cy="245" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-18" cx="597" cy="241" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-20" cx="610" cy="236" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-22" cx="623" cy="231" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-24" cx="636" cy="225" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-k-26" cx="649" cy="219" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-j_3">
+            <circle class="seat-orchestra-j-2" cx="493" cy="244" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-4" cx="506" cy="243" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-6" cx="519" cy="242" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-8" cx="532" cy="240" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-10" cx="545" cy="238" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-12" cx="558" cy="235" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-14" cx="571" cy="232" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-16" cx="584" cy="228" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-18" cx="597" cy="224" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-20" cx="610" cy="219" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-22" cx="623" cy="214" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-j-24" cx="636" cy="208" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-h_3">
+            <circle class="seat-orchestra-h-2" cx="493" cy="227" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-4" cx="506" cy="226" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-6" cx="519" cy="225" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-8" cx="532" cy="223" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-10" cx="545" cy="221" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-12" cx="558" cy="218" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-14" cx="571" cy="215" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-16" cx="584" cy="211" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-18" cx="597" cy="207" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-20" cx="610" cy="202" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-h-22" cx="623" cy="197" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-g_3">
+            <circle class="seat-orchestra-g-2" cx="493" cy="210" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-4" cx="506" cy="209" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-6" cx="519" cy="208" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-8" cx="532" cy="206" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-10" cx="545" cy="204" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-12" cx="558" cy="201" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-14" cx="571" cy="198" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-16" cx="584" cy="194" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-18" cx="597" cy="190" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-20" cx="610" cy="185" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-g-22" cx="623" cy="180" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-f_3">
+            <circle class="seat-orchestra-f-2" cx="493" cy="193" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-4" cx="506" cy="192" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-6" cx="519" cy="191" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-8" cx="532" cy="189" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-10" cx="545" cy="187" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-12" cx="558" cy="184" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-14" cx="571" cy="181" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-16" cx="584" cy="177" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-18" cx="597" cy="173" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-f-20" cx="610" cy="168" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-e_3">
+            <circle class="seat-orchestra-e-2" cx="493" cy="176" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-4" cx="506" cy="175" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-6" cx="519" cy="174" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-8" cx="532" cy="172" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-10" cx="545" cy="170" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-12" cx="558" cy="167" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-14" cx="571" cy="164" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-16" cx="584" cy="160" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-e-18" cx="597" cy="156" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-d_3">
+            <circle class="seat-orchestra-d-2" cx="493" cy="159" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-4" cx="506" cy="158" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-6" cx="519" cy="157" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-8" cx="532" cy="155" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-10" cx="545" cy="153" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-12" cx="558" cy="150" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-14" cx="571" cy="147" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-d-16" cx="584" cy="143" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-c_3">
+            <circle class="seat-orchestra-c-2" cx="493" cy="142" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-4" cx="506" cy="141" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-6" cx="519" cy="140" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-8" cx="532" cy="138" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-10" cx="545" cy="136" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-12" cx="558" cy="133" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-14" cx="571" cy="130" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-c-16" cx="584" cy="126" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-b_3">
+            <circle class="seat-orchestra-b-2" cx="493" cy="125" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-4" cx="506" cy="124" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-6" cx="519" cy="123" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-8" cx="532" cy="121" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-10" cx="545" cy="119" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-12" cx="558" cy="116" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-b-14" cx="571" cy="113" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-orchestra-a_3">
+            <circle class="seat-orchestra-a-2" cx="493" cy="108" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-4" cx="506" cy="107" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-6" cx="519" cy="106" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-8" cx="532" cy="104" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-10" cx="545" cy="102" r="6" fill="#ECECEF" />
+            <circle class="seat-orchestra-a-12" cx="558" cy="99" r="6" fill="#ECECEF" />
+          </g>
+        </g>
+      </g>
+      <g class="area-mezzanine" transform="matrix(1, 0, 0, 1, 0, -9)">
+        <path class="background-mezzanine"
+          d="M 31 734.411 L 31 420.411 C 121.389 464.409 238.961 491 367.5 491 C 496.989 491 615.349 464.015 706 419.433 L 706 733.433 C 615.349 778.015 496.989 805 367.5 805 C 238.961 805 121.389 778.409 31 734.411 Z"
+          fill="white" stroke="#D7D8DD" style="" />
+        <g class="section-mezzanine">
+          <g class="row-mezzanine-qq">
+            <circle class="seat-mezzanine-qq-7" cx="200" cy="761" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-5" cx="213" cy="763" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-3" cx="226" cy="765" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-1" cx="239" cy="766" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-pp">
+            <circle class="seat-mezzanine-pp-7" cx="200" cy="744" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-5" cx="213" cy="746" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-3" cx="226" cy="748" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-1" cx="239" cy="749" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-nn">
+            <circle class="seat-mezzanine-nn-7" cx="200" cy="727" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-5" cx="213" cy="729" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-3" cx="226" cy="731" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-1" cx="239" cy="732" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-mm">
+            <circle class="seat-mezzanine-mm-7" cx="200" cy="710" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-5" cx="213" cy="712" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-3" cx="226" cy="714" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-1" cx="239" cy="715" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-ll">
+            <circle class="seat-mezzanine-ll-25" cx="83" cy="655" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-23" cx="96" cy="661" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-21" cx="109" cy="667" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-19" cx="122" cy="672" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-17" cx="135" cy="677" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-15" cx="148" cy="681" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-13" cx="161" cy="685" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-11" cx="174" cy="688" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-9" cx="187" cy="691" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-7" cx="200" cy="693" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-5" cx="213" cy="695" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-3" cx="226" cy="697" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-1" cx="239" cy="698" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-kk">
+            <circle class="seat-mezzanine-kk-27" cx="70" cy="632" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-25" cx="83" cy="638" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-23" cx="96" cy="644" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-21" cx="109" cy="650" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-19" cx="122" cy="655" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-17" cx="135" cy="660" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-15" cx="148" cy="664" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-13" cx="161" cy="668" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-11" cx="174" cy="671" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-9" cx="187" cy="674" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-7" cx="200" cy="676" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-5" cx="213" cy="678" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-3" cx="226" cy="680" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-1" cx="239" cy="681" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-jj">
+            <circle class="seat-mezzanine-jj-27" cx="70" cy="615" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-25" cx="83" cy="621" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-23" cx="96" cy="627" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-21" cx="109" cy="633" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-19" cx="122" cy="638" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-17" cx="135" cy="643" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-15" cx="148" cy="647" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-13" cx="161" cy="651" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-11" cx="174" cy="654" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-9" cx="187" cy="657" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-7" cx="200" cy="659" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-5" cx="213" cy="661" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-3" cx="226" cy="663" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-1" cx="239" cy="664" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-hh">
+            <circle class="seat-mezzanine-hh-27" cx="70" cy="598" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-25" cx="83" cy="604" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-23" cx="96" cy="610" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-21" cx="109" cy="616" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-19" cx="122" cy="621" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-17" cx="135" cy="626" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-15" cx="148" cy="630" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-13" cx="161" cy="634" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-11" cx="174" cy="637" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-9" cx="187" cy="640" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-7" cx="200" cy="642" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-5" cx="213" cy="644" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-3" cx="226" cy="646" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-1" cx="239" cy="647" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-gg">
+            <circle class="seat-mezzanine-gg-27" cx="70" cy="581" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-25" cx="83" cy="587" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-23" cx="96" cy="593" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-21" cx="109" cy="599" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-19" cx="122" cy="604" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-17" cx="135" cy="609" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-15" cx="148" cy="613" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-13" cx="161" cy="617" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-11" cx="174" cy="620" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-9" cx="187" cy="623" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-7" cx="200" cy="625" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-5" cx="213" cy="627" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-3" cx="226" cy="629" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-1" cx="239" cy="630" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-ff">
+            <circle class="seat-mezzanine-ff-27" cx="70" cy="564" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-25" cx="83" cy="570" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-23" cx="96" cy="576" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-21" cx="109" cy="582" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-19" cx="122" cy="587" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-17" cx="135" cy="592" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-15" cx="148" cy="596" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-13" cx="161" cy="600" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-11" cx="174" cy="603" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-9" cx="187" cy="606" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-7" cx="200" cy="608" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-5" cx="213" cy="610" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-3" cx="226" cy="612" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-1" cx="239" cy="613" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-ee">
+            <circle class="seat-mezzanine-ee-29" cx="57" cy="541" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-27" cx="70" cy="547" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-25" cx="83" cy="553" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-23" cx="96" cy="559" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-21" cx="109" cy="565" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-19" cx="122" cy="570" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-17" cx="135" cy="575" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-15" cx="148" cy="579" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-13" cx="161" cy="583" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-11" cx="174" cy="586" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-9" cx="187" cy="589" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-7" cx="200" cy="591" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-5" cx="213" cy="593" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-3" cx="226" cy="595" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-1" cx="239" cy="596" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-dd">
+            <circle class="seat-mezzanine-dd-29" cx="57" cy="524" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-27" cx="70" cy="530" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-25" cx="83" cy="536" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-23" cx="96" cy="542" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-21" cx="109" cy="548" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-19" cx="122" cy="553" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-17" cx="135" cy="558" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-15" cx="148" cy="562" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-13" cx="161" cy="566" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-11" cx="174" cy="569" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-9" cx="187" cy="572" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-7" cx="200" cy="574" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-5" cx="213" cy="576" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-3" cx="226" cy="578" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-1" cx="239" cy="579" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-cc">
+            <circle class="seat-mezzanine-cc-29" cx="57" cy="507" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-27" cx="70" cy="513" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-25" cx="83" cy="519" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-23" cx="96" cy="525" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-21" cx="109" cy="531" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-19" cx="122" cy="536" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-17" cx="135" cy="541" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-15" cx="148" cy="545" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-13" cx="161" cy="549" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-11" cx="174" cy="552" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-9" cx="187" cy="555" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-7" cx="200" cy="557" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-5" cx="213" cy="559" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-3" cx="226" cy="561" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-1" cx="239" cy="562" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-bb">
+            <circle class="seat-mezzanine-bb-29" cx="57" cy="490" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-27" cx="70" cy="496" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-25" cx="83" cy="502" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-23" cx="96" cy="508" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-21" cx="109" cy="514" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-19" cx="122" cy="519" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-17" cx="135" cy="524" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-15" cx="148" cy="528" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-13" cx="161" cy="532" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-11" cx="174" cy="535" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-9" cx="187" cy="538" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-7" cx="200" cy="540" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-5" cx="213" cy="542" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-3" cx="226" cy="544" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-1" cx="239" cy="545" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-aa">
+            <circle class="seat-mezzanine-aa-27" cx="70" cy="479" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-25" cx="83" cy="485" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-23" cx="96" cy="491" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-21" cx="109" cy="497" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-19" cx="122" cy="502" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-17" cx="135" cy="507" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-15" cx="148" cy="511" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-13" cx="161" cy="515" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-11" cx="174" cy="518" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-9" cx="187" cy="521" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-7" cx="200" cy="523" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-5" cx="213" cy="525" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-3" cx="226" cy="527" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-1" cx="239" cy="528" r="6" fill="#ECECEF" />
+          </g>
+        </g>
+        <g class="section-mezzanine_2">
+          <g class="row-mezzanine-qq_2">
+            <circle class="seat-mezzanine-qq-116" cx="271" cy="769" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-115" cx="284" cy="770" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-114" cx="297" cy="771" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-113" cx="310" cy="771" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-112" cx="323" cy="772" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-111" cx="336" cy="772" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-110" cx="349" cy="773" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-109" cx="362" cy="773" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-108" cx="375" cy="773" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-107" cx="388" cy="773" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-106" cx="401" cy="772" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-105" cx="414" cy="772" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-104" cx="427" cy="771" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-103" cx="440" cy="771" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-102" cx="453" cy="770" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-101" cx="466" cy="769" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-pp_2">
+            <circle class="seat-mezzanine-pp-116" cx="271" cy="752" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-115" cx="284" cy="753" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-114" cx="297" cy="754" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-113" cx="310" cy="754" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-112" cx="323" cy="755" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-111" cx="336" cy="755" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-110" cx="349" cy="756" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-109" cx="362" cy="756" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-108" cx="375" cy="756" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-107" cx="388" cy="756" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-106" cx="401" cy="755" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-105" cx="414" cy="755" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-104" cx="427" cy="754" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-103" cx="440" cy="754" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-102" cx="453" cy="753" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-101" cx="466" cy="752" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-nn_2">
+            <circle class="seat-mezzanine-nn-116" cx="271" cy="735" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-115" cx="284" cy="736" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-114" cx="297" cy="737" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-113" cx="310" cy="737" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-112" cx="323" cy="738" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-111" cx="336" cy="738" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-110" cx="349" cy="739" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-109" cx="362" cy="739" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-108" cx="375" cy="739" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-107" cx="388" cy="739" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-106" cx="401" cy="738" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-105" cx="414" cy="738" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-104" cx="427" cy="737" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-103" cx="440" cy="737" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-102" cx="453" cy="736" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-101" cx="466" cy="735" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-mm_2">
+            <circle class="seat-mezzanine-mm-116" cx="271" cy="718" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-115" cx="284" cy="719" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-114" cx="297" cy="720" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-113" cx="310" cy="720" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-112" cx="323" cy="721" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-111" cx="336" cy="721" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-110" cx="349" cy="722" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-109" cx="362" cy="722" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-108" cx="375" cy="722" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-107" cx="388" cy="722" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-106" cx="401" cy="721" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-105" cx="414" cy="721" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-104" cx="427" cy="720" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-103" cx="440" cy="720" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-102" cx="453" cy="719" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-101" cx="466" cy="718" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-ll_2">
+            <circle class="seat-mezzanine-ll-116" cx="271" cy="701" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-115" cx="284" cy="702" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-114" cx="297" cy="703" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-113" cx="310" cy="703" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-112" cx="323" cy="704" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-111" cx="336" cy="704" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-110" cx="349" cy="705" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-109" cx="362" cy="705" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-108" cx="375" cy="705" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-107" cx="388" cy="705" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-106" cx="401" cy="704" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-105" cx="414" cy="704" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-104" cx="427" cy="703" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-103" cx="440" cy="703" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-102" cx="453" cy="702" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-101" cx="466" cy="701" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-kk_2">
+            <circle class="seat-mezzanine-kk-116" cx="271" cy="684" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-115" cx="284" cy="685" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-114" cx="297" cy="686" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-113" cx="310" cy="686" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-112" cx="323" cy="687" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-111" cx="336" cy="687" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-110" cx="349" cy="688" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-109" cx="362" cy="688" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-108" cx="375" cy="688" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-107" cx="388" cy="688" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-106" cx="401" cy="687" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-105" cx="414" cy="687" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-104" cx="427" cy="686" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-103" cx="440" cy="686" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-102" cx="453" cy="685" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-101" cx="466" cy="684" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-jj_2">
+            <circle class="seat-mezzanine-jj-116" cx="271" cy="667" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-115" cx="284" cy="668" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-114" cx="297" cy="669" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-113" cx="310" cy="669" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-112" cx="323" cy="670" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-111" cx="336" cy="670" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-110" cx="349" cy="671" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-109" cx="362" cy="671" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-108" cx="375" cy="671" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-107" cx="388" cy="671" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-106" cx="401" cy="670" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-105" cx="414" cy="670" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-104" cx="427" cy="669" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-103" cx="440" cy="669" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-102" cx="453" cy="668" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-101" cx="466" cy="667" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-hh_2">
+            <circle class="seat-mezzanine-hh-116" cx="271" cy="650" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-115" cx="284" cy="651" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-114" cx="297" cy="652" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-113" cx="310" cy="652" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-112" cx="323" cy="653" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-111" cx="336" cy="653" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-110" cx="349" cy="654" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-109" cx="362" cy="654" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-108" cx="375" cy="654" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-107" cx="388" cy="654" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-106" cx="401" cy="653" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-105" cx="414" cy="653" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-104" cx="427" cy="652" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-103" cx="440" cy="652" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-102" cx="453" cy="651" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-101" cx="466" cy="650" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-gg_2">
+            <circle class="seat-mezzanine-gg-116" cx="271" cy="633" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-115" cx="284" cy="634" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-114" cx="297" cy="635" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-113" cx="310" cy="635" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-112" cx="323" cy="636" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-111" cx="336" cy="636" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-110" cx="349" cy="637" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-109" cx="362" cy="637" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-108" cx="375" cy="637" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-107" cx="388" cy="637" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-106" cx="401" cy="636" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-105" cx="414" cy="636" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-104" cx="427" cy="635" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-103" cx="440" cy="635" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-102" cx="453" cy="634" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-101" cx="466" cy="633" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-ff_2" style="">
+            <circle class="seat-mezzanine-ff-116" cx="271" cy="616" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-115" cx="284" cy="617" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-114" cx="297" cy="618" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-113" cx="310" cy="618" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-112" cx="323" cy="619" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-111" cx="336" cy="619" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-110" cx="349" cy="620" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-109" cx="362" cy="620" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-108" cx="375" cy="620" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-107" cx="388" cy="620" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-106" cx="401" cy="619" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-105" cx="414" cy="619" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-104" cx="427" cy="618" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-103" cx="440" cy="618" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-102" cx="453" cy="617" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-101" cx="466" cy="616" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-ee_2">
+            <circle class="seat-mezzanine-ee-116" cx="271" cy="599" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-115" cx="284" cy="600" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-114" cx="297" cy="601" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-113" cx="310" cy="601" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-112" cx="323" cy="602" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-111" cx="336" cy="602" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-110" cx="349" cy="603" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-109" cx="362" cy="603" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-108" cx="375" cy="603" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-107" cx="388" cy="603" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-106" cx="401" cy="602" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-105" cx="414" cy="602" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-104" cx="427" cy="601" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-103" cx="440" cy="601" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-102" cx="453" cy="600" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-101" cx="466" cy="599" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-dd_2">
+            <circle class="seat-mezzanine-dd-116" cx="271" cy="582" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-115" cx="284" cy="583" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-114" cx="297" cy="584" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-113" cx="310" cy="584" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-112" cx="323" cy="585" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-111" cx="336" cy="585" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-110" cx="349" cy="586" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-109" cx="362" cy="586" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-108" cx="375" cy="586" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-107" cx="388" cy="586" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-106" cx="401" cy="585" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-105" cx="414" cy="585" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-104" cx="427" cy="584" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-103" cx="440" cy="584" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-102" cx="453" cy="583" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-101" cx="466" cy="582" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-cc_2">
+            <circle class="seat-mezzanine-cc-116" cx="271" cy="565" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-115" cx="284" cy="566" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-114" cx="297" cy="567" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-113" cx="310" cy="567" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-112" cx="323" cy="568" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-111" cx="336" cy="568" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-110" cx="349" cy="569" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-109" cx="362" cy="569" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-108" cx="375" cy="569" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-107" cx="388" cy="569" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-106" cx="401" cy="568" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-105" cx="414" cy="568" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-104" cx="427" cy="567" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-103" cx="440" cy="567" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-102" cx="453" cy="566" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-101" cx="466" cy="565" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-bb_2">
+            <circle class="seat-mezzanine-bb-116" cx="271" cy="548" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-115" cx="284" cy="549" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-114" cx="297" cy="550" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-113" cx="310" cy="550" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-112" cx="323" cy="551" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-111" cx="336" cy="551" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-110" cx="349" cy="552" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-109" cx="362" cy="552" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-108" cx="375" cy="552" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-107" cx="388" cy="552" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-106" cx="401" cy="551" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-105" cx="414" cy="551" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-104" cx="427" cy="550" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-103" cx="440" cy="550" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-102" cx="453" cy="549" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-101" cx="466" cy="548" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-aa_2">
+            <circle class="seat-mezzanine-aa-116" cx="271" cy="531" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-115" cx="284" cy="532" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-114" cx="297" cy="533" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-113" cx="310" cy="533" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-112" cx="323" cy="534" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-111" cx="336" cy="534" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-110" cx="349" cy="535" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-109" cx="362" cy="535" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-108" cx="375" cy="535" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-107" cx="388" cy="535" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-106" cx="401" cy="534" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-105" cx="414" cy="534" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-104" cx="427" cy="533" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-103" cx="440" cy="533" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-102" cx="453" cy="532" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-101" cx="466" cy="531" r="6" fill="#ECECEF" />
+          </g>
+        </g>
+        <g class="section-mezzanine_3">
+          <g class="row-mezzanine-qq_3">
+            <circle class="seat-mezzanine-qq-2" cx="498" cy="766" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-4" cx="511" cy="765" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-6" cx="524" cy="764" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-qq-8" cx="537" cy="762" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-pp_3">
+            <circle class="seat-mezzanine-pp-2" cx="498" cy="749" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-4" cx="511" cy="748" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-6" cx="524" cy="747" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-pp-8" cx="537" cy="745" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-nn_3">
+            <circle class="seat-mezzanine-nn-2" cx="498" cy="732" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-4" cx="511" cy="731" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-6" cx="524" cy="730" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-nn-8" cx="537" cy="728" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-mm_3">
+            <circle class="seat-mezzanine-mm-2" cx="498" cy="715" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-4" cx="511" cy="714" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-6" cx="524" cy="713" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-mm-8" cx="537" cy="711" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-ll_3">
+            <circle class="seat-mezzanine-ll-2" cx="498" cy="698" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-4" cx="511" cy="697" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-6" cx="524" cy="696" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-8" cx="537" cy="694" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-10" cx="550" cy="692" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-12" cx="563" cy="689" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-14" cx="576" cy="686" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-16" cx="589" cy="682" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-18" cx="602" cy="678" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-20" cx="615" cy="673" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-22" cx="628" cy="668" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-24" cx="641" cy="662" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ll-26" cx="654" cy="656" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-kk_3">
+            <circle class="seat-mezzanine-kk-2" cx="498" cy="681" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-4" cx="511" cy="680" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-6" cx="524" cy="679" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-8" cx="537" cy="677" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-10" cx="550" cy="675" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-12" cx="563" cy="672" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-14" cx="576" cy="669" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-16" cx="589" cy="665" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-18" cx="602" cy="661" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-20" cx="615" cy="656" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-22" cx="628" cy="651" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-24" cx="641" cy="645" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-26" cx="654" cy="639" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-kk-28" cx="667" cy="633" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-jj_3">
+            <circle class="seat-mezzanine-jj-2" cx="498" cy="664" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-4" cx="511" cy="663" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-6" cx="524" cy="662" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-8" cx="537" cy="660" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-10" cx="550" cy="658" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-12" cx="563" cy="655" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-14" cx="576" cy="652" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-16" cx="589" cy="648" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-18" cx="602" cy="644" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-20" cx="615" cy="639" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-22" cx="628" cy="634" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-24" cx="641" cy="628" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-26" cx="654" cy="622" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-jj-28" cx="667" cy="616" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-hh_3">
+            <circle class="seat-mezzanine-hh-2" cx="498" cy="647" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-4" cx="511" cy="646" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-6" cx="524" cy="645" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-8" cx="537" cy="643" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-10" cx="550" cy="641" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-12" cx="563" cy="638" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-14" cx="576" cy="635" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-16" cx="589" cy="631" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-18" cx="602" cy="627" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-20" cx="615" cy="622" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-22" cx="628" cy="617" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-24" cx="641" cy="611" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-26" cx="654" cy="605" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-hh-28" cx="667" cy="599" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-gg_3">
+            <circle class="seat-mezzanine-gg-2" cx="498" cy="630" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-4" cx="511" cy="629" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-6" cx="524" cy="628" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-8" cx="537" cy="626" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-10" cx="550" cy="624" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-12" cx="563" cy="621" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-14" cx="576" cy="618" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-16" cx="589" cy="614" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-18" cx="602" cy="610" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-20" cx="615" cy="605" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-22" cx="628" cy="600" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-24" cx="641" cy="594" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-26" cx="654" cy="588" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-gg-28" cx="667" cy="582" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-ff_3">
+            <circle class="seat-mezzanine-ff-2" cx="498" cy="613" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-4" cx="511" cy="612" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-6" cx="524" cy="611" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-8" cx="537" cy="609" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-10" cx="550" cy="607" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-12" cx="563" cy="604" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-14" cx="576" cy="601" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-16" cx="589" cy="597" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-18" cx="602" cy="593" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-20" cx="615" cy="588" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-22" cx="628" cy="583" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-24" cx="641" cy="577" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-26" cx="654" cy="571" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ff-28" cx="667" cy="565" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-ee_3">
+            <circle class="seat-mezzanine-ee-2" cx="498" cy="596" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-4" cx="511" cy="595" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-6" cx="524" cy="594" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-8" cx="537" cy="592" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-10" cx="550" cy="590" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-12" cx="563" cy="587" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-14" cx="576" cy="584" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-16" cx="589" cy="580" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-18" cx="602" cy="576" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-20" cx="615" cy="571" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-22" cx="628" cy="566" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-24" cx="641" cy="560" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-26" cx="654" cy="554" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-28" cx="667" cy="548" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-ee-30" cx="680" cy="542" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-dd_3">
+            <circle class="seat-mezzanine-dd-2" cx="498" cy="579" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-4" cx="511" cy="578" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-6" cx="524" cy="577" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-8" cx="537" cy="575" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-10" cx="550" cy="573" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-12" cx="563" cy="570" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-14" cx="576" cy="567" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-16" cx="589" cy="563" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-18" cx="602" cy="559" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-20" cx="615" cy="554" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-22" cx="628" cy="549" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-24" cx="641" cy="543" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-26" cx="654" cy="537" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-28" cx="667" cy="531" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-dd-30" cx="680" cy="525" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-cc_3">
+            <circle class="seat-mezzanine-cc-2" cx="498" cy="562" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-4" cx="511" cy="561" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-6" cx="524" cy="560" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-8" cx="537" cy="558" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-10" cx="550" cy="556" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-12" cx="563" cy="553" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-14" cx="576" cy="550" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-16" cx="589" cy="546" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-18" cx="602" cy="542" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-20" cx="615" cy="537" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-22" cx="628" cy="532" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-24" cx="641" cy="526" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-26" cx="654" cy="520" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-28" cx="667" cy="514" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-cc-30" cx="680" cy="508" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-bb_3">
+            <circle class="seat-mezzanine-bb-2" cx="498" cy="545" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-4" cx="511" cy="544" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-6" cx="524" cy="543" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-8" cx="537" cy="541" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-10" cx="550" cy="539" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-12" cx="563" cy="536" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-14" cx="576" cy="533" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-16" cx="589" cy="529" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-18" cx="602" cy="525" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-20" cx="615" cy="520" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-22" cx="628" cy="515" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-24" cx="641" cy="509" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-26" cx="654" cy="503" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-28" cx="667" cy="497" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-bb-30" cx="680" cy="491" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-mezzanine-aa_3">
+            <circle class="seat-mezzanine-aa-2" cx="498" cy="528" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-4" cx="511" cy="527" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-6" cx="524" cy="526" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-8" cx="537" cy="524" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-10" cx="550" cy="522" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-12" cx="563" cy="519" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-14" cx="576" cy="516" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-16" cx="589" cy="512" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-18" cx="602" cy="508" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-20" cx="615" cy="503" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-22" cx="628" cy="498" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-24" cx="641" cy="492" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-26" cx="654" cy="486" r="6" fill="#ECECEF" />
+            <circle class="seat-mezzanine-aa-28" cx="667" cy="480" r="6" fill="#ECECEF" />
+          </g>
+        </g>
+      </g>
+      <g class="area-balcony">
+        <path class="background-balcony"
+          d="M 31 988.411 L 31 738.411 C 121.389 782.409 238.961 809 367.5 809 C 496.989 809 615.349 782.015 706 737.433 L 706 987.433 C 615.349 1032.01 496.989 1059 367.5 1059 C 238.961 1059 121.389 1032.41 31 988.411 Z"
+          fill="white" stroke="#D7D8DD" />
+        <g class="section-balcony">
+          <g class="row-balcony-l">
+            <circle class="seat-balcony-l-23" cx="96" cy="984" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-21" cx="109" cy="990" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-19" cx="122" cy="995" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-17" cx="135" cy="1000" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-15" cx="148" cy="1004" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-13" cx="161" cy="1008" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-11" cx="174" cy="1011" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-9" cx="187" cy="1014" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-7" cx="200" cy="1016" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-5" cx="213" cy="1018" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-3" cx="226" cy="1020" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-1" cx="239" cy="1021" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-k">
+            <circle class="seat-balcony-k-23" cx="96" cy="967" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-21" cx="109" cy="973" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-19" cx="122" cy="978" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-17" cx="135" cy="983" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-15" cx="148" cy="987" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-13" cx="161" cy="991" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-11" cx="174" cy="994" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-9" cx="187" cy="997" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-7" cx="200" cy="999" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-5" cx="213" cy="1001" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-3" cx="226" cy="1003" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-1" cx="239" cy="1004" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-j">
+            <circle class="seat-balcony-j-23" cx="96" cy="950" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-21" cx="109" cy="956" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-19" cx="122" cy="961" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-17" cx="135" cy="966" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-15" cx="148" cy="970" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-13" cx="161" cy="974" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-11" cx="174" cy="977" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-9" cx="187" cy="980" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-7" cx="200" cy="982" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-5" cx="213" cy="984" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-3" cx="226" cy="986" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-1" cx="239" cy="987" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-h">
+            <circle class="seat-balcony-h-27" cx="70" cy="921" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-25" cx="83" cy="927" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-23" cx="96" cy="933" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-21" cx="109" cy="939" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-19" cx="122" cy="944" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-17" cx="135" cy="949" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-15" cx="148" cy="953" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-13" cx="161" cy="957" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-11" cx="174" cy="960" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-9" cx="187" cy="963" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-7" cx="200" cy="965" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-5" cx="213" cy="967" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-3" cx="226" cy="969" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-1" cx="239" cy="970" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-g">
+            <circle class="seat-balcony-g-27" cx="70" cy="904" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-25" cx="83" cy="910" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-23" cx="96" cy="916" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-21" cx="109" cy="922" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-19" cx="122" cy="927" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-17" cx="135" cy="932" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-15" cx="148" cy="936" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-13" cx="161" cy="940" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-11" cx="174" cy="943" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-9" cx="187" cy="946" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-7" cx="200" cy="948" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-5" cx="213" cy="950" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-3" cx="226" cy="952" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-1" cx="239" cy="953" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-f">
+            <circle class="seat-balcony-f-27" cx="70" cy="887" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-25" cx="83" cy="893" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-23" cx="96" cy="899" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-21" cx="109" cy="905" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-19" cx="122" cy="910" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-17" cx="135" cy="915" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-15" cx="148" cy="919" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-13" cx="161" cy="923" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-11" cx="174" cy="926" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-9" cx="187" cy="929" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-7" cx="200" cy="931" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-5" cx="213" cy="933" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-3" cx="226" cy="935" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-1" cx="239" cy="936" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-e">
+            <circle class="seat-balcony-e-29" cx="57" cy="864" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-27" cx="70" cy="870" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-25" cx="83" cy="876" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-23" cx="96" cy="882" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-21" cx="109" cy="888" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-19" cx="122" cy="893" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-17" cx="135" cy="898" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-15" cx="148" cy="902" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-13" cx="161" cy="906" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-11" cx="174" cy="909" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-9" cx="187" cy="912" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-7" cx="200" cy="914" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-5" cx="213" cy="916" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-3" cx="226" cy="918" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-1" cx="239" cy="919" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-d">
+            <circle class="seat-balcony-d-29" cx="57" cy="847" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-27" cx="70" cy="853" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-25" cx="83" cy="859" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-23" cx="96" cy="865" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-21" cx="109" cy="871" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-19" cx="122" cy="876" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-17" cx="135" cy="881" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-15" cx="148" cy="885" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-13" cx="161" cy="889" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-11" cx="174" cy="892" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-9" cx="187" cy="895" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-7" cx="200" cy="897" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-5" cx="213" cy="899" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-3" cx="226" cy="901" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-1" cx="239" cy="902" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-c">
+            <circle class="seat-balcony-c-31" cx="44" cy="823" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-29" cx="57" cy="830" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-27" cx="70" cy="836" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-25" cx="83" cy="842" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-23" cx="96" cy="848" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-21" cx="109" cy="854" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-19" cx="122" cy="859" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-17" cx="135" cy="864" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-15" cx="148" cy="868" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-13" cx="161" cy="872" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-11" cx="174" cy="875" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-9" cx="187" cy="878" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-7" cx="200" cy="880" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-5" cx="213" cy="882" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-3" cx="226" cy="884" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-1" cx="239" cy="885" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-b">
+            <circle class="seat-balcony-b-31" cx="44" cy="806" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-29" cx="57" cy="813" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-27" cx="70" cy="819" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-25" cx="83" cy="825" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-23" cx="96" cy="831" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-21" cx="109" cy="837" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-19" cx="122" cy="842" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-17" cx="135" cy="847" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-15" cx="148" cy="851" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-13" cx="161" cy="855" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-11" cx="174" cy="858" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-9" cx="187" cy="861" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-7" cx="200" cy="863" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-5" cx="213" cy="865" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-3" cx="226" cy="867" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-1" cx="239" cy="868" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-a">
+            <circle class="seat-balcony-a-31" cx="44" cy="789" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-29" cx="57" cy="796" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-27" cx="70" cy="802" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-25" cx="83" cy="808" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-23" cx="96" cy="814" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-21" cx="109" cy="820" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-19" cx="122" cy="825" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-17" cx="135" cy="830" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-15" cx="148" cy="834" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-13" cx="161" cy="838" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-11" cx="174" cy="841" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-9" cx="187" cy="844" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-7" cx="200" cy="846" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-5" cx="213" cy="848" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-3" cx="226" cy="850" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-1" cx="239" cy="851" r="6" fill="#ECECEF" />
+          </g>
+        </g>
+        <g class="section-balcony_2">
+          <g class="row-balcony-g_2">
+            <circle class="seat-balcony-g-116" cx="271" cy="956" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-115" cx="284" cy="957" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-114" cx="297" cy="958" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-113" cx="310" cy="958" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-112" cx="323" cy="959" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-111" cx="336" cy="959" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-110" cx="349" cy="960" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-109" cx="362" cy="960" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-108" cx="375" cy="960" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-107" cx="388" cy="960" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-106" cx="401" cy="959" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-105" cx="414" cy="959" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-104" cx="427" cy="958" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-103" cx="440" cy="958" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-102" cx="453" cy="957" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-101" cx="466" cy="956" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-f_2">
+            <circle class="seat-balcony-f-116" cx="271" cy="939" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-115" cx="284" cy="940" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-114" cx="297" cy="941" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-113" cx="310" cy="941" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-112" cx="323" cy="942" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-111" cx="336" cy="942" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-110" cx="349" cy="943" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-109" cx="362" cy="943" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-108" cx="375" cy="943" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-107" cx="388" cy="943" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-106" cx="401" cy="942" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-104" cx="427" cy="941" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-103" cx="440" cy="941" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-102" cx="453" cy="940" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-101" cx="466" cy="939" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-e_2">
+            <circle class="seat-balcony-e-116" cx="271" cy="922" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-115" cx="284" cy="923" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-114" cx="297" cy="924" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-113" cx="310" cy="924" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-112" cx="323" cy="925" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-111" cx="336" cy="925" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-110" cx="349" cy="926" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-109" cx="362" cy="926" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-108" cx="375" cy="926" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-107" cx="388" cy="926" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-106" cx="401" cy="925" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-105" cx="414" cy="925" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-104" cx="427" cy="924" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-103" cx="440" cy="924" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-102" cx="453" cy="923" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-101" cx="466" cy="922" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-d_2">
+            <circle class="seat-balcony-d-116" cx="271" cy="905" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-115" cx="284" cy="906" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-114" cx="297" cy="907" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-113" cx="310" cy="907" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-112" cx="323" cy="908" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-111" cx="336" cy="908" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-110" cx="349" cy="909" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-109" cx="362" cy="909" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-108" cx="375" cy="909" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-107" cx="388" cy="909" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-106" cx="401" cy="908" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-105" cx="414" cy="908" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-104" cx="427" cy="907" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-103" cx="440" cy="907" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-102" cx="453" cy="906" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-101" cx="466" cy="905" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-c_2">
+            <circle class="seat-balcony-c-116" cx="271" cy="888" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-115" cx="284" cy="889" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-114" cx="297" cy="890" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-113" cx="310" cy="890" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-112" cx="323" cy="891" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-111" cx="336" cy="891" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-110" cx="349" cy="892" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-109" cx="362" cy="892" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-108" cx="375" cy="892" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-107" cx="388" cy="892" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-106" cx="401" cy="891" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-105" cx="414" cy="891" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-104" cx="427" cy="890" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-103" cx="440" cy="890" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-102" cx="453" cy="889" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-101" cx="466" cy="888" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-b_2">
+            <circle class="seat-balcony-b-116" cx="271" cy="871" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-115" cx="284" cy="872" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-114" cx="297" cy="873" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-113" cx="310" cy="873" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-112" cx="323" cy="874" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-111" cx="336" cy="874" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-110" cx="349" cy="875" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-109" cx="362" cy="875" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-108" cx="375" cy="875" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-107" cx="388" cy="875" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-106" cx="401" cy="874" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-105" cx="414" cy="874" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-104" cx="427" cy="873" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-103" cx="440" cy="873" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-102" cx="453" cy="872" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-101" cx="466" cy="871" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-a_2">
+            <circle class="seat-balcony-a-116" cx="271" cy="854" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-115" cx="284" cy="855" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-114" cx="297" cy="856" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-113" cx="310" cy="856" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-112" cx="323" cy="857" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-111" cx="336" cy="857" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-110" cx="349" cy="858" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-109" cx="362" cy="858" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-108" cx="375" cy="858" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-107" cx="388" cy="858" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-106" cx="401" cy="857" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-105" cx="414" cy="857" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-104" cx="427" cy="856" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-103" cx="440" cy="856" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-102" cx="453" cy="855" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-101" cx="466" cy="854" r="6" fill="#ECECEF" />
+          </g>
+        </g>
+        <g class="section-balcony_3">
+          <g class="row-balcony-l_2">
+            <circle class="seat-balcony-l-2" cx="498" cy="1021" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-4" cx="511" cy="1020" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-6" cx="524" cy="1019" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-8" cx="537" cy="1017" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-10" cx="550" cy="1015" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-12" cx="563" cy="1012" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-14" cx="576" cy="1009" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-16" cx="589" cy="1005" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-18" cx="602" cy="1001" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-20" cx="615" cy="996" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-22" cx="628" cy="991" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-l-24" cx="641" cy="985" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-k_2">
+            <circle class="seat-balcony-k-2" cx="498" cy="1004" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-4" cx="511" cy="1003" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-6" cx="524" cy="1002" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-8" cx="537" cy="1000" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-10" cx="550" cy="998" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-12" cx="563" cy="995" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-14" cx="576" cy="992" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-16" cx="589" cy="988" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-18" cx="602" cy="984" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-20" cx="615" cy="979" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-22" cx="628" cy="974" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-k-24" cx="641" cy="968" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-j_2">
+            <circle class="seat-balcony-j-2" cx="498" cy="987" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-4" cx="511" cy="986" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-6" cx="524" cy="985" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-8" cx="537" cy="983" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-10" cx="550" cy="981" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-12" cx="563" cy="978" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-14" cx="576" cy="975" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-16" cx="589" cy="971" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-18" cx="602" cy="967" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-20" cx="615" cy="962" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-22" cx="628" cy="957" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-j-24" cx="641" cy="951" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-h_2">
+            <circle class="seat-balcony-h-2" cx="498" cy="970" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-4" cx="511" cy="969" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-6" cx="524" cy="968" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-8" cx="537" cy="966" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-10" cx="550" cy="964" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-12" cx="563" cy="961" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-14" cx="576" cy="958" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-16" cx="589" cy="954" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-18" cx="602" cy="950" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-20" cx="615" cy="945" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-22" cx="628" cy="940" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-24" cx="641" cy="934" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-h-26" cx="654" cy="928" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-g_3">
+            <circle class="seat-balcony-g-2" cx="498" cy="953" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-4" cx="511" cy="952" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-6" cx="524" cy="951" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-8" cx="537" cy="949" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-10" cx="550" cy="947" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-12" cx="563" cy="944" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-14" cx="576" cy="941" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-16" cx="589" cy="937" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-18" cx="602" cy="933" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-20" cx="615" cy="928" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-22" cx="628" cy="923" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-24" cx="641" cy="917" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-26" cx="654" cy="911" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-g-28" cx="667" cy="905" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-f_3">
+            <circle class="seat-balcony-f-2" cx="498" cy="936" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-4" cx="511" cy="935" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-6" cx="524" cy="934" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-8" cx="537" cy="932" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-10" cx="550" cy="930" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-12" cx="563" cy="927" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-14" cx="576" cy="924" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-16" cx="589" cy="920" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-18" cx="602" cy="916" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-20" cx="615" cy="911" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-22" cx="628" cy="906" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-24" cx="641" cy="900" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-26" cx="654" cy="894" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-28" cx="667" cy="888" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-f-30" cx="680" cy="882" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-e_3">
+            <circle class="seat-balcony-e-2" cx="498" cy="919" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-4" cx="511" cy="918" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-6" cx="524" cy="917" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-8" cx="537" cy="915" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-10" cx="550" cy="913" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-12" cx="563" cy="910" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-14" cx="576" cy="907" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-16" cx="589" cy="903" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-18" cx="602" cy="899" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-20" cx="615" cy="894" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-22" cx="628" cy="889" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-24" cx="641" cy="883" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-26" cx="654" cy="877" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-28" cx="667" cy="871" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-e-30" cx="680" cy="865" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-d_3">
+            <circle class="seat-balcony-d-2" cx="498" cy="902" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-4" cx="511" cy="901" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-6" cx="524" cy="900" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-8" cx="537" cy="898" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-10" cx="550" cy="896" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-12" cx="563" cy="893" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-14" cx="576" cy="890" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-16" cx="589" cy="886" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-18" cx="602" cy="882" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-20" cx="615" cy="877" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-22" cx="628" cy="872" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-24" cx="641" cy="866" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-26" cx="654" cy="860" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-28" cx="667" cy="854" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-d-30" cx="680" cy="848" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-c_3">
+            <circle class="seat-balcony-c-2" cx="498" cy="885" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-4" cx="511" cy="884" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-6" cx="524" cy="883" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-8" cx="537" cy="881" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-10" cx="550" cy="879" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-12" cx="563" cy="876" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-14" cx="576" cy="873" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-16" cx="589" cy="869" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-18" cx="602" cy="865" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-20" cx="615" cy="860" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-22" cx="628" cy="855" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-24" cx="641" cy="849" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-26" cx="654" cy="843" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-28" cx="667" cy="837" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-30" cx="680" cy="831" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-c-32" cx="693" cy="824" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-b_3">
+            <circle class="seat-balcony-b-2" cx="498" cy="868" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-4" cx="511" cy="867" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-6" cx="524" cy="866" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-8" cx="537" cy="864" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-10" cx="550" cy="862" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-12" cx="563" cy="859" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-14" cx="576" cy="856" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-16" cx="589" cy="852" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-18" cx="602" cy="848" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-20" cx="615" cy="843" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-22" cx="628" cy="838" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-24" cx="641" cy="832" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-26" cx="654" cy="826" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-28" cx="667" cy="820" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-30" cx="680" cy="814" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-b-32" cx="693" cy="807" r="6" fill="#ECECEF" />
+          </g>
+          <g class="row-balcony-a_3">
+            <circle class="seat-balcony-a-2" cx="498" cy="851" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-4" cx="511" cy="850" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-6" cx="524" cy="849" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-8" cx="537" cy="847" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-10" cx="550" cy="845" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-12" cx="563" cy="842" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-14" cx="576" cy="839" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-16" cx="589" cy="835" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-18" cx="602" cy="831" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-20" cx="615" cy="826" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-22" cx="628" cy="821" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-24" cx="641" cy="815" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-26" cx="654" cy="809" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-28" cx="667" cy="803" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-30" cx="680" cy="797" r="6" fill="#ECECEF" />
+            <circle class="seat-balcony-a-32" cx="693" cy="790" r="6" fill="#ECECEF" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g class="layers" style="">
+      <g class="overhangindicators" style="" transform="matrix(1, 0, 0, 0.948812, 0, 13.718442)">
+        <g class="overhang-mezzanine" transform="matrix(1, 0, 0, 1, 0, -9.485543)">
+          <path class="overhang-background" fill-rule="evenodd" clip-rule="evenodd"
+            d="M0 443H31V441H2V270H31V268H0V443ZM706 441V443H737V268H706V270H735V441H706Z"
+            fill="#D7D8DD" />
+          <text class="overhang" transform="translate(730 316) rotate(90)" fill="#505368"
+            style="white-space: pre"
+            font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif"
+            font-size="16" font-weight="bold" letter-spacing="0px">
+            <tspan x="0.453125" y="15.1875">Overhang</tspan>
+          </text>
+        </g>
+        <g class="overhang-balcony">
+          <path class="overhang-background_2" fill-rule="evenodd" clip-rule="evenodd"
+            d="M 0 781.078 L 31 781.078 L 31 779.078 L 2 779.078 L 2 539.078 L 31 539.078 L 31 537.078 L 0 537.078 L 0 781.078 Z M 706 779.078 L 706 781.078 L 737 781.078 L 737 537.078 L 706 537.078 L 706 539.078 L 735 539.078 L 735 779.078 L 706 779.078 Z"
+            fill="#D7D8DD" />
+          <text class="overhang_2" transform="matrix(0, 1, -1, 0, 730, 620.078979)" fill="#505368"
+            style="white-space: pre"
+            font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif"
+            font-size="16" font-weight="bold" letter-spacing="0px">
+            <tspan x="0.453" y="15.188" style="font-size: 16px; word-spacing: 0px;">Overhang</tspan>
+          </text>
+        </g>
+      </g>
+      <g class="labelsareas" style="">
+        <text class="label-orchestra"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 700; white-space: pre;"
+          x="320.496" y="78.297">Orchestra</text>
+        <text class="label-mezzanine"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 700; white-space: pre;"
+          x="317.865" y="505.626">Mezzanine</text>
+        <text class="label-balcony"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 700; white-space: pre;"
+          x="328.097" y="836.297">Balcony</text>
+      </g>
+    </g>
+  </g>
+  <g class="labelsrows" style=""
+    transform="matrix(1, 0, 0, 1, -0.9486000537872314, -15.679975509643555)">
+    <g class="labels-orchestra_4" style="">
+      <g class="labelsrow">
+        <text class="label-v"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.196" y="435.777">V</text>
+        <text class="label-u"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.098" y="418.777">U</text>
+        <text class="label-t"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.35" y="401.777">T</text>
+        <text class="label-s"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.311" y="384.777">S</text>
+        <text class="label-r"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.264" y="367.777">R</text>
+        <text class="label-q"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.032" y="350.777">Q</text>
+        <text class="label-p"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.315" y="333.777">P</text>
+        <text class="label-n"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.079" y="316.777">N</text>
+        <text class="label-m"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="257.732" y="299.777">M</text>
+        <text class="label-l"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.513" y="282.777">L</text>
+        <text class="label-k"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.225" y="265.777">K</text>
+        <text class="label-j"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.496" y="248.777">J</text>
+        <text class="label-h"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.042" y="231.777">H</text>
+        <text class="label-g"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.098" y="214.777">G</text>
+        <text class="label-f"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.506" y="197.777">F</text>
+        <text class="label-e"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.445" y="180.777">E</text>
+        <text class="label-d"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.13" y="163.777">D</text>
+        <text class="label-c"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.147" y="146.777">C</text>
+        <text class="label-b"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.267" y="129.777">B</text>
+        <text class="label-a"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="258.169" y="112.777">A</text>
+      </g>
+      <g class="labelsrow_2">
+        <text class="label-w"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="472.476" y="452.777">W</text>
+        <text class="label-v_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.196" y="435.777">V</text>
+        <text class="label-u_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.098" y="418.777">U</text>
+        <text class="label-t_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.35" y="401.777">T</text>
+        <text class="label-s_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.311" y="384.777">S</text>
+        <text class="label-r_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.264" y="367.777">R</text>
+        <text class="label-q_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.032" y="350.777">Q</text>
+        <text class="label-p_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.315" y="333.777">P</text>
+        <text class="label-n_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.079" y="316.777">N</text>
+        <text class="label-m_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="472.732" y="299.777">M</text>
+        <text class="label-l_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.513" y="282.777">L</text>
+        <text class="label-k_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.225" y="265.777">K</text>
+        <text class="label-j_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.496" y="248.777">J</text>
+        <text class="label-h_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.042" y="231.777">H</text>
+        <text class="label-g_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.098" y="214.777">G</text>
+        <text class="label-f_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.506" y="197.777">F</text>
+        <text class="label-e_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.445" y="180.777">E</text>
+        <text class="label-d_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.13" y="163.777">D</text>
+        <text class="label-c_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.147" y="146.777">C</text>
+        <text class="label-b_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.267" y="129.777">B</text>
+        <text class="label-a_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="473.169" y="112.777">A</text>
+      </g>
+    </g>
+    <g class="labels-mezzanine_4" transform="matrix(1, 0, 0, 1, -2, 7)">
+      <g class="labelsrow_3">
+        <text class="label-qq"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="251.064" y="769.777">QQ</text>
+        <text class="label-pp"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="251.631" y="752.777">PP</text>
+        <text class="label-nn"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="251.157" y="735.777">NN</text>
+        <text class="label-mm"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="250.464" y="718.777">MM</text>
+        <text class="label-ll"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="252.026" y="701.777">LL</text>
+        <text class="label-kk"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="251.45" y="684.777">KK</text>
+        <text class="label-jj"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="251.992" y="667.777">JJ</text>
+        <text class="label-hh"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="251.084" y="650.777">HH</text>
+        <text class="label-gg"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="251.196" y="633.777">GG</text>
+        <text class="label-ff"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="252.012" y="616.777">FF</text>
+        <text class="label-ee"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="251.89" y="599.777">EE</text>
+        <text class="label-dd"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="251.26" y="582.777">DD</text>
+        <text class="label-cc"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="251.294" y="565.777">CC</text>
+        <text class="label-bb"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="251.533" y="548.777">BB</text>
+        <text class="label-aa"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="251.338" y="531.777">AA</text>
+      </g>
+      <g class="labelsrow_4">
+        <text class="label-qq_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="478.064" y="769.777">QQ</text>
+        <text class="label-pp_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="478.631" y="752.777">PP</text>
+        <text class="label-nn_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="478.157" y="735.777">NN</text>
+        <text class="label-mm_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="477.464" y="718.777">MM</text>
+        <text class="label-ll_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="479.026" y="701.777">LL</text>
+        <text class="label-kk_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="478.45" y="684.777">KK</text>
+        <text class="label-jj_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="478.992" y="667.777">JJ</text>
+        <text class="label-hh_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="478.084" y="650.777">HH</text>
+        <text class="label-gg_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="478.196" y="633.777">GG</text>
+        <text class="label-ff_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="479.012" y="616.777">FF</text>
+        <text class="label-ee_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="478.89" y="599.777">EE</text>
+        <text class="label-dd_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="478.26" y="582.777">DD</text>
+        <text class="label-cc_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="478.294" y="565.777">CC</text>
+        <text class="label-bb_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="478.533" y="548.777">BB</text>
+        <text class="label-aa_2"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="478.338" y="531.777">AA</text>
+      </g>
+    </g>
+    <g class="labels-balcony_4" transform="matrix(1, 0, 0, 1, -1, 17)">
+      <g class="labelsrow_5">
+        <text class="label-l_3"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="254.513" y="1024.78">L</text>
+        <text class="label-k_3"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="254.225" y="1007.78">K</text>
+        <text class="label-j_3"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="254.496" y="990.777">J</text>
+        <text class="label-h_3"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="254.042" y="973.777">H</text>
+        <text class="label-g_3"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="254.098" y="956.777">G</text>
+        <text class="label-f_3"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="254.506" y="939.777">F</text>
+        <text class="label-e_3"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="254.445" y="922.777">E</text>
+        <text class="label-d_3"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="254.13" y="905.777">D</text>
+        <text class="label-c_3"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="254.147" y="888.777">C</text>
+        <text class="label-b_3"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="254.267" y="871.777">B</text>
+        <text class="label-a_3"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="254.169" y="854.777">A</text>
+      </g>
+      <g class="labelsrow_6">
+        <text class="label-l_4"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="480.513" y="1024.78">L</text>
+        <text class="label-k_4"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="480.225" y="1007.78">K</text>
+        <text class="label-j_4"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="480.496" y="990.777">J</text>
+        <text class="label-h_4"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="480.042" y="973.777">H</text>
+        <text class="label-g_4"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="480.098" y="956.777">G</text>
+        <text class="label-f_4"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="480.506" y="939.777">F</text>
+        <text class="label-e_4"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="480.445" y="922.777">E</text>
+        <text class="label-d_4"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="480.13" y="905.777">D</text>
+        <text class="label-c_4"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="480.147" y="888.777">C</text>
+        <text class="label-b_4"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="480.267" y="871.777">B</text>
+        <text class="label-a_4"
+          style="fill: rgb(80, 83, 104); font-family: -apple-system, 'system-ui', 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 8px; font-weight: 700; white-space: pre;"
+          x="480.169" y="854.777">A</text>
+      </g>
+    </g>
+  </g>
+</svg>
