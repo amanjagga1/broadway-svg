@@ -1,8 +1,14 @@
 <svg viewbox="0 0 737.0 1106.8" xmlns="http://www.w3.org/2000/svg">
 <g class="primary-clusters">
+<<<<<<< Updated upstream
 <text x="328.5" y="90" class="section-heading" style="text-transform:capitalize; font-weight:bold; transform:translateX(-5%);  font-size:30px; font-family:sans-serif;"">orchestra</text>
 <text x="328.5" y="503.0" class="section-heading" style="text-transform:capitalize; font-weight:bold; transform:translateX(-5%);  font-size:30px; font-family:sans-serif;"">mezzanine</text>
 <text x="328.5" y="823.0" class="section-heading" style="text-transform:capitalize; font-weight:bold; transform:translateX(-5%);  font-size:30px; font-family:sans-serif;"">balcony</text>
+=======
+<text x="328.5" y="90" class="section-heading" style="text-transform:capitalize; font-weight:bold;">orchestra</text>
+<text x="328.5" y="503.0" class="section-heading" style="text-transform:capitalize; font-weight:bold;">mezzanine</text>
+<text x="328.5" y="823.0" class="section-heading" style="text-transform:capitalize; font-weight:bold;">balcony</text>
+>>>>>>> Stashed changes
 <g class="grouped-orchestra cluster0">
 <polygon data-section="orchestra" data-priority="-1" class="n/a" points="75.0,246.0 75.0,263.0 75.0,280.0 75.0,297.0 88.0,337.0 114.0,366.0 127.0,371.0 153.0,397.0 153.0,414.0 166.0,418.0 179.0,421.0 192.0,424.0 231.0,413.0 244.0,414.0 244.0,397.0 244.0,380.0 244.0,363.0 244.0,346.0 244.0,329.0 244.0,312.0 244.0,295.0 244.0,278.0 244.0,261.0 244.0,244.0 244.0,227.0 244.0,210.0 244.0,193.0 244.0,176.0 244.0,159.0 244.0,142.0 244.0,125.0 244.0,108.0 205.0,103.0 179.0,98.0 153.0,125.0 140.0,155.0 127.0,167.0 114.0,179.0 101.0,207.0 88.0,218.0 75.0,229.0 75.0,246.0" style="fill:#C4C4C4;" />
 </g>

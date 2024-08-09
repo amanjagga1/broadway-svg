@@ -27,7 +27,7 @@ def find_circles(element, ns, prefix='seat-'):
     
     return circles
 
-def parse_svg(svg_content):
+def parse_svg(svg_content, svg_name):
     # Parse the SVG content
     root = ET.fromstring(svg_content)
     ns = {'svg': 'http://www.w3.org/2000/svg'}
@@ -36,14 +36,16 @@ def parse_svg(svg_content):
 
     # Find all circles with class names matching 'seat-{anything}'
     circles = find_circles(root, ns)
+    section_names = set()
     for circle in circles:
         class_name = circle.attrib.get('class')
         match = re.match(r'seat-([^-\s]+)-([^-\s]+)-([^-\s]+)', class_name)
         if match:
             section_name = match.group(1)
             row_name = match.group(2)
-            # This is a hardcoded edge case for TGIDs 519 and 1293
-            if section_name.startswith('front') or section_name.startswith('rear'):
+
+            # This is a hardcoded edge case for TGIDs aside from 519 that have front and rear mezzanine as sections
+            if svg_name != "519" and (section_name.startswith('front') or section_name.startswith('rear')):
                 section_name = section_name.replace('front', '').replace('rear', '').strip()
 
             cx = float(circle.attrib.get('cx', '0'))
@@ -59,6 +61,8 @@ def parse_svg(svg_content):
             }
             seats_by_section[section_name].append(seat_data)
             rows_by_section[section_name][row_name].append(cy)
+
+    print(section_names)
 
     # Calculate average y value for each row and sort rows
     section_rows = {}
@@ -80,11 +84,11 @@ def cluster_seats(seats):
     
     return clusters
 
-def svg_to_json(svg_file_path, json_output_path):
+def svg_to_json(svg_file_path, json_output_path, svg_name):
     with open(svg_file_path, 'r') as svg_file:
         svg_content = svg_file.read()
 
-    seats_by_section, section_rows = parse_svg(svg_content)
+    seats_by_section, section_rows = parse_svg(svg_content, svg_name)
 
     clustered_seats_by_section = {}
     for section_name, seats in seats_by_section.items():

@@ -1,9 +1,21 @@
 import re
-def get_section_labels(section_name, standardized_section_name):
+def get_section_labels(section_name, standardized_section_name, svg_name):
     parts = re.split(r'\s*/\s*', standardized_section_name)
     result = []
 
     for name in parts:
+
+        #This portion of code is to handle the edge case of 519
+        edgeCase519 = None
+
+        if(svg_name == "519"):
+            if "Rear Mezzanine" in name:
+                edgeCase519 = " Rear Mezzanine"
+                name = name.replace("Rear Mezzanine", "").strip()
+            elif "Front Mezzanine" in name:
+                edgeCase519 = " Front Mezzanine"
+                name = name.replace("Front Mezzanine", "").strip()
+
         sub_parts = name.split(" ")
         vertical_labels = []
         horizontal_labels = []
@@ -34,7 +46,8 @@ def get_section_labels(section_name, standardized_section_name):
                         vertical_labels.append(key)
                     elif key in horizontal_list:
                         horizontal_labels.append(key)
-
+        if edgeCase519:
+            name = name + edgeCase519
         result.append({name: {"vertical": vertical_labels, "horizontal": horizontal_labels, "rows": rows}})
 
     return {section_name: result}

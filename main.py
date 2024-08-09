@@ -55,7 +55,6 @@ def fetch_variant_map(tgid):
         inventories_data = inventories_response.json()
 
         for availability in inventories_data['availabilities']:
-            print(availability["tourId"])
             activeVariants.add(availability["tourId"])
         
         tour_groups_response = requests.get(tour_groups_url)
@@ -91,7 +90,7 @@ def main():
     standardized_input = standardize_section_list(input_subsections)
 
     svg_viewbox = get_svg_viewbox(svg_file_path)
-    section_rows = svg_to_json(svg_file_path, json_output_path)
+    section_rows = svg_to_json(svg_file_path, json_output_path, svg_name)
     
     print("Classifying data...")
     process_classification(json_output_path, classified_output_path)
@@ -99,12 +98,12 @@ def main():
     print("Processing input subsections")
     processed_input_subsections = []
     for subsection, standardized_subsection in zip(input_subsections, standardized_input):
-        processed_input_subsections.append(get_section_labels(subsection, standardized_subsection))
+        processed_input_subsections.append(get_section_labels(subsection, standardized_subsection, svg_name))
 
     print(processed_input_subsections)
 
     print("Filtering seats...")
-    process_filtering(classified_output_path, filtered_output_path, processed_input_subsections, section_rows)
+    process_filtering(classified_output_path, filtered_output_path, processed_input_subsections, section_rows, svg_name)
 
     print("Generating final SVG...")
     generate_svg(filtered_output_path, json_output_path, final_svg_output_path, svg_viewbox, variant_tour_mapping)

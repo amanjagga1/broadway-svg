@@ -1,8 +1,13 @@
 import json
 import re
 
-def filter_section_name(title: str) -> str:
+def filter_section_name(title: str, svg_name) -> str:
     title_lower = title.lower()
+    if svg_name == "519":
+        if 'front mezzanine' in title_lower:
+            return 'frontmezzanine'
+        if 'rear mezzanine' in title_lower:
+            return 'rearmezzanine'
     if 'orchestra' in title_lower:
         return 'orchestra'
     if 'mezzanine' in title_lower:
@@ -30,7 +35,7 @@ def is_row_in_range(row_label, row_range, sorted_rows):
 
     return False
 
-def read_clusters(classification_data, variant_labels, section_rows):
+def read_clusters(classification_data, variant_labels, section_rows, svg_name):
     def get_intersection_clusters(v_labels: list, h_labels: list, rows: str) -> list:
         vertical_seats = set()
         horizontal_seats = set()
@@ -104,7 +109,7 @@ def read_clusters(classification_data, variant_labels, section_rows):
                 break
             for section_data in section_labels:
                 section_name = list(section_data.keys())[0]
-                refined_section_name = filter_section_name(section_name)
+                refined_section_name = filter_section_name(section_name, svg_name)
                 if not refined_section_name:
                     skip_variant = True
                     break
@@ -129,11 +134,11 @@ def read_clusters(classification_data, variant_labels, section_rows):
 
     return sort_by_priority(filtered_result)
 
-def process_filtering(input_file_path, output_file_path, processed_input_subsections, section_rows):
+def process_filtering(input_file_path, output_file_path, processed_input_subsections, section_rows, svg_name):
     with open(input_file_path, 'r') as f:
         classification_data = json.load(f)
     
-    result = read_clusters(classification_data, processed_input_subsections, section_rows)
+    result = read_clusters(classification_data, processed_input_subsections, section_rows, svg_name)
     
     with open(output_file_path, 'w') as f:
         json.dump(result, f, indent=2)

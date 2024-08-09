@@ -18,10 +18,11 @@ Instructions:
 4. Remove any leading or trailing spaces around the section names.
 5. Ignore any incomplete sections that do not form a complete name.
 6. Return only the list of standardized section names without any explanations or additional text.
+7. The input and output list must be the same size.
 
 Example:
-Input: ["MidOrchestraandRearOrchestra Center", "Front Orchestra Sides andFront Mezzanine", "Orchestra Center and Near Sides", "Orchestra Center and Near Sides/Front Mezzanine"]
-Output: ["Mid Orchestra / Rear Orchestra Center", "Front Orchestra Sides / Front Mezzanine", "Orchestra Center / Orchestra Near Sides", "Orchestra Center / Orchestra Near Sides / Front Mezzanine"]
+Input: ["MidOrchestraandRearOrchestra Center", "Front Orchestra Sides andFront Mezzanine", "Orchestra Center and Near Sides", "Orchestra Center and Near Sides/Front Mezzanine", "Orchestra Side Rows BB-B Front Mezzanine Far Side Rows A-E"]
+Output: ["Mid Orchestra / Rear Orchestra Center", "Front Orchestra Sides / Front Mezzanine", "Orchestra Center / Orchestra Near Sides", "Orchestra Center / Orchestra Near Sides / Front Mezzanine",  "Orchestra Side Rows BB-B / Front Mezzanine Far Side Rows A-E"]
 
 Input: {input_list}
 Output:
@@ -41,5 +42,6 @@ Output:
         raise ValueError("Failed to parse the response into a list") from e
 
     print(input_list)
+    print(standardized_list)
 
     return standardized_list
