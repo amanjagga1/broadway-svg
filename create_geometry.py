@@ -123,7 +123,7 @@ def process_additional_clusters(data):
         previous_max_y = max_y
 
         # Add a text element for the section name
-        svg_content += f'<text x="{text_x}" y="{text_y}" class="section-heading" style="text-transform:capitalize; font-weight:bold;">{saxutils.escape(section_name)}</text>\n'
+        svg_content += f'<text x="{text_x}" y="{text_y}" class="section-heading" style="text-transform:capitalize; font-weight:bold; transform:translateX(-5%);  font-size:30px; font-family:sans-serif;"">{saxutils.escape(section_name)}</text>\n'
 
     for section_name, clusters in data.items():
         for cluster_name, seats in clusters.items():
