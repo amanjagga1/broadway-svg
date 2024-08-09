@@ -16,6 +16,10 @@ def get_section_labels(section_name, standardized_section_name, svg_name):
                 edgeCase519 = " Front Mezzanine"
                 name = name.replace("Front Mezzanine", "").strip()
 
+        #This portion of code is to hardcode Premium/s as Front Orchestra Center
+        if "Premium" in name:
+            name = "Front Orchestra Center"
+
         sub_parts = name.split(" ")
         vertical_labels = []
         horizontal_labels = []

@@ -1,11 +1,5 @@
 <svg viewbox="0 0 737.0 1106.8" xmlns="http://www.w3.org/2000/svg">
 <g class="primary-clusters">
-<text x="328.5" y="90" class="section-heading" style="text-transform:capitalize; font-weight:bold; transform:translateX(-5%);  font-size:30px; font-family:sans-serif;"">orchestra</text>
-<text x="328.5" y="503.0" class="section-heading" style="text-transform:capitalize; font-weight:bold; transform:translateX(-5%);  font-size:30px; font-family:sans-serif;"">mezzanine</text>
-<text x="328.5" y="823.0" class="section-heading" style="text-transform:capitalize; font-weight:bold; transform:translateX(-5%);  font-size:30px; font-family:sans-serif;"">balcony</text>
-<text x="328.5" y="90" class="section-heading" style="text-transform:capitalize; font-weight:bold;">orchestra</text>
-<text x="328.5" y="503.0" class="section-heading" style="text-transform:capitalize; font-weight:bold;">mezzanine</text>
-<text x="328.5" y="823.0" class="section-heading" style="text-transform:capitalize; font-weight:bold;">balcony</text>
 <text x="328.5" y="90" class="section-heading" style="text-transform:capitalize; font-weight:bold; transform:translateX(-5%);  font-size:30px; font-family:sans-serif;">orchestra</text>
 <text x="328.5" y="503.0" class="section-heading" style="text-transform:capitalize; font-weight:bold; transform:translateX(-5%);  font-size:30px; font-family:sans-serif;">mezzanine</text>
 <text x="328.5" y="823.0" class="section-heading" style="text-transform:capitalize; font-weight:bold; transform:translateX(-5%);  font-size:30px; font-family:sans-serif;">balcony</text>

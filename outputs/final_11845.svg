@@ -1,7 +1,7 @@
-<svg viewbox="0.0 -66.632 653.0 1001.632" xmlns="http://www.w3.org/2000/svg">
+<svg viewbox="0 0 653.0 1001.632" xmlns="http://www.w3.org/2000/svg">
 <g class="primary-clusters">
-<text x="287.0" y="90" class="section-heading" style="text-transform:capitalize; font-weight:bold;">orchestra</text>
-<text x="285.5" y="592.0" class="section-heading" style="text-transform:capitalize; font-weight:bold;">mezzanine</text>
+<text x="287.0" y="90" class="section-heading" style="text-transform:capitalize; font-weight:bold; transform:translateX(-5%);  font-size:30px; font-family:sans-serif;">orchestra</text>
+<text x="285.5" y="592.0" class="section-heading" style="text-transform:capitalize; font-weight:bold; transform:translateX(-5%);  font-size:30px; font-family:sans-serif;">mezzanine</text>
 <g class="grouped-orchestra cluster0">
 <polygon data-section="orchestra" data-priority="-1" class="n/a" points="87.0,341.0 87.0,358.0 87.0,375.0 87.0,392.0 87.0,409.0 87.0,426.0 113.0,452.0 126.0,456.0 139.0,459.0 152.0,462.0 165.0,464.0 178.0,466.0 191.0,468.0 204.0,469.0 204.0,452.0 204.0,435.0 204.0,418.0 204.0,401.0 204.0,384.0 204.0,367.0 204.0,350.0 204.0,333.0 204.0,316.0 204.0,299.0 204.0,282.0 204.0,265.0 204.0,248.0 204.0,231.0 204.0,214.0 204.0,197.0 204.0,180.0 219.0,129.0 224.0,112.0 198.0,109.0 167.0,122.0 144.0,136.0 139.0,153.0 113.0,197.0 100.0,244.0 87.0,273.0 87.0,290.0 87.0,307.0 87.0,324.0 87.0,341.0" style="fill:#C4C4C4;" />
 </g>
@@ -91,6 +91,12 @@
 <polygon data-section="Front Mezzanine/Mid Mezzanine" data-priority="1" class="59516" points="34.0,711.0 34.0,728.0 34.0,745.0 34.0,762.0 47.0,769.0 60.0,775.0 73.0,781.0 86.0,786.0 99.0,791.0 112.0,795.0 125.0,799.0 125.0,782.0 125.0,765.0 125.0,748.0 125.0,731.0 125.0,714.0 125.0,697.0 125.0,680.0 112.0,676.0 86.0,684.0 86.0,701.0 47.0,718.0 34.0,711.0" style="fill:#C4C4C4;" />
 <polygon data-section="Front Mezzanine/Mid Mezzanine" data-priority="1" class="59516" points="60.0,605.0 60.0,622.0 73.0,628.0 86.0,633.0 99.0,638.0 112.0,642.0 125.0,646.0 125.0,629.0 125.0,612.0 125.0,595.0 125.0,578.0 112.0,574.0 86.0,565.0 60.0,554.0 60.0,571.0 60.0,588.0 60.0,605.0" style="fill:#C4C4C4;" />
 <polygon data-section="Front Mezzanine/Mid Mezzanine" data-priority="1" class="59516" points="527.0,748.0 527.0,765.0 527.0,782.0 527.0,799.0 540.0,795.0 553.0,791.0 566.0,786.0 579.0,781.0 592.0,775.0 605.0,769.0 618.0,762.0 618.0,745.0 618.0,728.0 618.0,711.0 605.0,718.0 566.0,701.0 566.0,684.0 540.0,676.0 527.0,680.0 527.0,697.0 527.0,714.0 527.0,731.0 527.0,748.0" style="fill:#C4C4C4;" />
+</g>
+<g class="grouped-Mid Premiums">
+<polygon data-section="Mid Premiums" data-priority="2" class="52663" points="236.0,248.0 236.0,264.0 236.0,281.0 249.0,282.0 262.0,283.0 275.0,284.0 288.0,285.0 314.0,286.0 327.0,286.0 340.0,286.0 353.0,286.0 379.0,285.0 392.0,284.0 405.0,283.0 418.0,282.0 418.0,265.0 418.0,249.0 418.0,232.0 411.0,200.0 405.0,168.0 398.0,153.0 385.0,120.0 359.0,121.0 333.0,122.0 294.0,121.0 268.0,120.0 261.0,137.0 249.0,168.0 242.0,199.0 236.0,231.0 236.0,248.0" style="fill:#C4C4C4;" />
+</g>
+<g class="grouped-Premiums">
+<polygon data-section="Premiums" data-priority="2" class="52664" points="236.0,248.0 236.0,264.0 236.0,281.0 249.0,282.0 262.0,283.0 275.0,284.0 288.0,285.0 314.0,286.0 327.0,286.0 340.0,286.0 353.0,286.0 379.0,285.0 392.0,284.0 405.0,283.0 418.0,282.0 418.0,265.0 418.0,249.0 418.0,232.0 411.0,200.0 405.0,168.0 398.0,153.0 385.0,120.0 359.0,121.0 333.0,122.0 294.0,121.0 268.0,120.0 261.0,137.0 249.0,168.0 242.0,199.0 236.0,231.0 236.0,248.0" style="fill:#C4C4C4;" />
 </g>
 <g class="grouped-Last Rows Orchestra/Mid Mezzanine Sides/Rear Mezzanine">
 <polygon data-section="Last Rows Orchestra/Mid Mezzanine Sides/Rear Mezzanine" data-priority="3" class="52654" points="288.0,524.0 288.0,541.0 314.0,542.0 327.0,542.0 340.0,542.0 353.0,542.0 366.0,542.0 392.0,541.0 405.0,540.0 418.0,539.0 418.0,522.0 418.0,505.0 418.0,488.0 418.0,470.0 418.0,453.0 418.0,436.0 405.0,437.0 366.0,439.0 327.0,440.0 301.0,439.0 262.0,437.0 249.0,436.0 236.0,435.0 275.0,472.0 288.0,524.0" style="fill:#C4C4C4;" />
