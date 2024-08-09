@@ -21,7 +21,7 @@ def run_dbscan_clustering(data, eps=24, min_samples=4):
     
     return clusters
 
-def generate_svg_polygon(data, section_name, tourId, priority, alpha=2.5):
+def generate_svg_polygon(data, section_name, tourId, priority, alpha=6):
     coordinates = np.array([[item['cx'], item['cy']] for item in data])
 
     if len(coordinates) < 3:
