@@ -16,7 +16,7 @@ Instructions:
 2. Split different sections within each name using '/'.
 3. Use consistent terminology for locations such as 'Orchestra,' 'Mezzanine,' 'Balcony,' 'Premiums', 'Premium'.
 4. Remove any leading or trailing spaces around the section names.
-5. Ignore any incomplete sections that do not form a complete name.
+5. Ignore any incomplete sections that do not form a complete name but do not remove any words that have semantic meaning
 6. Return only the list of standardized section names without any explanations or additional text.
 7. The input and output list must be the same size.
 
@@ -29,7 +29,7 @@ Output:
 """
 
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-4o",
         messages=[
             {"role": "user", "content": prompt}
         ]
@@ -45,3 +45,11 @@ Output:
     print(standardized_list)
 
     return standardized_list
+
+input_list = ["Mid Premiums", "Mezzanine Far Sides Row A-C Orchestra Mid Center"]
+
+output_list = standardize_section_list(input_list)
+
+
+for it1, it2 in zip(input_list, output_list):
+    print(it1 + " -> " + it2)
