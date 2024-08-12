@@ -116,14 +116,14 @@ def process_additional_clusters(data):
 
         # Use previous section's max_y plus a margin to position the text
         margin = 50  # Adjust this margin as needed
-        text_x = ((min_x + max_x) / 2) - 40
+        text_x = ((min_x + max_x) / 2)
         text_y = previous_max_y + margin
 
         # Update previous_max_y to be the maximum of the current section
         previous_max_y = max_y
 
         # Add a text element for the section name
-        svg_content += f'<text x="{text_x}" y="{text_y}" class="section-heading" style="text-transform:capitalize; font-weight:bold; transform:translateX(-5%);  font-size:30px; font-family:sans-serif;">{saxutils.escape(section_name)}</text>\n'
+        svg_content += f'<text x="{text_x}" y="{text_y}" class="section-heading" style="text-anchor: middle; text-transform:capitalize; font-weight:bold; font-size:30px; font-family:sans-serif;">{saxutils.escape(section_name)}</text>\n'
 
     for section_name, clusters in data.items():
         for cluster_name, seats in clusters.items():

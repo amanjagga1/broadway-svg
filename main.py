@@ -89,6 +89,9 @@ def main():
 
     standardized_input = standardize_section_list(input_subsections)
 
+    for it1, it2 in zip(input_subsections, standardized_input):
+        print(it1 + " -> " + it2)
+
     svg_viewbox = get_svg_viewbox(svg_file_path)
     section_rows = svg_to_json(svg_file_path, json_output_path, svg_name)
     

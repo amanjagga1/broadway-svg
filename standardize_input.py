@@ -46,10 +46,10 @@ Output:
 
     return standardized_list
 
-input_list = ["Mid Premiums", "Mezzanine Far Sides Row A-C Orchestra Mid Center"]
+# input_list = ["Mid Premiums", "Mezzanine Far Sides Row A-C Orchestra Mid Center"]
 
-output_list = standardize_section_list(input_list)
+# output_list = standardize_section_list(input_list)
 
 
-for it1, it2 in zip(input_list, output_list):
-    print(it1 + " -> " + it2)
+# for it1, it2 in zip(input_list, output_list):
+#     print(it1 + " -> " + it2)
