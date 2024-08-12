@@ -80,6 +80,7 @@ def process_sections(data, variant_tour_mapping):
         priority = section['priorityValue']
         coordinates = [{'cx': item['cx'], 'cy': item['cy']} for item in section['value']]
         
+        if len(coordinates) == 0: continue
         clusters = run_dbscan_clustering(coordinates)
         
         svg_content += f'<g class="grouped-{saxutils.escape(section_name)}">\n'
@@ -115,7 +116,7 @@ def process_additional_clusters(data):
                 max_y = max(max_y, cy)
 
         # Use previous section's max_y plus a margin to position the text
-        margin = 50  # Adjust this margin as needed
+        margin = 40
         text_x = ((min_x + max_x) / 2)
         text_y = previous_max_y + margin
 
@@ -151,7 +152,7 @@ def generate_svg(filtered_input_path, parsed_input_path, output_svg_path, svg_vi
 
     additional_svg_content = process_additional_clusters(additional_data)
     section_svg_content = process_sections(data, variant_tour_mapping)
-    final_svg_content = f'<svg viewbox="0 0 {svg_viewbox['width']} {svg_viewbox['height']}" xmlns="http://www.w3.org/2000/svg">\n' + additional_svg_content + section_svg_content + '</svg>'
+    final_svg_content = f'<svg height="1000px" width="1000px" viewbox="0 0 {svg_viewbox['width']} {svg_viewbox['height']}" xmlns="http://www.w3.org/2000/svg">\n' + additional_svg_content + section_svg_content + '</svg>'
     write_svg_file(final_svg_content, output_svg_path)
 
     print(f"SVG generation complete. Results saved to {output_svg_path}")
