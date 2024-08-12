@@ -45,7 +45,7 @@ def fetch_variant_map(tgid):
 
     tour_groups_url = f'https://api.headout.com/api/v6/tour-groups/{tgid}'
     #todo: add the parameters for start and end date (based on decided duration)
-    inventories_url = f'https://api.headout.com/api/v7/tour-groups/{tgid}/inventories'
+    inventories_url = f'https://api.headout.com/api/v7/tour-groups/{tgid}/inventories?from-date=2024-08-12&to-date=2024-12-12'
     
     activeVariants = set()
 
@@ -78,7 +78,7 @@ def fetch_variant_map(tgid):
 
 def main():
 
-    svg_name = "519"
+    svg_name = "19636"
     svg_file_path = f'./inputs/{svg_name}.svg'
     json_output_path = f'./outputs/parsed_{svg_name}.json'
     classified_output_path = f'./outputs/classified_{svg_name}.json'
