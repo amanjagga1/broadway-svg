@@ -94,7 +94,7 @@ def process_sections(data, variant_tour_mapping):
 
     return svg_content
 
-def process_additional_clusters(data):
+def process_additional_clusters(data, width):
     svg_content = '<g class="primary-clusters">\n'
 
     previous_max_y = 40  # Track the bottommost point of the last section
@@ -116,15 +116,16 @@ def process_additional_clusters(data):
                 max_y = max(max_y, cy)
 
         # Use previous section's max_y plus a margin to position the text
-        margin = 40
-        text_x = ((min_x + max_x) / 2)
+        margin = 60
+        text_x = width / 2  # Center the text horizontally
         text_y = previous_max_y + margin
 
         # Update previous_max_y to be the maximum of the current section
         previous_max_y = max_y
 
         # Add a text element for the section name
-        svg_content += f'<text x="{text_x}" y="{text_y}" class="section-heading" style="text-anchor: middle; text-transform:capitalize; font-weight:bold; font-size:30px; font-family:sans-serif;">{saxutils.escape(section_name)}</text>\n'
+        svg_content += f'<text x="{text_x}" y="{text_y}" font-size="28px" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre; text-transform:capitalize;>{saxutils.escape(section_name)}</text>'
+        # f'<text x="{text_x}" y="{text_y}" class="section-heading" style="text-anchor: middle; text-transform:capitalize; font-weight:bold; font-size:30px; font-family:sans-serif;">{saxutils.escape(section_name)}</text>\n'
 
     for section_name, clusters in data.items():
         for cluster_name, seats in clusters.items():
@@ -146,13 +147,36 @@ def read_additional_json_file(file_path):
         data = json.load(file)
     return data
 
+def create_stage_rectangle(svg_width, svg_height, stage_height, width_offset):
+    stage_width = svg_width - (2 * width_offset)  # Reduce width by offset on both sides
+    x_position = width_offset  # Start the rectangle after the left offset
+    
+    rect_svg = f'<rect x="{x_position}" y="0" width="{stage_width}" height="{stage_height}" fill="#C4C4C4" />'
+    text_svg = f'<text font-size="28px" x="{svg_width/2}" y="{stage_height/2}" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre;>STAGE</text>'
+    return f'<g id="stage">\n{rect_svg}\n{text_svg}\n</g>\n'
+
 def generate_svg(filtered_input_path, parsed_input_path, output_svg_path, svg_viewbox, variant_tour_mapping):
     data = read_json_file(filtered_input_path)
     additional_data = read_json_file(parsed_input_path)
 
-    additional_svg_content = process_additional_clusters(additional_data)
+    stage_height = 100  # Height of the stage rectangle
+    y_offset = stage_height  # Add some padding below the stage
+    width_offset = 200  # Offset from the sides for the stage
+
+    # Create stage rectangle
+    stage_svg = create_stage_rectangle(svg_viewbox['width'], svg_viewbox['height'], stage_height, width_offset)
+
+    # Process additional clusters
+    additional_svg_content = process_additional_clusters(additional_data, svg_viewbox['width'])
+
+    # Process sections
     section_svg_content = process_sections(data, variant_tour_mapping)
-    final_svg_content = f'<svg height="1000px" width="1000px" viewbox="0 0 {svg_viewbox['width']} {svg_viewbox['height']}" xmlns="http://www.w3.org/2000/svg">\n' + additional_svg_content + section_svg_content + '</svg>'
+
+    # Combine all SVG content
+    content_svg = f'<g transform="translate(0, {y_offset})">\n{additional_svg_content}{section_svg_content}</g>'
+    
+    final_svg_content = f'<svg viewbox="0 0 {svg_viewbox["width"]} {svg_viewbox["height"] + 2 * stage_height}" xmlns="http://www.w3.org/2000/svg">\n{stage_svg}{content_svg}</svg>'
+    
     write_svg_file(final_svg_content, output_svg_path)
 
     print(f"SVG generation complete. Results saved to {output_svg_path}")

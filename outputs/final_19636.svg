@@ -1,4 +1,9 @@
 <svg height="1000px" width="1000px" viewbox="0 0 1029.0 926.207" xmlns="http://www.w3.org/2000/svg">
+<g id="stage">
+<rect x="0" y="0" width="1029.0" height="50" fill="#A9A9A9" />
+<text x="514.5" y="25.0" text-anchor="middle" dominant-baseline="middle" font-size="30" font-weight="bold">STAGE</text>
+</g>
+<g transform="translate(0, 70)">
 <g class="primary-clusters">
 <text x="528.2405" y="80" class="section-heading" style="text-anchor: middle; text-transform:capitalize; font-weight:bold; font-size:30px; font-family:sans-serif;">orchestra</text>
 <text x="517.04705" y="570.0" class="section-heading" style="text-anchor: middle; text-transform:capitalize; font-weight:bold; font-size:30px; font-family:sans-serif;">mezzanine</text>
@@ -165,4 +170,4 @@
 <polygon data-section="Mezzanine Extreme Far Side Rows A-J" data-priority="8" class="53549" points="910.56,666.06 922.56,658.06 933.56,650.06 944.56,642.06 974.777,524.777 975.594,496.594 961.5,461.5 945.594,455.594 889.594,513.594 902.686,546.687 892.492,658.492 910.56,666.06" style="fill:#C4C4C4;" />
 <polygon data-section="Mezzanine Extreme Far Side Rows A-J" data-priority="8" class="53549" points="58.5001,469.5 71.5001,524.5 81.5001,533.5 91.5001,542.5 110.5,495.5 90.5001,477.5 80.5001,468.5 58.5001,469.5" style="fill:#C4C4C4;" />
 </g>
-</svg>
+</g></svg>
