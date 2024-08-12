@@ -9,16 +9,9 @@ def standardize_section_list(section_list):
         api_key = os.getenv('OPENAI_KEY')
     )
     input_list = str(section_list)
-    prompt = f"""Task: Transform the given list of section names into a standardized format where each section is separated by a '/'.
+    prompt = f"""Given a list of seating section labels for a broadway show, return a list that splits all the different seating sections with a '/' in the same string. Make sure the input and output list sizes are equal.
 
-Instructions:
-1. For each section name, standardize by expanding any abbreviations.
-2. Split different sections within each name using '/'.
-3. Use consistent terminology for locations such as 'Orchestra,' 'Mezzanine,' 'Balcony,' 'Premiums', 'Premium'.
-4. Remove any leading or trailing spaces around the section names.
-5. Ignore any incomplete sections that do not form a complete name but do not remove any words that have semantic meaning
-6. Return only the list of standardized section names without any explanations or additional text.
-7. The input and output list must be the same size.
+    Note: Do not give any explainations or any other conversational text. The output should only be the expected list.
 
 Example:
 Input: ["MidOrchestraandRearOrchestra Center", "Front Orchestra Sides andFront Mezzanine", "Orchestra Center and Near Sides", "Orchestra Center and Near Sides/Front Mezzanine", "Orchestra Side Rows BB-B Front Mezzanine Far Side Rows A-E"]
