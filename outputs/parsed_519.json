@@ -12158,30 +12158,6 @@
                 "cx": 776.0,
                 "cy": 540.0
             }
-        ],
-        "cluster-1": [
-            {
-                "seat": {
-                    "class": "seat-rearmezzanine-a-42",
-                    "cx": "789",
-                    "cy": "530",
-                    "r": "6",
-                    "fill": "#ECECEF"
-                },
-                "cx": 789.0,
-                "cy": 530.0
-            },
-            {
-                "seat": {
-                    "class": "seat-rearmezzanine-a-44",
-                    "cx": "802",
-                    "cy": "520",
-                    "r": "6",
-                    "fill": "#ECECEF"
-                },
-                "cx": 802.0,
-                "cy": 520.0
-            }
         ]
     }
 }

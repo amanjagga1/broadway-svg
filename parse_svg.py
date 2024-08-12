@@ -80,6 +80,8 @@ def cluster_seats(seats):
     
     clusters = defaultdict(list)
     for label, seat in zip(labels, seats):
+        if label == -1:
+            continue
         clusters[f'cluster{label}'].append(seat)
     
     return clusters

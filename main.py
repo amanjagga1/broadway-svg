@@ -78,7 +78,7 @@ def fetch_variant_map(tgid):
 
 def main():
 
-    svg_name = "11845"
+    svg_name = "519"
     svg_file_path = f'./inputs/{svg_name}.svg'
     json_output_path = f'./outputs/parsed_{svg_name}.json'
     classified_output_path = f'./outputs/classified_{svg_name}.json'
