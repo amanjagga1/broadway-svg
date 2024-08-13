@@ -34,10 +34,19 @@ def is_row_in_range(row_label, row_range, sorted_rows):
 
     return False
 
+def get_rows_to_include(section_name, all_rows):
+    if "first" in section_name.lower():
+        return all_rows[:2]
+    elif "last" in section_name.lower():
+        return all_rows[-2:]
+    return all_rows
+
 def read_clusters(classification_data, variant_labels, section_rows, svg_name):
-    def get_intersection_clusters(v_labels: list, h_labels: list, rows: str) -> list:
+    def get_intersection_clusters(v_labels: list, h_labels: list, rows: str, section_name: str) -> list:
         vertical_seats = set()
         horizontal_seats = set()
+
+        rows_to_include = get_rows_to_include(section_name, section_rows[refined_section_name])
 
         if not v_labels and not h_labels:
             for main_label, main_data in classification_data[refined_section_name].items():
@@ -46,17 +55,17 @@ def read_clusters(classification_data, variant_labels, section_rows, svg_name):
                     for sub_label, sub_data in main_data.items():
                         if isinstance(sub_data, dict):
                             for row, seats in sub_data.items():
-                                if not rows or is_row_in_range(row, rows, section_rows[refined_section_name]):
+                                if row in rows_to_include and (not rows or is_row_in_range(row, rows, section_rows[refined_section_name])):
                                     vertical_seats.update((seat['cx'], seat['cy']) for seat in seats)
                         elif isinstance(sub_data, list):  # Handle the case where sub_data is directly a list of seats
                             for seat in sub_data:
                                 row_name = seat['seat']['class'].split('-')[2]  # Extract the row name from the class
-                                if not rows or is_row_in_range(row_name, rows, section_rows[refined_section_name]):
+                                if row_name in rows_to_include and (not rows or is_row_in_range(row_name, rows, section_rows[refined_section_name])):
                                     vertical_seats.add((seat['cx'], seat['cy']))
                 elif isinstance(main_data, list):  # Handle the case where main_data is directly a list of seats
                     for seat in main_data:
                         row_name = seat['seat']['class'].split('-')[2]
-                        if not rows or is_row_in_range(row_name, rows, section_rows[refined_section_name]):
+                        if row_name in rows_to_include and (not rows or is_row_in_range(row_name, rows, section_rows[refined_section_name])):
                             vertical_seats.add((seat['cx'], seat['cy']))
 
         for v_label in v_labels:
@@ -66,7 +75,7 @@ def read_clusters(classification_data, variant_labels, section_rows, svg_name):
                 if main_v in classification_data[refined_section_name]:
                     for sub_v in classification_data[refined_section_name][main_v]:
                         for row, seats in classification_data[refined_section_name][main_v][sub_v].items():
-                            if not rows or is_row_in_range(row, rows, section_rows[refined_section_name]):
+                            if row in rows_to_include and (not rows or is_row_in_range(row, rows, section_rows[refined_section_name])):
                                 vertical_seats.update((seat['cx'], seat['cy']) for seat in seats)
             else:
                 # Specific sublevel targeting
@@ -74,14 +83,14 @@ def read_clusters(classification_data, variant_labels, section_rows, svg_name):
                 if main_v in classification_data[refined_section_name]:
                     if sub_v in classification_data[refined_section_name][main_v]:
                         for row, seats in classification_data[refined_section_name][main_v][sub_v].items():
-                            if not rows or is_row_in_range(row, rows, section_rows[refined_section_name]):
+                            if row in rows_to_include and (not rows or is_row_in_range(row, rows, section_rows[refined_section_name])):
                                 vertical_seats.update((seat['cx'], seat['cy']) for seat in seats)
 
         # Collect seats for horizontal labels
         for h_label in h_labels:
             if h_label in classification_data[refined_section_name]:
                 for row, seats in classification_data[refined_section_name][h_label].items():
-                    if not rows or is_row_in_range(row, rows, section_rows[refined_section_name]):
+                    if row in rows_to_include and (not rows or is_row_in_range(row, rows, section_rows[refined_section_name])):
                         horizontal_seats.update((seat['cx'], seat['cy']) for seat in seats)
 
         # If one of the sets is empty, use the other set directly
@@ -118,7 +127,7 @@ def read_clusters(classification_data, variant_labels, section_rows, svg_name):
                 priority_value = max(sum(len(s) for s in vertical_split + horizontal_split), priority_value)
                 rows = section_data[section_name]['rows']
 
-                clusters = get_intersection_clusters(vertical_split, horizontal_split, rows)
+                clusters = get_intersection_clusters(vertical_split, horizontal_split, rows, section_name)
                 variant_list.extend(clusters)
         
         if skip_variant:
