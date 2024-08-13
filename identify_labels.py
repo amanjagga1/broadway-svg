@@ -31,9 +31,8 @@ def get_section_labels(section_name, standardized_section_name, svg_name):
                 onlyLeftOrRight = True
 
         for sub_part in sub_parts:
-            if any(item.lower() == 'rows' for item in sub_parts):
-                if re.match(r'^[A-Za-z]{1,2}-[A-Za-z]{1,2}$', sub_part):
-                    rows = sub_part.lower()
+            if re.match(r'^[A-Za-z]{1,2}-[A-Za-z]{1,2}$', sub_part):
+                rows = sub_part.lower()
 
             #This is a quick fix for cases like "Right Side, Left Side"
             if onlyLeftOrRight and sub_part.lower() in ["side", "sides"]:

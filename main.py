@@ -117,5 +117,5 @@ def main(svg_names):
         print(f"Finished processing {svg_name}\n")
 
 if __name__ == "__main__":
-    svg_names = ["507", "508", "512", "519", "1293", "11845", "19636"]
+    svg_names = ["507", "508", "512", "519", "1293", "11845", "19636", "10017", "25949"]
     main(svg_names)
