@@ -6,7 +6,7 @@ from create_geometry import generate_svg
 from standardize_input import standardize_section_list
 import xml.etree.ElementTree as ET
 import requests
-import time
+from datetime import datetime
 
 def get_svg_viewbox(file_path):
     try:
@@ -44,8 +44,9 @@ def fetch_variant_map(tgid):
     variant_names = []
 
     tour_groups_url = f'https://api.headout.com/api/v6/tour-groups/{tgid}'
-    #todo: add the parameters for start and end date (based on decided duration)
-    inventories_url = f'https://api.headout.com/api/v7/tour-groups/{tgid}/inventories?from-date=2024-08-12&to-date=2024-12-12'
+   
+    print()
+    inventories_url = f'https://api.headout.com/api/v7/tour-groups/{tgid}/inventories?from-date={datetime.now().strftime("%Y-%m-%d")}&to-date=2024-12-12'
     
     activeVariants = set()
 
@@ -76,8 +77,7 @@ def fetch_variant_map(tgid):
 
 
 
-def main():
-    svg_name = "25949"
+def process_single_svg(svg_name):
     svg_file_path = f'./inputs/{svg_name}.svg'
     json_output_path = f'./outputs/parsed_{svg_name}.json'
     classified_output_path = f'./outputs/classified_{svg_name}.json'
@@ -89,27 +89,33 @@ def main():
     standardized_input = standardize_section_list(input_subsections)
 
     for it1, it2 in zip(input_subsections, standardized_input):
-        print(it1 + " -> " + it2)
+        print(f"{svg_name}: {it1} -> {it2}")
 
     svg_viewbox = get_svg_viewbox(svg_file_path)
     section_rows = svg_to_json(svg_file_path, json_output_path, svg_name)
     
-    print("Classifying data...")
+    print(f"{svg_name}: Classifying data...")
     process_classification(json_output_path, classified_output_path)
 
-    print("Processing input subsections")
+    print(f"{svg_name}: Processing input subsections")
     processed_input_subsections = []
     for subsection, standardized_subsection in zip(input_subsections, standardized_input):
         processed_input_subsections.append(get_section_labels(subsection, standardized_subsection, svg_name))
 
-    print(processed_input_subsections)
+    print(f"{svg_name}: {processed_input_subsections}")
 
-    print("Filtering seats...")
+    print(f"{svg_name}: Filtering seats...")
     process_filtering(classified_output_path, filtered_output_path, processed_input_subsections, section_rows, svg_name)
 
-    print("Generating final SVG...")
+    print(f"{svg_name}: Generating final SVG...")
     generate_svg(filtered_output_path, json_output_path, final_svg_output_path, svg_viewbox, variant_tour_mapping)
 
+def main(svg_names):
+    for svg_name in svg_names:
+        print(f"Processing {svg_name}...")
+        process_single_svg(svg_name)
+        print(f"Finished processing {svg_name}\n")
 
 if __name__ == "__main__":
-    main()
+    svg_names = ["507", "508", "512", "519", "1293", "11845", "19636"]
+    main(svg_names)
