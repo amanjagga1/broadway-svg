@@ -21,7 +21,7 @@ def run_dbscan_clustering(data, eps=24, min_samples=4):
     
     return clusters
 
-def generate_svg_polygon(data, section_name, tourId, priority, alpha=6):
+def generate_svg_polygon(data, section_name, tourId, priority, alpha=5):
     coordinates = np.array([[item['cx'], item['cy']] for item in data])
 
     if len(coordinates) < 3:
@@ -115,18 +115,15 @@ def process_additional_clusters(data, width):
                 min_y = min(min_y, cy)
                 max_y = max(max_y, cy)
 
-        # Use previous section's max_y plus a margin to position the text
         margin = 45
-        text_x = width / 2  # Center the text horizontally
+        text_x = width / 2 
         text_y = previous_max_y + margin
 
-        # Update previous_max_y to be the maximum of the current section
         previous_max_y = max_y
 
         # Add a text element for the section name
         svg_content += f'<text x="{text_x}" y="{text_y}" font-size="28px" text-anchor="middle" dominant-baseline="middle">{saxutils.escape(section_name).upper()}</text>'
-        # f'<text x="{text_x}" y="{text_y}" class="section-heading" style="text-anchor: middle; text-transform:capitalize; font-weight:bold; font-size:30px; font-family:sans-serif;">{saxutils.escape(section_name)}</text>\n'
-
+    
     for section_name, clusters in data.items():
         for cluster_name, seats in clusters.items():
             coordinates = [{'cx': seat['cx'], 'cy': seat['cy']} for seat in seats]
