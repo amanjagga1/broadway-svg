@@ -116,7 +116,7 @@ def process_additional_clusters(data, width):
                 max_y = max(max_y, cy)
 
         # Use previous section's max_y plus a margin to position the text
-        margin = 60
+        margin = 45
         text_x = width / 2  # Center the text horizontally
         text_y = previous_max_y + margin
 

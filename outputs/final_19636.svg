@@ -1,13 +1,11 @@
-<svg height="1000px" width="1000px" viewbox="0 0 1029.0 926.207" xmlns="http://www.w3.org/2000/svg">
+<svg viewbox="0 0 1029.0 1126.2069999999999" xmlns="http://www.w3.org/2000/svg">
 <g id="stage">
-<rect x="0" y="0" width="1029.0" height="50" fill="#A9A9A9" />
-<text x="514.5" y="25.0" text-anchor="middle" dominant-baseline="middle" font-size="30" font-weight="bold">STAGE</text>
+<rect x="200" y="0" width="629.0" height="100" fill="#C4C4C4" />
+<text font-size="28px" x="514.5" y="50.0" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre;>STAGE</text>
 </g>
-<g transform="translate(0, 70)">
+<g transform="translate(0, 100)">
 <g class="primary-clusters">
-<text x="528.2405" y="80" class="section-heading" style="text-anchor: middle; text-transform:capitalize; font-weight:bold; font-size:30px; font-family:sans-serif;">orchestra</text>
-<text x="517.04705" y="570.0" class="section-heading" style="text-anchor: middle; text-transform:capitalize; font-weight:bold; font-size:30px; font-family:sans-serif;">mezzanine</text>
-<g class="grouped-orchestra cluster0">
+<text x="514.5" y="85" font-size="28px" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre; text-transform:capitalize;>ORCHESTRA</text><text x="514.5" y="575.0" font-size="28px" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre; text-transform:capitalize;>MEZZANINE</text><g class="grouped-orchestra cluster0">
 <polygon data-section="orchestra" data-priority="-1" class="n/a" points="171.421,419.751 183.459,427.502 195.498,435.253 219.714,449.764 244.347,461.305 268.981,472.845 293.893,482.405 306.488,486.195 319.083,489.985 331.818,492.785 344.552,495.584 347.552,478.584 350.552,461.584 361.552,393.584 372.552,325.584 380.552,274.584 391.552,206.584 403.552,138.584 352.893,125.405 323.981,132.845 308.664,144.075 293.347,155.305 248.675,187.013 233.498,197.253 131.62,252.094 135.102,314.806 138.862,375.537 171.421,419.751" style="fill:#C4C4C4;" />
 </g>
 <g class="grouped-orchestra cluster1">
