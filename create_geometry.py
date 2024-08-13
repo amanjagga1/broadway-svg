@@ -167,7 +167,7 @@ def generate_svg(filtered_input_path, parsed_input_path, output_svg_path, svg_vi
     additional_svg_content = process_additional_clusters(additional_data, svg_viewbox['width'])
 
     # Process sections
-    section_svg_content = process_sections(data, variant_tour_mapping)
+    section_svg_content = f'<g class="tour-sections">{process_sections(data, variant_tour_mapping)}</g>'
 
     # Combine all SVG content
     content_svg = f'<g transform="translate(0, {y_offset})">\n{additional_svg_content}{section_svg_content}</g>'
