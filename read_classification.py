@@ -20,17 +20,22 @@ def sort_by_priority(arr):
     return sorted(arr, key=lambda x: x['priorityValue'])
 
 def is_row_in_range(row_label, row_range, sorted_rows):
-    match = re.match(r'^([a-z]+)-([a-z]+)$', row_range)
+    match = re.match(r'^([a-z]+)(-([a-z]+))?$', row_range)
     if not match:
         return False
 
-    start, end = match.groups()
+    start = match.group(1)
+    end = match.group(3) if match.group(3) else start
     
     if start in sorted_rows or end in sorted_rows:
         start_index = sorted_rows.index(start) if start in sorted_rows else 0
         end_index = sorted_rows.index(end) if end in sorted_rows else len(sorted_rows) - 1
 
-        return start_index <= sorted_rows.index(row_label) <= end_index
+        if start == end:
+            row_index = sorted_rows.index(start)
+            return max(0, row_index - 1) <= sorted_rows.index(row_label) <= min(len(sorted_rows) - 1, row_index + 1)
+        else:
+            return start_index <= sorted_rows.index(row_label) <= end_index
 
     return False
 
