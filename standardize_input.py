@@ -9,8 +9,7 @@ def standardize_section_list(section_list):
         api_key = os.getenv('OPENAI_KEY')
     )
     input_list = str(section_list)
-    prompt = f"""Given a list of seating section labels for a broadway show, return a list that splits all the different seating sections with a '/' in the same string. Make sure the input and output list sizes are equal. Also make sure to standardize the section names like mezz changes to Mezzanine, orch to orchestra and so on
-
+    prompt = f"""Given a list of seating section labels for a broadway show, return a list that splits all the different seating sections with a '/' in the same string. Make sure the input and output list sizes are equal. Also make sure to standardize the section names like mezz changes to Mezzanine, orch to orchestra and so on, similar for directions eg. fr changes to front, Each section splitted must have a parent sectionname in the string, eg. mezzanine, orchestra, balcony etc. i.e there should be no section with just a direction eg. front append the last parent section name to it, parent section names being mezzanine, orchestra, balcony etc.
     Note: Do not give any explainations or any other conversational text. The output should only be the expected list.
 
 Example:
