@@ -124,7 +124,7 @@ def process_additional_clusters(data, width):
         previous_max_y = max_y
 
         # Add a text element for the section name
-        svg_content += f'<text x="{text_x}" y="{text_y}" font-size="28px" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre; text-transform:capitalize;">{saxutils.escape(section_name).upper()}</text>'
+        svg_content += f'<text x="{text_x}" y="{text_y}" font-size="28px" text-anchor="middle" dominant-baseline="middle">{saxutils.escape(section_name).upper()}</text>'
         # f'<text x="{text_x}" y="{text_y}" class="section-heading" style="text-anchor: middle; text-transform:capitalize; font-weight:bold; font-size:30px; font-family:sans-serif;">{saxutils.escape(section_name)}</text>\n'
 
     for section_name, clusters in data.items():
@@ -152,7 +152,7 @@ def create_stage_rectangle(svg_width, svg_height, stage_height, width_offset):
     x_position = width_offset  # Start the rectangle after the left offset
     
     rect_svg = f'<rect x="{x_position}" y="0" width="{stage_width}" height="{stage_height}" fill="#C4C4C4" />'
-    text_svg = f'<text font-size="28px" x="{svg_width/2}" y="{stage_height/2}" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre;">STAGE</text>'
+    text_svg = f'<text font-size="28px" x="{svg_width/2}" y="{stage_height/2}" text-anchor="middle" dominant-baseline="middle">STAGE</text>'
     return f'<g id="stage">\n{rect_svg}\n{text_svg}\n</g>\n'
 
 def generate_svg(filtered_input_path, parsed_input_path, output_svg_path, svg_viewbox, variant_tour_mapping):

@@ -1,11 +1,11 @@
 <svg viewbox="0 0 1029.0 1126.2069999999999" xmlns="http://www.w3.org/2000/svg">
 <g id="stage">
 <rect x="200" y="0" width="629.0" height="100" fill="#C4C4C4" />
-<text font-size="28px" x="514.5" y="50.0" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre;">STAGE</text>
+<text font-size="28px" x="514.5" y="50.0" text-anchor="middle" dominant-baseline="middle">STAGE</text>
 </g>
 <g transform="translate(0, 100)">
 <g class="primary-clusters">
-<text x="514.5" y="85" font-size="28px" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre; text-transform:capitalize;">ORCHESTRA</text><text x="514.5" y="575.0" font-size="28px" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre; text-transform:capitalize;">MEZZANINE</text><g class="grouped-orchestra cluster0">
+<text x="514.5" y="85" font-size="28px" text-anchor="middle" dominant-baseline="middle">ORCHESTRA</text><text x="514.5" y="575.0" font-size="28px" text-anchor="middle" dominant-baseline="middle">MEZZANINE</text><g class="grouped-orchestra cluster0">
 <polygon data-section="orchestra" data-priority="-1" class="n/a" points="171.421,419.751 183.459,427.502 195.498,435.253 219.714,449.764 244.347,461.305 268.981,472.845 293.893,482.405 306.488,486.195 319.083,489.985 331.818,492.785 344.552,495.584 347.552,478.584 350.552,461.584 361.552,393.584 372.552,325.584 380.552,274.584 391.552,206.584 403.552,138.584 352.893,125.405 323.981,132.845 308.664,144.075 293.347,155.305 248.675,187.013 233.498,197.253 131.62,252.094 135.102,314.806 138.862,375.537 171.421,419.751" style="fill:#C4C4C4;" />
 </g>
 <g class="grouped-orchestra cluster1">
@@ -185,10 +185,6 @@
 <polygon data-section="Orchestra Far Side Rows C-S Mezzanine Far Side Rows A-D" data-priority="4" class="58772" points="848.579,368.751 872.378,351.269 895.898,331.806 907.38,320.094 918.861,308.382 922.343,245.67 806.541,189.502 791.502,180.253 734.653,155.305 722.336,161.075 710.019,166.845 790.325,255.013 848.579,368.751" style="fill:#C4C4C4;" />
 <polygon data-section="Orchestra Far Side Rows C-S Mezzanine Far Side Rows A-D" data-priority="4" class="58772" points="902.686,546.687 919.594,555.594 929.594,546.594 938.594,537.594 957.594,517.594 975.594,496.594 961.5,461.5 945.594,455.594 889.594,513.594 902.686,546.687" style="fill:#C4C4C4;" />
 <polygon data-section="Orchestra Far Side Rows C-S Mezzanine Far Side Rows A-D" data-priority="4" class="58772" points="58.5001,469.5 71.5001,524.5 81.5001,533.5 91.5001,542.5 110.5,495.5 90.5001,477.5 80.5001,468.5 58.5001,469.5" style="fill:#C4C4C4;" />
-</g>
-<g class="grouped-Orchestra Far Side Rows C-V Side Rows F-S Extreme">
-<polygon data-section="Orchestra Far Side Rows C-V Side Rows F-S Extreme" data-priority="6" class="53552" points="171.421,419.751 183.459,427.502 195.498,435.253 207.675,442.013 314.488,435.195 327.083,438.985 339.818,441.785 352.552,444.584 355.552,427.584 358.552,410.584 361.552,393.584 372.552,325.584 380.552,274.584 385.552,240.584 303.664,178.075 293.347,155.305 248.675,187.013 233.498,197.253 131.62,252.094 135.102,314.806 138.862,375.537 171.421,419.751" style="fill:#C4C4C4;" />
-<polygon data-section="Orchestra Far Side Rows C-V Side Rows F-S Extreme" data-priority="6" class="53552" points="664.448,376.584 672.448,427.584 675.448,444.584 688.182,441.785 700.917,438.985 713.512,435.195 726.107,431.405 738.563,426.625 856.579,419.751 880.378,402.269 892.138,392.537 924.861,342.382 922.343,245.67 907.861,240.382 806.541,189.502 791.502,180.253 734.653,155.305 722.336,161.075 710.019,166.845 642.448,240.584 650.448,291.584 664.448,376.584" style="fill:#C4C4C4;" />
 </g>
 <g class="grouped-Mezzanine Far Side Rows E-J Mezzanine Extreme Far Side Rows A-J">
 <polygon data-section="Mezzanine Far Side Rows E-J Mezzanine Extreme Far Side Rows A-J" data-priority="8" class="53137" points="910.56,666.06 922.56,658.06 933.56,650.06 944.56,642.06 974.777,524.777 975.594,496.594 961.5,461.5 945.594,455.594 889.594,513.594 902.686,546.687 892.492,658.492 910.56,666.06" style="fill:#C4C4C4;" />

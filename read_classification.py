@@ -26,12 +26,11 @@ def is_row_in_range(row_label, row_range, sorted_rows):
 
     start, end = match.groups()
     
-    if start in sorted_rows and end in sorted_rows:
-        start_index = sorted_rows.index(start)
-        end_index = sorted_rows.index(end)
+    if start in sorted_rows or end in sorted_rows:
+        start_index = sorted_rows.index(start) if start in sorted_rows else 0
+        end_index = sorted_rows.index(end) if end in sorted_rows else len(sorted_rows) - 1
 
-        if start_index <= end_index:
-            return start_index <= sorted_rows.index(row_label) <= end_index
+        return start_index <= sorted_rows.index(row_label) <= end_index
 
     return False
 

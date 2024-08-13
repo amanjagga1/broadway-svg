@@ -1,11 +1,11 @@
 <svg viewbox="0 0 737.0 1306.8" xmlns="http://www.w3.org/2000/svg">
 <g id="stage">
 <rect x="200" y="0" width="337.0" height="100" fill="#C4C4C4" />
-<text font-size="28px" x="368.5" y="50.0" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre;">STAGE</text>
+<text font-size="28px" x="368.5" y="50.0" text-anchor="middle" dominant-baseline="middle">STAGE</text>
 </g>
 <g transform="translate(0, 100)">
 <g class="primary-clusters">
-<text x="368.5" y="85" font-size="28px" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre; text-transform:capitalize;">ORCHESTRA</text><text x="368.5" y="498.0" font-size="28px" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre; text-transform:capitalize;">MEZZANINE</text><text x="368.5" y="818.0" font-size="28px" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre; text-transform:capitalize;">BALCONY</text><g class="grouped-orchestra cluster0">
+<text x="368.5" y="85" font-size="28px" text-anchor="middle" dominant-baseline="middle">ORCHESTRA</text><text x="368.5" y="498.0" font-size="28px" text-anchor="middle" dominant-baseline="middle">MEZZANINE</text><text x="368.5" y="818.0" font-size="28px" text-anchor="middle" dominant-baseline="middle">BALCONY</text><g class="grouped-orchestra cluster0">
 <polygon data-section="orchestra" data-priority="-1" class="n/a" points="75.0,263.0 75.0,280.0 75.0,297.0 88.0,337.0 153.0,414.0 166.0,418.0 179.0,421.0 192.0,424.0 244.0,414.0 244.0,397.0 244.0,380.0 244.0,363.0 244.0,346.0 244.0,329.0 244.0,312.0 244.0,295.0 244.0,278.0 244.0,261.0 244.0,244.0 244.0,227.0 244.0,210.0 244.0,193.0 244.0,176.0 244.0,159.0 244.0,142.0 244.0,125.0 244.0,108.0 179.0,98.0 153.0,125.0 114.0,179.0 75.0,229.0 75.0,246.0 75.0,263.0" style="fill:#C4C4C4;" />
 </g>
 <g class="grouped-orchestra cluster1">

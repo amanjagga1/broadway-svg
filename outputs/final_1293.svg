@@ -1,11 +1,11 @@
 <svg viewbox="0 0 692.0 1174.007" xmlns="http://www.w3.org/2000/svg">
 <g id="stage">
 <rect x="200" y="0" width="292.0" height="100" fill="#C4C4C4" />
-<text font-size="28px" x="346.0" y="50.0" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre;">STAGE</text>
+<text font-size="28px" x="346.0" y="50.0" text-anchor="middle" dominant-baseline="middle">STAGE</text>
 </g>
 <g transform="translate(0, 100)">
 <g class="primary-clusters">
-<text x="346.0" y="85" font-size="28px" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre; text-transform:capitalize;">ORCHESTRA</text><text x="346.0" y="543.0" font-size="28px" text-anchor="middle" dominant-baseline="middle" fill: rgb(80, 83, 104); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 700; white-space: pre; text-transform:capitalize;">MEZZANINE</text><g class="grouped-orchestra cluster0">
+<text x="346.0" y="85" font-size="28px" text-anchor="middle" dominant-baseline="middle">ORCHESTRA</text><text x="346.0" y="543.0" font-size="28px" text-anchor="middle" dominant-baseline="middle">MEZZANINE</text><g class="grouped-orchestra cluster0">
 <polygon data-section="orchestra" data-priority="-1" class="n/a" points="67.0,307.0 67.0,324.0 67.0,341.0 67.0,358.0 67.0,375.0 67.0,392.0 67.0,409.0 67.0,426.0 80.0,466.0 93.0,472.0 106.0,478.0 119.0,483.0 132.0,488.0 145.0,492.0 236.0,492.0 236.0,475.0 236.0,458.0 236.0,441.0 236.0,424.0 236.0,407.0 236.0,390.0 236.0,373.0 236.0,356.0 236.0,339.0 236.0,322.0 236.0,305.0 210.0,302.0 197.0,300.0 93.0,268.0 80.0,262.0 67.0,256.0 67.0,273.0 67.0,290.0 67.0,307.0" style="fill:#C4C4C4;" />
 </g>
 <g class="grouped-orchestra cluster1">
