@@ -17,7 +17,9 @@ def get_section_labels(section_name, standardized_section_name, svg_name):
                 name = name.replace("Front Mezzanine", "").strip()
 
         #This portion of code is to hardcode Premium/s as Front Orchestra Center
-        if "premium" in name.lower():
+        if "mid premium" in name.lower():
+            name = "Orchestra Front Median"
+        elif "premium" in name.lower():
             name = "Front Orchestra Center"
 
         sub_parts = name.split(" ")
@@ -67,7 +69,8 @@ section_list = {
     "RR": ["far", "extreme"],
     "LR": ["near"],
     "RL": ["near"],
+    "CC": ["median"]
 }
 
-vertical_list = ["L", "R", "C", "LL", "RR", "LR", "RL"]
+vertical_list = ["L", "R", "C", "LL", "RR", "LR", "RL", "CC"]
 horizontal_list = ["T", "B", "M"]
