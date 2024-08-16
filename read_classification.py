@@ -73,7 +73,10 @@ def read_clusters(classification_data, variant_labels, section_rows, svg_name):
                         if row_name in rows_to_include and (not rows or is_row_in_range(row_name, rows, section_rows[refined_section_name])):
                             vertical_seats.add((seat['cx'], seat['cy']))
 
+        vertical_labels = ["L", "C", "R"]
+
         for v_label in v_labels:
+            initial_length = len(vertical_seats)
             if len(v_label) == 1:
                 # Gather all sublevels under the main vertical level
                 main_v = v_label
@@ -90,6 +93,19 @@ def read_clusters(classification_data, variant_labels, section_rows, svg_name):
                         for row, seats in classification_data[refined_section_name][main_v][sub_v].items():
                             if row in rows_to_include and (not rows or is_row_in_range(row, rows, section_rows[refined_section_name])):
                                 vertical_seats.update((seat['cx'], seat['cy']) for seat in seats)
+
+            if len(vertical_seats) == initial_length and v_label in vertical_labels:
+                current_index = vertical_labels.index(v_label)
+                next_index = (current_index + 1) % len(vertical_labels)
+                next_v_label = vertical_labels[next_index]
+
+                main_v = next_v_label
+                if main_v in classification_data[refined_section_name]:
+                    for sub_v in classification_data[refined_section_name][main_v]:
+                        for row, seats in classification_data[refined_section_name][main_v][sub_v].items():
+                            if row in rows_to_include and (not rows or is_row_in_range(row, rows, section_rows[refined_section_name])):
+                                vertical_seats.update((seat['cx'], seat['cy']) for seat in seats)
+
 
         # Collect seats for horizontal labels
         for h_label in h_labels:
