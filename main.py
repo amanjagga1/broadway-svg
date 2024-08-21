@@ -82,7 +82,7 @@ def process_single_svg(svg_name):
     json_output_path = f'./outputs/parsed_{svg_name}.json'
     classified_output_path = f'./outputs/classified_{svg_name}.json'
     filtered_output_path = f'./outputs/filtered_{svg_name}.json'
-    final_svg_output_path = f'./outputs/final_{svg_name}.svg'
+    final_svg_output_path = f'./outputs/{svg_name}.svg'
    
     input_subsections, variant_tour_mapping = fetch_variant_map(svg_name)
 

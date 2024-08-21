@@ -134,6 +134,12 @@ def read_clusters(classification_data, variant_labels, section_rows, svg_name):
         priority_value = float('-inf')
         skip_variant = False
         for variant_name, section_labels in variant.items():
+            if re.sub(r'\W+', '', variant_name.lower()) == 'midpremiums':
+                verticalData = classification_data['orchestra']['T']
+                frontMid = get_concatenated_middle_part(verticalData)
+                frontCenter = concat_arrays(classification_data['orchestra']['C'])
+                variant_list = find_common_objects(frontMid, frontCenter)
+                continue
             if skip_variant:
                 break
             for section_data in section_labels:
@@ -162,6 +168,44 @@ def read_clusters(classification_data, variant_labels, section_rows, svg_name):
         filtered_result.append({**section_data, 'value': res_arr})
 
     return sort_by_priority(filtered_result)
+
+def concat_arrays(obj):
+    result = []
+    for part in ['L', 'R', 'C']:
+        for key, arr in obj[part].items():
+            result.extend(arr)
+    return result
+
+def get_concatenated_middle_part(data):
+    keys = list(data.keys())
+    n = len(keys)
+
+    # Calculate the size of each part
+    part1_size = n // 3
+    part2_size = n // 3
+    part3_size = n - (part1_size + part2_size)
+
+    # Adjust to ensure part2 is the largest if there is a remainder
+    if part2_size < part3_size:
+        part2_size += 1
+        part3_size -= 1
+    
+    # Get the keys for the middle part
+    middle_keys = keys[part1_size:part1_size + part2_size]
+
+    # Concatenate the arrays from the middle part
+    concatenated_result = []
+    for key in middle_keys:
+        concatenated_result.extend(data[key])
+
+    return concatenated_result
+
+def find_common_objects(arr1, arr2):
+    # Create a set to store the class values from the first array
+    classes = set(obj['seat']['class'] for obj in arr1)
+
+    # Filter the second array to only include objects with a class that exists in the first array
+    return [obj for obj in arr2 if obj['seat']['class'] in classes]
 
 def process_filtering(input_file_path, output_file_path, processed_input_subsections, section_rows, svg_name):
     with open(input_file_path, 'r') as f:
