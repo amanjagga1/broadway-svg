@@ -95,7 +95,7 @@ def process_single_svg(svg_name):
     section_rows = svg_to_json(svg_file_path, json_output_path, svg_name)
 
     frontOverride=0
-    if(svg_name == "507" or svg_name == "11845" or svg_name == "512"):
+    if(svg_name == "507" or svg_name == "512"):
         frontOverride=1
     
     print(f"{svg_name}: Classifying data...")
@@ -121,5 +121,5 @@ def main(svg_names):
         print(f"Finished processing {svg_name}\n")
 
 if __name__ == "__main__":
-    svg_names = ["507", "508", "512", "519", "1293", "11845", "19636", "10017", "25949"]
+    svg_names = ["507", "508", "512", "519", "1293", "11845", "10017", "25949"]
     main(svg_names)

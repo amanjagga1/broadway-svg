@@ -148,7 +148,15 @@ def divide_array(arr, frontOverride=0):
     first_part_size = part_size - frontOverride
     second_part_size = part_size
     third_part_size = length - first_part_size - second_part_size
-
+    
+    # Ensure all partitions are almost equal and the center partition is the smallest
+    if length % 3 == 1:
+        second_part_size -= 1
+        third_part_size += 1
+    elif length % 3 == 2:
+        first_part_size += 1
+        second_part_size -= 1
+    
     return arr[:first_part_size], arr[first_part_size:first_part_size+second_part_size], arr[first_part_size+second_part_size:]
 
 def get_sorted_keys_by_value(obj):

@@ -8266,371 +8266,6 @@
       }
     },
     "T": {
-      "k": [
-        {
-          "seat": {
-            "class": "seat-orchestra-k-17",
-            "cx": "100",
-            "cy": "261",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 100.0,
-          "cy": 261.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-15",
-            "cx": "113",
-            "cy": "265",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 113.0,
-          "cy": 265.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-13",
-            "cx": "126",
-            "cy": "269",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 126.0,
-          "cy": 269.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-11",
-            "cx": "139",
-            "cy": "272",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 139.0,
-          "cy": 272.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-9",
-            "cx": "152",
-            "cy": "275",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 152.0,
-          "cy": 275.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-7",
-            "cx": "165",
-            "cy": "277",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 165.0,
-          "cy": 277.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-5",
-            "cx": "178",
-            "cy": "279",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 178.0,
-          "cy": 279.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-3",
-            "cx": "191",
-            "cy": "281",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 191.0,
-          "cy": 281.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-1",
-            "cx": "204",
-            "cy": "282",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 204.0,
-          "cy": 282.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-101",
-            "cx": "236",
-            "cy": "281",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 236.0,
-          "cy": 281.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-102",
-            "cx": "249",
-            "cy": "282",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 249.0,
-          "cy": 282.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-103",
-            "cx": "262",
-            "cy": "283",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 262.0,
-          "cy": 283.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-104",
-            "cx": "275",
-            "cy": "284",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 275.0,
-          "cy": 284.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-105",
-            "cx": "288",
-            "cy": "285",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 288.0,
-          "cy": 285.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-106",
-            "cx": "301",
-            "cy": "285",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 301.0,
-          "cy": 285.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-107",
-            "cx": "314",
-            "cy": "286",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 314.0,
-          "cy": 286.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-108",
-            "cx": "327",
-            "cy": "286",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 327.0,
-          "cy": 286.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-109",
-            "cx": "340",
-            "cy": "286",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 340.0,
-          "cy": 286.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-110",
-            "cx": "353",
-            "cy": "286",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 353.0,
-          "cy": 286.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-111",
-            "cx": "366",
-            "cy": "285",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 366.0,
-          "cy": 285.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-112",
-            "cx": "379",
-            "cy": "285",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 379.0,
-          "cy": 285.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-113",
-            "cx": "392",
-            "cy": "284",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 392.0,
-          "cy": 284.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-114",
-            "cx": "405",
-            "cy": "283",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 405.0,
-          "cy": 283.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-115",
-            "cx": "418",
-            "cy": "282",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 418.0,
-          "cy": 282.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-2",
-            "cx": "450",
-            "cy": "281",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 450.0,
-          "cy": 281.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-4",
-            "cx": "463",
-            "cy": "280",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 463.0,
-          "cy": 280.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-6",
-            "cx": "476",
-            "cy": "279",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 476.0,
-          "cy": 279.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-8",
-            "cx": "489",
-            "cy": "277",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 489.0,
-          "cy": 277.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-10",
-            "cx": "502",
-            "cy": "275",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 502.0,
-          "cy": 275.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-12",
-            "cx": "515",
-            "cy": "272",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 515.0,
-          "cy": 272.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-14",
-            "cx": "528",
-            "cy": "269",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 528.0,
-          "cy": 269.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-16",
-            "cx": "541",
-            "cy": "265",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 541.0,
-          "cy": 265.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-k-18",
-            "cx": "554",
-            "cy": "261",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 554.0,
-          "cy": 261.0
-        }
-      ],
       "j": [
         {
           "seat": {
@@ -11557,780 +11192,6 @@
       ]
     },
     "M": {
-      "t": [
-        {
-          "seat": {
-            "class": "seat-orchestra-t-19",
-            "cx": "87",
-            "cy": "392",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 87.0,
-          "cy": 392.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-17",
-            "cx": "100",
-            "cy": "397",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 100.0,
-          "cy": 397.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-15",
-            "cx": "113",
-            "cy": "401",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 113.0,
-          "cy": 401.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-13",
-            "cx": "126",
-            "cy": "405",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 126.0,
-          "cy": 405.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-11",
-            "cx": "139",
-            "cy": "408",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 139.0,
-          "cy": 408.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-9",
-            "cx": "152",
-            "cy": "411",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 152.0,
-          "cy": 411.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-7",
-            "cx": "165",
-            "cy": "413",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 165.0,
-          "cy": 413.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-5",
-            "cx": "178",
-            "cy": "415",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 178.0,
-          "cy": 415.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-3",
-            "cx": "191",
-            "cy": "417",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 191.0,
-          "cy": 417.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-1",
-            "cx": "204",
-            "cy": "418",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 204.0,
-          "cy": 418.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-101",
-            "cx": "236",
-            "cy": "418",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 236.0,
-          "cy": 418.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-102",
-            "cx": "249",
-            "cy": "419",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 249.0,
-          "cy": 419.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-103",
-            "cx": "262",
-            "cy": "420",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 262.0,
-          "cy": 420.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-104",
-            "cx": "275",
-            "cy": "421",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 275.0,
-          "cy": 421.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-105",
-            "cx": "288",
-            "cy": "422",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 288.0,
-          "cy": 422.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-106",
-            "cx": "301",
-            "cy": "422",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 301.0,
-          "cy": 422.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-107",
-            "cx": "314",
-            "cy": "423",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 314.0,
-          "cy": 423.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-108",
-            "cx": "327",
-            "cy": "423",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 327.0,
-          "cy": 423.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-109",
-            "cx": "340",
-            "cy": "423",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 340.0,
-          "cy": 423.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-110",
-            "cx": "353",
-            "cy": "423",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 353.0,
-          "cy": 423.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-111",
-            "cx": "366",
-            "cy": "422",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 366.0,
-          "cy": 422.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-112",
-            "cx": "379",
-            "cy": "422",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 379.0,
-          "cy": 422.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-113",
-            "cx": "392",
-            "cy": "421",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 392.0,
-          "cy": 421.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-114",
-            "cx": "405",
-            "cy": "420",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 405.0,
-          "cy": 420.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-115",
-            "cx": "418",
-            "cy": "419",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 418.0,
-          "cy": 419.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-2",
-            "cx": "450",
-            "cy": "417",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 450.0,
-          "cy": 417.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-4",
-            "cx": "463",
-            "cy": "416",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 463.0,
-          "cy": 416.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-6",
-            "cx": "476",
-            "cy": "415",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 476.0,
-          "cy": 415.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-8",
-            "cx": "489",
-            "cy": "413",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 489.0,
-          "cy": 413.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-10",
-            "cx": "502",
-            "cy": "411",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 502.0,
-          "cy": 411.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-12",
-            "cx": "515",
-            "cy": "408",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 515.0,
-          "cy": 408.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-14",
-            "cx": "528",
-            "cy": "405",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 528.0,
-          "cy": 405.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-16",
-            "cx": "541",
-            "cy": "401",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 541.0,
-          "cy": 401.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-18",
-            "cx": "554",
-            "cy": "397",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 554.0,
-          "cy": 397.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-t-20",
-            "cx": "567",
-            "cy": "392",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 567.0,
-          "cy": 392.0
-        }
-      ],
-      "s": [
-        {
-          "seat": {
-            "class": "seat-orchestra-s-19",
-            "cx": "87",
-            "cy": "375",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 87.0,
-          "cy": 375.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-17",
-            "cx": "100",
-            "cy": "380",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 100.0,
-          "cy": 380.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-15",
-            "cx": "113",
-            "cy": "384",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 113.0,
-          "cy": 384.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-13",
-            "cx": "126",
-            "cy": "388",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 126.0,
-          "cy": 388.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-11",
-            "cx": "139",
-            "cy": "391",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 139.0,
-          "cy": 391.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-9",
-            "cx": "152",
-            "cy": "394",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 152.0,
-          "cy": 394.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-7",
-            "cx": "165",
-            "cy": "396",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 165.0,
-          "cy": 396.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-5",
-            "cx": "178",
-            "cy": "398",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 178.0,
-          "cy": 398.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-3",
-            "cx": "191",
-            "cy": "400",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 191.0,
-          "cy": 400.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-1",
-            "cx": "204",
-            "cy": "401",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 204.0,
-          "cy": 401.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-101",
-            "cx": "236",
-            "cy": "401",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 236.0,
-          "cy": 401.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-102",
-            "cx": "249",
-            "cy": "402",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 249.0,
-          "cy": 402.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-103",
-            "cx": "262",
-            "cy": "403",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 262.0,
-          "cy": 403.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-104",
-            "cx": "275",
-            "cy": "404",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 275.0,
-          "cy": 404.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-105",
-            "cx": "288",
-            "cy": "405",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 288.0,
-          "cy": 405.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-106",
-            "cx": "301",
-            "cy": "405",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 301.0,
-          "cy": 405.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-107",
-            "cx": "314",
-            "cy": "406",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 314.0,
-          "cy": 406.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-108",
-            "cx": "327",
-            "cy": "406",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 327.0,
-          "cy": 406.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-109",
-            "cx": "340",
-            "cy": "406",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 340.0,
-          "cy": 406.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-110",
-            "cx": "353",
-            "cy": "406",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 353.0,
-          "cy": 406.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-111",
-            "cx": "366",
-            "cy": "405",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 366.0,
-          "cy": 405.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-112",
-            "cx": "379",
-            "cy": "405",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 379.0,
-          "cy": 405.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-113",
-            "cx": "392",
-            "cy": "404",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 392.0,
-          "cy": 404.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-114",
-            "cx": "405",
-            "cy": "403",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 405.0,
-          "cy": 403.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-115",
-            "cx": "418",
-            "cy": "402",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 418.0,
-          "cy": 402.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-2",
-            "cx": "450",
-            "cy": "400",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 450.0,
-          "cy": 400.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-4",
-            "cx": "463",
-            "cy": "399",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 463.0,
-          "cy": 399.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-6",
-            "cx": "476",
-            "cy": "398",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 476.0,
-          "cy": 398.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-8",
-            "cx": "489",
-            "cy": "396",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 489.0,
-          "cy": 396.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-10",
-            "cx": "502",
-            "cy": "394",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 502.0,
-          "cy": 394.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-12",
-            "cx": "515",
-            "cy": "391",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 515.0,
-          "cy": 391.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-14",
-            "cx": "528",
-            "cy": "388",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 528.0,
-          "cy": 388.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-16",
-            "cx": "541",
-            "cy": "384",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 541.0,
-          "cy": 384.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-18",
-            "cx": "554",
-            "cy": "380",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 554.0,
-          "cy": 380.0
-        },
-        {
-          "seat": {
-            "class": "seat-orchestra-s-20",
-            "cx": "567",
-            "cy": "375",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 567.0,
-          "cy": 375.0
-        }
-      ],
       "r": [
         {
           "seat": {
@@ -14652,6 +13513,371 @@
           "cx": 567.0,
           "cy": 273.0
         }
+      ],
+      "k": [
+        {
+          "seat": {
+            "class": "seat-orchestra-k-17",
+            "cx": "100",
+            "cy": "261",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 100.0,
+          "cy": 261.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-15",
+            "cx": "113",
+            "cy": "265",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 113.0,
+          "cy": 265.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-13",
+            "cx": "126",
+            "cy": "269",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 126.0,
+          "cy": 269.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-11",
+            "cx": "139",
+            "cy": "272",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 139.0,
+          "cy": 272.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-9",
+            "cx": "152",
+            "cy": "275",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 152.0,
+          "cy": 275.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-7",
+            "cx": "165",
+            "cy": "277",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 165.0,
+          "cy": 277.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-5",
+            "cx": "178",
+            "cy": "279",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 178.0,
+          "cy": 279.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-3",
+            "cx": "191",
+            "cy": "281",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 191.0,
+          "cy": 281.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-1",
+            "cx": "204",
+            "cy": "282",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 204.0,
+          "cy": 282.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-101",
+            "cx": "236",
+            "cy": "281",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 236.0,
+          "cy": 281.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-102",
+            "cx": "249",
+            "cy": "282",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 249.0,
+          "cy": 282.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-103",
+            "cx": "262",
+            "cy": "283",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 262.0,
+          "cy": 283.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-104",
+            "cx": "275",
+            "cy": "284",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 275.0,
+          "cy": 284.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-105",
+            "cx": "288",
+            "cy": "285",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 288.0,
+          "cy": 285.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-106",
+            "cx": "301",
+            "cy": "285",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 301.0,
+          "cy": 285.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-107",
+            "cx": "314",
+            "cy": "286",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 314.0,
+          "cy": 286.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-108",
+            "cx": "327",
+            "cy": "286",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 327.0,
+          "cy": 286.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-109",
+            "cx": "340",
+            "cy": "286",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 340.0,
+          "cy": 286.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-110",
+            "cx": "353",
+            "cy": "286",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 353.0,
+          "cy": 286.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-111",
+            "cx": "366",
+            "cy": "285",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 366.0,
+          "cy": 285.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-112",
+            "cx": "379",
+            "cy": "285",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 379.0,
+          "cy": 285.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-113",
+            "cx": "392",
+            "cy": "284",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 392.0,
+          "cy": 284.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-114",
+            "cx": "405",
+            "cy": "283",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 405.0,
+          "cy": 283.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-115",
+            "cx": "418",
+            "cy": "282",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 418.0,
+          "cy": 282.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-2",
+            "cx": "450",
+            "cy": "281",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 450.0,
+          "cy": 281.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-4",
+            "cx": "463",
+            "cy": "280",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 463.0,
+          "cy": 280.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-6",
+            "cx": "476",
+            "cy": "279",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 476.0,
+          "cy": 279.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-8",
+            "cx": "489",
+            "cy": "277",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 489.0,
+          "cy": 277.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-10",
+            "cx": "502",
+            "cy": "275",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 502.0,
+          "cy": 275.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-12",
+            "cx": "515",
+            "cy": "272",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 515.0,
+          "cy": 272.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-14",
+            "cx": "528",
+            "cy": "269",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 528.0,
+          "cy": 269.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-16",
+            "cx": "541",
+            "cy": "265",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 541.0,
+          "cy": 265.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-k-18",
+            "cx": "554",
+            "cy": "261",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 554.0,
+          "cy": 261.0
+        }
       ]
     },
     "B": {
@@ -16141,6 +15367,780 @@
           },
           "cx": 567.0,
           "cy": 409.0
+        }
+      ],
+      "t": [
+        {
+          "seat": {
+            "class": "seat-orchestra-t-19",
+            "cx": "87",
+            "cy": "392",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 87.0,
+          "cy": 392.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-17",
+            "cx": "100",
+            "cy": "397",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 100.0,
+          "cy": 397.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-15",
+            "cx": "113",
+            "cy": "401",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 113.0,
+          "cy": 401.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-13",
+            "cx": "126",
+            "cy": "405",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 126.0,
+          "cy": 405.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-11",
+            "cx": "139",
+            "cy": "408",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 139.0,
+          "cy": 408.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-9",
+            "cx": "152",
+            "cy": "411",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 152.0,
+          "cy": 411.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-7",
+            "cx": "165",
+            "cy": "413",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 165.0,
+          "cy": 413.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-5",
+            "cx": "178",
+            "cy": "415",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 178.0,
+          "cy": 415.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-3",
+            "cx": "191",
+            "cy": "417",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 191.0,
+          "cy": 417.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-1",
+            "cx": "204",
+            "cy": "418",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 204.0,
+          "cy": 418.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-101",
+            "cx": "236",
+            "cy": "418",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 236.0,
+          "cy": 418.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-102",
+            "cx": "249",
+            "cy": "419",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 249.0,
+          "cy": 419.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-103",
+            "cx": "262",
+            "cy": "420",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 262.0,
+          "cy": 420.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-104",
+            "cx": "275",
+            "cy": "421",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 275.0,
+          "cy": 421.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-105",
+            "cx": "288",
+            "cy": "422",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 288.0,
+          "cy": 422.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-106",
+            "cx": "301",
+            "cy": "422",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 301.0,
+          "cy": 422.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-107",
+            "cx": "314",
+            "cy": "423",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 314.0,
+          "cy": 423.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-108",
+            "cx": "327",
+            "cy": "423",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 327.0,
+          "cy": 423.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-109",
+            "cx": "340",
+            "cy": "423",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 340.0,
+          "cy": 423.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-110",
+            "cx": "353",
+            "cy": "423",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 353.0,
+          "cy": 423.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-111",
+            "cx": "366",
+            "cy": "422",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 366.0,
+          "cy": 422.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-112",
+            "cx": "379",
+            "cy": "422",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 379.0,
+          "cy": 422.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-113",
+            "cx": "392",
+            "cy": "421",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 392.0,
+          "cy": 421.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-114",
+            "cx": "405",
+            "cy": "420",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 405.0,
+          "cy": 420.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-115",
+            "cx": "418",
+            "cy": "419",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 418.0,
+          "cy": 419.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-2",
+            "cx": "450",
+            "cy": "417",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 450.0,
+          "cy": 417.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-4",
+            "cx": "463",
+            "cy": "416",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 463.0,
+          "cy": 416.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-6",
+            "cx": "476",
+            "cy": "415",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 476.0,
+          "cy": 415.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-8",
+            "cx": "489",
+            "cy": "413",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 489.0,
+          "cy": 413.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-10",
+            "cx": "502",
+            "cy": "411",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 502.0,
+          "cy": 411.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-12",
+            "cx": "515",
+            "cy": "408",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 515.0,
+          "cy": 408.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-14",
+            "cx": "528",
+            "cy": "405",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 528.0,
+          "cy": 405.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-16",
+            "cx": "541",
+            "cy": "401",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 541.0,
+          "cy": 401.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-18",
+            "cx": "554",
+            "cy": "397",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 554.0,
+          "cy": 397.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-t-20",
+            "cx": "567",
+            "cy": "392",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 567.0,
+          "cy": 392.0
+        }
+      ],
+      "s": [
+        {
+          "seat": {
+            "class": "seat-orchestra-s-19",
+            "cx": "87",
+            "cy": "375",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 87.0,
+          "cy": 375.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-17",
+            "cx": "100",
+            "cy": "380",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 100.0,
+          "cy": 380.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-15",
+            "cx": "113",
+            "cy": "384",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 113.0,
+          "cy": 384.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-13",
+            "cx": "126",
+            "cy": "388",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 126.0,
+          "cy": 388.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-11",
+            "cx": "139",
+            "cy": "391",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 139.0,
+          "cy": 391.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-9",
+            "cx": "152",
+            "cy": "394",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 152.0,
+          "cy": 394.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-7",
+            "cx": "165",
+            "cy": "396",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 165.0,
+          "cy": 396.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-5",
+            "cx": "178",
+            "cy": "398",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 178.0,
+          "cy": 398.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-3",
+            "cx": "191",
+            "cy": "400",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 191.0,
+          "cy": 400.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-1",
+            "cx": "204",
+            "cy": "401",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 204.0,
+          "cy": 401.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-101",
+            "cx": "236",
+            "cy": "401",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 236.0,
+          "cy": 401.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-102",
+            "cx": "249",
+            "cy": "402",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 249.0,
+          "cy": 402.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-103",
+            "cx": "262",
+            "cy": "403",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 262.0,
+          "cy": 403.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-104",
+            "cx": "275",
+            "cy": "404",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 275.0,
+          "cy": 404.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-105",
+            "cx": "288",
+            "cy": "405",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 288.0,
+          "cy": 405.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-106",
+            "cx": "301",
+            "cy": "405",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 301.0,
+          "cy": 405.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-107",
+            "cx": "314",
+            "cy": "406",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 314.0,
+          "cy": 406.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-108",
+            "cx": "327",
+            "cy": "406",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 327.0,
+          "cy": 406.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-109",
+            "cx": "340",
+            "cy": "406",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 340.0,
+          "cy": 406.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-110",
+            "cx": "353",
+            "cy": "406",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 353.0,
+          "cy": 406.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-111",
+            "cx": "366",
+            "cy": "405",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 366.0,
+          "cy": 405.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-112",
+            "cx": "379",
+            "cy": "405",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 379.0,
+          "cy": 405.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-113",
+            "cx": "392",
+            "cy": "404",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 392.0,
+          "cy": 404.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-114",
+            "cx": "405",
+            "cy": "403",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 405.0,
+          "cy": 403.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-115",
+            "cx": "418",
+            "cy": "402",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 418.0,
+          "cy": 402.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-2",
+            "cx": "450",
+            "cy": "400",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 450.0,
+          "cy": 400.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-4",
+            "cx": "463",
+            "cy": "399",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 463.0,
+          "cy": 399.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-6",
+            "cx": "476",
+            "cy": "398",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 476.0,
+          "cy": 398.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-8",
+            "cx": "489",
+            "cy": "396",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 489.0,
+          "cy": 396.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-10",
+            "cx": "502",
+            "cy": "394",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 502.0,
+          "cy": 394.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-12",
+            "cx": "515",
+            "cy": "391",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 515.0,
+          "cy": 391.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-14",
+            "cx": "528",
+            "cy": "388",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 528.0,
+          "cy": 388.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-16",
+            "cx": "541",
+            "cy": "384",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 541.0,
+          "cy": 384.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-18",
+            "cx": "554",
+            "cy": "380",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 554.0,
+          "cy": 380.0
+        },
+        {
+          "seat": {
+            "class": "seat-orchestra-s-20",
+            "cx": "567",
+            "cy": "375",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 567.0,
+          "cy": 375.0
         }
       ]
     }
@@ -26972,448 +26972,6 @@
       ]
     },
     "M": {
-      "o": [
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-15",
-            "cx": "34",
-            "cy": "762",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 34.0,
-          "cy": 762.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-13",
-            "cx": "47",
-            "cy": "769",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 47.0,
-          "cy": 769.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-11",
-            "cx": "60",
-            "cy": "775",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 60.0,
-          "cy": 775.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-9",
-            "cx": "73",
-            "cy": "781",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 73.0,
-          "cy": 781.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-7",
-            "cx": "86",
-            "cy": "786",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 86.0,
-          "cy": 786.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-5",
-            "cx": "99",
-            "cy": "791",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 99.0,
-          "cy": 791.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-3",
-            "cx": "112",
-            "cy": "795",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 112.0,
-          "cy": 795.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-1",
-            "cx": "125",
-            "cy": "799",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 125.0,
-          "cy": 799.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-101",
-            "cx": "177",
-            "cy": "810",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 177.0,
-          "cy": 810.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-102",
-            "cx": "190",
-            "cy": "812",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 190.0,
-          "cy": 812.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-103",
-            "cx": "203",
-            "cy": "814",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 203.0,
-          "cy": 814.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-104",
-            "cx": "216",
-            "cy": "815",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 216.0,
-          "cy": 815.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-105",
-            "cx": "229",
-            "cy": "816",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 229.0,
-          "cy": 816.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-106",
-            "cx": "242",
-            "cy": "817",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 242.0,
-          "cy": 817.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-107",
-            "cx": "255",
-            "cy": "818",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 255.0,
-          "cy": 818.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-108",
-            "cx": "268",
-            "cy": "819",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 268.0,
-          "cy": 819.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-109",
-            "cx": "281",
-            "cy": "820",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 281.0,
-          "cy": 820.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-110",
-            "cx": "294",
-            "cy": "821",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 294.0,
-          "cy": 821.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-111",
-            "cx": "307",
-            "cy": "821",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 307.0,
-          "cy": 821.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-112",
-            "cx": "320",
-            "cy": "821",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 320.0,
-          "cy": 821.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-113",
-            "cx": "333",
-            "cy": "821",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 333.0,
-          "cy": 821.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-114",
-            "cx": "346",
-            "cy": "821",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 346.0,
-          "cy": 821.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-115",
-            "cx": "359",
-            "cy": "820",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 359.0,
-          "cy": 820.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-116",
-            "cx": "372",
-            "cy": "820",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 372.0,
-          "cy": 820.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-117",
-            "cx": "385",
-            "cy": "819",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 385.0,
-          "cy": 819.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-118",
-            "cx": "398",
-            "cy": "818",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 398.0,
-          "cy": 818.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-119",
-            "cx": "411",
-            "cy": "817",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 411.0,
-          "cy": 817.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-120",
-            "cx": "424",
-            "cy": "816",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 424.0,
-          "cy": 816.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-121",
-            "cx": "437",
-            "cy": "815",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 437.0,
-          "cy": 815.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-122",
-            "cx": "450",
-            "cy": "814",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 450.0,
-          "cy": 814.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-123",
-            "cx": "463",
-            "cy": "813",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 463.0,
-          "cy": 813.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-124",
-            "cx": "476",
-            "cy": "811",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 476.0,
-          "cy": 811.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-2",
-            "cx": "527",
-            "cy": "799",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 527.0,
-          "cy": 799.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-4",
-            "cx": "540",
-            "cy": "795",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 540.0,
-          "cy": 795.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-6",
-            "cx": "553",
-            "cy": "791",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 553.0,
-          "cy": 791.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-8",
-            "cx": "566",
-            "cy": "786",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 566.0,
-          "cy": 786.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-10",
-            "cx": "579",
-            "cy": "781",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 579.0,
-          "cy": 781.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-12",
-            "cx": "592",
-            "cy": "775",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 592.0,
-          "cy": 775.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-14",
-            "cx": "605",
-            "cy": "769",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 605.0,
-          "cy": 769.0
-        },
-        {
-          "seat": {
-            "class": "seat-mezzanine-o-16",
-            "cx": "618",
-            "cy": "762",
-            "r": "6",
-            "fill": "#ECECEF"
-          },
-          "cx": 618.0,
-          "cy": 762.0
-        }
-      ],
       "n": [
         {
           "seat": {
@@ -31515,6 +31073,448 @@
           },
           "cx": 618.0,
           "cy": 779.0
+        }
+      ],
+      "o": [
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-15",
+            "cx": "34",
+            "cy": "762",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 34.0,
+          "cy": 762.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-13",
+            "cx": "47",
+            "cy": "769",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 47.0,
+          "cy": 769.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-11",
+            "cx": "60",
+            "cy": "775",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 60.0,
+          "cy": 775.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-9",
+            "cx": "73",
+            "cy": "781",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 73.0,
+          "cy": 781.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-7",
+            "cx": "86",
+            "cy": "786",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 86.0,
+          "cy": 786.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-5",
+            "cx": "99",
+            "cy": "791",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 99.0,
+          "cy": 791.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-3",
+            "cx": "112",
+            "cy": "795",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 112.0,
+          "cy": 795.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-1",
+            "cx": "125",
+            "cy": "799",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 125.0,
+          "cy": 799.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-101",
+            "cx": "177",
+            "cy": "810",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 177.0,
+          "cy": 810.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-102",
+            "cx": "190",
+            "cy": "812",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 190.0,
+          "cy": 812.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-103",
+            "cx": "203",
+            "cy": "814",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 203.0,
+          "cy": 814.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-104",
+            "cx": "216",
+            "cy": "815",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 216.0,
+          "cy": 815.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-105",
+            "cx": "229",
+            "cy": "816",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 229.0,
+          "cy": 816.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-106",
+            "cx": "242",
+            "cy": "817",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 242.0,
+          "cy": 817.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-107",
+            "cx": "255",
+            "cy": "818",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 255.0,
+          "cy": 818.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-108",
+            "cx": "268",
+            "cy": "819",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 268.0,
+          "cy": 819.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-109",
+            "cx": "281",
+            "cy": "820",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 281.0,
+          "cy": 820.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-110",
+            "cx": "294",
+            "cy": "821",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 294.0,
+          "cy": 821.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-111",
+            "cx": "307",
+            "cy": "821",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 307.0,
+          "cy": 821.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-112",
+            "cx": "320",
+            "cy": "821",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 320.0,
+          "cy": 821.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-113",
+            "cx": "333",
+            "cy": "821",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 333.0,
+          "cy": 821.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-114",
+            "cx": "346",
+            "cy": "821",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 346.0,
+          "cy": 821.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-115",
+            "cx": "359",
+            "cy": "820",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 359.0,
+          "cy": 820.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-116",
+            "cx": "372",
+            "cy": "820",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 372.0,
+          "cy": 820.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-117",
+            "cx": "385",
+            "cy": "819",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 385.0,
+          "cy": 819.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-118",
+            "cx": "398",
+            "cy": "818",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 398.0,
+          "cy": 818.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-119",
+            "cx": "411",
+            "cy": "817",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 411.0,
+          "cy": 817.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-120",
+            "cx": "424",
+            "cy": "816",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 424.0,
+          "cy": 816.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-121",
+            "cx": "437",
+            "cy": "815",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 437.0,
+          "cy": 815.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-122",
+            "cx": "450",
+            "cy": "814",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 450.0,
+          "cy": 814.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-123",
+            "cx": "463",
+            "cy": "813",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 463.0,
+          "cy": 813.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-124",
+            "cx": "476",
+            "cy": "811",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 476.0,
+          "cy": 811.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-2",
+            "cx": "527",
+            "cy": "799",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 527.0,
+          "cy": 799.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-4",
+            "cx": "540",
+            "cy": "795",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 540.0,
+          "cy": 795.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-6",
+            "cx": "553",
+            "cy": "791",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 553.0,
+          "cy": 791.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-8",
+            "cx": "566",
+            "cy": "786",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 566.0,
+          "cy": 786.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-10",
+            "cx": "579",
+            "cy": "781",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 579.0,
+          "cy": 781.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-12",
+            "cx": "592",
+            "cy": "775",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 592.0,
+          "cy": 775.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-14",
+            "cx": "605",
+            "cy": "769",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 605.0,
+          "cy": 769.0
+        },
+        {
+          "seat": {
+            "class": "seat-mezzanine-o-16",
+            "cx": "618",
+            "cy": "762",
+            "r": "6",
+            "fill": "#ECECEF"
+          },
+          "cx": 618.0,
+          "cy": 762.0
         }
       ]
     }
