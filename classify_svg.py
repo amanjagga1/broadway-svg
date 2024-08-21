@@ -1,7 +1,7 @@
 import json
 import re
 
-def classify(clustered_data):
+def classify(clustered_data, frontOverride):
     clusters = {}
     sections = list(clustered_data.keys())
     
@@ -9,13 +9,13 @@ def classify(clustered_data):
         section_data = clustered_data[section]
         classified_section_labels = {}
 
-        horizontal_split = label_clusters(section_data, "x")
+        horizontal_split = label_clusters(section_data, "x", frontOverride)
 
-        vertical_split = label_clusters(merge_clusters(section_data), "y")
+        vertical_split = label_clusters(merge_clusters(section_data), "y", frontOverride)
 
         # Further horizontal split within each horizontal split section
         for h_label, h_data in horizontal_split.items():
-            further_horizontal_split = label_clusters({'cluster': h_data}, "x")
+            further_horizontal_split = label_clusters({'cluster': h_data}, "x", frontOverride)
             classified_section_labels[h_label] = further_horizontal_split
 
         classified_section_labels.update(vertical_split)
@@ -25,7 +25,7 @@ def classify(clustered_data):
     row_wise_split = get_row_wise_split(clusters)
     return row_wise_split
 
-def label_clusters(cluster_object, orientation):
+def label_clusters(cluster_object, orientation, frontOverride):
     keys = ["L", "C", "R"] if orientation == "x" else ["T", "M", "B"]
     initial_state = {key: [] for key in keys}
     total_clusters = len(cluster_object)
@@ -37,7 +37,7 @@ def label_clusters(cluster_object, orientation):
         if orientation == 'y':
             max_y_list = {row_name: find_max_y_value(row_arr) for row_name, row_arr in row_list.items()}
             res_arr = get_sorted_keys_by_value(max_y_list)
-            partitioned_array = divide_array(res_arr)
+            partitioned_array = divide_array(res_arr, frontOverride)
             initial_state[keys[0]] = get_seats_in_division(partitioned_array[2], row_list)
             initial_state[keys[1]] = get_seats_in_division(partitioned_array[1], row_list)
             initial_state[keys[2]] = get_seats_in_division(partitioned_array[0], row_list)
@@ -142,16 +142,12 @@ def get_seats_in_division(division, grouped_seats):
         seat_list.extend(grouped_seats[label])
     return seat_list
 
-def divide_array(arr):
+def divide_array(arr, frontOverride=0):
     length = len(arr)
     part_size = length // 3
-    first_part_size = (part_size-1)
+    first_part_size = part_size - frontOverride
     second_part_size = part_size
     third_part_size = length - first_part_size - second_part_size
-
-    if third_part_size < second_part_size:
-        second_part_size += (second_part_size - third_part_size)
-        third_part_size = length - first_part_size - second_part_size
 
     return arr[:first_part_size], arr[first_part_size:first_part_size+second_part_size], arr[first_part_size+second_part_size:]
 
@@ -175,11 +171,11 @@ def filter_seats_by_row(seats_array):
             grouped_seats[row_name].append(item)
     return grouped_seats
 
-def process_classification(input_file_path, output_file_path):
+def process_classification(input_file_path, output_file_path, frontOverride):
     with open(input_file_path, 'r') as f:
         clustered_data = json.load(f)
     
-    result = classify(clustered_data)
+    result = classify(clustered_data, frontOverride)
     
     with open(output_file_path, 'w') as f:
         json.dump(result, f, indent=2)

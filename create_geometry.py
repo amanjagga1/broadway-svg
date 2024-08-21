@@ -45,15 +45,18 @@ def generate_svg_polygon(data, section_name, tourId, priority, alpha=5):
     
     lines = [LineString([coordinates[edge[0]], coordinates[edge[1]]]) for edge in filtered_edges]
     
-    polygon_edges = cascaded_union(lines)
-    concave_hull = cascaded_union(list(polygonize(polygon_edges)))
+    try:
+        concave_hull = cascaded_union(list(polygonize(cascaded_union(lines))))
+    except ValueError:
+        print("Failed to generate a valid concave hull")
+        return None
     
     if isinstance(concave_hull, Polygon):
         hull_points = list(concave_hull.exterior.coords)
     elif isinstance(concave_hull, MultiPolygon):
-        # If multiple polygons are created, use the largest one
-        largest_polygon = max(concave_hull, key=lambda p: p.area)
-        hull_points = list(largest_polygon.exterior.coords)
+        hull_points = []
+        for polygon in concave_hull:
+            hull_points.extend(list(polygon.exterior.coords))
     else:
         print("Failed to generate a valid concave hull")
         return None

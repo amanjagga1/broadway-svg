@@ -93,9 +93,13 @@ def process_single_svg(svg_name):
 
     svg_viewbox = get_svg_viewbox(svg_file_path)
     section_rows = svg_to_json(svg_file_path, json_output_path, svg_name)
+
+    frontOverride=0
+    if(svg_name == "507" or svg_name == "11845" or svg_name == "512"):
+        frontOverride=1
     
     print(f"{svg_name}: Classifying data...")
-    process_classification(json_output_path, classified_output_path)
+    process_classification(json_output_path, classified_output_path, frontOverride)
 
     print(f"{svg_name}: Processing input subsections")
     processed_input_subsections = []
