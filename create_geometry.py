@@ -175,7 +175,7 @@ def generate_svg(filtered_input_path, parsed_input_path, output_svg_path, svg_vi
     # Combine all SVG content
     content_svg = f'<g transform="translate(0, {y_offset})">\n{additional_svg_content}{section_svg_content}</g>'
     
-    final_svg_content = f'<svg viewbox="0 0 {svg_viewbox["width"]} {svg_viewbox["height"] + 2 * stage_height}" xmlns="http://www.w3.org/2000/svg">\n{stage_svg}{content_svg}</svg>'
+    final_svg_content = f'<svg viewbox="0 0 {svg_viewbox["width"]} {svg_viewbox["height"] + stage_height}" xmlns="http://www.w3.org/2000/svg">\n{stage_svg}{content_svg}</svg>'
     
     write_svg_file(final_svg_content, output_svg_path)
 
