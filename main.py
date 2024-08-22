@@ -46,7 +46,7 @@ def fetch_variant_map(tgid):
     tour_groups_url = f'https://api.headout.com/api/v6/tour-groups/{tgid}'
    
     print()
-    inventories_url = f'https://api.headout.com/api/v7/tour-groups/{tgid}/inventories?from-date={datetime.now().strftime("%Y-%m-%d")}&to-date=2024-12-12'
+    inventories_url = f'https://api.headout.com/api/v7/tour-groups/{tgid}/inventories?from-date={datetime.now().strftime("%Y-%m-%d")}&to-date=2025-12-12'
     
     activeVariants = set()
 

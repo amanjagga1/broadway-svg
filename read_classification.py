@@ -134,12 +134,6 @@ def read_clusters(classification_data, variant_labels, section_rows, svg_name):
         priority_value = float('-inf')
         skip_variant = False
         for variant_name, section_labels in variant.items():
-            if re.sub(r'\W+', '', variant_name.lower()) == 'midpremiums':
-                verticalData = classification_data['orchestra']['T']
-                frontMid = get_concatenated_middle_part(verticalData)
-                frontCenter = concat_arrays(classification_data['orchestra']['C'])
-                variant_list = find_common_objects(frontMid, frontCenter)
-                continue
             if skip_variant:
                 break
             for section_data in section_labels:

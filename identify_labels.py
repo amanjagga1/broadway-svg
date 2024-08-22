@@ -1,5 +1,14 @@
 import re
 def get_section_labels(section_name, standardized_section_name, svg_name):
+    if 'Mid Premiums' in standardized_section_name:
+        standardized_section_name = standardized_section_name.replace('Mid Premiums', 'Mid Orchestra Center/Front Orchestra Center')
+    elif 'mid premiums' in standardized_section_name:
+        standardized_section_name = standardized_section_name.replace('mid premiums', 'Mid Orchestra Center/Front Orchestra Center')
+    elif 'Mid Premium' in standardized_section_name:
+        standardized_section_name = standardized_section_name.replace('Mid Premium', 'Mid Orchestra Center/Front Orchestra Center')
+    elif 'mid premium' in standardized_section_name:
+        standardized_section_name = standardized_section_name.replace('mid premium', 'Mid Orchestra Center/Front Orchestra Center')
+
     parts = re.split(r'\s*/\s*', standardized_section_name)
     result = []
 
@@ -16,10 +25,8 @@ def get_section_labels(section_name, standardized_section_name, svg_name):
                 edgeCase519 = " Front Mezzanine"
                 name = name.replace("Front Mezzanine", "").strip()
 
-        #This portion of code is to hardcode Premium/s as Front Orchestra Center
-        if "mid premium" in name.lower():
-            name = "Orchestra Front Median"
-        elif "premium" in name.lower():
+        #This portion of code is to hardcode Premium/s as Front Orchestra Centers
+        if "premium" in name.lower():
             name = "Front Orchestra Center"
 
         sub_parts = name.split(" ")
