@@ -151,8 +151,8 @@ def create_stage_rectangle(svg_width, svg_height, stage_height, width_offset):
     stage_width = svg_width - (2 * width_offset)  # Reduce width by offset on both sides
     x_position = width_offset  # Start the rectangle after the left offset
     
-    rect_svg = f'<rect x="{x_position}" y="0" width="{stage_width}" height="{stage_height}" fill="#C4C4C4" />'
-    text_svg = f'<text font-size="28px" x="{svg_width/2}" y="{stage_height/2}" text-anchor="middle" dominant-baseline="middle">STAGE</text>'
+    rect_svg = f'<rect x="{x_position}" y="0" width="{stage_width}" height="{stage_height}" fill="#222222" />'
+    text_svg = f'<text font-size="28px" x="{svg_width/2}" y="{stage_height/2}" text-anchor="middle" fill="#ffffff" dominant-baseline="middle">STAGE</text>'
     return f'<g id="stage">\n{rect_svg}\n{text_svg}\n</g>\n'
 
 def generate_svg(filtered_input_path, parsed_input_path, output_svg_path, svg_viewbox, variant_tour_mapping):

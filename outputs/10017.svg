@@ -1,7 +1,7 @@
 <svg viewbox="0 0 689.0 1131.577" xmlns="http://www.w3.org/2000/svg">
 <g id="stage">
-<rect x="200" y="0" width="289.0" height="100" fill="#C4C4C4" />
-<text font-size="28px" x="344.5" y="50.0" text-anchor="middle" dominant-baseline="middle">STAGE</text>
+<rect x="200" y="0" width="289.0" height="100" fill="#222222" />
+<text font-size="28px" x="344.5" y="50.0" text-anchor="middle" fill="#ffffff" dominant-baseline="middle">STAGE</text>
 </g>
 <g transform="translate(0, 100)">
 <g class="primary-clusters">
