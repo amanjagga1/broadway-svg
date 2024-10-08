@@ -53,66 +53,31 @@ def read_clusters(classification_data, variant_labels, section_rows, svg_name):
 
         rows_to_include = get_rows_to_include(section_name, section_rows[refined_section_name])
 
-        if not v_labels and not h_labels:
-            for main_label, main_data in classification_data[refined_section_name].items():
-                # Check if main_data is a dict or directly a list of seats
-                if isinstance(main_data, dict):
-                    for sub_label, sub_data in main_data.items():
-                        if isinstance(sub_data, dict):
-                            for row, seats in sub_data.items():
-                                if row in rows_to_include and (not rows or is_row_in_range(row, rows, section_rows[refined_section_name])):
-                                    vertical_seats.update((seat['cx'], seat['cy']) for seat in seats)
-                        elif isinstance(sub_data, list):  # Handle the case where sub_data is directly a list of seats
-                            for seat in sub_data:
-                                row_name = seat['seat']['class'].split('-')[2]  # Extract the row name from the class
-                                if row_name in rows_to_include and (not rows or is_row_in_range(row_name, rows, section_rows[refined_section_name])):
-                                    vertical_seats.add((seat['cx'], seat['cy']))
-                elif isinstance(main_data, list):  # Handle the case where main_data is directly a list of seats
-                    for seat in main_data:
-                        row_name = seat['seat']['class'].split('-')[2]
-                        if row_name in rows_to_include and (not rows or is_row_in_range(row_name, rows, section_rows[refined_section_name])):
-                            vertical_seats.add((seat['cx'], seat['cy']))
+        def process_seats(seats_data, target_set):
+            for row, seats in seats_data.items():
+                if row in rows_to_include and (not rows or is_row_in_range(row, rows, section_rows[refined_section_name])):
+                    for seat in seats:
+                        target_set.add((seat['cx'], seat['cy']))
 
-        vertical_labels = ["L", "C", "R"]
+        if not v_labels and not h_labels:
+            for main_label in ['L', 'C', 'R']:
+                if main_label in classification_data[refined_section_name]:
+                    process_seats(classification_data[refined_section_name][main_label]["seats"], vertical_seats)
 
         for v_label in v_labels:
-            initial_length = len(vertical_seats)
-            if len(v_label) == 1:
-                # Gather all sublevels under the main vertical level
-                main_v = v_label
-                if main_v in classification_data[refined_section_name]:
-                    for sub_v in classification_data[refined_section_name][main_v]:
-                        for row, seats in classification_data[refined_section_name][main_v][sub_v].items():
-                            if row in rows_to_include and (not rows or is_row_in_range(row, rows, section_rows[refined_section_name])):
-                                vertical_seats.update((seat['cx'], seat['cy']) for seat in seats)
-            else:
-                # Specific sublevel targeting
+            if v_label in ['L', 'C', 'R']:
+                if v_label in classification_data[refined_section_name]:
+                    process_seats(classification_data[refined_section_name][v_label]["seats"], vertical_seats)
+            else:  # For LL, LR, RL, RR, CC
                 main_v, sub_v = v_label[0], v_label[1]
-                if main_v in classification_data[refined_section_name]:
-                    if sub_v in classification_data[refined_section_name][main_v]:
-                        for row, seats in classification_data[refined_section_name][main_v][sub_v].items():
-                            if row in rows_to_include and (not rows or is_row_in_range(row, rows, section_rows[refined_section_name])):
-                                vertical_seats.update((seat['cx'], seat['cy']) for seat in seats)
+                if main_v in classification_data[refined_section_name] and sub_v in classification_data[refined_section_name][main_v]:
+                    for row, seats in classification_data[refined_section_name][main_v][sub_v].items():
+                        if row in rows_to_include and (not rows or is_row_in_range(row, rows, section_rows[refined_section_name])):
+                            vertical_seats.update((seat['cx'], seat['cy']) for seat in seats)
 
-            if len(vertical_seats) == initial_length and v_label in vertical_labels:
-                current_index = vertical_labels.index(v_label)
-                next_index = (current_index + 1) % len(vertical_labels)
-                next_v_label = vertical_labels[next_index]
-
-                main_v = next_v_label
-                if main_v in classification_data[refined_section_name]:
-                    for sub_v in classification_data[refined_section_name][main_v]:
-                        for row, seats in classification_data[refined_section_name][main_v][sub_v].items():
-                            if row in rows_to_include and (not rows or is_row_in_range(row, rows, section_rows[refined_section_name])):
-                                vertical_seats.update((seat['cx'], seat['cy']) for seat in seats)
-
-
-        # Collect seats for horizontal labels
         for h_label in h_labels:
             if h_label in classification_data[refined_section_name]:
-                for row, seats in classification_data[refined_section_name][h_label].items():
-                    if row in rows_to_include and (not rows or is_row_in_range(row, rows, section_rows[refined_section_name])):
-                        horizontal_seats.update((seat['cx'], seat['cy']) for seat in seats)
+                process_seats(classification_data[refined_section_name][h_label], horizontal_seats)
 
         # If one of the sets is empty, use the other set directly
         if not vertical_seats:

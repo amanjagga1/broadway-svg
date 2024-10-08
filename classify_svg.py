@@ -18,9 +18,17 @@ def classify(clustered_data, frontOverride):
             further_horizontal_split = label_clusters({'cluster': h_data}, "x", frontOverride)
             classified_section_labels[h_label] = further_horizontal_split
 
+            # Add all seats for this main section (L, C, R)
+            all_seats = []
+            all_seats.extend(h_data)
+            classified_section_labels[h_label]['seats'] = filter_seats_by_row(all_seats)
+
         classified_section_labels.update(vertical_split)
 
         clusters[section] = classified_section_labels
+
+        print("THIISSSS?")
+        print(clusters[section].keys())
 
     row_wise_split = get_row_wise_split(clusters)
     return row_wise_split
@@ -86,6 +94,10 @@ def get_row_wise_split(classified_data):
         for label in classified_data[section_name]:
             if isinstance(classified_data[section_name][label], dict):
                 for sub_label in classified_data[section_name][label]:
+                    #This is condition is necessary because now, each horizontal partition has
+                    # (L, C, R, seats) where seats is an object of all the seats in the partition
+                    if sub_label == "seats":
+                        continue
                     coordinates = classified_data[section_name][label][sub_label]
                     row_list = filter_seats_by_row(coordinates)
                     classified_data[section_name][label][sub_label] = row_list
