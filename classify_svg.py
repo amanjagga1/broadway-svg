@@ -15,20 +15,17 @@ def classify(clustered_data, frontOverride):
 
         # Further horizontal split within each horizontal split section
         for h_label, h_data in horizontal_split.items():
-            further_horizontal_split = label_clusters({'cluster': h_data}, "x", frontOverride)
-            classified_section_labels[h_label] = further_horizontal_split
+            further_horizontal_split = label_clusters({'cluster': h_data}, "x", frontOverride) #This will give (L,C,R) for this particular horizontal section
+            sub_vert_sections = {} #This will hold keys such as LL, LR, LC, CL, CC etc.
+            for sub_vert_section_label in further_horizontal_split.keys():
+                sub_vert_sections[h_label+sub_vert_section_label] = further_horizontal_split[sub_vert_section_label]
 
-            # Add all seats for this main section (L, C, R)
-            all_seats = []
-            all_seats.extend(h_data)
-            classified_section_labels[h_label]['seats'] = filter_seats_by_row(all_seats)
+            classified_section_labels.update(sub_vert_sections)
 
         classified_section_labels.update(vertical_split)
+        classified_section_labels.update(horizontal_split)
 
         clusters[section] = classified_section_labels
-
-        print("THIISSSS?")
-        print(clusters[section].keys())
 
     row_wise_split = get_row_wise_split(clusters)
     return row_wise_split
@@ -94,10 +91,6 @@ def get_row_wise_split(classified_data):
         for label in classified_data[section_name]:
             if isinstance(classified_data[section_name][label], dict):
                 for sub_label in classified_data[section_name][label]:
-                    #This is condition is necessary because now, each horizontal partition has
-                    # (L, C, R, seats) where seats is an object of all the seats in the partition
-                    if sub_label == "seats":
-                        continue
                     coordinates = classified_data[section_name][label][sub_label]
                     row_list = filter_seats_by_row(coordinates)
                     classified_data[section_name][label][sub_label] = row_list
