@@ -1,4 +1,3 @@
-import json
 import xml.etree.ElementTree as ET
 import re
 from collections import defaultdict
@@ -86,18 +85,12 @@ def cluster_seats(seats):
     
     return clusters
 
-def svg_to_json(svg_file_path, json_output_path, svg_name):
-    with open(svg_file_path, 'r') as svg_file:
-        svg_content = svg_file.read()
-
+def svg_to_json(svg_content, svg_name):
     seats_by_section, section_rows = parse_svg(svg_content, svg_name)
 
     clustered_seats_by_section = {}
     for section_name, seats in seats_by_section.items():
         clustered_seats = cluster_seats(seats)
         clustered_seats_by_section[section_name] = clustered_seats
-
-    with open(json_output_path, 'w') as json_file:
-        json.dump(clustered_seats_by_section, json_file, indent=4)
     
-    return section_rows
+    return section_rows, clustered_seats_by_section

@@ -184,10 +184,7 @@ def filter_seats_by_row(seats_array):
             grouped_seats[row_name].append(item)
     return grouped_seats
 
-def process_classification(input_file_path, output_file_path, frontOverride):
-    with open(input_file_path, 'r') as f:
-        clustered_data = json.load(f)
-    
+def process_classification(clustered_data, output_file_path, frontOverride):
     result = classify(clustered_data, frontOverride)
     
     with open(output_file_path, 'w') as f:

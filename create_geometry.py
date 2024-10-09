@@ -3,7 +3,7 @@ from sklearn.cluster import DBSCAN
 import numpy as np
 from scipy.spatial import Delaunay
 from shapely.geometry import LineString, Polygon, MultiPolygon
-from shapely.ops import cascaded_union, polygonize
+from shapely.ops import unary_union, polygonize
 import xml.sax.saxutils as saxutils
 
 def run_dbscan_clustering(data, eps=24, min_samples=4):
@@ -46,7 +46,7 @@ def generate_svg_polygon(data, section_name, tourId, priority, alpha=5):
     lines = [LineString([coordinates[edge[0]], coordinates[edge[1]]]) for edge in filtered_edges]
     
     try:
-        concave_hull = cascaded_union(list(polygonize(cascaded_union(lines))))
+        concave_hull = unary_union(list(polygonize(unary_union(lines))))
     except ValueError:
         print("Failed to generate a valid concave hull")
         return None
@@ -155,13 +155,10 @@ def create_stage_rectangle(svg_width, svg_height, stage_height, width_offset):
     text_svg = f'<text font-size="28px" x="{svg_width/2}" y="{stage_height/2}" text-anchor="middle" fill="#ffffff" dominant-baseline="middle">STAGE</text>'
     return f'<g id="stage">\n{rect_svg}\n{text_svg}\n</g>\n'
 
-def generate_svg(filtered_input_path, parsed_input_path, output_svg_path, svg_viewbox, variant_tour_mapping):
-    data = read_json_file(filtered_input_path)
-    additional_data = read_json_file(parsed_input_path)
-
-    stage_height = 100  # Height of the stage rectangle
-    y_offset = stage_height  # Add some padding below the stage
-    width_offset = 200  # Offset from the sides for the stage
+def generate_svg(data, additional_data, output_svg_path, svg_viewbox, variant_tour_mapping):
+    stage_height = 100
+    y_offset = stage_height
+    width_offset = 200
 
     # Create stage rectangle
     stage_svg = create_stage_rectangle(svg_viewbox['width'], svg_viewbox['height'], stage_height, width_offset)

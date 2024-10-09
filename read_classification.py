@@ -159,14 +159,11 @@ def find_common_objects(arr1, arr2):
     # Filter the second array to only include objects with a class that exists in the first array
     return [obj for obj in arr2 if obj['seat']['class'] in classes]
 
-def process_filtering(input_file_path, output_file_path, processed_input_subsections, section_rows, svg_name):
+def process_filtering(input_file_path, processed_input_subsections, section_rows, svg_name):
     with open(input_file_path, 'r') as f:
         classification_data = json.load(f)
     
     result = read_clusters(classification_data, processed_input_subsections, section_rows, svg_name)
-    
-    with open(output_file_path, 'w') as f:
-        json.dump(result, f, indent=2)
-    
-    print(f"Cluster reading complete. Results saved to {output_file_path}")
+    print(f"Cluster reading complete.")
+    return result
 
