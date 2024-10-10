@@ -1,5 +1,5 @@
 import json
-import re
+from utils.index import divide_array, divide_array_into_three_parts, filter_seats_by_row, find_max_y_value, get_row_wise_split, get_sorted_keys_by_value, merge_clusters, split_array_by_mid_x
 
 def classify(clustered_data, frontOverride):
     clusters = {}
@@ -10,7 +10,6 @@ def classify(clustered_data, frontOverride):
         classified_section_labels = {}
 
         horizontal_split = label_clusters(section_data, "x", frontOverride)
-
         vertical_split = label_clusters(merge_clusters(section_data), "y", frontOverride)
 
         # Further horizontal split within each horizontal split section
@@ -86,41 +85,6 @@ def label_clusters(cluster_object, orientation, frontOverride):
 
     return initial_state
 
-def get_row_wise_split(classified_data):
-    for section_name in classified_data:
-        for label in classified_data[section_name]:
-            if isinstance(classified_data[section_name][label], dict):
-                for sub_label in classified_data[section_name][label]:
-                    coordinates = classified_data[section_name][label][sub_label]
-                    row_list = filter_seats_by_row(coordinates)
-                    classified_data[section_name][label][sub_label] = row_list
-            else:
-                coordinates = classified_data[section_name][label]
-                row_list = filter_seats_by_row(coordinates)
-                classified_data[section_name][label] = row_list
-    return classified_data
-
-def split_array_by_mid_x(arr):
-    if not arr:
-        return [], []
-    min_x = min(obj['cx'] for obj in arr)
-    max_x = max(obj['cx'] for obj in arr)
-    mid_x = (min_x + max_x) / 2
-    return [obj for obj in arr if obj['cx'] < mid_x], [obj for obj in arr if obj['cx'] >= mid_x]
-
-def merge_clusters(clustered_data):
-    merged_data = {"cluster0": []}
-    for cluster in clustered_data.values():
-        merged_data["cluster0"].extend(cluster)
-    return merged_data
-
-def divide_array_into_three_parts(arr):
-    total_length = len(arr)
-    part1_length = total_length // 3
-    part3_length = total_length // 3
-    part2_length = total_length - part1_length - part3_length
-    return arr[:part1_length], arr[part1_length:part1_length+part2_length], arr[part1_length+part2_length:]
-
 def sort_cluster_names(clusters_obj, direction):
     cluster_names = list(clusters_obj.keys())
     clusters = list(clusters_obj.values())
@@ -147,47 +111,5 @@ def get_seats_in_division(division, grouped_seats):
         seat_list.extend(grouped_seats[label])
     return seat_list
 
-def divide_array(arr, frontOverride=0):
-    length = len(arr)
-    part_size = length // 3
-    first_part_size = part_size - frontOverride
-    second_part_size = part_size
-    third_part_size = length - first_part_size - second_part_size
-    
-    # Ensure all partitions are almost equal and the center partition is the smallest
-    if length % 3 == 1:
-        second_part_size -= 1
-        third_part_size += 1
-    elif length % 3 == 2:
-        first_part_size += 1
-        second_part_size -= 1
-    
-    return arr[:first_part_size], arr[first_part_size:first_part_size+second_part_size], arr[first_part_size+second_part_size:]
-
-def get_sorted_keys_by_value(obj):
-    return sorted(obj.keys(), key=lambda x: obj[x], reverse=True)
-
-def find_max_y_value(coordinates):
-    if not coordinates:
-        raise ValueError("The array of coordinates is empty.")
-    return max(coord['cy'] for coord in coordinates)
-
-def filter_seats_by_row(seats_array):
-    grouped_seats = {}
-    for item in seats_array:
-        class_attrib = item['seat']['class']
-        row_match = re.search(r'seat-\w+-([a-zA-Z]+)-', class_attrib)
-        if row_match:
-            row_name = row_match.group(1)
-            if row_name not in grouped_seats:
-                grouped_seats[row_name] = []
-            grouped_seats[row_name].append(item)
-    return grouped_seats
-
-def process_classification(clustered_data, output_file_path, frontOverride):
-    result = classify(clustered_data, frontOverride)
-    
-    with open(output_file_path, 'w') as f:
-        json.dump(result, f, indent=2)
-    
-    print(f"Classification complete. Results saved to {output_file_path}")
+def process_classification(clustered_data, frontOverride):
+    return classify(clustered_data, frontOverride)

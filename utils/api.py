@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime
 from typing import Dict, List, Tuple, Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 def fetch_variant_map(tgid: str) -> Tuple[Optional[List[str]], Optional[Dict[str, int]]]:
     variant_map: Dict[str, int] = {}
@@ -10,28 +11,47 @@ def fetch_variant_map(tgid: str) -> Tuple[Optional[List[str]], Optional[Dict[str
         f'https://www.headout.com/api/v7/tour-groups/{tgid}/inventories'
         f'?from-date={datetime.now().strftime("%Y-%m-%d")}&to-date=2025-12-12'
     )
-    active_variants = set()
 
     try:
-        # Fetch inventories
-        inventories_data = fetch_data(inventories_url)
-        if inventories_data:
-            active_variants = {availability['tourId'] for availability in inventories_data.get('availabilities', [])}
+        with ThreadPoolExecutor() as executor:
+            # Run the fetch_data calls concurrently
+            future_to_url = {
+                executor.submit(fetch_data, inventories_url): 'inventories',
+                executor.submit(fetch_data, tour_groups_url): 'tour_groups'
+            }
 
-        # Fetch tour group data
-        tour_groups_data = fetch_data(tour_groups_url)
-        if tour_groups_data:
-            for variant in tour_groups_data.get('variants', []):
-                tour = variant.get('tours', [{}])[0]
-                variant_name = tour.get('variantName')
-                tour_id = tour.get('id')
+            inventories_data = None
+            tour_groups_data = None
 
-                if variant_name and tour_id in active_variants:
-                    if variant_name not in variant_names:
-                        variant_names.append(variant_name)
-                        variant_map[variant_name] = tour_id
+            for future in as_completed(future_to_url):
+                url_type = future_to_url[future]
+                try:
+                    data = future.result()
+                    if url_type == 'inventories':
+                        inventories_data = data
+                    elif url_type == 'tour_groups':
+                        tour_groups_data = data
+                except Exception as e:
+                    print(f"Error fetching {url_type} data: {e}")
 
-        return variant_names, variant_map
+            # Process inventories data
+            active_variants = set()
+            if inventories_data:
+                active_variants = {availability['tourId'] for availability in inventories_data.get('availabilities', [])}
+
+            # Process tour groups data
+            if tour_groups_data:
+                for variant in tour_groups_data.get('variants', []):
+                    tour = variant.get('tours', [{}])[0]
+                    variant_name = tour.get('variantName')
+                    tour_id = tour.get('id')
+
+                    if variant_name and tour_id in active_variants:
+                        if variant_name not in variant_names:
+                            variant_names.append(variant_name)
+                            variant_map[variant_name] = tour_id
+
+            return variant_names, variant_map
 
     except requests.RequestException as e:
         print(f"Error fetching variant map: {e}")
@@ -46,8 +66,9 @@ def fetch_data(url: str) -> Optional[dict]:
     except requests.RequestException as e:
         print(f"Request failed for {url}: {e}")
         return None
-    
+
 def fetch_svg(tgid: str):
+    """Fetch SVG concurrently with the other API calls."""
     try:
         response = requests.get(f'https://tourlandish.s3.amazonaws.com/lofi-seatmaps/{tgid}.svg')
         response.raise_for_status()
