@@ -8,14 +8,32 @@ from identify_labels import get_section_labels
 from read_classification import process_filtering
 from create_geometry import generate_svg
 from standardize_input import standardize_section_list
+import threading
+import json
+
+# Use a thread-safe cache
+seat_frequency_cache = threading.local()
+
+def fetch_data(svg_name):
+    with ThreadPoolExecutor() as fetch_executor:
+        svg_future = fetch_executor.submit(fetch_svg, svg_name)
+        variant_map_future = fetch_executor.submit(fetch_variant_map, svg_name)
+        
+        svg_content = svg_future.result()
+        input_subsections, variant_tour_mapping = variant_map_future.result()
+
+    return svg_content, input_subsections, variant_tour_mapping
 
 def process_single_svg(svg_name):
     final_svg_output_path = f'./outputs/{svg_name}.svg'
     frontOverride = 1 if svg_name in ["507", "512"] else 0
 
-    input_subsections, variant_tour_mapping = fetch_variant_map(svg_name)
-    svg_content = fetch_svg(svg_name)
-    seat_frequency_list = generate_seat_frequency_list('./reservation_data.csv')
+    svg_content, input_subsections, variant_tour_mapping = fetch_data(svg_name)
+
+    if not hasattr(seat_frequency_cache, 'seat_frequency_list'):
+        # Cache seat frequency list the first time it's generated
+        seat_frequency_cache.seat_frequency_list = generate_seat_frequency_list('./reservation_data.csv')
+    seat_frequency_list = seat_frequency_cache.seat_frequency_list
 
     print(f"Standardising Tours: {svg_name}....")
     standardized_input = standardize_section_list(input_subsections)
@@ -44,18 +62,17 @@ def process_single_svg(svg_name):
     generate_svg(filtered_subsections, clustered_seats_by_section, final_svg_output_path, svg_viewbox, variant_tour_mapping)
 
 def main(svg_names):
-    with ThreadPoolExecutor() as executor:
-        # Submit tasks to process SVGs concurrently
+    with ThreadPoolExecutor(max_workers=8) as executor:  # Adjust max_workers based on system capacity
         futures = {executor.submit(process_single_svg, svg_name): svg_name for svg_name in svg_names}
 
         for future in as_completed(futures):
             svg_name = futures[future]
             try:
-                future.result()  # This will raise an exception if the task failed
+                future.result()
                 print(f"---------------Finished Processing {svg_name}----------------")
             except Exception as e:
                 print(f"Error processing {svg_name}: {e}")
 
 if __name__ == "__main__":
-    svg_names = ["507"]
+    svg_names = ["519"]
     main(svg_names)

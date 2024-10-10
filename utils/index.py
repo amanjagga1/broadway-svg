@@ -137,37 +137,40 @@ def modify_classification(classified_data, classname_map, seat_frequency_list, v
     for tour in seat_frequency_list.get(tgid, {}):
         if not tour:
             continue
-        
-        tour_name = next((key for key, value in variant_tour_mapping.items() if int(value) == int(tour)), None)
-        label_list = next((label_obj for label_obj in identified_labels if tour_name in label_obj), None)
-        
-        if not label_list or len(list(label_list.values())) != 1:
-            continue
-        
-        label_values = list(label_list.values())[0][0]
-        section_name = (
-            "mezzanine" if "mezzanine" in tour_name.lower()
-            else "balcony" if "balcony" in tour_name.lower()
-            else "orchestra"
-        )
-        
-        filtered_labels = list(label_values.values())[0]
-        vertical_labels = filtered_labels['vertical']
-        horizontal_labels = filtered_labels['horizontal']
-        row_labels = filtered_labels['rows']
-        
-        seat_list = seat_frequency_list[tgid][tour]
-        
-        frequent_seats = {seat: freq for seat, freq in seat_list.items() if freq > 60}
-
-        for seat, _ in frequent_seats.items():
-            row = seat.split('-')[2]
+        try:
+            tour_name = next((key for key, value in variant_tour_mapping.items() if int(value) == int(tour)), None)
+            label_list = next((label_obj for label_obj in identified_labels if tour_name in label_obj), None)
             
-            for label_type, labels in [('vertical', vertical_labels), ('horizontal', horizontal_labels)]:
-                for label in labels:
-                    label_section = final_classification[section_name][label].setdefault(row, [])
-                    if not any(seat_item['seat']['class'] == seat for seat_item in label_section):
-                        label_section.append(classname_map[seat])
+            if not label_list or len(list(label_list.values())) != 1:
+                continue
+            
+            label_values = list(label_list.values())[0][0]
+            section_name = (
+                "mezzanine" if "mezzanine" in tour_name.lower()
+                else "balcony" if "balcony" in tour_name.lower()
+                else "orchestra"
+            )
+            
+            filtered_labels = list(label_values.values())[0]
+            vertical_labels = filtered_labels['vertical']
+            horizontal_labels = filtered_labels['horizontal']
+            
+            seat_list = seat_frequency_list[tgid][tour]
+
+            
+            
+            frequent_seats = {seat: freq for seat, freq in seat_list.items() if freq > 60}
+
+            for seat, _ in frequent_seats.items():
+                row = seat.split('-')[2]
+                
+                for label_type, labels in [('vertical', vertical_labels), ('horizontal', horizontal_labels)]:
+                    for label in labels:
+                        label_section = final_classification[section_name][label].setdefault(row, [])
+                        if not any(seat_item['seat']['class'] == seat for seat_item in label_section):
+                            label_section.append(classname_map[seat])
+
+        except Exception as e:
+            print(f"An error occurred while processing tour {tour}: {e}")
                         
     return final_classification
-
