@@ -62,7 +62,7 @@ def process_single_svg(svg_name):
     generate_svg(filtered_subsections, clustered_seats_by_section, final_svg_output_path, svg_viewbox, variant_tour_mapping)
 
 def main(svg_names):
-    with ThreadPoolExecutor(max_workers=8) as executor:  # Adjust max_workers based on system capacity
+    with ThreadPoolExecutor(max_workers=8) as executor:
         futures = {executor.submit(process_single_svg, svg_name): svg_name for svg_name in svg_names}
 
         for future in as_completed(futures):
@@ -74,5 +74,5 @@ def main(svg_names):
                 print(f"Error processing {svg_name}: {e}")
 
 if __name__ == "__main__":
-    svg_names = ["519"]
+    svg_names = ["507", "508", "512", "519", "1293", "11845", "10017", "25949"]
     main(svg_names)
