@@ -9,7 +9,10 @@ def classify(clustered_data, frontOverride):
         section_data = clustered_data[section]
         classified_section_labels = {}
 
-        horizontal_split = label_clusters(section_data, "x", frontOverride)
+        section_length = len(section_data)
+        merged_sections = merge_clusters(section_data) if section_length > 5 else section_data
+
+        horizontal_split = label_clusters(merged_sections, "x", frontOverride)
         vertical_split = label_clusters(merge_clusters(section_data), "y", frontOverride)
 
         # Further horizontal split within each horizontal split section
