@@ -97,7 +97,7 @@ def process_sections(data, variant_tour_mapping):
 
     return svg_content
 
-def process_additional_clusters(data, width):
+def process_additional_clusters(data, width, is_small_svg):
     svg_content = '<g class="primary-clusters">\n'
 
     previous_max_y = 40  # Track the bottommost point of the last section
@@ -124,8 +124,9 @@ def process_additional_clusters(data, width):
 
         previous_max_y = max_y
 
+        font_size = "16px" if is_small_svg else "28px"
         # Add a text element for the section name
-        svg_content += f'<text x="{text_x}" y="{text_y}" font-size="28px" text-anchor="middle" dominant-baseline="middle">{saxutils.escape(section_name).upper()}</text>'
+        svg_content += f'<text x="{text_x}" y="{text_y}" font-size="{font_size}" text-anchor="middle" dominant-baseline="middle">{saxutils.escape(section_name).upper()}</text>'
     
     for section_name, clusters in data.items():
         for cluster_name, seats in clusters.items():
@@ -147,24 +148,29 @@ def read_additional_json_file(file_path):
         data = json.load(file)
     return data
 
-def create_stage_rectangle(svg_width, svg_height, stage_height, width_offset):
-    stage_width = svg_width - (2 * width_offset)  # Reduce width by offset on both sides
-    x_position = width_offset  # Start the rectangle after the left offset
+def create_stage_rectangle(svg_width, svg_height, stage_height, width_offset, is_small_svg):
+    stage_width = svg_width if is_small_svg else svg_width - (2 * width_offset)  # Reduce width by offset on both sides
+    x_position = width_offset
+    font_size = "16px" if is_small_svg else "28px"
     
     rect_svg = f'<rect x="{x_position}" y="0" width="{stage_width}" height="{stage_height}" fill="#222222" />'
-    text_svg = f'<text font-size="28px" x="{svg_width/2}" y="{stage_height/2}" text-anchor="middle" fill="#ffffff" dominant-baseline="middle">STAGE</text>'
+    text_svg = f'<text font-size="{font_size}" x="{svg_width/2}" y="{stage_height/2}" text-anchor="middle" fill="#ffffff" dominant-baseline="middle">STAGE</text>'
     return f'<g id="stage">\n{rect_svg}\n{text_svg}\n</g>\n'
 
 def generate_svg(data, additional_data, output_svg_path, svg_viewbox, variant_tour_mapping):
-    stage_height = 100
-    y_offset = stage_height
-    width_offset = 200
+    is_small_svg =  svg_viewbox['height'] < 500
+    stage_height =  50 if is_small_svg else 100
+    width_offset = 0 if is_small_svg else 200
+
+    y_offset = 10 if is_small_svg else stage_height
+
+    print(svg_viewbox)
 
     # Create stage rectangle
-    stage_svg = create_stage_rectangle(svg_viewbox['width'], svg_viewbox['height'], stage_height, width_offset)
+    stage_svg = create_stage_rectangle(svg_viewbox['width'], svg_viewbox['height'], stage_height, width_offset, is_small_svg)
 
     # Process additional clusters
-    additional_svg_content = process_additional_clusters(additional_data, svg_viewbox['width'])
+    additional_svg_content = process_additional_clusters(additional_data, svg_viewbox['width'], is_small_svg)
 
     # Process sections
     section_svg_content = f'<g class="tour-sections">{process_sections(data, variant_tour_mapping)}</g>'
