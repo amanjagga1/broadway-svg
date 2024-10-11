@@ -5,8 +5,9 @@ from scipy.spatial import Delaunay
 from shapely.geometry import LineString, Polygon, MultiPolygon
 from shapely.ops import unary_union, polygonize
 import xml.sax.saxutils as saxutils
+import random
 
-def run_dbscan_clustering(data, eps=24, min_samples=4):
+def run_dbscan_clustering(data, eps=24, min_samples=3):
     coordinates = np.array([[item['cx'], item['cy']] for item in data])
 
     db = DBSCAN(eps=eps, min_samples=min_samples).fit(coordinates)
@@ -20,6 +21,22 @@ def run_dbscan_clustering(data, eps=24, min_samples=4):
         clusters.append(cluster)
     
     return clusters
+
+def increase_cluster_area(cluster, offset_distance=10):
+    new_cluster = []
+
+    for point in cluster:
+        new_cluster.append(point)
+
+        # Randomly create a new point
+        angle = random.uniform(0, 2 * 3.14159)
+        new_point = {
+            'cx': point['cx'] + offset_distance * random.uniform(0.5, 1.5) * np.cos(angle),
+            'cy': point['cy'] + offset_distance * random.uniform(0.5, 1.5) * np.sin(angle)
+        }
+        new_cluster.append(new_point)
+
+    return new_cluster
 
 def generate_svg_polygon(data, section_name, tourId, priority, alpha=5):
     coordinates = np.array([[item['cx'], item['cy']] for item in data])
@@ -89,6 +106,8 @@ def process_sections(data, variant_tour_mapping):
         svg_content += f'<g class="grouped-{saxutils.escape(section_name)}">\n'
         
         for cluster in clusters:
+            if(len(cluster) <= 4):
+                cluster = increase_cluster_area(cluster)
             polygon = generate_svg_polygon(cluster, section_name, variant_tour_mapping[section_name],priority)
             if polygon:
                 svg_content += polygon + '\n'
