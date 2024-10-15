@@ -1,5 +1,9 @@
 import re
 import csv
+import json
+from collections import defaultdict
+import datetime
+from statistics import mean
 
 horizontal_paths = ["L", "R", "C", "LL", "LR", "LC", "RL", "RC", "RR", "CL", "CR", "CC"]
 vertical_paths = ["T", "M", "B"]
@@ -93,30 +97,24 @@ def generate_seat_name(item):
     return f"seat-{section}-{seat_row.lower()}-{seat_number}"
 
 def generate_seat_frequency_list(input_csv):
-    result = {}
+    result = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: {"frequency": 0, "timestamps": []})))
 
     with open(input_csv, mode='r', encoding='utf-8') as file:
         reader = csv.DictReader(file)
         for row in reader:
             tour_group_id = row['tour_group_id']
             tour_id = row['tour_id']
+            event_timestamp = row['event_timestamp']
 
             class_name = generate_seat_name(row)
             if not class_name:
                 continue
 
-            if tour_group_id not in result:
-                result[tour_group_id] = {}
+            result[tour_group_id][tour_id][class_name]["frequency"] += 1
+            result[tour_group_id][tour_id][class_name]["timestamps"].append(event_timestamp)
 
-            if tour_id not in result[tour_group_id]:
-                result[tour_group_id][tour_id] = {}
+    return dict(result)
 
-            if class_name not in result[tour_group_id][tour_id]:
-                result[tour_group_id][tour_id][class_name] = 0
-
-            result[tour_group_id][tour_id][class_name] += 1
-    
-    return result
 
 def map_seat_classes(data):
     class_map = {}
@@ -176,6 +174,17 @@ def remove_object_by_path(data, path):
 
     return True
 
+def analyze_timestamps(timestamps):
+    datetimes = [datetime.datetime.fromtimestamp(int(ts) / 1000000) for ts in timestamps]
+    
+    avg_timestamp = datetime.datetime.fromtimestamp(mean([dt.timestamp() for dt in datetimes]))
+    
+    current_date = datetime.datetime.now()
+    
+    within_60_days = (current_date - avg_timestamp).days <= 60
+    print(avg_timestamp, within_60_days)
+    return within_60_days
+
 def modify_classification(classified_data, classname_map, seat_frequency_list, variant_tour_mapping, identified_labels, tgid):
     final_classification = classified_data
     section_list = list(final_classification.keys())
@@ -205,7 +214,7 @@ def modify_classification(classified_data, classname_map, seat_frequency_list, v
             
                 seat_list = seat_frequency_list[tgid][tour]
             
-                frequent_seats = {seat: freq for seat, freq in seat_list.items() if freq > 10}
+                frequent_seats = {seat: seat_list[seat] for seat in seat_list if seat_list[seat]["frequency"] > 10 and analyze_timestamps(seat_list[seat]["timestamps"])}
 
                 for seat, _ in frequent_seats.items():
                     row = seat.split('-')[2]
