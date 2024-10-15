@@ -1,6 +1,8 @@
 import re
 import csv
-import json
+
+horizontal_paths = ["L", "R", "C", "LL", "LR", "LC", "RL", "RC", "RR", "CL", "CR", "CC"]
+vertical_paths = ["T", "M", "B"]
 
 def get_row_wise_split(classified_data):
     for section_name in classified_data:
@@ -131,6 +133,49 @@ def map_seat_classes(data):
     traverse(data)
     return class_map
 
+def find_all_paths(data, target_class, path="", paths=None):
+    if paths is None:
+        paths = []
+    
+    if isinstance(data, dict):
+        for key, value in data.items():
+            new_path = f"{path}/{key}" if path else key
+            find_all_paths(value, target_class, new_path, paths)
+            
+    elif isinstance(data, list):
+        for idx, item in enumerate(data):
+            find_all_paths(item, target_class, f"{path}[{idx}]", paths)
+    
+    elif isinstance(data, str) and target_class in data:
+        paths.append(path)
+    
+    return paths
+
+def remove_object_by_path(data, path):
+    keys = path.split('/')  # Split the path into individual keys
+    
+    current = data
+    for i, key in enumerate(keys[:-1]):  # Iterate through all but the last key
+        if key.isdigit():
+            key = int(key)  # Convert index keys to integers for list access
+        if isinstance(current, list):
+            current = current[key]
+        elif isinstance(current, dict):
+            current = current.get(key)
+        if current is None:
+            return False  # If any part of the path is invalid, return False
+    
+    # Now remove the last key from the parent object
+    last_key = keys[-1]
+    if last_key.isdigit():
+        last_key = int(last_key)  # Handle list indices
+        if isinstance(current, list) and 0 <= last_key < len(current):
+            del current[last_key]  # Remove item from list
+    elif isinstance(current, dict) and last_key in current:
+        del current[last_key]  # Remove item from dictionary
+
+    return True
+
 def modify_classification(classified_data, classname_map, seat_frequency_list, variant_tour_mapping, identified_labels, tgid):
     final_classification = classified_data
     section_list = list(final_classification.keys())
@@ -160,7 +205,7 @@ def modify_classification(classified_data, classname_map, seat_frequency_list, v
             
                 seat_list = seat_frequency_list[tgid][tour]
             
-                frequent_seats = {seat: freq for seat, freq in seat_list.items() if freq > 60}
+                frequent_seats = {seat: freq for seat, freq in seat_list.items() if freq > 10}
 
                 for seat, _ in frequent_seats.items():
                     row = seat.split('-')[2]
@@ -168,6 +213,15 @@ def modify_classification(classified_data, classname_map, seat_frequency_list, v
                         for label in labels:
                             label_section = final_classification[section_name][label].setdefault(row, [])
                             if not any(seat_item['seat']['class'] == seat for seat_item in label_section):
+                                existing_paths = find_all_paths(final_classification, seat, [])
+                                for path in existing_paths:
+                                    current_label = path.split('/')[1]
+                                    if current_label in vertical_paths and label in vertical_paths and current_label != label:
+                                        remove_object_by_path(final_classification, current_label)
+                                    else:
+                                        if current_label in horizontal_paths and label in horizontal_paths and current_label != label and len(current_label) == len(label):
+                                            remove_object_by_path(final_classification, current_label)
+
                                 if seat in classname_map and classname_map[seat] is not None:
                                     label_section.append(classname_map[seat])
 
