@@ -18,7 +18,8 @@ def apply_transform(cx, cy, transform):
 def find_circles(element, ns, prefix='seat-'):
     """ Recursively find all circle elements with a class name starting with prefix """
     circles = []
-    if element.tag.endswith('circle') and 'class' in element.attrib and element.attrib['class'].startswith(prefix):
+    attribute = 'class' if 'class' in element.attrib else 'data-id'
+    if element.tag.endswith('circle') and attribute in element.attrib and element.attrib[attribute].startswith(prefix):
         circles.append(element)
     
     for child in element:
@@ -37,7 +38,8 @@ def parse_svg(svg_content, svg_name):
     circles = find_circles(root, ns)
     section_names = set()
     for circle in circles:
-        class_name = circle.attrib.get('class')
+        attribute = 'class' if 'class' in circle.attrib else 'data-id'
+        class_name = circle.attrib.get(attribute)
         match = re.match(r'seat-([^-\s]+)-([^-\s]+)-([^-\s]+)', class_name)
         if match:
             section_name = match.group(1)

@@ -154,10 +154,10 @@ def get_concatenated_middle_part(data):
 
 def find_common_objects(arr1, arr2):
     # Create a set to store the class values from the first array
-    classes = set(obj['seat']['class'] for obj in arr1)
+    classes = set(obj['seat'].get('class') or obj['seat'].get('data-id') for obj in arr1)
 
     # Filter the second array to only include objects with a class that exists in the first array
-    return [obj for obj in arr2 if obj['seat']['class'] in classes]
+    return [obj for obj in arr2 if (obj['seat'].get('class') or obj['seat'].get('data-id')) in classes]
 
 def process_filtering(classification_data, processed_input_subsections, section_rows, svg_name):
     result = read_clusters(classification_data, processed_input_subsections, section_rows, svg_name)
