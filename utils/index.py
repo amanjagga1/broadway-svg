@@ -25,8 +25,7 @@ def get_row_wise_split(classified_data):
 def filter_seats_by_row(seats_array):
     grouped_seats = {}
     for item in seats_array:
-        attribute = 'class' if 'class' in item['seat'] else 'data-id'
-        class_attrib = item['seat'][attribute]
+        class_attrib = item['seat']['class']
         row_match = re.search(r'seat-\w+-([a-zA-Z]+)-', class_attrib)
         if row_match:
             row_name = row_match.group(1)
@@ -123,9 +122,8 @@ def map_seat_classes(data):
     def traverse(obj):
         if isinstance(obj, list):
             for item in obj:
-                if 'seat' in item and ('class' in item['seat'] or 'data-id' in item['seat']):
-                    attribute = 'class' if 'class' in item['seat'] else 'data-id'
-                    class_map[item['seat'][attribute]] = item
+                if 'seat' in item and 'class' in item['seat']:
+                    class_map[item['seat']['class']] = item
         elif isinstance(obj, dict):
             for key in obj:
                 traverse(obj[key])
@@ -222,7 +220,7 @@ def modify_classification(classified_data, classname_map, seat_frequency_list, v
                     for labels in [vertical_labels, horizontal_labels]:
                         for label in labels:
                             label_section = final_classification[section_name][label].setdefault(row, [])
-                            if not any((seat_item['seat'].get('class') or seat_item['seat'].get('data-id')) == seat for seat_item in label_section):
+                            if not any(seat_item['seat']['class'] == seat for seat_item in label_section):
                                 existing_paths = find_all_paths(final_classification, seat, [])
                                 for path in existing_paths:
                                     current_label = path.split('/')[1]
