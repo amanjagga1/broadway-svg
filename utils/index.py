@@ -184,7 +184,6 @@ def analyze_timestamps(timestamps):
     current_date = datetime.datetime.now()
     
     within_60_days = (current_date - avg_timestamp).days <= 60
-    print(avg_timestamp, within_60_days)
     return within_60_days
 
 def modify_classification(classified_data, classname_map, seat_frequency_list, variant_tour_mapping, identified_labels, tgid):
