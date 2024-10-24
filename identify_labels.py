@@ -14,15 +14,15 @@ def get_section_labels(section_name, standardized_section_name, svg_name):
 
     for name in parts:
 
-        #This portion of code is to handle the edge case of 519
-        edgeCase519 = None
+        #This portion of code is to handle the edge case where front and rear mezzanine are seperate
+        mezzanineSeperateSections = None
 
-        if(svg_name == "519"):
+        if(svg_name in ["519", "25948"]):
             if "Rear Mezzanine" in name:
-                edgeCase519 = " Rear Mezzanine"
+                mezzanineSeperateSections = " Rear Mezzanine"
                 name = name.replace("Rear Mezzanine", "").strip()
             elif "Front Mezzanine" in name:
-                edgeCase519 = " Front Mezzanine"
+                mezzanineSeperateSections = " Front Mezzanine"
                 name = name.replace("Front Mezzanine", "").strip()
 
         #This portion of code is to hardcode Premium/s as Front Orchestra Centers
@@ -59,8 +59,8 @@ def get_section_labels(section_name, standardized_section_name, svg_name):
                         vertical_labels.append(key)
                     elif key in horizontal_list:
                         horizontal_labels.append(key)
-        if edgeCase519:
-            name = name + edgeCase519
+        if mezzanineSeperateSections:
+            name = name + mezzanineSeperateSections
         result.append({name: {"vertical": vertical_labels, "horizontal": horizontal_labels, "rows": rows}})
 
     return {section_name: result}

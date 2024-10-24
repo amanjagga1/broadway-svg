@@ -3,7 +3,7 @@ import re
 
 def filter_section_name(title: str, svg_name) -> str:
     title_lower = title.lower()
-    if svg_name == "519":
+    if svg_name in ["519", "25948"]:
         if 'front mezzanine' in title_lower:
             return 'frontmezzanine'
         if 'rear mezzanine' in title_lower:
