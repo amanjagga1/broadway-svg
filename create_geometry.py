@@ -38,8 +38,24 @@ def increase_cluster_area(cluster, offset_distance=10):
 
     return new_cluster
 
+def is_collinear(points):
+    if len(points) < 3:
+        return False
+    x1, y1 = points[0]
+    x2, y2 = points[1]
+    x3, y3 = points[2]
+    
+    # Compute the determinant to check for collinearity
+    area = 0.5 * abs(x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2))
+    return area == 0
+
 def generate_svg_polygon(data, section_name, tourId, priority, alpha=5):
     coordinates = np.array([[item['cx'], item['cy']] for item in data])
+
+    if is_collinear(coordinates):
+        print(f"Points are collinear for tourId: {tourId}. Logging coordinates: ", coordinates)
+        return None
+        
 
     if len(coordinates) < 3:
         print(f"Not enough points to form a polygon: {coordinates}")
