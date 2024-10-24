@@ -44,7 +44,7 @@ def parse_svg(svg_content, svg_name):
             row_name = match.group(2)
 
             # This is a hardcoded edge case for TGIDs aside from 519 that have front and rear mezzanine as sections
-            if svg_name != "519" and (section_name.startswith('front') or section_name.startswith('rear')):
+            if svg_name not in ["519", "25948"] and (section_name.startswith('front') or section_name.startswith('rear')):
                 section_name = section_name.replace('front', '').replace('rear', '').strip()
 
             cx = float(circle.attrib.get('cx', '0'))

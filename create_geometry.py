@@ -177,7 +177,7 @@ def create_stage_rectangle(svg_width, svg_height, stage_height, width_offset, is
     return f'<g id="stage">\n{rect_svg}\n{text_svg}\n</g>\n'
 
 def generate_svg(data, additional_data, output_svg_path, svg_viewbox, variant_tour_mapping):
-    is_small_svg =  svg_viewbox['height'] < 500
+    is_small_svg =  (svg_viewbox['height'] < 500) or (svg_viewbox['width'] < 500)
     stage_height =  50 if is_small_svg else 100
     width_offset = 0 if is_small_svg else 200
 
