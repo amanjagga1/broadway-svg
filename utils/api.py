@@ -77,7 +77,7 @@ def fetch_svg(tgid: str):
     }
 
     if tgid in special_tgids:
-        url = f'https://tourlandish.s3.amazonaws.com/custom-broadway-svg/hifi-seatmaps/{tgid}.svg'
+        url = f'https://tourlandish.s3.amazonaws.com/custom-broadway-svg/hifi-seatmaps/inputs/{tgid}.svg'
     else:
         url = f'https://tourlandish.s3.amazonaws.com/lofi-seatmaps/{tgid}.svg'
     
