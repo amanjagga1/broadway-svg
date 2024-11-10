@@ -13,8 +13,8 @@ def standardize_section_list(section_list, max_retries=4):
     Note: Do not give any explanations or any other conversational text. The output should only be the expected list.
 
 Example:
-Input: ["MidOrchestraandRearOrchestra Center", "Front Orchestra Sides andFront Mezzanine", "Orchestra Center and Near Sides", "Orchestra Center and Near Sides/Front Mezzanine", "Orchestra Side Rows BB-B Front Mezzanine Far Side Rows A-E"]
-Output: ["Mid Orchestra / Rear Orchestra Center", "Front Orchestra Sides / Front Mezzanine", "Orchestra Center / Orchestra Near Sides", "Orchestra Center / Orchestra Near Sides / Front Mezzanine",  "Orchestra Side Rows BB-B / Front Mezzanine Far Side Rows A-E"]
+Input: ["MidOrchestraandRearOrchestra Center", "Front Orchestra Sides andFront Mezzanine", "Orchestra Center and Near Sides", "Orchestra Center and Near Sides/Front Mezzanine", "Orchestra Side Rows BB-B Front Mezzanine Far Side Rows A-E", "Orchestra Center D-H, J-M", "Rear Mezzanine Rows G-H Rear Mezzanine Far Sides Rows D-J"]
+Output: ["Mid Orchestra / Rear Orchestra Center", "Front Orchestra Sides / Front Mezzanine", "Orchestra Center / Orchestra Near Sides", "Orchestra Center / Orchestra Near Sides / Front Mezzanine",  "Orchestra Side Rows BB-B / Front Mezzanine Far Side Rows A-E", "Orchestra Center Rows D-H / Orchestra Center Rows J-M", "Rear Mezzanine Rows G-H / Rear Mezzanine Far Sides Rows D-J"]
 
 Input: {input_list}
 Output:

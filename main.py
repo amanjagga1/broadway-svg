@@ -58,7 +58,7 @@ def process_single_svg(svg_name):
     filtered_subsections = process_filtering(modified_classifications, processed_input_subsections, section_rows, svg_name)
 
     print(f"Generating {svg_name}....")
-    generate_svg(filtered_subsections, clustered_seats_by_section, final_svg_output_path, svg_viewbox, variant_tour_mapping)
+    generate_svg(filtered_subsections, clustered_seats_by_section, final_svg_output_path, svg_viewbox, variant_tour_mapping, svg_name)
 
 def main(svg_names):
     with ThreadPoolExecutor(max_workers=8) as executor:
@@ -76,5 +76,5 @@ if __name__ == "__main__":
     svg_names = ["507", "508", "512", "519", "1293", "11845", "10017", "25949", "26404", "10069", "25746", "24863", "5838", "24867", "11340", "730", "19636",
                 "740", "25948", "25637", "10069", "29103", "24867", 
                 "24863", "28796", "29141", "29075", "29100", "19633", 
-                "28594", "29398", "29400", "29399", "30012", "27108"]
+                "28594", "29400", "29399", "30012", "27108"]
     main(svg_names)

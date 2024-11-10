@@ -92,7 +92,7 @@ def write_svg_file(svg_content, file_path):
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(svg_content)
 
-def process_sections(data, variant_tour_mapping):
+def process_sections(data, variant_tour_mapping, tgid):
     svg_content = ''
 
     for section in data:
@@ -106,8 +106,10 @@ def process_sections(data, variant_tour_mapping):
         svg_content += f'<g class="grouped-{saxutils.escape(section_name)}">\n'
         
         for cluster in clusters:
-            if(len(cluster) <= 4):
+            if(len(cluster) <= 4 and tgid == "19636"):
                 cluster = increase_cluster_area(cluster)
+            elif(len(cluster) <= 4):
+                continue
             polygon = generate_svg_polygon(cluster, section_name, variant_tour_mapping[section_name],priority)
             if polygon:
                 svg_content += polygon + '\n'
@@ -176,7 +178,7 @@ def create_stage_rectangle(svg_width, svg_height, stage_height, width_offset, is
     text_svg = f'<text font-size="{font_size}" x="{svg_width/2}" y="{stage_height/2}" text-anchor="middle" fill="#ffffff" dominant-baseline="middle">STAGE</text>'
     return f'<g id="stage">\n{rect_svg}\n{text_svg}\n</g>\n'
 
-def generate_svg(data, additional_data, output_svg_path, svg_viewbox, variant_tour_mapping):
+def generate_svg(data, additional_data, output_svg_path, svg_viewbox, variant_tour_mapping, tgid):
     is_small_svg =  (svg_viewbox['height'] < 500) or (svg_viewbox['width'] < 500)
     stage_height =  50 if is_small_svg else 100
     width_offset = 0 if is_small_svg else 200
@@ -192,7 +194,7 @@ def generate_svg(data, additional_data, output_svg_path, svg_viewbox, variant_to
     additional_svg_content = process_additional_clusters(additional_data, svg_viewbox['width'], is_small_svg)
 
     # Process sections
-    section_svg_content = f'<g class="tour-sections">{process_sections(data, variant_tour_mapping)}</g>'
+    section_svg_content = f'<g class="tour-sections">{process_sections(data, variant_tour_mapping, tgid)}</g>'
 
     # Combine all SVG content
     content_svg = f'<g transform="translate(0, {y_offset})">\n{additional_svg_content}{section_svg_content}</g>'
