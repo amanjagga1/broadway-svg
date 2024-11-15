@@ -69,17 +69,7 @@ def fetch_data(url: str) -> Optional[dict]:
 
 def fetch_svg(tgid: str):
     """Fetch SVG concurrently with the other API calls."""
-
-    special_tgids = {
-        "27108", "740", "25948", "25637", "12525", "10069", "29103", 
-        "24867", "24863", "28796", "29141", "29075", "29100", "1963", 
-        "28594", "29398", "29400", "29399", "30012"
-    }
-
-    if tgid in special_tgids:
-        url = f'https://tourlandish.s3.amazonaws.com/custom-broadway-svg/hifi-seatmaps/inputs/{tgid}.svg'
-    else:
-        url = f'https://tourlandish.s3.amazonaws.com/lofi-seatmaps/{tgid}.svg'
+    url = f'https://tourlandish.s3.amazonaws.com/custom-broadway-svg/hifi-seatmaps/{tgid}.svg'
     
     try:
         response = requests.get(url)

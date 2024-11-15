@@ -48,14 +48,16 @@ def process_single_svg(svg_name):
     print(f"Classifying {svg_name}....")
     classified_data = process_classification(clustered_seats_by_section, frontOverride)
 
-    print(f"Generating seat name map {svg_name}....")
-    classname_map = map_seat_classes(classified_data)
+    # Uncomment to add accuracy improvements 
 
-    print(f"Modifying Classifications {svg_name}....")
-    modified_classifications = modify_classification(classified_data, classname_map, seat_frequency_list, variant_tour_mapping, processed_input_subsections, svg_name)
+    # print(f"Generating seat name map {svg_name}....")
+    # classname_map = map_seat_classes(classified_data)
+
+    # print(f"Modifying Classifications {svg_name}....")
+    # modified_classifications = modify_classification(classified_data, classname_map, seat_frequency_list, variant_tour_mapping, processed_input_subsections, svg_name)
 
     print(f"Filtering {svg_name}....")
-    filtered_subsections = process_filtering(modified_classifications, processed_input_subsections, section_rows, svg_name)
+    filtered_subsections = process_filtering(classified_data, processed_input_subsections, section_rows, svg_name)
 
     print(f"Generating {svg_name}....")
     generate_svg(filtered_subsections, clustered_seats_by_section, final_svg_output_path, svg_viewbox, variant_tour_mapping, svg_name)
@@ -73,8 +75,7 @@ def main(svg_names):
                 print(f"Error processing {svg_name}: {e}")
 
 if __name__ == "__main__":
-    svg_names = ["507", "508", "512", "519", "1293", "11845", "10017", "25949", "26404", "10069", "25746", "24863", "5838", "24867", "11340", "730", "19636",
-                "740", "25948", "25637", "10069", "29103", "24867", 
-                "24863", "28796", "29141", "29075", "29100", "19633", 
-                "28594", "29400", "29399", "30012", "27108"]
+    svg_names = ["507", "508", "512", "519", "1293", "11845", "10017", "25949", "26404", "10069", "25746", "5838",
+	            "11340", "730", "19636", "740", "25948", "25637", "29103", "24867", "24863", "28796", "29141",
+	"29075", "29100", "19633", "28594", "29400", "29399", "30012"]
     main(svg_names)
